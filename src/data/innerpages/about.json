@@ -1,0 +1,108 @@
+{
+    "title": "about",
+    "content": [
+        {
+            "section": "about-section",
+            "section_title": {
+                "title": "Better Information. <br> For The DeFi Investor"
+            },
+            "image": {
+                "src": "/images/bg/bg-image-22.jpg"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "title": "Why We Do This",
+                    "description": "DeFi Skeptic was founded when a gap was identified between legitimate projects and DeFi users. In 2021 alone, malicious actors stole over $10 billion from DeFi users through various scams, vulnerabilities, and exploits. This necessity is why we created DeFi Skeptic.",
+                    "path": "/blog"
+                },
+                {
+                    "id": 2,
+                    "title": "What is DeFi Skeptic?",
+                    "description": "DeFi Skeptic is a platform that seeks to reduce fraud while increasing transparency and accuracy of information in the DeFi space. It will do this by providing a platform to highlight vetted projects in addition to various products and services for both DeFi developers and users as well as acquiring strategic partnerships and affiliations who support the same vision/mission. \n\nThis ecosystem of products and services is power by Skeptic Token (SKP) which is a multi-use, liquidity backed token with a unique deflationary mechanism that is not volume dependent which we call the \"Burn Fund\"."
+                }
+            ]
+        },
+        {
+            "section": "quote-section",
+            "section_title": {
+                "title": "Project Vetting & Vetted Project Database"
+            },
+            "texts": [
+                {
+                    "id": 1,
+                    "content": "DeFi Skeptic serves DeFi in various ways. One way is by conducting in-depth video interviews with project developers. During this session, the Defi Skeptic team will scrutinize, analyze, and independently review every aspect of the project following the vetting process. Providing this level of detail on DeFi projects can help reduce fraud while increasing security and peace of mind for those looking to invest their hard-earned money.\n\nIf you are a project team member and would like to apply to have the project vetted by DeFi Skeptic, you can do so on the Get Vetted page.\n\nDeFi projects that have passed the vetting process are listed in the DeFi Skeptic Vetted Projects page."
+                }
+            ]
+        },
+        {
+            "section": "funfact-section",
+            "section_title": {
+                "title": "DeFi Statistics"
+            },
+            "funfacts": [
+                {
+                    "id": 1,
+                    "title": "Different Cryptocurrencies",
+                    "counter": 10000,
+                    "suffix": "+"
+                },
+                {
+                    "id": 2,
+                    "title": "Increase in Total Transaction Volume vs 2020",
+                    "counter": 567,
+                    "suffix": "%"
+                },
+                {
+                    "id": 4,
+                    "title": "Percentage of Scam Revenue Due to Rug Pulls",
+                    "counter": 37,
+                    "suffix": "%"
+                },
+                {
+                    "id": 3,
+                    "title": "Money Stolen by Malicious Actors",
+                    "counter": 10,
+                    "suffix": "B+"
+                }
+            ]
+        },
+        {
+            "section": "cta-section",
+            "headings": [
+                {
+                    "id": 1,
+                    "content": "Discover Discover Discover rare digital art <br/> and collect NFTs"
+                }
+            ],
+            "texts": [
+                {
+                    "id": 1,
+                    "content": "The NFTs is a one-trick pony that climbed the recent years. The growth of NFTs is tremendous, and according to Pymnts.com, the total sales volume"
+                }
+            ],
+            "buttons": [
+                {
+                    "id": 1,
+                    "path": "/create",
+                    "content": "Create"
+                },
+                {
+                    "id": 2,
+                    "path": "/contact",
+                    "content": "Contact Us",
+                    "color": "primary-alta"
+                }
+            ],
+            "image": {
+                "src": "/images/bg/bg-image-6.jpg"
+            }
+        },
+        {
+            "section": "blog-section",
+            "section_title": {
+                "title": "Our Recent Blog"
+            }
+        }
+    ]
+}

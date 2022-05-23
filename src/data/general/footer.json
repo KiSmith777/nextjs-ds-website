@@ -1,0 +1,60 @@
+{
+    "id": "footer-data-01",
+    "logo-widget": {
+        "logo": [
+            {
+                "src": "/images/logo/logo-transparent.png",
+                "alt": "logo"
+            }
+        ],
+        "text": "Dedicated to the betterment of Decentralized Finance."
+    },
+  
+    "quicklink-widget": {
+        "title": "DeFi Skeptic",
+        "menu": [
+            {
+                "id": 1,
+                "text": "Skeptic Token",
+                "path": "/token"
+            }
+       
+        ]
+    },
+    "information-widget": {
+        "title": "Information",
+        "menu": [
+            {
+                "id": 1,
+                "text": "Whitepaper",
+                "path": "https://docs.defiskeptic.com",
+                "target": "_self"
+            }
+        ]
+    },
+    "footer-link-widget": {
+        "menu": [
+            {
+                "id": 1,
+                "text": "Terms of Use",
+                "path": "/terms-of-use"
+            },
+            {
+                "id": 2,
+                "text": "Privacy Policy",
+                "path": "/privacy-policy"
+            },
+            {
+                "id": 3,
+                "text": "Cookie Policy",
+                "path": "/cookie-policy"
+            },
+            {
+                "id": 4,
+                "text": "Disclaimer",
+                "path": "/disclaimer"
+            }
+        ]
+    },
+    "copyright_text": "©2022 DeFi Skeptic. All rights reserved"
+}

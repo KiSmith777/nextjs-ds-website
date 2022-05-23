@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "text": "Home",
+        "path": "/"
+    },
+    {
+        "id": 2,
+        "text": "Skeptic Token (SKP)",
+        "path": "/token",
+        "submenu": [
+            {
+                "id": 21,
+                "text": "Whitepaper",
+                "path": "https://docs.defiskeptic.com",
+                "target": "_self"
+    
+            },
+            {
+                "id": 22,
+                "text": "Audit",
+                "path": "/files/audit.pdf"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "text": "Products & Services",
+        "path": "/services",
+        "submenu": [
+            {
+                "id": 31,
+                "text": "Project Vetting",
+                "path": "/vetting"
+            },
+            {
+                "id": 32,
+                "text": "DS Drops",
+                "path": "/drops"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "text": "About",
+        "path": "/about",
+        "submenu": [
+            {
+                "id": 41,
+                "text": "DS Team",
+                "path": "/team"
+            },
+            {
+                "id": 42,
+                "text": "Partners & Affiliates",
+                "path": "/partners"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "text": "Contact",
+        "path": "/contact"
+    }
+]

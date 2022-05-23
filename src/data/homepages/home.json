@@ -1,0 +1,124 @@
+{
+    "title": "home-01",
+    "content": [
+        {
+            "section": "hero-section",
+            "headings": [
+                {
+                    "id": 1,
+                    "content": "DeFi Skeptic. A Platform Designed to Better DeFi."
+                }
+            ],
+            "texts": [
+                {
+                    "id": 1,
+                    "content": "Enhancing Decentralized Finance via project vetting, user- and developer-tailored products and services, powered by a token built to last."
+                }
+            ],
+            "buttons": [
+                {
+                    "id": 1,
+                    "content": "Learn More",
+                    "path": "/about"
+                },
+                {
+                    "id": 2,
+                    "color": "primary-alta",
+                    "content": "Explore Services",
+                    "path": "/services"
+                }
+            ],
+            "images": [
+                {
+                    "src": "/images/icons/VETTEDv1.svg"
+                }
+            ]
+        },
+        {
+            "section": "service-section",
+            "section_title": {
+                "title": "Our Products & Services"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "title": "Project Vetting",
+                    "path": "/vetting",
+                    "subtitle": "Vetting",
+                    "description": "The DeFi Skeptic vetting process is designed to look at multiple elements across a DeFi project. This process looks into six key components of a DeFi project.",
+                    "images": [
+                        {
+                            "src": "/images/icons/shape-7.png"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "title": "DS Drops",
+                    "path": "/drops",
+                    "subtitle": "In Development",
+                    "description": "DeFi users can subscribe to a 3-tier service which allows them to get exposure to various projects through promotional airdropping. The subscription will run on quarterly intervals allowing you to decide when you want to receive tokens.",
+                    "images": [
+                        {
+                            "src": "/images/icons/shape-1.png"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "title": "DS Merge",
+                    "path": "/merge",
+                    "subtitle": "Future Plans",
+                    "description": "The goal here is to relieve the burden on the failed/failing projects team and move its users to something with utility, multiple use cases and a focus on sustainability/longevity.",
+                    "images": [
+                        {
+                            "src": "/images/icons/shape-5.png"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "title": "Additional Services",
+                    "path": "/future-plans",
+                    "subtitle": "Future Plans",
+                    "description": "DeFi Skeptic intends to provide multiple products and services to the DeFi Space that will be powered by Skeptic Token (SKP). Please note that any future plans are not funded by SKP and any “In Development” or “Future Plans” will be released as they are finished.",
+                    "images": [
+                        {
+                            "src": "/images/icons/shape-6.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "live-explore-section",
+            "section_title": {
+                "title": "Live Bidding"
+            }
+        },
+        {
+            "section": "newest-section",
+            "section_title": {
+                "title": "DeFi Skeptic Team"
+            }
+        },
+        {
+            "section": "top-sller-section",
+            "section_title": {
+                "title": "Top Seller in"
+            }
+        },
+        {
+            "section": "explore-product-section",
+            "section_title": {
+                "title": "Explore Product"
+            }
+        },
+        {
+            "section": "collection-section",
+            "section_title": {
+                "title": "Top Collection"
+            }
+        }
+    ]
+}
