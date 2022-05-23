@@ -9,10 +9,10 @@ import ShareDropdown from "@components/share-dropdown";
 import Button from "@ui/button";
 import { ImageType } from "@utils/types";
 import PartnerModal from "@components/modals/partner-modal";
-import partnersData from "../../../data/innerpages/partners.json";
+import partnersData from "../../data/innerpages/partners.json";
 import { normalizedData } from "@utils/methods";
 
-const Product = ({ overlay, title, telegram, website, image, style }) => {
+const Partner = ({ overlay, title, telegram, website, image, style }) => {
     const [showPartnerModal, setShowPartnerModal] = useState(false);
     const handlePartnerModal = () => {
         setShowPartnerModal((prev) => !prev);
@@ -62,7 +62,7 @@ const Product = ({ overlay, title, telegram, website, image, style }) => {
     );
 };
 
-Product.propTypes = {
+Partner.propTypes = {
     overlay: PropTypes.bool,
     title: PropTypes.string.isRequired,
     telegram: PropTypes.string.isRequired,
@@ -71,8 +71,8 @@ Product.propTypes = {
     style: PropTypes.string
 };
 
-Product.defaultProps = {
+Partner.defaultProps = {
     overlay: false,
 };
 
-export default Product;
+export default Partner;
