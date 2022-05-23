@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import clsx from "clsx";
 import SectionTitle from "@components/section-title";
-import Product from "@components/product/layout-01";
+import Partner from "@components/partner";
 import Slider, { SliderItem } from "@ui/slider";
 import { SectionTitleType, PartnerType } from "@utils/types";
 
@@ -53,7 +53,7 @@ const ExploreProductArea = ({ data, className, space, type }) => (
                     <div className="col-lg-12">
                         <div className="row" style={{gap: 32, justifyContent: 'space-evenly'}}>
                             {type === data.items[1].title && data.items[1].partners.map((partner) => (
-                                    <Product
+                                    <Partner
                                         style={{width: 10, height: 100}}
                                         overlay
                                         title={partner.title}
@@ -64,7 +64,7 @@ const ExploreProductArea = ({ data, className, space, type }) => (
                                     />
                             ))}
                             {type === data.items[2].title && data.items[2].affiliates.map((affiliate) => (
-                                    <Product
+                                    <Partner
                                         style={{width: 10, height: 100}}
                                         overlay
                                         title={affiliate.title}
@@ -75,7 +75,7 @@ const ExploreProductArea = ({ data, className, space, type }) => (
                                     />
                             ))}
                             {type === data.items[3].title && data.items[3].promoters.map((promoter) => (
-                                    <Product
+                                    <Partner
                                         style={{width: 10, height: 100}}
                                         overlay
                                         title={promoter.title}

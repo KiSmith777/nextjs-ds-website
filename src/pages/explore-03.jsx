@@ -3,7 +3,7 @@ import Wrapper from "@layout/wrapper";
 import Header from "@layout/header";
 import Footer from "@layout/footer";
 import Breadcrumb from "@components/breadcrumb";
-import ExploreCarouselBothArea from "@containers/explore-product/layout-07";
+import ExploreCarouselBothArea from "@containers/partner-cards";
 import { normalizedData } from "@utils/methods";
 
 // Demo data

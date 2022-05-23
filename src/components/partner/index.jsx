@@ -9,7 +9,7 @@ import ShareDropdown from "@components/share-dropdown";
 import Button from "@ui/button";
 import { ImageType } from "@utils/types";
 import PartnerModal from "@components/modals/partner-modal";
-import partnersData from "../../../data/innerpages/partners.json";
+import partnersData from "../../data/innerpages/partners.json";
 import { normalizedData } from "@utils/methods";
 
 const Partner = ({ overlay, title, telegram, website, image, style }) => {
