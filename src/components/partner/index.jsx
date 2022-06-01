@@ -50,7 +50,7 @@ const Partner = ({
                     className="product-share-wrapper"
                     type="Partners"
                 >
-                    <h5>{title}</h5>
+                    <h4>{title}</h4>
                 </div>
                 <Anchor path={`https://t.me/${telegram}`}>
                     <span

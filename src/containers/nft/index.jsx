@@ -18,7 +18,7 @@ const NFTArea = ({ className, space, data }) => {
                 show={isShareModalOpen}
                 handleModal={shareModalHandler}
             />
-            <div className="rn-author-bg-area position-relative ptb--200 mt--20 mb--100">
+            <div className="rn-author-bg-area position-relative ptb--150 mt--20 mb--100">
                 <Image
                     src="/images/test/NFT SET v2.png"
                     alt="Slider BG"
