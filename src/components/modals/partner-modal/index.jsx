@@ -53,7 +53,7 @@ const PartnerModal = ({ show, handleModal, key, group, title, telegram, website,
             )}
             {group ===  "Affiliates" && (
                 <Modal.Body>
-                    <p>{desc1}<br/><br/>For more information, please visit <Anchor path={website}>{title}</Anchor>.<br/><br/><b>{desc2}</b>{" "}{desc3}</p>
+                    <p>{desc1}<br/><br/>For more information, please visit <Anchor path={website}>{title}</Anchor><br/><br/><b>{desc2}.</b>{" "}{desc3}</p>
                     <div className="report-form-box">
                         <div style={{display: "flex", justifyContent: "center"}} className="report-button">
                             <Button 
@@ -77,7 +77,7 @@ const PartnerModal = ({ show, handleModal, key, group, title, telegram, website,
             )}
             {group ===  "AMA & Promotional Groups" && (
                 <Modal.Body>
-                    <p>{desc1}<br/><br/>For more information, please visit <Anchor path={website}>{title}</Anchor>.<br/><br/><b>{desc2}{title}</b>{" "}{desc3}</p>
+                    <p>{desc1}<br/><br/>For more information, please visit <Anchor path={website}>{title}</Anchor>.<br/><br/><b>{desc2}{title}.</b>{" "}{desc3}</p>
                     <div className="report-form-box">
                         <div style={{display: "flex", justifyContent: "center"}} className="report-button">
                             <Button 

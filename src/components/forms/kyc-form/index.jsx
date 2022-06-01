@@ -4,7 +4,7 @@ import ErrorText from "@ui/error-text";
 import axios from "axios";
 import { useForm } from "react-hook-form";
 
-const ArbitrageForm = () => {
+const KYCForm = () => {
     const {
         register,
         handleSubmit,
@@ -42,7 +42,7 @@ const ArbitrageForm = () => {
     };
     return (
         <div className="form-wrapper-one registration-area">
-            <h3 style={{textAlign: "center"}} className="mb--30">Request Form<br/>Arbitrage as a Service</h3>
+            <h3 style={{textAlign: "center"}} className="mb--30">Request Form<br/>KYC Services</h3>
             <form
                 className="rwt-dynamic-form"
                 id="contact-form"
@@ -102,38 +102,37 @@ const ArbitrageForm = () => {
                     )}
                 </div>
                 <div className="mb-5">
-                    <label htmlFor="delivery-date" className="form-label">
-                        Preferred Delivery Date * 
+                    <label htmlFor="project-name" className="form-label">
+                        Project Name *
                     </label>
                     <input
-                        name="delivery-date"
-                        type="date"
-                        format="yyyy-MM-dd"
-                        {...register("deliveryDate", {
-                            required: "Preferred Delivery Date is required",
-                            
+                        id="project-name"
+                        type="text"
+                        placeholder="Project Name"
+                        {...register("projectName", {
+                            required: "Project Name is required",
                         })}
                     />
-                    {errors.deliveryDate && (
-                        <ErrorText>{errors.deliveryDate?.message}</ErrorText>
+                    {errors.projectName && (
+                        <ErrorText>{errors.projectName?.message}</ErrorText>
                     )}
                 </div>
                 
                 <div className="mb-5">
-                    <label htmlFor="contact-message" className="form-label">
-                        Describe Your Needs *
+                    <label htmlFor="project-website" className="form-label">
+                        Project Website *
                     </label>
-                    <textarea
-                        id="contact-message"
-                        rows="3"
-                        placeholder="Please provide as many details as possible in your description."
-                        {...register("contactMessage", {
-                            required: "Message is required",
+                    <input
+                        id="project-website"
+                        type="text"
+                        placeholder="https://"
+                        {...register("projectWebsite", {
+                            required: "Project Website is required",
                         })}
                     />
-                    {errors.contactMessage && (
-                        <ErrorText>{errors.contactMessage?.message}</ErrorText>
-                    )} 
+                    {errors.projectWebsite && (
+                        <ErrorText>{errors.projectWebsite?.message}</ErrorText>
+                    )}
                 </div>
                
                 
@@ -155,5 +154,5 @@ const ArbitrageForm = () => {
         </div>
     );
 };
-export default ArbitrageForm;
+export default KYCForm;
 

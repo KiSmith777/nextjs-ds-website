@@ -36,8 +36,15 @@ const PartnersArea = ({ space, className, data}) => {
                                         title={data.items[0].title}
                                         desc={data.items[0].desc}
                                     >
-                                   <p>You can find all of our partners and affiliates below as well as any pertinent information. </p>
-                                        
+                                   <p 
+                                        data-sal="slide-right"
+                                        data-sal-delay="150"
+                                        data-sal-duration="1200">You can find all of our partners and affiliates below as well as any pertinent information. </p>
+                                        <div
+                                        data-sal="slide-up"
+                                        data-sal-delay="150"
+                                        data-sal-duration="1200"
+                                        >
                                         <p><b>Quick Links:</b></p>
                                         <ul>
                                             <li style={{fontSize: 18, fontWeight: 'bold'}}>
@@ -74,8 +81,8 @@ const PartnersArea = ({ space, className, data}) => {
                                                     >{data.items[3].title}</Link>
                                             </li>
                                         </ul>
-                                        <div style={{display: 'flex', justifyContent: 'center'}}>
                                         </div>
+                                       
                                     </BoxContainer>
 
                             </div>

@@ -4,8 +4,9 @@ import Header from "@layout/header";
 import Footer from "@layout/footer";
 import { normalizedData } from "@utils/methods";
 import homepageData from "../data/homepages/home.json";
-import Breadcrumb from "@components/breadcrumb";
+
 import AuditTopArea from "../containers/audits";
+import KYCArea from "../containers/kyc";
 
 
 
@@ -13,19 +14,19 @@ export async function getStaticProps() {
     return { props: { className: "template-color-1" } };
 }
 
-const ContractCreation = () => {
+const KYCServices = () => {
     const content = normalizedData(homepageData?.content || []);
   
     return (
         <Wrapper>
-            <SEO pageTitle="Smart Contract Audits" />
+            <SEO pageTitle="KYC Services" />
             <Header />
             <main id="main-content">
-               <AuditTopArea/>
+               <KYCArea/>
             </main>
             <Footer />
         </Wrapper>
     );
 };
 
-export default ContractCreation;
+export default KYCServices;

@@ -18,8 +18,8 @@ const AuditTopArea = ({ space, className }) => (
                     data-sal-delay="150"
                     data-sal-duration="800"
                 >
-                    <div className="section-title mb--30 text-center">
-                        <h2 className="title">Smart Contract Audits</h2>
+                    <div className="section-title mb--30">
+                        <h2 className="title text-center">Smart Contract Audits</h2>
                         <p className="description">
                         Smart Contract Audits will be completed from a functional perspective. We will evaluate the code, logic, efficiency and security of all protocols. 
                         This includes manual code review and penetration testing which looks for hidden vulnerabilities. A full report will be provided along with a 
@@ -28,9 +28,9 @@ const AuditTopArea = ({ space, className }) => (
                         <p>
                         Audits start at $1,000 for a basic contract audit, but will be priced depending on the complexity, protocols and how many contracts are involved. Please apply for a quote below to get an exact price.
                         </p>
-                        <p>
+                        <h6 className="text-center">
                             <b>Payment methods accepted are BUSD and SKP. Pay in SKP and receive a 10% discount!</b>
-                        </p>
+                        </h6>
                     </div>
                 </div>
             </div>

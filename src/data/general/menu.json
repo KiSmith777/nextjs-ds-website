@@ -7,7 +7,7 @@
     {
         "id": 2,
         "text": "Token & NFT",
-        "path": "/",
+        "path": "#",
         "submenu": [
             {
                 "id": 21,
@@ -31,7 +31,7 @@
     {
         "id": 3,
         "text": "Products & Services",
-        "path": "/services",
+        "path": "#",
         "submenu": [
             {
                 "id": 31,
@@ -55,20 +55,21 @@
                     }
                 ]
             },
+           
             {
                 "id": 32,
-                "text": "DS Drops",
-                "path": "/drops"
-            },
-            {
-                "id": 33,
                 "text": "Contract Audits",
                 "path": "/contract-audits"
             },
             {
-                "id": 34,
+                "id": 33,
                 "text": "Contract Creation",
                 "path": "/contract-creation"
+            },
+            {
+                "id": 34,
+                "text": "KYC Services",
+                "path": "/kyc-services"
             },
             {
                 "id": 35,
@@ -81,13 +82,18 @@
                         "path": "/vetted-projects"
                     }
                 ]
+            },
+            {
+                "id": 36,
+                "text": "DS Drops",
+                "path": "/drops"
             }
         ]
     },
     {
         "id": 4,
         "text": "About",
-        "path": "/about",
+        "path": "#",
         "submenu": [
             {
                 "id": 41,

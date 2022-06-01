@@ -8,7 +8,7 @@ const BoxContainer = ({ className, style, title, desc, children  }) => (
                 <h2 
                     className="title"
                     data-sal="slide-left"
-                    data-sal-duration="9000"
+                    data-sal-duration="1200"
                     data-sal-delay="1500"
                     dangerouslySetInnerHTML={{ __html: title }}
                 />
@@ -17,7 +17,7 @@ const BoxContainer = ({ className, style, title, desc, children  }) => (
                 style={style}
                 className="about-disc"
                 data-sal="slide-up"
-                data-sal-duration="800"
+                data-sal-duration="1200"
                 data-sal-delay="150"
             >
                 {desc}

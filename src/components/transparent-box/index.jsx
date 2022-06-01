@@ -6,7 +6,7 @@ const TransparentBox = ({ className, style, children}) => (
         <div 
             className="inner" 
             style={{style, width: '100%'}}
-            data-sal="slide-up"
+            data-sal="slide-left"
             data-sal-duration="800"
             data-sal-delay="150"
         >

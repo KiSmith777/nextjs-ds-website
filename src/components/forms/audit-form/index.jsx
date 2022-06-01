@@ -55,6 +55,7 @@ const AuditForm = () => {
                     <input
                         id="contact-name"
                         type="text"
+                        placeholder="Your Name"
                         {...register("contactName", {
                             required: "Name is required",
                         })}
@@ -67,17 +68,16 @@ const AuditForm = () => {
                     <label htmlFor="contact-method" className="form-label">
                         Preferred Contact Method *
                     </label>
-                    <input
+                    <select
                         name="contact-method"
                         type="email"
-                        {...register("contactMethod", {
-                            required: "Preferred Contact Method is required",
-                            pattern: {
-                                value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
-                                message: "invalid contact method",
-                            },
-                        })}
-                    />
+                        required
+                    >
+                        <option>- Select -</option>
+                        <option value="email">Email</option>
+                        <option value="telegram">Telegram</option>
+                        <option value="discord">Discord</option>
+                    </select>
                     {errors.contactMethod && (
                         <ErrorText>{errors.contactMethod?.message}</ErrorText>
                     )}
@@ -88,11 +88,11 @@ const AuditForm = () => {
                     </label>
                     <input
                         name="contact-info"
-                        type="email"
+                        type="text"
+                        placeholder="Your Contact Info"
                         {...register("contactInfo", {
                             required: "Contact Information is required",
                             pattern: {
-                                value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
                                 message: "invalid contact info",
                             },
                         })}
@@ -107,13 +107,11 @@ const AuditForm = () => {
                     </label>
                     <input
                         name="delivery-date"
-                        type="email"
+                        type="date"
+                        format="yyyy-MM-dd"
                         {...register("deliveryDate", {
                             required: "Preferred Delivery Date is required",
-                            pattern: {
-                                value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
-                                message: "invalid delivery date",
-                            },
+                            
                         })}
                     />
                     {errors.deliveryDate && (
@@ -128,33 +126,36 @@ const AuditForm = () => {
                     <textarea
                         id="contact-message"
                         rows="3"
+                        placeholder="Please provide as many details as possible in your description."
                         {...register("contactMessage", {
                             required: "Message is required",
                         })}
                     />
                     {errors.contactMessage && (
                         <ErrorText>{errors.contactMessage?.message}</ErrorText>
-                    )}
+                    )} 
                 </div>
-                <div className="mb-5 rn-check-box">
-                    <input
-                        id="condition"
-                        type="checkbox"
-                        className="rn-check-box-input"
-                        {...register("condition", {
-                            required: "Condition is required",
-                        })}
-                    />
-                    <label htmlFor="condition" className="rn-check-box-label">
-                        Agree to all terms & conditions
+                <div className="mb-5">
+                    <label htmlFor="payment-method" className="form-label">
+                        Payment Method *
                     </label>
-                    <br />
-                    {errors.condition && (
-                        <ErrorText>{errors.condition?.message}</ErrorText>
+                    <select
+                        name="payment-method"
+                        required
+                    >
+                        <option>- Select -</option>
+                        <option value="busd">BUSD</option>
+                        <option value="skp">SKP (10% Discount)</option>
+                        
+                    </select>
+                    {errors.contactMethod && (
+                        <ErrorText>{errors.contactMethod?.message}</ErrorText>
                     )}
                 </div>
+               
+                
                 <Button type="submit" size="medium">
-                    Send Message
+                    Submit Request
                 </Button>
                 {serverState.status && (
                     <p

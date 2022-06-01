@@ -21,7 +21,7 @@
                     "title": "Partners",
                     "partners": [
                         {
-                            "id": 121,
+                            "id": 120,
                             "title": "Apollo Ventures",
                             "telegram": "ApolloVentures",
                             "website": "https://a11.finance",
@@ -31,6 +31,32 @@
                             "image": [
                                 {
                                     "src": "/images/partners_affiliates/partners/Apollo_1000x1000.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 121,
+                            "title": "Dappd",
+                            "website": "https://dappd.net",
+                            "desc1": "Dappd is a software development company specializing in DeFi/Blockchain Technology. Their services include custom smart contract creation, presales, web3 bots, dApps, websites, auditing, and blockchain consulting/development.",
+                            "desc2": "DeFi Skeptic and Dappd are working in a cross-service partnership to leverage each other’s expertise.",
+                            "desc3": "This partnership adds a valuable resource to the DeFi Skeptic ecosystem and supports our goal of legitimizing the space through ethical coding practices.",
+                            "image": [
+                                {
+                                    "src": "/images/partners_affiliates/partners/dappd.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 122,
+                            "title": "SEEK",
+                            "website": "https://seektoken.net/",
+                            "desc1": "SEEK is a platform focused on DeFi security and education. They offer an industry leading identification verification service (KYC) and harbor a vast community of safe, vetted and established projects under their umbrella. Their goal is to make DeFi a safer place for the investor.",
+                            "desc2": "This partnership will allow SEEK and DeFi Skeptic to leverage key services from each other while supporting our collective goal of making DeFi better!",
+                            "desc3": "",
+                            "image": [
+                                {
+                                    "src": "/images/partners_affiliates/partners/seek.jpg"
                                 }
                             ]
                         }
@@ -61,6 +87,20 @@
                     "title": "AMA & Promotional Groups",
                     "promoters": [
                         {
+                            "id": 140,
+                            "title": "Legit Crypto Lounge",
+                            "telegram": "LegitCryptoLounge",
+                            "website": "https://t.me/LegitCryptoLounge",
+                            "desc1": "One major issue in the DeFi space is how projects are promoted. A very effective way of reaching an audience is by directly speaking to them. However, many of these platforms conduct in unethical practices using “paid” bots to make their customer feel like they are getting more than they really are.",
+                            "desc2": "DeFi Skeptic has made an effort to source legitimate promotional platforms who do not conduct in these practices such as ",
+                            "desc3": "",
+                            "image": [
+                                {
+                                    "src": "/images/partners_affiliates/promoters/legitcoinlounge_1000x1000.jpg"
+                                }
+                            ]
+                        },
+                        {
                             "id": 141,
                             "title": "Coin Launch Lounge",
                             "telegram": "CoinLaunchCommunity",
@@ -76,15 +116,57 @@
                         },
                         {
                             "id": 142,
-                            "title": "Legit Crypto Lounge",
-                            "telegram": "LegitCryptoLounge",
-                            "website": "https://t.me/LegitCryptoLounge",
+                            "title": "The Midnight Show",
+                            "telegram": "TheMidnightShow",
+                            "website": "https://t.me/TheMidnightShow",
                             "desc1": "One major issue in the DeFi space is how projects are promoted. A very effective way of reaching an audience is by directly speaking to them. However, many of these platforms conduct in unethical practices using “paid” bots to make their customer feel like they are getting more than they really are.",
                             "desc2": "DeFi Skeptic has made an effort to source legitimate promotional platforms who do not conduct in these practices such as ",
                             "desc3": "",
                             "image": [
                                 {
-                                    "src": "/images/partners_affiliates/promoters/legitcoinlounge_1000x1000.jpg"
+                                    "src": "/images/partners_affiliates/promoters/midnight-show.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 143,
+                            "title": "Anti Ruggers United",
+                            "telegram": "AntiRuggersUnited",
+                            "website": "https://t.me/AntiRuggersUnited",
+                            "desc1": "One major issue in the DeFi space is how projects are promoted. A very effective way of reaching an audience is by directly speaking to them. However, many of these platforms conduct in unethical practices using “paid” bots to make their customer feel like they are getting more than they really are.",
+                            "desc2": "DeFi Skeptic has made an effort to source legitimate promotional platforms who do not conduct in these practices such as ",
+                            "desc3": "",
+                            "image": [
+                                {
+                                    "src": "/images/partners_affiliates/promoters/antiruggers.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 144,
+                            "title": "The Crypto Hideout",
+                            "telegram": "TheCryptoHideout",
+                            "website": "https://t.me/TheCryptoHideout",
+                            "desc1": "One major issue in the DeFi space is how projects are promoted. A very effective way of reaching an audience is by directly speaking to them. However, many of these platforms conduct in unethical practices using “paid” bots to make their customer feel like they are getting more than they really are.",
+                            "desc2": "DeFi Skeptic has made an effort to source legitimate promotional platforms who do not conduct in these practices such as ",
+                            "desc3": "",
+                            "image": [
+                                {
+                                    "src": "/images/partners_affiliates/promoters/crypto-hideout.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 145,
+                            "title": "degem Official + Token Fuel",
+                            "telegram": "degemofficial",
+                            "website": "https://t.me/degemofficial",
+                            "desc1": "One major issue in the DeFi space is how projects are promoted. A very effective way of reaching an audience is by directly speaking to them. However, many of these platforms conduct in unethical practices using “paid” bots to make their customer feel like they are getting more than they really are.",
+                            "desc2": "DeFi Skeptic has made an effort to source legitimate promotional platforms who do not conduct in these practices such as ",
+                            "desc3": "",
+                            "image": [
+                                {
+                                    "src": "/images/partners_affiliates/promoters/degem.jpg"
                                 }
                             ]
                         }
