@@ -4,14 +4,14 @@ import Header from "@layout/header";
 import Footer from "@layout/footer";
 import { normalizedData } from "@utils/methods";
 import homepageData from "../data/homepages/home.json";
-import ArbitrageServiceArea from "@containers/arbitrage-service"
+import AdditionalPoolsArea from "@containers/additional-pools"
 
 
 export async function getStaticProps() {
     return { props: { className: "template-color-1" } };
 }
 
-const ArbitrageService = () => {
+const AdditionalPools = () => {
     const content = normalizedData(homepageData?.content || []);
   
     return (
@@ -19,7 +19,7 @@ const ArbitrageService = () => {
             <SEO pageTitle="Arbitrage as a Service (AaaS)" />
             <Header />
             <main id="main-content">
-                <ArbitrageServiceArea/>
+                <AdditionalPoolsArea/>
                
             </main>
             <Footer />
@@ -27,4 +27,4 @@ const ArbitrageService = () => {
     );
 };
 
-export default ArbitrageService;
+export default AdditionalPools;

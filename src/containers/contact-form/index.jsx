@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import clsx from "clsx";
 import Image from "next/image";
-import ContactForm from "@components/contact-form";
+import ContactForm from "@components/forms/contact-form";
 
 const ContactFormArea = ({ space, className }) => (
     <div

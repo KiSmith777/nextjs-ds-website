@@ -64,60 +64,60 @@ const AuditForm = () => {
                     )}
                 </div>
                 <div className="mb-5">
-                    <label htmlFor="contact-email" className="form-label">
+                    <label htmlFor="contact-method" className="form-label">
                         Preferred Contact Method *
                     </label>
                     <input
-                        name="contact-email"
+                        name="contact-method"
                         type="email"
-                        {...register("contactEmail", {
+                        {...register("contactMethod", {
                             required: "Preferred Contact Method is required",
                             pattern: {
                                 value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
-                                message: "invalid email address",
+                                message: "invalid contact method",
                             },
                         })}
                     />
-                    {errors.contactEmail && (
-                        <ErrorText>{errors.contactEmail?.message}</ErrorText>
+                    {errors.contactMethod && (
+                        <ErrorText>{errors.contactMethod?.message}</ErrorText>
                     )}
                 </div>
                 <div className="mb-5">
-                    <label htmlFor="contact-email" className="form-label">
+                    <label htmlFor="contact-info" className="form-label">
                         Contact Information *
                     </label>
                     <input
-                        name="contact-email"
+                        name="contact-info"
                         type="email"
-                        {...register("contactEmail", {
+                        {...register("contactInfo", {
                             required: "Contact Information is required",
                             pattern: {
                                 value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
-                                message: "invalid email address",
+                                message: "invalid contact info",
                             },
                         })}
                     />
-                    {errors.contactEmail && (
-                        <ErrorText>{errors.contactEmail?.message}</ErrorText>
+                    {errors.contactInfo && (
+                        <ErrorText>{errors.contactInfo?.message}</ErrorText>
                     )}
                 </div>
                 <div className="mb-5">
-                    <label htmlFor="contact-email" className="form-label">
+                    <label htmlFor="delivery-date" className="form-label">
                         Preferred Delivery Date * 
                     </label>
                     <input
-                        name="contact-email"
+                        name="delivery-date"
                         type="email"
-                        {...register("contactEmail", {
+                        {...register("deliveryDate", {
                             required: "Preferred Delivery Date is required",
                             pattern: {
                                 value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
-                                message: "invalid email address",
+                                message: "invalid delivery date",
                             },
                         })}
                     />
-                    {errors.contactEmail && (
-                        <ErrorText>{errors.contactEmail?.message}</ErrorText>
+                    {errors.deliveryDate && (
+                        <ErrorText>{errors.deliveryDate?.message}</ErrorText>
                     )}
                 </div>
                 

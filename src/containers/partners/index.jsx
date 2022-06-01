@@ -36,9 +36,9 @@ const PartnersArea = ({ space, className, data}) => {
                                         title={data.items[0].title}
                                         desc={data.items[0].desc}
                                     >
-                        <span></span>                You can find all of our partners and affiliates below as well as any pertinent information. 
-                                        <br/><br/>
-                                        <b>Quick Links:</b>
+                                   <p>You can find all of our partners and affiliates below as well as any pertinent information. </p>
+                                        
+                                        <p><b>Quick Links:</b></p>
                                         <ul>
                                             <li style={{fontSize: 18, fontWeight: 'bold'}}>
                                                 <Link

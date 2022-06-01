@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import clsx from "clsx";
-import AuditForm from "@components/audit-form"
+import AuditForm from "@components/forms/audit-form"
 
 const AuditTopArea = ({ space, className }) => (
     <div
