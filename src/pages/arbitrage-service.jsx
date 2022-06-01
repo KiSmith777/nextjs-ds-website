@@ -2,33 +2,23 @@ import SEO from "@components/seo";
 import Wrapper from "@layout/wrapper";
 import Header from "@layout/header";
 import Footer from "@layout/footer";
-import HeroArea from "@containers/hero";
-import ServiceArea from "@containers/services";
-import MyApp from "@components/pdf-viewer";
-
-
-
-
-
-// Demo Data
+import { normalizedData } from "@utils/methods";
 import homepageData from "../data/homepages/home.json";
-import PDF from "@components/pdf-viewer";
 
 
 export async function getStaticProps() {
     return { props: { className: "template-color-1" } };
 }
 
-
-const Audit = () => {
-    
+const ArbitrageService = () => {
+    const content = normalizedData(homepageData?.content || []);
   
     return (
         <Wrapper>
-            <SEO pageTitle="Audit" />
+            <SEO pageTitle="Arbitrage as a Service (AaaS)" />
             <Header />
             <main id="main-content">
-                <MyApp />
+                
                
             </main>
             <Footer />
@@ -36,4 +26,4 @@ const Audit = () => {
     );
 };
 
-export default Audit;
+export default ArbitrageService;

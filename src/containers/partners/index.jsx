@@ -7,54 +7,77 @@ import Sticky from "@ui/sticky";
 import { ImageType, ItemType, SectionTitleType } from "@utils/types";
 import HeadingLabel from "../../components/heading-label";
 import TransparentBox from "../../components/transparent-box";
-import ExploreCarouselBothArea from "@containers/partner-cards";
+import ExplorePartnerArea from "@containers/partner-cards";
 import { normalizedData } from "@utils/methods";
 import partnersData from "../../data/innerpages/partners.json";
+import { Link } from 'react-scroll'
 
 
-const PartnersArea = ({ space, className, data }) => {
-    const content = normalizedData(partnersData?.content || []);
+
+const PartnersArea = ({ space, className, data}) => {
 
     return(
 
         <div
             className={clsx(
                 "rn-about-banner-area",
-                
                 className
             )}
+            style={{scrollSnapType: 'y mandatory'}}
         >
             <div className="container" style={{maxWidth: 1600, marginTop: 32}}>
                 <div className="row g-5">
-                    {data?.items?.[0] && (
+                       {data?.items?.[0] && (
                         <div className="col-lg-12">
                             <div className="h--100">
                                     <BoxContainer
+                                        key={data.items[0].id}
                                         className="rbt-fixed-top-adjust"
                                         title={data.items[0].title}
-                                        desc={data.items[0].description}
+                                        desc={data.items[0].desc}
                                     >
-                                        You can find all of our partners and affiliates below as well as any pertinent information. 
+                        <span></span>                You can find all of our partners and affiliates below as well as any pertinent information. 
                                         <br/><br/>
                                         <b>Quick Links:</b>
                                         <ul>
                                             <li style={{fontSize: 18, fontWeight: 'bold'}}>
-                                                <a href="/partners#partners">Partners</a>
+                                                <Link
+                                                    key={data.items[1].id}
+                                                    href="/partners#partners"
+                                                    to="partners"
+                                                    spy
+                                                    smooth
+                                                    offset={-200}
+                                                    duration={1000}
+                                                    >{data.items[1].title}</Link>
                                             </li>
                                             <li style={{fontSize: 18, fontWeight: 'bold'}}>
-                                                <a href="/partners#affiliates">Affiliates</a>
+                                                <Link
+                                                    key={data.items[2].id}
+                                                    href="/partners#affiliates"
+                                                    to="affiliates"
+                                                    spy
+                                                    smooth
+                                                    offset={-200}
+                                                    duration={1000}
+                                                >{data.items[2].title}</Link>
                                             </li>
                                             <li style={{fontSize: 18, fontWeight: 'bold'}}>
-                                                <a href="/partners#ama-and-promotional-groups">AMA & Promotional Groups</a>
+                                                <Link
+                                                    key={data.items[3].id}
+                                                    href="/partners#ama-and-promotional-groups"
+                                                    to="ama-and-promotional-groups"
+                                                    spy
+                                                    smooth
+                                                    offset={-200}
+                                                    duration={1000}
+                                                    >{data.items[3].title}</Link>
                                             </li>
                                         </ul>
                                         <div style={{display: 'flex', justifyContent: 'center'}}>
-
-                                            
-                                        
                                         </div>
                                     </BoxContainer>
-                                
+
                             </div>
                         </div>
                     )}
@@ -66,14 +89,13 @@ const PartnersArea = ({ space, className, data }) => {
                                         title={data.items[1].title}
                                         style={{padding: 4, justifyContent: 'center', alignItems: "center", display: 'flex', margin: 0}}
                                     />
-                                
                             </div>
                         </div>
                     )}
                     {data?.items?.[1] && (
                         <div className="col-lg-12" style={{marginTop:0}} >
                                 <TransparentBox>
-                                    <ExploreCarouselBothArea type="Partners" space={1} data={content["partner-section"]}/>
+                                    <ExplorePartnerArea id={data.items[1].id} space={1} title={data.items[1].title} items={data.items}/>
                                 </TransparentBox> 
                         </div>
                     )}
@@ -85,14 +107,13 @@ const PartnersArea = ({ space, className, data }) => {
                                         title={data.items[2].title}
                                         style={{padding: 4, justifyContent: 'center', alignItems: "center", display: 'flex', margin: 0}}
                                     />
-                                
                             </div>
                         </div>
                     )}
                     {data?.items?.[2] && (
                         <div className="col-lg-12" style={{marginTop:0}}>
                                 <TransparentBox>
-                                    <ExploreCarouselBothArea type="Affiliates" space={1} data={content["partner-section"]}/>
+                                    <ExplorePartnerArea id={data.items[2].id} space={1} title={data.items[2].title} items={data.items}/>
                                 </TransparentBox> 
                         </div>
                     )}
@@ -104,18 +125,16 @@ const PartnersArea = ({ space, className, data }) => {
                                         title={data.items[3].title}
                                         style={{padding: 4, justifyContent: 'center', alignItems: "center", display: 'flex', margin: 0}}
                                     />
-                                
                             </div>
                         </div>
                     )}
                     {data?.items?.[3] && (
                         <div className="col-lg-12" style={{marginTop:0}}>
                                 <TransparentBox>
-                                    <ExploreCarouselBothArea type="AMA & Promotional Groups" space={1} data={content["partner-section"]}/>
+                                    <ExplorePartnerArea id={data.items[3].id} space={1} title={data.items[3].title} items={data.items}/>
                                 </TransparentBox> 
                         </div>
                     )}
-                
                 </div>
             </div>
         </div>

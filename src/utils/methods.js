@@ -89,7 +89,7 @@ function slugify(text) {
 }
 
 function normalizedData(data, key = "section") {
-    let allContetnt;
+    let allContent;
 
     data.forEach((item) => {
         const newObj = Object.entries(item).reduce((acc, cur) => {
@@ -103,15 +103,15 @@ function normalizedData(data, key = "section") {
             };
         }, {});
 
-        allContetnt = {
-            ...allContetnt,
+        allContent = {
+            ...allContent,
             [newObj[key]]: {
                 ...newObj,
             },
         };
     });
 
-    return allContetnt;
+    return allContent;
 }
 
 const months = [

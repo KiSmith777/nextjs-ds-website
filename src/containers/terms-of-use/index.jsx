@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import clsx from "clsx";
 import Button from "@ui/button";
+import { Link } from "react-scroll";
 
 const TermsAndConditionsArea = ({ className, space }) => (
     <div
@@ -19,30 +20,173 @@ const TermsAndConditionsArea = ({ className, space }) => (
                         <br/>
                         <h4>TABLE OF CONTENTS</h4>
                         <ol>
-                            <li><a href='/terms-of-use#agreement-to-terms'><b>AGREEMENT TO TERMS</b></a></li>
-                            <li><a href='/terms-of-use#intellectual-property-rights'><b>INTELLECTUAL PROPERTY RIGHTS</b></a></li>
-                            <li><a href='/terms-of-use#user-representations'><b>USER REPRESENTATIONS</b></a></li>
-                            <li><a href='/terms-of-use#prohibited-activities'><b>PROHIBITED ACTIVITIES</b></a></li>
-                            <li><a href='/terms-of-use#user-generated-contributions'><b>USER GENERATED CONTRIBUTIONS</b></a></li>
-                            <li><a href='/terms-of-use#contribution-license'><b>CONTRIBUTION LICENSE</b></a></li>
-                            <li><a href='/terms-of-use#submissions'><b>SUBMISSIONS</b></a></li>
-                            <li><a href='/terms-of-use#third-party-website-and-content'><b>THIRD-PARTY WEBSITE AND CONTENT</b></a></li>
-                            <li><a href='/terms-of-use#advertisers'><b>ADVERTISERS</b></a></li>
-                            <li><a href='/terms-of-use#site-management'><b>SITE MANAGEMENT</b></a></li>
-                            <li><a href='/terms-of-use#privacy-policy'><b>PRIVACY POLICY</b></a></li>
-                            <li><a href='/terms-of-use#term-and-termination'><b>TERM AND TERMINATION</b></a></li>
-                            <li><a href='/terms-of-use#modifications-and-interruptions'><b>MODIFICATIONS AND INTERRUPTIONS</b></a></li>
-                            <li><a href='/terms-of-use#governing-law'><b>GOVERNING LAW</b></a></li>
-                            <li><a href='/terms-of-use#dispute-resolution'><b>DISPUTE RESOLUTION</b></a></li>
-                            <li><a href='/terms-of-use#corrections'><b>CORRECTIONS</b></a></li>
-                            <li><a href='/terms-of-use#disclaimer'><b>DISCLAIMER</b></a></li>
-                            <li><a href='/terms-of-use#limitations-of-liability'><b>LIMITATIONS OF LIABILITY</b></a></li>
-                            <li><a href='/terms-of-use#indemnification'><b>INDEMNIFICATION</b></a></li>
-                            <li><a href='/terms-of-use#user-data'><b>USER DATA</b></a></li>
-                            <li><a href='/terms-of-use#electronic-communications-transactions-and-signatures'><b>ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES</b></a></li>
-                            <li><a href='/terms-of-use#california-users-and-residents'><b>CALIFORNIA USERS AND RESIDENTS</b></a></li>
-                            <li><a href='/terms-of-use#miscellaneous'><b>MISCELLANEOUS</b></a></li>
-                            <li><a href='/terms-of-use#contact-us'><b>CONTACT US</b></a></li>
+                            <li><Link 
+                                href='/terms-of-use#agreement-to-terms'
+                                to="agreement-to-terms"
+                                spy
+                                smooth
+                                offset={-200}
+                                duration={1000}><b>AGREEMENT TO TERMS</b></Link></li>
+                            <li><Link
+                                href='/terms-of-use#intellectual-property-rights'
+                                to="intellectual-property-rights"
+                                spy
+                                smooth
+                                offset={-200}
+                                duration={1000}><b>INTELLECTUAL PROPERTY RIGHTS</b></Link></li>
+                            <li><Link
+                                href='/terms-of-use#user-representations'
+                                to="user-representations"
+                                spy
+                                smooth
+                                offset={-200}
+                                duration={1000}><b>USER REPRESENTATIONS</b></Link></li>
+                            <li><Link
+                                href='/terms-of-use#prohibited-activities'
+                                to="prohibited-activities"
+                                spy
+                                smooth
+                                offset={-200}
+                                duration={1000}><b>PROHIBITED ACTIVITIES</b></Link></li>
+                            <li><Link
+                                href='/terms-of-use#user-generated-contributions'
+                                to="user-generated-contributions"
+                                spy
+                                smooth
+                                offset={-200}
+                                duration={1000}><b>USER GENERATED CONTRIBUTIONS</b></Link></li>
+                            <li><Link
+                                href='/terms-of-use#contribution-license'
+                                to="contribution-license"
+                                spy
+                                smooth
+                                offset={-200}
+                                duration={1000}><b>CONTRIBUTION LICENSE</b></Link></li>
+                            <li><Link
+                                href='/terms-of-use#submissions'
+                                to="submissions"
+                                spy
+                                smooth
+                                offset={-200}
+                                duration={1000}><b>SUBMISSIONS</b></Link></li>
+                            <li><Link
+                                href='/terms-of-use#third-party-website-and-content'
+                                to="third-party-website-and-content"
+                                spy
+                                smooth
+                                offset={-200}
+                                duration={1000}><b>THIRD-PARTY WEBSITE AND CONTENT</b></Link></li>
+                            <li><Link
+                                href='/terms-of-use#advertisers'
+                                to="advertisers"
+                                spy
+                                smooth
+                                offset={-200}
+                                duration={1000}><b>ADVERTISERS</b></Link></li>
+                            <li><Link
+                                href='/terms-of-use#site-management'
+                                to="site-management"
+                                spy
+                                smooth
+                                offset={-200}
+                                duration={1000}><b>SITE MANAGEMENT</b></Link></li>
+                            <li><Link
+                                href='/terms-of-use#privacy-policy'
+                                to="privacy-policy"
+                                spy
+                                smooth
+                                offset={-200}
+                                duration={1000}><b>PRIVACY POLICY</b></Link></li>
+                            <li><Link
+                                href='/terms-of-use#term-and-termination'
+                                to="term-and-termination"
+                                spy
+                                smooth
+                                offset={-200}
+                                duration={1000}><b>TERM AND TERMINATION</b></Link></li>
+                            <li><Link
+                                href='/terms-of-use#modifications-and-interruptions'
+                                to="modifications-and-interruptions"
+                                spy
+                                smooth
+                                offset={-200}
+                                duration={1000}><b>MODIFICATIONS AND INTERRUPTIONS</b></Link></li>
+                            <li><Link
+                                href='/terms-of-use#governing-law'
+                                to="governing-law"
+                                spy
+                                smooth
+                                offset={-200}
+                                duration={1000}><b>GOVERNING LAW</b></Link></li>
+                            <li><Link
+                                href='/terms-of-use#dispute-resolution'
+                                to="dispute-resolution"
+                                smooth
+                                offset={-200}
+                                duration={1000}><b>DISPUTE RESOLUTION</b></Link></li>
+                            <li><Link
+                                href='/terms-of-use#corrections'
+                                to="corrections"
+                                spy
+                                smooth
+                                offset={-200}
+                                duration={1000}><b>CORRECTIONS</b></Link></li>
+                            <li><Link
+                                href='/terms-of-use#disclaimer'
+                                to="disclaimer"
+                                spy
+                                smooth
+                                offset={-200}
+                                duration={1000}><b>DISCLAIMER</b></Link></li>
+                            <li><Link
+                                href='/terms-of-use#limitations-of-liability'
+                                to="limitations-of-liability"
+                                spy
+                                smooth
+                                offset={-200}
+                                duration={1000}><b>LIMITATIONS OF LIABILITY</b></Link></li>
+                            <li><Link
+                                href='/terms-of-use#indemnification'
+                                to="indemnification"
+                                spy
+                                smooth
+                                offset={-200}
+                                duration={1000}><b>INDEMNIFICATION</b></Link></li>
+                            <li><Link
+                                href='/terms-of-use#user-data'
+                                to="user-data"
+                                spy
+                                smooth
+                                offset={-200}
+                                duration={1000}><b>USER DATA</b></Link></li>
+                            <li><Link
+                                href='/terms-of-use#electronic-communications-transactions-and-signatures'
+                                to="electronic-communications-transactions-and-signatures"
+                                spy
+                                smooth
+                                offset={-200}
+                                duration={1000}><b>ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES</b></Link></li>
+                            <li><Link
+                                href='/terms-of-use#california-users-and-residents'
+                                to="california-users-and-residents"
+                                spy
+                                smooth
+                                offset={-200}
+                                duration={1000}><b>CALIFORNIA USERS AND RESIDENTS</b></Link></li>
+                            <li><Link
+                                href='/terms-of-use#miscellaneous'
+                                to="miscellaneous"
+                                spy
+                                smooth
+                                offset={-200}
+                                duration={1000}><b>MISCELLANEOUS</b></Link></li>
+                            <li><Link
+                                href='/terms-of-use#contact-us'
+                                to="contact-us"
+                                spy
+                                smooth
+                                offset={-200}
+                                duration={1000}><b>CONTACT US</b></Link></li>
                         </ol>
 
                         <section id='agreement-to-terms'>

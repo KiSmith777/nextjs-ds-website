@@ -2,8 +2,7 @@ import SEO from "@components/seo";
 import Wrapper from "@layout/wrapper";
 import Header from "@layout/header";
 import Footer from "@layout/footer";
-import HeroArea from "@containers/hero";
-import ServiceArea from "@containers/services";
+import TokenArea from "@containers/token"
 
 /* import NewestItmesArea from "@containers/product/layout-04";
 import TopSellerArea from "@containers/top-seller/layout-01";
@@ -24,10 +23,10 @@ const Token = () => {
   
     return (
         <Wrapper>
-            <SEO pageTitle="Token" />
+            <SEO pageTitle="Skeptic Token (SKP)" />
             <Header />
             <main id="main-content">
-                
+                <TokenArea/>
                
             </main>
             <Footer />

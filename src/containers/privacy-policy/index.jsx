@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import clsx from "clsx";
 import Button from "@ui/button";
+import { Link } from 'react-scroll';
 
 const PrivacyPolicyArea = ({ className, space }) => (
     <div
@@ -52,46 +53,122 @@ const PrivacyPolicyArea = ({ className, space }) => (
                         <h4>TABLE OF CONTENTS</h4>
                         <ol>
                             <li>
-                                <a href='/privacy-policy#what-information-do-we-collect'><b>WHAT INFORMATION DO WE COLLECT?</b></a>
+                                <Link
+                                    href='/privacy-policy#what-information-do-we-collect'
+                                    to="what-information-do-we-collect"
+                                    spy
+                                    smooth
+                                    offset={-200}
+                                    duration={1000}><b>WHAT INFORMATION DO WE COLLECT?</b></Link>
                             </li>
                             <li>
-                                <a href='/privacy-policy#how-do-we-use-your-information'><b>HOW DO WE USE YOUR INFORMATION?</b></a>
+                                <Link 
+                                    href='/privacy-policy#how-do-we-use-your-information'
+                                    to="how-do-we-use-your-information"
+                                    spy
+                                    smooth
+                                    offset={-200}
+                                    duration={1000}><b>HOW DO WE USE YOUR INFORMATION?</b></Link>
                             </li>
                             <li>
-                                <a href='/privacy-policy#will-your-information-be-shared-with-anyone'><b>WILL YOUR INFORMATION BE SHARED WITH ANYONE?</b></a>
+                                <Link 
+                                    href='/privacy-policy#will-your-information-be-shared-with-anyone'
+                                    to="will-your-information-be-shared-with-anyone"
+                                    spy
+                                    smooth
+                                    offset={-200}
+                                    duration={1000}><b>WILL YOUR INFORMATION BE SHARED WITH ANYONE?</b></Link>
                             </li>
                             <li>
-                                <a href='/privacy-policy#do-we-use-cookies-and-other-tracking-technologies'><b>DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?</b></a>
+                                <Link 
+                                    href='/privacy-policy#do-we-use-cookies-and-other-tracking-technologies'
+                                    to="do-we-use-cookies-and-other-tracking-technologies"
+                                    spy
+                                    smooth
+                                    offset={-200}
+                                    duration={1000}><b>DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?</b></Link>
                             </li>
                             <li>
-                                <a href='/privacy-policy#what-is-our-stance-on-third-party-websites'><b>WHAT IS OUR STANCE ON THIRD-PARTY WEBSITES?</b></a>
+                                <Link 
+                                    href='/privacy-policy#what-is-our-stance-on-third-party-websites'
+                                    to="what-is-our-stance-on-third-party-websites"
+                                    spy
+                                    smooth
+                                    offset={-200}
+                                    duration={1000}><b>WHAT IS OUR STANCE ON THIRD-PARTY WEBSITES?</b></Link>
                             </li>
                             <li>
-                                <a href='/privacy-policy#how-long-do-we-keep-your-information'><b>HOW LONG DO WE KEEP YOUR INFORMATION?</b></a>  
+                                <Link 
+                                    href='/privacy-policy#how-long-do-we-keep-your-information'
+                                    to="how-long-do-we-keep-your-information"
+                                    spy
+                                    smooth
+                                    offset={-200}
+                                    duration={1000}><b>HOW LONG DO WE KEEP YOUR INFORMATION?</b></Link>  
                             </li>
                             <li>
-                                <a href='/privacy-policy#how-do-we-keep-your-information-safe'><b>HOW DO WE KEEP YOUR INFORMATION SAFE?</b></a>    
+                                <Link href='/privacy-policy#how-do-we-keep-your-information-safe'
+                                 to="how-do-we-keep-your-information-safe"
+                                 spy
+                                 smooth
+                                 offset={-200}
+                                 duration={1000}><b>HOW DO WE KEEP YOUR INFORMATION SAFE?</b></Link>    
                             </li>
                             <li>
-                                <a href='/privacy-policy#do-we-collect-information-from-minors'><b>DO WE COLLECT INFORMATION FROM MINORS?</b></a>
+                                <Link href='/privacy-policy#do-we-collect-information-from-minors'
+                                 to="do-we-collect-information-from-minors"
+                                 spy
+                                 smooth
+                                 offset={-200}
+                                 duration={1000}><b>DO WE COLLECT INFORMATION FROM MINORS?</b></Link>
                             </li>
                             <li>
-                                <a href='/privacy-policy#what-are-your-privacy-rights'><b>WHAT ARE YOUR PRIVACY RIGHTS?</b></a> 
+                                <Link href='/privacy-policy#what-are-your-privacy-rights'
+                                 to="what-are-your-privacy-rights"
+                                 spy
+                                 smooth
+                                 offset={-200}
+                                 duration={1000}><b>WHAT ARE YOUR PRIVACY RIGHTS?</b></Link> 
                             </li>
                             <li>
-                                <a href='/privacy-policy#controls-for-do-not-track-features'><b>CONTROLS FOR DO-NOT-TRACK FEATURES</b></a>
+                                <Link href='/privacy-policy#controls-for-do-not-track-features'
+                                 to="controls-for-do-not-track-features"
+                                 spy
+                                 smooth
+                                 offset={-200}
+                                 duration={1000}><b>CONTROLS FOR DO-NOT-TRACK FEATURES</b></Link>
                             </li>
                             <li>
-                                <a href='/privacy-policy#do-california-residents-have-specific-privacy-rights'><b>DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?</b></a>  
+                                <Link href='/privacy-policy#do-california-residents-have-specific-privacy-rights'
+                                 to="do-california-residents-have-specific-privacy-rights"
+                                 spy
+                                 smooth
+                                 offset={-200}
+                                 duration={1000}><b>DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?</b></Link>  
                             </li>
                             <li>
-                                <a href='/privacy-policy#do-we-make-updates-to-this-notice'><b>DO WE MAKE UPDATES TO THIS NOTICE?</b></a>    
+                                <Link href='/privacy-policy#do-we-make-updates-to-this-notice'
+                                to="do-we-make-updates-to-this-notice"
+                                spy
+                                smooth
+                                offset={-200}
+                                duration={1000}><b>DO WE MAKE UPDATES TO THIS NOTICE?</b></Link>    
                             </li>
                             <li>
-                                <a href='/privacy-policy#how-can-you-contact-us-about-this-notice'><b>HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</b></a>
+                                <Link href='/privacy-policy#how-can-you-contact-us-about-this-notice'
+                                to="how-can-you-contact-us-about-this-notice"
+                                spy
+                                smooth
+                                offset={-200}
+                                duration={1000}><b>HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</b></Link>
                             </li>
                             <li>
-                                <a href='/privacy-policy#how-can-you-review-update-or-delete-the-data-we-collect-from-you'><b>HOW CAN YOU REVIEW, UPDATE OR DELETE THE DATA WE COLLECT FROM YOU?</b></a> 
+                                <Link href='/privacy-policy#how-can-you-review-update-or-delete-the-data-we-collect-from-you'
+                                to="how-can-you-review-update-or-delete-the-data-we-collect-from-you"
+                                spy
+                                smooth
+                                offset={-200}
+                                duration={1000}><b>HOW CAN YOU REVIEW, UPDATE OR DELETE THE DATA WE COLLECT FROM YOU?</b></Link> 
                             </li>
                         </ol>
                         <section id='what-information-do-we-collect'>

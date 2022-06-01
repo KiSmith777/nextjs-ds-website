@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import clsx from "clsx";
+import { Link } from 'react-scroll';
 
 
 const CookiePolicyArea = ({ className, space }) => (
@@ -16,26 +17,56 @@ const CookiePolicyArea = ({ className, space }) => (
                     <div className="privacy-wrapper">
                         <h2 style={{textAlign: 'center'}}>COOKIE POLICY</h2>
                         <h4 style={{textAlign: 'center'}}>Last updated January 21, 2022</h4>
-                        In this Cookie Policy we will provide you with detailed information on how DeFi Skeptic (hereinafter – the “we” or “our”), shall undertake to 
+                        <p>In this Cookie Policy we will provide you with detailed information on how DeFi Skeptic (hereinafter – the “we” or “our”), shall undertake to 
                         ensure the security of personal information and the protection of rights of the visitors and users of the websites 
                         (hereinafter – the “Visitors”, “You”) while you use our websites including but not limited to <a href='https://defiskeptic.com/'>https://defiskeptic.com/</a> 
-                        (hereinafter – the “Site”) and the content on it. <br/><br/>
+                        (hereinafter – the “Site”) and the content on it. <br/><br/></p>
                         <h4>TABLE OF CONTENTS</h4>
                         <ol>
                             <li>
-                                <a href='/cookie-policy#what-is-a-cookie'>WHAT IS A COOKIE?</a>
+                                <Link
+                                    href='/cookie-policy#what-is-a-cookie'
+                                    to="what-is-a-cookie"
+                                    spy
+                                    smooth
+                                    offset={-200}
+                                    duration={1000}>WHAT IS A COOKIE?</Link>
                             </li>
                             <li>
-                                <a href='/cookie-policy#why-do-we-use-cookies'>WHY DO WE USE COOKIES?</a>
+                                <Link 
+                                    href='/cookie-policy#why-do-we-use-cookies'
+                                    to="why-do-we-use-cookies"
+                                    spy
+                                    smooth
+                                    offset={-200}
+                                    duration={1000}>WHY DO WE USE COOKIES?</Link>
                             </li>
                             <li>
-                                <a href='/cookie-policy#what-cookies-do-we-use'>WHAT COOKIES DO WE USE?</a>
+                                <Link
+                                    href='/cookie-policy#what-cookies-do-we-use'
+                                    to="what-cookies-do-we-use"
+                                    spy
+                                    smooth
+                                    offset={-200}
+                                    duration={1000}>WHAT COOKIES DO WE USE?</Link>
                             </li>
                             <li>
-                                <a href='/cookie-policy#how-to-refuse-or-block-cookies'>HOW TO REFUSE OR BLOCK COOKIES?</a>
+                                <Link
+                                    href='/cookie-policy#how-to-refuse-or-block-cookies'
+                                    to="how-to-refuse-or-block-cookies"
+                                    spy
+                                    smooth
+                                    offset={-200}
+                                    duration={1000}>HOW TO REFUSE OR BLOCK COOKIES?</Link>
                             </li>
                             <li>
-                                <a href='/cookie-policy#do-we-update-cookie-policy'>DO WE UPDATE COOKIE POLICY??</a>
+                                <Link
+                                    href='/cookie-policy#do-we-update-cookie-policy'
+                                    to="do-we-update-cookie-policy"
+                                    spy
+                                    smooth
+                                    offset={-200}
+                                    duration={1000}>DO WE UPDATE COOKIE POLICY??</Link>
                             </li>
                         </ol>
                         <section id='what-is-a-cookie'>

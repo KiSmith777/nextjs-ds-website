@@ -3,7 +3,10 @@ import Image from "next/image";
 import Button from "@ui/button";
 import { HeadingType, TextType, ButtonType, ImageType } from "@utils/types";
 
+
 const HeroArea = ({ data }) => (
+
+
     <div className="slider-one rn-section-gapTop">
         <div className="container">
             <div className="row row-reverce-sm align-items-center">
@@ -26,7 +29,6 @@ const HeroArea = ({ data }) => (
                             data-sal-duration="800"
                             key={text.id}
                         >
-                            {text.content}
                         </p>
                     ))}
                     {data?.buttons && (
@@ -60,7 +62,7 @@ const HeroArea = ({ data }) => (
             </div>
         </div>
     </div>
-);
+    );
 
 HeroArea.propTypes = {
     data: PropTypes.shape({

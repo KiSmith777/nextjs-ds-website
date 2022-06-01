@@ -60,6 +60,10 @@ export const PartnerType = PropTypes.shape({
     title: PropTypes.string.isRequired,
     telegram: PropTypes.string,
     website: PropTypes.string,
+    description: PropTypes.string,
+    desc1: PropTypes.string,
+    desc2: PropTypes.string,
+    desc3: PropTypes.string,
     image: ImageType,
   
 });

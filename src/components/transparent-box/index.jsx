@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import clsx from "clsx";
 
-const TransparentBox = ({ className, title, subtitle, style, children}) => (
+const TransparentBox = ({ className, style, children}) => (
     <div style={{margin: 0, display: 'flex', justifyContent: 'center'}} className={clsx("rn-about-card transparent-bg", className)}>
         <div 
             className="inner" 
@@ -18,8 +18,6 @@ const TransparentBox = ({ className, title, subtitle, style, children}) => (
 
 TransparentBox.propTypes = {
     className: PropTypes.string,
-    title: PropTypes.string.isRequired,
-    subtitle: PropTypes.string,
     style: PropTypes.object
 };
 

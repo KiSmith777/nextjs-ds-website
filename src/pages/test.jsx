@@ -4,6 +4,7 @@ import Header from "@layout/header";
 import Footer from "@layout/footer";
 import HeroArea from "@containers/hero";
 import ServiceArea from "@containers/services";
+import TestArea from "@containers/test-container"
 
 /* import NewestItmesArea from "@containers/product/layout-04";
 import TopSellerArea from "@containers/top-seller/layout-01";
@@ -27,7 +28,7 @@ const Test = () => {
             <SEO pageTitle="Test" />
             <Header />
             <main id="main-content">
-                
+                <TestArea/>
                
             </main>
             <Footer />

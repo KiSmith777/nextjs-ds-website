@@ -1,15 +1,15 @@
 import PropTypes from "prop-types";
 import clsx from "clsx";
 
-const BoxContainer = ({ className, style, title, desc, children, path }) => (
+const BoxContainer = ({ className, style, title, desc, children  }) => (
     <div className={clsx("rn-about-card", className)} style={style}>
         <div style={style} className="inner">
             
                 <h2 
                     className="title"
-                    data-sal="slide-up"
-                    data-sal-duration="800"
-                    data-sal-delay="150"
+                    data-sal="slide-left"
+                    data-sal-duration="9000"
+                    data-sal-delay="1500"
                     dangerouslySetInnerHTML={{ __html: title }}
                 />
             
@@ -29,8 +29,9 @@ const BoxContainer = ({ className, style, title, desc, children, path }) => (
                 data-sal-duration="800"
                 data-sal-delay="150"
             >
-                {children}
+                
             </p>
+            {children}
         </div>
     </div>
 );
@@ -39,8 +40,7 @@ BoxContainer.propTypes = {
     className: PropTypes.string,
     title: PropTypes.string.isRequired,
     desc: PropTypes.string,
-    path: PropTypes.string,
-    style: PropTypes.object
+    style: PropTypes.object,
 };
 
 export default BoxContainer;

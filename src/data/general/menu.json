@@ -6,18 +6,23 @@
     },
     {
         "id": 2,
-        "text": "Skeptic Token (SKP)",
-        "path": "/token",
+        "text": "Token & NFT",
+        "path": "/",
         "submenu": [
             {
                 "id": 21,
-                "text": "Whitepaper",
-                "path": "https://docs.defiskeptic.com",
-                "target": "_self"
+                "text": "Skeptic Token (SKP)",
+                "path": "/token"
     
             },
             {
                 "id": 22,
+                "text": "First Skeptics NFT",
+                "path": "/first-skeptics"
+    
+            },
+            {
+                "id": 23,
                 "text": "Audit",
                 "path": "/files/audit.pdf"
             }
@@ -31,12 +36,51 @@
             {
                 "id": 31,
                 "text": "Project Vetting",
-                "path": "/vetting"
+                "path": "/vetting",
+                "multilevelmenu": [
+                    {
+                        "id": 311,
+                        "text": "Vetted Projects & AMAs",
+                        "path": "/vetted-projects"
+                    },
+                    {
+                        "id": 311,
+                        "text": "Vetted Projects & AMAs",
+                        "path": "/vetted-projects"
+                    },
+                    {
+                        "id": 311,
+                        "text": "Vetted Projects & AMAs",
+                        "path": "/vetted-projects"
+                    }
+                ]
             },
             {
                 "id": 32,
                 "text": "DS Drops",
                 "path": "/drops"
+            },
+            {
+                "id": 33,
+                "text": "Contract Audits",
+                "path": "/contract-audits"
+            },
+            {
+                "id": 34,
+                "text": "Contract Creation",
+                "path": "/contract-creation"
+            },
+            {
+                "id": 35,
+                "text": "Arbitrage as a Service (AaaS)",
+                "path": "/arbitrage-service",
+                "multilevelmenu": [
+                    {
+                        "id": 311,
+                        "text": "Vetted Projects & AMAs",
+                        "path": "/vetted-projects"
+                    }
+                ]
             }
         ]
     },
@@ -52,6 +96,11 @@
             },
             {
                 "id": 42,
+                "text": "KYC - InterFi",
+                "path": "/files/kyc.pdf"
+            },
+            {
+                "id": 43,
                 "text": "Partners & Affiliates",
                 "path": "/partners"
             }

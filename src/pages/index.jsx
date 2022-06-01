@@ -16,11 +16,12 @@ import homepageData from "../data/homepages/home.json";
 
 
 export async function getStaticProps() {
-    return { props: { className: "template-color-1" } };
+    return { props: { className: "template-color-1"} };
 }
 
 const Home = () => {
     const content = normalizedData(homepageData?.content || []);
+    
   
     return (
         <Wrapper>
@@ -30,7 +31,7 @@ const Home = () => {
                 <HeroArea data={content["hero-section"]} />
               
                 <ServiceArea data={content["service-section"]} />
-               
+                
             </main>
             <Footer />
         </Wrapper>

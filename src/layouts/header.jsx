@@ -15,11 +15,17 @@ import { useOffcanvas, useSticky, useFlyoutSearch } from "@hooks";
 import headerData from "../data/general/header.json";
 import menuData from "../data/general/menu.json";
 import { useState } from 'react';
+import { toast } from 'react-toastify';
+
+
 const Header = ({ className }) => {
     const sticky = useSticky();
     const { offcanvas, offcanvasHandler } = useOffcanvas();
     const { search, searchHandler } = useFlyoutSearch();
     const { authenticate, isAuthenticated } = useMoralis();
+    const notify = () => (
+        toast("Logging In"))
+
 
     return (
         <>
@@ -53,7 +59,7 @@ const Header = ({ className }) => {
                                             color="primary-alta"
                                             className="connectBtn"
                                             size="small"
-                                            /* onClick={() => authenticate()}*/
+                                            onClick={notify}
                                         >
                                             App Coming Soon
                                         </Button>

@@ -24,7 +24,7 @@ const Drops = () => {
   
     return (
         <Wrapper>
-            <SEO pageTitle="Drops" />
+            <SEO pageTitle="DS Drops" />
             <Header />
             <main id="main-content">
                 

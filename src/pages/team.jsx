@@ -2,8 +2,7 @@ import SEO from "@components/seo";
 import Wrapper from "@layout/wrapper";
 import Header from "@layout/header";
 import Footer from "@layout/footer";
-import HeroArea from "@containers/hero";
-import ServiceArea from "@containers/services";
+import TeamIntroArea from '../containers/team-intro'
 
 /* import NewestItmesArea from "@containers/product/layout-04";
 import TopSellerArea from "@containers/top-seller/layout-01";
@@ -27,7 +26,7 @@ const Team = () => {
             <SEO pageTitle="Team" />
             <Header />
             <main id="main-content">
-                
+                <TeamIntroArea/>
                
             </main>
             <Footer />

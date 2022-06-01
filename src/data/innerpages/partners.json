@@ -2,6 +2,7 @@
     "title": "partners",
     "content": [
         {
+            "id": 1,
             "section": "partner-section",
             "section_title": {
                 "title": "Partners and Affiliates"
@@ -11,111 +12,79 @@
             },
             "items": [
                 {
-                    "id": 1,
-                    "title": "Our Belief",
-                    "description": "Business partner relationships are important connections and resources as we conduct our jobs, plan for the future, and build our knowledge about products, changes and trends. Building future business partner relationships can help us when a product or service changes or when an additional product or service is needed."
+                    "id": 11,
+                    "title": "Our Belief - THIS SECTION IS EXAMPLE TEXT AND NEEDS REPLACING",
+                    "desc": "Business partner relationships are important connections and resources as we conduct our jobs, plan for the future, and build our knowledge about products, changes and trends. Building future business partner relationships can help us when a product or service changes or when an additional product or service is needed."
                 },
                 {
-                    "id": 2,
+                    "id": 12,
                     "title": "Partners",
                     "partners": [
                         {
-                            "id": 1,
+                            "id": 121,
                             "title": "Apollo Ventures",
                             "telegram": "ApolloVentures",
                             "website": "https://a11.finance",
+                            "desc1": "Apollo Ventures is a complete ecosystem to help crypto projects get launched and find vetted services to help promote their project consisting of a marketplace, ads platform and launchpad. Additionally, Apollo Ventures has a loss protection plan which covers anywhere from 25% to 100% of a presale contributors funds incase of exploit or vulnerability.",
+                            "desc2": "DeFi Skeptic provides Apollo Ventures project vetting for the Apollo Launchpad.",
+                            "desc3": "By leveraging DeFi Skeptics intensive vetting process, Apollo Venture ensures projects listing on their launchpad maintain a high level of transparency and information accuracy.",
                             "image": [
                                 {
-                                    "src": "/images/partners/Apollo_1000x1000.jpg"
-                                }
-                            ]
-                        },
-                        {
-                            "id": 1,
-                            "title": "Apollo Ventures",
-                            "telegram": "ApolloVentures",
-                            "website": "https://a11.finance",
-                            "image": [
-                                {
-                                    "src": "/images/partners/Apollo_1000x1000.jpg"
-                                }
-                            ]
-                        },
-                        {
-                            "id": 1,
-                            "title": "Apollo Ventures",
-                            "telegram": "ApolloVentures",
-                            "website": "https://a11.finance",
-                            "image": [
-                                {
-                                    "src": "/images/partners/Apollo_1000x1000.jpg"
-                                }
-                            ]
-                        },
-                        {
-                            "id": 1,
-                            "title": "Apollo Ventures",
-                            "telegram": "ApolloVentures",
-                            "website": "https://a11.finance",
-                            "image": [
-                                {
-                                    "src": "/images/partners/Apollo_1000x1000.jpg"
-                                }
-                            ]
-                        },
-                        {
-                            "id": 1,
-                            "title": "Apollo Ventures",
-                            "telegram": "ApolloVentures",
-                            "website": "https://a11.finance",
-                            "image": [
-                                {
-                                    "src": "/images/partners/Apollo_1000x1000.jpg"
-                                }
-                            ]
-                        },
-                        {
-                            "id": 1,
-                            "title": "Apollo Ventures",
-                            "telegram": "ApolloVentures",
-                            "website": "https://a11.finance",
-                            "image": [
-                                {
-                                    "src": "/images/partners/Apollo_1000x1000.jpg"
+                                    "src": "/images/partners_affiliates/partners/Apollo_1000x1000.jpg"
                                 }
                             ]
                         }
                     ]
                 },
                 {
-                    "id": 3,
+                    "id": 13,
                     "title": "Affiliates",
                     "affiliates": [
                         {
-                            "id": 1,
+                            "id": 131,
                             "title": "AutoCrypto",
                             "telegram": "AutoCryptoInternational",
                             "website": "https://autocrypto.ai",
+                            "desc1": "AutoCrypto is an automated broker app managed by an Artificial Intelligence that combines mathematical extrapolation polynomials alongside a pre-trained time-series prediction neuronal network to predict very precisely the evolution of the top 200 cryptocurrencies and investing automatically for you. AutoCrypto’s mission is to provide people from all income ranges a way to achieve financial independence.",
+                            "desc2": "DeFi Skeptic provides AutoCrypto up-to-date reports on vetted projects to support their mission.",
+                            "desc3": "This is done automatically through their social platforms anytime a report is finalized.",
                             "image": [
                                 {
-                                    "src": "/images/partners/AutoCrypto_1000x1000.jpg"
+                                    "src": "/images/partners_affiliates/affiliates/AutoCrypto_1000x1000.jpg"
                                 }
                             ]
                         }
                     ]
                 },
                 {
-                    "id": 4,
+                    "id": 14,
                     "title": "AMA & Promotional Groups",
                     "promoters": [
                         {
-                            "id": 1,
-                            "title": "CoinLaunchLounge",
+                            "id": 141,
+                            "title": "Coin Launch Lounge",
                             "telegram": "CoinLaunchCommunity",
                             "website": "https://t.me/CoinLaunchCommunity",
+                            "desc1": "One major issue in the DeFi space is how projects are promoted. A very effective way of reaching an audience is by directly speaking to them. However, many of these platforms conduct in unethical practices using “paid” bots to make their customer feel like they are getting more than they really are.",
+                            "desc2": "DeFi Skeptic has made an effort to source legitimate promotional platforms who do not conduct in these practices such as ",
+                            "desc3": "",
                             "image": [
                                 {
-                                    "src": "/images/partners/CoinLaunch_1000x1000.jpg"
+                                    "src": "/images/partners_affiliates/promoters/CoinLaunch_1000x1000.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 142,
+                            "title": "Legit Crypto Lounge",
+                            "telegram": "LegitCryptoLounge",
+                            "website": "https://t.me/LegitCryptoLounge",
+                            "desc1": "One major issue in the DeFi space is how projects are promoted. A very effective way of reaching an audience is by directly speaking to them. However, many of these platforms conduct in unethical practices using “paid” bots to make their customer feel like they are getting more than they really are.",
+                            "desc2": "DeFi Skeptic has made an effort to source legitimate promotional platforms who do not conduct in these practices such as ",
+                            "desc3": "",
+                            "image": [
+                                {
+                                    "src": "/images/partners_affiliates/promoters/legitcoinlounge_1000x1000.jpg"
                                 }
                             ]
                         }
@@ -124,43 +93,45 @@
             ]
         },
         {
+            "id": 2,
             "section": "quote-section",
             "section_title": {
                 "title": "Project Vetting & Vetted Project Database"
             },
             "texts": [
                 {
-                    "id": 1,
+                    "id": 21,
                     "content": "DeFi Skeptic serves DeFi in various ways. One way is by conducting in-depth video interviews with project developers. During this session, the Defi Skeptic team will scrutinize, analyze, and independently review every aspect of the project following the vetting process. Providing this level of detail on DeFi projects can help reduce fraud while increasing security and peace of mind for those looking to invest their hard-earned money.\n\nIf you are a project team member and would like to apply to have the project vetted by DeFi Skeptic, you can do so on the Get Vetted page.\n\nDeFi projects that have passed the vetting process are listed in the DeFi Skeptic Vetted Projects page."
                 }
             ]
         },
         {
+            "id": 3,
             "section": "funfact-section",
             "section_title": {
                 "title": "DeFi Statistics"
             },
             "funfacts": [
                 {
-                    "id": 1,
+                    "id": 31,
                     "title": "Different Cryptocurrencies",
                     "counter": 10000,
                     "suffix": "+"
                 },
                 {
-                    "id": 2,
+                    "id": 32,
                     "title": "Increase in Total Transaction Volume vs 2020",
                     "counter": 567,
                     "suffix": "%"
                 },
                 {
-                    "id": 4,
+                    "id": 33,
                     "title": "Percentage of Scam Revenue Due to Rug Pulls",
                     "counter": 37,
                     "suffix": "%"
                 },
                 {
-                    "id": 3,
+                    "id": 34,
                     "title": "Money Stolen by Malicious Actors",
                     "counter": 10,
                     "suffix": "B+"
@@ -168,27 +139,28 @@
             ]
         },
         {
+            "id": 4,
             "section": "cta-section",
             "headings": [
                 {
-                    "id": 1,
+                    "id": 41,
                     "content": "Discover Discover Discover rare digital art <br/> and collect NFTs"
                 }
             ],
             "texts": [
                 {
-                    "id": 1,
+                    "id": 42,
                     "content": "The NFTs is a one-trick pony that climbed the recent years. The growth of NFTs is tremendous, and according to Pymnts.com, the total sales volume"
                 }
             ],
             "buttons": [
                 {
-                    "id": 1,
+                    "id": 43,
                     "path": "/create",
                     "content": "Create"
                 },
                 {
-                    "id": 2,
+                    "id": 44,
                     "path": "/contact",
                     "content": "Contact Us",
                     "color": "primary-alta"
@@ -199,6 +171,7 @@
             }
         },
         {
+            "id": 5,
             "section": "blog-section",
             "section_title": {
                 "title": "Our Recent Blog"
