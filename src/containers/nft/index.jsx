@@ -79,7 +79,7 @@ const NFTArea = ({ className, space, data }) => {
                         </ul>
                         <div className="ml--10 mr--10 row g-5">
                             <div className="col-lg-6">
-                                <TransparentBox>
+                                <TransparentBox> 
                                     <h4 style={{textAlign: "center"}}>Common</h4>
                                     <h6 style={{textAlign: "center"}}>Permanent Benefits</h6>
                                     <ul>

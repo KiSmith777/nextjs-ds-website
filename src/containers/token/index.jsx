@@ -19,9 +19,9 @@ const TokenArea = ({ className, space, data }) => {
                 show={isShareModalOpen}
                 handleModal={shareModalHandler}
             />
-            <div className="rn-author-bg-area position-relative ptb--150 mt--20 mb--20">
+            <div className="rn-author-bg-area position-relative ptb--20 mt--20 mb--20">
                 <Image
-                    src="/images/test/Gitbook Token.png"
+                    src="/images/test/Gitbook-Token.png"
                     alt="Slider BG"
                     layout="fill"
                     objectFit="contain"
