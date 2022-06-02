@@ -19,7 +19,7 @@ const TokenArea = ({ className, space, data }) => {
                 show={isShareModalOpen}
                 handleModal={shareModalHandler}
             />
-            <div className="rn-author-bg-area position-relative ptb--150 mt--20 mb--20">
+            <div className="rn-author-bg-area position-relative ptb--115 mt--20 mb--20">
                 <Image
                     src="/images/test/GitBook-Token.png"
                     alt="Slider BG"
@@ -215,7 +215,7 @@ const TokenArea = ({ className, space, data }) => {
                             </p>
                             <div className="rn-author-bg-area position-relative ptb--200 mt--20 mb--20">
                             <Image
-                            src="/images/test/Tax Flow.png"
+                            src="/images/test/SKP-Tax-Flow.png"
                             alt="Slider BG"
                             layout="fill"
                             objectFit="contain"
@@ -310,14 +310,6 @@ const TokenArea = ({ className, space, data }) => {
                                 data-sal-delay="150"
                             />
                             </div>
-                            <p
-                                    data-sal="slide-right"
-                                    data-sal-duration="1200"
-                                    data-sal-delay="150"
-                                >
-                                   <b>Burn Fund</b> powered Buy & Burns are conducted on the SKP/BNB liquidity pool only.
-                                     
-                            </p>
                         </SolidBox>
                     </div>
                     <div className="col-lg-12">
