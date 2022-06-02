@@ -37,54 +37,54 @@
         {
             "section": "service-section",
             "section_title": {
-                "title": "Our Products & Services"
+                "title": "Our Ecosystem"
             },
             "items": [
                 {
                     "id": 1,
-                    "title": "Project Vetting",
-                    "path": "/vetting",
-                    "subtitle": "Vetting",
-                    "description": "The DeFi Skeptic vetting process is designed to look at multiple elements across a DeFi project. This process looks into six key components of a DeFi project.",
+                    "title": "Products & Services",
+                    "path": "/services",
+                    "subtitle": "Utility",
+                    "description": "DeFi Skeptic provides various products and services centered towards DeFi developers and DeFi users. The bulk of these products and services are powered by Skeptic Token.",
                     "images": [
                         {
-                            "src": "/images/icons/shape-7.png"
+                            "src": "/images/icons/maintenance.png"
                         }
                     ]
                 },
                 {
                     "id": 2,
-                    "title": "DS Drops",
-                    "path": "/drops",
-                    "subtitle": "In Development",
-                    "description": "DeFi users can subscribe to a 3-tier service which allows them to get exposure to various projects through promotional airdropping. The subscription will run on quarterly intervals allowing you to decide when you want to receive tokens.",
+                    "title": "Skeptic Token (SKP)",
+                    "path": "/token",
+                    "subtitle": "Token",
+                    "description": "This ecosystem of products and services will be power by Skeptic Token (SKP), a liquidity backed token with a unique deflationary mechanism not volume dependent which we call the \"Burn Fund”.",
                     "images": [
                         {
-                            "src": "/images/icons/shape-1.png"
+                            "src": "/images/icons/SKP-Token.png"
                         }
                     ]
                 },
                 {
                     "id": 3,
-                    "title": "DS Merge",
-                    "path": "/merge",
-                    "subtitle": "Future Plans",
-                    "description": "The goal here is to relieve the burden on the failed/failing projects team and move its users to something with utility, multiple use cases and a focus on sustainability/longevity.",
+                    "title": "First Skeptics",
+                    "path": "/first-skeptics",
+                    "subtitle": "NFT",
+                    "description": "The \"First Skeptics” non-fungible token (NFT) is a limited set of 250 unique pieces. These NFTs will provide the holder with various benefits within the DeFi Skeptic ecosystem. They consist of 50 “rare” and 200 “common” pieces, each class with its own unique benefits.",
                     "images": [
                         {
-                            "src": "/images/icons/shape-5.png"
+                            "src": "/images/icons/FSN.png"
                         }
                     ]
                 },
                 {
                     "id": 4,
-                    "title": "Additional Services",
-                    "path": "/future-plans",
-                    "subtitle": "Future Plans",
-                    "description": "DeFi Skeptic intends to provide multiple products and services to the DeFi Space that will be powered by Skeptic Token (SKP). Please note that any future plans are not funded by SKP and any “In Development” or “Future Plans” will be released as they are finished.",
+                    "title": "Partners & Affiliates",
+                    "path": "/partners",
+                    "subtitle": "Strategy",
+                    "description": "The DeFi Skeptic team is a strong believer in collaboration over competition. Working with like minded platforms/projects and sharing each others resources is a key component of DeFi Skeptic and a valued aspect of our platform.",
                     "images": [
                         {
-                            "src": "/images/icons/shape-6.png"
+                            "src": "/images/icons/collaboration.png"
                         }
                     ]
                 }

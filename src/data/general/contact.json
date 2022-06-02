@@ -5,18 +5,18 @@
             "id": 1,
             "icon": "fa-brands fa-discord",
             "link": "https://discord.gg/DeFiSkeptic",
-            "title": "Facebook"
+            "title": "Discord"
         },
         {
             "id": 2,
             "icon": "fa-brands fa-telegram",
-            "link": "https://twitter.com/DefiSkeptic",
+            "link": "https://t.me/DeFi_Skeptic",
             "title": "DeFi Skeptic Announcements"
         },
         {
             "id": 3,
             "icon": "fa-brands fa-telegram",
-            "link": "https://twitter.com/DefiSkeptic",
+            "link": "https://t.me/SkepticToken",
             "title": "Skeptic Token"
         },
         {
