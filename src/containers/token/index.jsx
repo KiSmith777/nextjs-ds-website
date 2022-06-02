@@ -21,7 +21,7 @@ const TokenArea = ({ className, space, data }) => {
             />
             <div className="rn-author-bg-area position-relative ptb--20 mt--20 mb--20">
                 <Image
-                    src="/images/test/Gitbook-Token.png"
+                    src="/images/test/GitBook-Token.png"
                     alt="Slider BG"
                     layout="fill"
                     objectFit="contain"
