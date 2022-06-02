@@ -53,8 +53,8 @@ const HeroArea = ({ data }) => (
                             <Image
                                 src={data.images[0].src}
                                 alt={data.images[0]?.alt || "Slider Images"}
-                                width={585}
-                                height={593}
+                                width={350}
+                                height={350}
                             />
                         </div>
                     )}
