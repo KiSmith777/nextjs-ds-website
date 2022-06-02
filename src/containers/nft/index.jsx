@@ -20,7 +20,7 @@ const NFTArea = ({ className, space, data }) => {
             />
             <div className="rn-author-bg-area position-relative ptb--150 mt--20 mb--100">
                 <Image
-                    src="/images/test/NFT SET v2.png"
+                    src="/images/test/NFT Set v2.png"
                     alt="Slider BG"
                     layout="fill"
                     objectFit="contain"
