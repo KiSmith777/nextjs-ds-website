@@ -13,7 +13,7 @@
             "items": [
                 {
                     "id": 11,
-                    "title": "Our Belief - THIS SECTION IS EXAMPLE TEXT AND NEEDS REPLACING",
+                    "title": "",
                     "desc": "The DeFi Skeptic team is a strong believer in collaboration over competition. Working with like minded platforms/projects and sharing each others resources is a key component of DeFi Skeptic and a valued aspect of our platform."
                 },
                 {
@@ -37,6 +37,7 @@
                         {
                             "id": 121,
                             "title": "Dappd",
+                            "telegram": "apolloventures",
                             "website": "https://dappd.net",
                             "desc1": "Dappd is a software development company specializing in DeFi/Blockchain Technology. Their services include custom smart contract creation, presales, web3 bots, dApps, websites, auditing, and blockchain consulting/development.",
                             "desc2": "DeFi Skeptic and Dappd are working in a cross-service partnership to leverage each other’s expertise.",
