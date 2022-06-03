@@ -25,7 +25,7 @@ const PartnersArea = ({ space, className, data}) => {
             )}
             style={{scrollSnapType: 'y mandatory'}}
         >
-            <div className="container" style={{maxWidth: 1600, marginTop: 32}}>
+            <div className="container" style={{maxWidth: 1100, marginTop: 32}}>
                 <div className="row g-5">
                        {data?.items?.[0] && (
                         <div className="col-lg-12">
