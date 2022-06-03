@@ -37,10 +37,10 @@
                         {
                             "id": 121,
                             "title": "Dappd",
-                            "telegram": "apolloventures",
+                            "telegram": "",
                             "website": "https://dappd.net",
                             "desc1": "Dappd is a software development company specializing in DeFi/Blockchain Technology. Their services include custom smart contract creation, presales, web3 bots, dApps, websites, auditing, and blockchain consulting/development.",
-                            "desc2": "DeFi Skeptic and Dappd are working in a cross-service partnership to leverage each other’s expertise.",
+                            "desc2": "DeFi Skeptic and Dappd are working in a cross-service partnership to leverage each others expertise.",
                             "desc3": "This partnership adds a valuable resource to the DeFi Skeptic ecosystem and supports our goal of legitimizing the space through ethical coding practices.",
                             "image": [
                                 {

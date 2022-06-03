@@ -52,14 +52,14 @@ const Partner = ({
                 >
                     <h4>{title}</h4>
                 </div>
-                <Anchor path={`https://t.me/${telegram}`}>
+                {telegram && (<Anchor path={`https://t.me/${telegram}`}>
                     <span
                         style={{ textAlign: "center" }}
                         className="product-name"
                     >
                         Telegram
                     </span>
-                </Anchor>
+                </Anchor>)}
                 <Anchor path={website}>
                     <span
                         style={{ textAlign: "center" }}
