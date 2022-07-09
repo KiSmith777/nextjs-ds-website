@@ -56,7 +56,9 @@
     }
 }
 
-
+.h--0 {
+    height: 0% important;
+}
 
 .pl--0 {
     padding-left: 0 !important;
@@ -91,6 +93,7 @@
 }
 
 @for $i from 1 through 40 {
+    .h--#{5 *$i} {height: 5% *$i !important;}
     .ptb--#{5 * $i} { padding: 5px *$i 0 !important;}
     .plr--#{5 * $i} { padding: 0 5px *$i !important;}
     .pt--#{5 * $i} { padding-top: 5px *$i !important;}
@@ -102,6 +105,8 @@
     .mr--#{5 * $i} {margin-right: 5px *$i !important;}
     .ml--#{5 * $i} {margin-left: 5px *$i !important;}
 }
+
+
 
 @media #{$laptop-device} {
     @for $i from 1 through 20 {

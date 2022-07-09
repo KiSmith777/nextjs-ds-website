@@ -1,1 +1,0 @@
-/*eslint-disable*/module.exports={messages:{"Take a dump buddy":"Take a dump buddy","{0}":[["0"]],"{0}Take a dump buddy":[["0"],"Take a dump buddy"]}};

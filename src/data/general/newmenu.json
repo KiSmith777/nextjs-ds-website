@@ -1,0 +1,144 @@
+[
+    {
+        "id": 1,
+        "text": "Home",
+        "path": "/"
+    },
+    {
+        "id": 2,
+        "text": "Token & NFT",
+        "path": "#",
+        "icon": "feather-chevron-down",
+        "children": [
+            {
+                "id": 21,
+                "text": "Skeptic Token (SKP)",
+                "path": "/token"
+    
+            },
+            {
+                "id": 22,
+                "text": "First Skeptics NFT",
+                "path": "/first-skeptics"
+    
+            },
+            {
+                "id": 23,
+                "text": "Audit",
+                "path": "/files/audit.pdf"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "text": "Products & Services",
+        "path": "#",
+        "icon": "feather-chevron-down",
+        "children": [
+            {
+                "id": 31,
+                "text": "Project Vetting",
+                "path": "/vetting",
+                "icon": "feather-chevron-right",
+                "children": [
+                    {
+                        "id": 311,
+                        "text": "Vetted Projects & AMAs",
+                        "path": "/vetted-projects"
+                    },
+                    {
+                        "id": 312,
+                        "text": "Get Vetted",
+                        "path": "/get-vetted"
+                    },
+                    {
+                        "id": 313,
+                        "text": "Vetting Process",
+                        "path": "/vetting-process"
+                    }
+                ]
+            },
+            {
+                "id": 32,
+                "text": "For DeFi Developers",
+                "path": "#",
+                "icon": "feather-chevron-right",
+                "children": [
+                    {
+                        "id": 321,
+                        "text": "Contract Audits",
+                        "path": "/contract-audits"
+                    },
+                    {
+                        "id": 322,
+                        "text": "Contract Creation",
+                        "path": "/contract-creation"
+                    },
+                    {
+                        "id": 323,
+                        "text": "KYC Services",
+                        "path": "/kyc-services"
+                    },
+                    {
+                        "id": 324,
+                        "text": "Arbitrage as a Service (AaaS)",
+                        "path": "/arbitrage-service"
+                    },
+                    {
+                        "id": 325,
+                        "text": "Vetted AMA Tour",
+                        "path": "/vetted-ama-tour"
+                    }
+                ]
+            },
+            {
+                "id": 33,
+                "text": "For DeFi Users",
+                "path": "#",
+                "icon": "feather-chevron-right",
+                "children": [
+                    {
+                        "id": 331,
+                        "text": "DS Drops",
+                        "path": "/ds-drops"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "text": "About",
+        "path": "/about",
+        "icon": "feather-chevron-down",
+        "children": [
+            {
+                "id": 41,
+                "text": "DS Team",
+                "path": "/team"
+            },
+            {
+                "id": 42,
+                "text": "Whitepaper",
+                "path": "https://docs.defiskeptic.com",
+                "target": "_self"
+            },
+            {
+                "id": 43,
+                "text": "KYC - InterFi",
+                "path": "/files/kyc.pdf"
+            },
+            {
+                "id": 44,
+                "text": "Partners & Affiliates",
+                "path": "/partners"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "text": "Contact",
+        "path": "/contact"
+    }
+]
+           

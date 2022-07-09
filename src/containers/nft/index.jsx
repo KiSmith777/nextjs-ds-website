@@ -37,51 +37,99 @@ const NFTArea = ({ className, space, data }) => {
             >
             </div>
             <div className="container">
-                <HeadingLabel className="mt--20" style={{padding: 4, justifyContent: 'center', alignItems: "center", display: 'flex', margin: 0}} title="First Skeptic NFTs"/>
-                <TransparentBox>
-                    <p>To kick off DeFi Skeptics mission of bettering DeFi, we are having an NFT sale. 
-                        This NFT sale will fund the SKEPTIC TOKEN fair launch. <br/><br/>
-                        That's right, there will be no tokens sold prior to launching! You'll want to read on...
-                    </p>
-                    
-                    <TransparentBox className="ptb--40">
-                        <h4 style={{textAlign: "center"}}>NFT Details</h4>
-                        <ul>
-                            <li >
-                                Initial price of 1 BNB.
-                            </li>
-                            <li>
-                                Limited set of 250 total NFTs.
-                            </li>
-                            <li>
-                                There is no max to how many NFTs any individual can own.
-                            </li>
-                            <li>
-                            Each NFT is unique with its own number. NFTs 1-50 will be "<b>Rare</b>" with individual designs.
-                            NFTs 51-250 will be "<b>Common</b>" with the same design. NFT minting is randomized, they are not minted in numerical order, providing a fair chance for everyone!
-                            </li>
-                        </ul>
-                        <h4 style={{textAlign: "center"}}>Proceeds Usage</h4>
-                        <p className="ml--10">DeFi Skeptic will use the 250 BNB from the First Skeptics NFT minting as follows:</p>
-                        <ul>
-                            <li>
-                                (20%) - 50 BNB allocated to initial liquidity for SKP/BNB.
-                            </li>
-                            <li>
-                                (20%) - 50 BNB allocated to initial liquidity for SKP/BUSD. 
-                            </li>
-                            <li>
-                                (20%) - 50 BNB allocated to the Burn Fund.
-                            </li>
-                            <li>
-                                (40%) - 100 BNB allocated to pre/post launch marketing for Skeptic Token (SKP).
-                            </li>
-                        </ul>
-                        <div className="ml--10 mr--10 row g-5">
-                            <div className="col-lg-6">
-                                <TransparentBox> 
-                                    <h4 style={{textAlign: "center"}}>Common</h4>
-                                    <h6 style={{textAlign: "center"}}>Permanent Benefits</h6>
+                <HeadingLabel section="NFT" className="mt--20" style={{padding: 4, justifyContent: 'center', alignItems: "flex-start", display: 'flex', margin: 0}} title="First Skeptic NFTs"/>
+                    <TransparentBox>
+                        <p className="mt_dec--30">To kick off DeFi Skeptics mission of bettering DeFi, we are having an NFT sale. 
+                            This NFT sale will fund the SKEPTIC TOKEN fair launch. <br/><br/>
+                            That's right, there will be no tokens sold prior to launching! You'll want to read on...
+                        </p>
+                        <div className="mt--10 row g-5">
+                            <div className="col-lg-6" >
+                            
+                            <HeadingLabel
+                            className=""
+                            style={{
+                                padding: 4,
+                                justifyContent: "center",
+                                alignItems: "center",
+                                display: "flex",
+                                margin: 0,
+                                
+                            }}
+                            title="NFT Details"
+                        />
+                        <TransparentBox className="ptb--5 h--85">
+                                    <ul>
+                                        <li >
+                                            Initial price of 1 BNB.
+                                        </li>
+                                        <li>
+                                            Limited set of 250 total NFTs.
+                                        </li>
+                                        <li>
+                                            There is no max to how many NFTs any individual can own.
+                                        </li>
+                                        <li>
+                                        Each NFT is unique with its own number. NFTs 1-50 will be "<b>Rare</b>" with individual designs.
+                                        NFTs 51-250 will be "<b>Common</b>" with the same design. NFT minting is randomized, they are not minted in numerical order, providing a fair chance for everyone!
+                                        </li>
+                                    </ul>
+                           </TransparentBox>
+                           </div>
+                        
+                        
+                        <div className="col-lg-6">
+                        <HeadingLabel
+                            className=""
+                            style={{
+                                padding: 4,
+                                justifyContent: "center",
+                                alignItems: "center",
+                                display: "flex",
+                                margin: 0,
+                                
+                            }}
+                            title="Proceeds Usage"
+                        /> 
+                        <TransparentBox className="ptb--10 h--85">
+                                <p >DeFi Skeptic will use the 250 BNB from the First Skeptics NFT minting as follows:</p>
+                                    <ul>
+                                        <li>
+                                            (20%) - 50 BNB allocated to initial liquidity for SKP/BNB.
+                                        </li>
+                                        <li>
+                                            (20%) - 50 BNB allocated to initial liquidity for SKP/BUSD. 
+                                        </li>
+                                        <li>
+                                            (20%) - 50 BNB allocated to the Burn Fund.
+                                        </li>
+                                        <li>
+                                            (40%) - 100 BNB allocated to pre/post launch marketing for Skeptic Token (SKP).
+                                        </li>
+                                    </ul>
+                                    </TransparentBox>
+                            </div>
+                        </div>
+                       
+                        
+                        <div className="mt--20 row g-5">
+                            <div className="col-lg-12">
+                               
+                            <HeadingLabel
+                          
+                            style={{
+                                padding: 4,
+                                justifyContent: "center",
+                                alignItems: "center",
+                                display: "flex",
+                                margin: 0,
+                                
+                            }}
+                            title="Common"
+                        /> <TransparentBox className="plr--25 ptb--30 h--90">
+                            <div className="row" >
+                                    <div className="col-lg-6" >
+                                    <h6 className="text-center">Permanent Benefits</h6>
                                     <ul>
                 
                                         <li>
@@ -99,19 +147,37 @@ const NFTArea = ({ className, space, data }) => {
                                             beta testing opportunities, first insight to new partnerships and affiliations and potentially periodic BNB bonuses.
                                         </li>
                                     </ul>
-                                    <h6 style={{textAlign: "center"}}>Temporary Benefits</h6>
+                                    </div>
+                                    <div className="col-lg-6">
+                                    <h6 className="text-center">Temporary Benefits</h6>
                                     <ul>
                                         <li>
                                             The First Skeptics NFT set will also receive 20% of the of the Burn Funds interest as its harvested which is detailed in the Burn Fund section. 
                                             This equals out to 0.08% per NFT. This benefit stops once 250 BNB in total payments have been dispersed to the NFT holders (the initial mint contribution). 
                                         </li>
                                     </ul>
+                                    </div>
+                                    </div>
                                 </TransparentBox>
                             </div>
-                            <div className="col-lg-6">
-                                <TransparentBox>
-                                    <h4 style={{textAlign: "center"}}>Rare</h4>
-                                    <ul>
+                            </div>
+                            <div className="mt--20 mb--20 row g-5">
+                            <div className="col-lg-12">
+                                
+                            <HeadingLabel
+                           
+                            style={{
+                                padding: 4,
+                                justifyContent: "center",
+                                alignItems: "center",
+                                display: "flex",
+                                margin: 0,
+                                
+                            }}
+                            title="Rare"
+                        /> 
+                        <TransparentBox className="ptb--10 h--80">
+                                    <ul className="mt--20">
                                         <li>
                                             Everything "Common" gets.
                                         </li>
@@ -122,16 +188,17 @@ const NFTArea = ({ className, space, data }) => {
                                             Additional "Rare" NFT holder benefits may be added at a later date.
                                         </li>
                                     </ul>
-                                </TransparentBox>
+                              </TransparentBox>  
                             </div>
-                        </div>
+                            </div>
+                       
                         
 
 
                     </TransparentBox>
                     
                     
-                </TransparentBox>
+                
             </div>
         </>
     );

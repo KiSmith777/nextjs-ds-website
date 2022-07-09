@@ -4,13 +4,14 @@ import { useRouter } from "next/router";
 import { MoralisProvider } from "react-moralis";
 import sal from "sal.js";
 import { ThemeProvider } from "next-themes";
+import { EthersProvider } from "../context/EthersContext";
 import "../assets/css/bootstrap.min.css";
 import "../assets/css/feather.css";
 import "../assets/scss/style.scss";
 import "react-toastify/dist/ReactToastify.css";
 
-const moralisAppId = "Kwntjc9eIjnVT0rFDhjBIYgDuP5DlU25Ddp0ewVv"
-const moralisServerURL = "https://o1529lbeantz.usemoralis.com:2053/server"
+const moralisAppId = "mA662H4sq1aE80GfLnmPSqrWV8xFok9m7VfPPeis";
+const moralisServerURL = "https://twjtxas0hhtj.usemoralis.com:2053/server";
 
 const MyApp = ({ Component, pageProps }) => {
     const router = useRouter();

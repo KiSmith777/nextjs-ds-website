@@ -36,17 +36,17 @@
         "menu": [
             {
                 "id": 1,
-                "text": "Terms of Use",
+                "text": "Terms",
                 "path": "/terms-of-use"
             },
             {
                 "id": 2,
-                "text": "Privacy Policy",
+                "text": "Privacy",
                 "path": "/privacy-policy"
             },
             {
                 "id": 3,
-                "text": "Cookie Policy",
+                "text": "Cookies",
                 "path": "/cookie-policy"
             },
             {

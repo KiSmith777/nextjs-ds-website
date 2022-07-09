@@ -171,6 +171,9 @@
 .feather-chevron-up:before {
     content: "\e931";
 }
+.feather-chevron-up:after {
+    content: "\e9311";
+}
 .feather-chevrons-down:before {
     content: "\e932";
 }

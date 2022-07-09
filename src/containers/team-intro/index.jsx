@@ -26,13 +26,43 @@ const TeamIntroArea = ({ className, space, data }) => {
                     priority
                 />
             </div>
-            <div
-                className={clsx(
-                    "rn-author-area",
-                    space === 1 && "mb--30 mt_dec--120",
-                    className
-                )}
-            >
+            <div style={{gap: 32, height: "100%", display: "flex", flexDirection: "row"}} className="container col-lg-12">
+            <div style={{display: "flex", justifyContent: "center", alignItems: "center", height: 420}}className="card col-lg-3">    
+                    <p className="card-body" style={{width: "100%", padding: 16}}>Poopy doopy</p>
+                    <div className="row ptb--20">
+                        <h2 className="card-title" style={{color: "black"}}>Poop</h2>
+                        <h6 className="card-subtitle" style={{color: "black"}}>in your doop</h6>
+                    </div>
+                </div>
+            
+
+                <div 
+                    data
+                    style={{display: "flex", justifyContent: "center", alignItems: "center", height: 420}} className="card col-lg-3">    
+                    <p className="card-body" style={{width: "100%", padding: 16}}>Poopy doopy</p>
+                    <div className="row ptb--20">
+                        <h2 className="card-title" style={{color: "black"}}>Poop</h2>
+                        <h6 className="card-subtitle" style={{color: "black"}}>in your doop</h6>
+                    </div>
+                </div>
+            
+
+            
+                <div style={{display: "flex", justifyContent: "center", alignItems: "center", height: 420}}className="card col-lg-3">    
+                    <p className="card-body" style={{width: "100%", padding: 16}}>Poopy doopy</p>
+                    <div className="row ptb--20">
+                        <h2 className="card-title" style={{color: "black"}}>Poop</h2>
+                        <h6 className="card-subtitle" style={{color: "black"}}>in your doop</h6>
+                    </div>
+                </div>
+
+                <div style={{display: "flex", justifyContent: "center", alignItems: "center", height: 420}}className="card col-lg-3">    
+                    <p className="card-body" style={{width: "100%", padding: 16}}>Poopy doopy</p>
+                    <div className="row ptb--20">
+                        <h2 className="card-title" style={{color: "black"}}>Poop</h2>
+                        <h6 className="card-subtitle" style={{color: "black"}}>in your doop</h6>
+                    </div>
+                </div>
             </div>
         </>
     );

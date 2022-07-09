@@ -2,10 +2,10 @@ import PropTypes from "prop-types";
 import clsx from "clsx";
 
 const TransparentBox = ({ className, style, children}) => (
-    <div style={{margin: 0, display: 'flex', justifyContent: 'center'}} className={clsx("rn-about-card transparent-bg", className)}>
+    <div style={{margin: 0, display: 'flex', justifyContent: 'center', style}} className={clsx("rn-about-card transparent-bg", className)} >
         <div 
             className="inner" 
-            style={{style, width: '100%'}}
+            style={{style,  padding: '25px 20px', height: '100%'}}
             data-sal="slide-left"
             data-sal-duration="800"
             data-sal-delay="150"

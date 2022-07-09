@@ -4,6 +4,11 @@ import clsx from "clsx";
 import SubMenu from "./submenu";
 import MegaMenu from "./megamenu";
 import MultiMenu from "./multi-level-menu"
+import {
+  RightOutlined,
+  DownOutlined
+} from "@ant-design/icons";
+import { Menu } from "antd";
 
 const MainMenu = ({ menu }) => (
     <ul className="mainmenu">
@@ -11,16 +16,16 @@ const MainMenu = ({ menu }) => (
             <li
                 key={nav.id}
                 className={clsx(
-                    !!nav.submenu && "has-droupdown has-menu-child-item",
-                    !!nav.megamenu && "with-megamenu"
+                    !!nav.children && "has-droupdown has-menu-child-item",
+                    
                 )}
             >
                 <Anchor className="its_new" path={nav.path} target={nav.target}>
                     {nav.text}
                 </Anchor>
-                {nav?.submenu && <SubMenu menu={nav.submenu} />}
+                {nav?.children && <SubMenu menu={nav.children} />}
                 
-                {nav?.megamenu && <MegaMenu menu={nav.megamenu} />}
+            
             </li>
         ))}
     </ul>

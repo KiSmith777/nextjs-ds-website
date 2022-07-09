@@ -13,18 +13,23 @@ import Anchor from "@ui/anchor";
 import Button from "@ui/button";
 import { useOffcanvas, useSticky, useFlyoutSearch } from "@hooks";
 import headerData from "../data/general/header.json";
-import menuData from "../data/general/menu.json";
 import { useState } from 'react';
 import { toast } from 'react-toastify';
 
 
-const Header = ({ className }) => {
+import menuData from "../data/general/newmenu.json";
+
+
+const Header = ({ className, menu }) => {
     const sticky = useSticky();
     const { offcanvas, offcanvasHandler } = useOffcanvas();
     const { search, searchHandler } = useFlyoutSearch();
     const { authenticate, isAuthenticated } = useMoralis();
-    const notify = () => (
-        toast("Logging In"))
+
+    function getItem() {
+
+    }
+    
 
 
     return (
@@ -59,7 +64,7 @@ const Header = ({ className }) => {
                                             color="primary-alta"
                                             className="connectBtn"
                                             size="small"
-                                            onClick={notify}
+                                            
                                         >
                                             App Coming Soon
                                         </Button>

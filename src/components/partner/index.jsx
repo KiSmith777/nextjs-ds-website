@@ -13,6 +13,7 @@ import { dataURItoByteString } from "react-pdf/dist/umd/shared/utils";
 
 const Partner = ({
     style,
+    underCount,
     overlay,
     title,
     telegram,
@@ -33,7 +34,7 @@ const Partner = ({
     return (
         <>
         
-            <div className={clsx("product-style-two", !overlay && "no-overlay")}>
+            <div id={id} className={clsx("product-style-two", !overlay && "no-overlay")}>
                 
                 <div className="card-thumbnail" style={{ cursor: "pointer" }} onClick={handlePartnerModal}>
                     {image?.src && (

@@ -2,17 +2,32 @@ import PropTypes from "prop-types";
 import clsx from "clsx";
 import Partner from "@components/partner";
 import { PartnerType } from "@utils/types";
-import { useSetState } from 'react-use';
+import { useState, useEffect } from 'react';
+
 
 const ExplorePartnerArea = ({ title, items, id, className, space }) => {
-   
 
-    return (  
+    const [partnerUnderCount, setPartnerUnderCount] = useState(false);
+    const [affiliateUnderCount, setAffiliateUnderCount] = useState(false);
+    const [promoterUnderCount, setPromoterUnderCount] = useState(false);
+    useEffect(() => {
+        if (items[1].partners.length < 2) {
+            setPartnerUnderCount(true);
+        }
+        if (items[2].affiliates.length < 2) {
+            setAffiliateUnderCount(true);
+        }
+        if (items[3].promoters.length < 2) {
+            setPromoterUnderCount(true);
+        }
+
+    });
+
+    return (
         <div key={id} className="container">
             <div className="row">
                 <div className="col-lg-12">
                     <div
-                        
                         className="row"
                         style={{ gap: 32, justifyContent: "space-evenly" }}
                     >
@@ -22,9 +37,8 @@ const ExplorePartnerArea = ({ title, items, id, className, space }) => {
                                         key={partner.id}
                                         style={{ width: 10, height: 100 }}
                                         overlay
-                                        id={partner.id}
+                                        id={!partnerUnderCount ? partner.id : "underCount"}
                                         group={items[1].title}
-                                       
                                         items={items}
                                         title={partner.title}
                                         telegram={partner.telegram}
@@ -38,7 +52,7 @@ const ExplorePartnerArea = ({ title, items, id, className, space }) => {
                         {title === "Affiliates" &&
                             items[2].affiliates.map((affiliate) => (
                                 <Partner
-                                    id={affiliate.id}
+                                    id={!affiliateUnderCount ? affiliate.id : "underCount"}
                                     key={affiliate.id}
                                     group={items[2].title}
                                     style={{ width: 10, height: 100 }}
@@ -63,7 +77,7 @@ const ExplorePartnerArea = ({ title, items, id, className, space }) => {
                                     key={promoter.id}
                                     group={items[3].title}
                                     items={items}
-                                    id={promoter.id}
+                                    id={!promoterUnderCount ? promoter.id : "underCount"}
                                     title={promoter.title}
                                     telegram={promoter.telegram}
                                     website={promoter.website}

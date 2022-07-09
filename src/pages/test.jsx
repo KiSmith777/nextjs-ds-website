@@ -4,7 +4,8 @@ import Header from "@layout/header";
 import Footer from "@layout/footer";
 import HeroArea from "@containers/hero";
 import ServiceArea from "@containers/services";
-import TestArea from "@containers/test-container"
+import TestArea from "@containers/test-container";
+import { EthersProvider } from "../context/EthersContext";
 
 /* import NewestItmesArea from "@containers/product/layout-04";
 import TopSellerArea from "@containers/top-seller/layout-01";
@@ -15,23 +16,22 @@ import { normalizedData } from "@utils/methods";
 // Demo Data
 import homepageData from "../data/homepages/home.json";
 
-
 export async function getStaticProps() {
     return { props: { className: "template-color-1" } };
 }
 
 const Test = () => {
     const content = normalizedData(homepageData?.content || []);
-  
+
     return (
         <Wrapper>
             <SEO pageTitle="Test" />
             <Header />
             <main id="main-content">
-                <TestArea/>
-               
+                <EthersProvider>
+                    <TestArea />
+                </EthersProvider>
             </main>
-            <Footer />
         </Wrapper>
     );
 };

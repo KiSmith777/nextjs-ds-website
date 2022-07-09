@@ -3,36 +3,30 @@
     "socials": [
         {
             "id": 1,
-            "icon": "fa-brands fa-discord",
-            "link": "https://discord.gg/DeFiSkeptic",
-            "title": "Discord"
-        },
-        {
-            "id": 2,
             "icon": "fa-brands fa-telegram",
             "link": "https://t.me/DeFi_Skeptic",
             "title": "DeFi Skeptic Announcements"
         },
         {
-            "id": 3,
+            "id": 2,
             "icon": "fa-brands fa-telegram",
             "link": "https://t.me/SkepticToken",
             "title": "Skeptic Token"
         },
         {
-            "id": 4,
+            "id": 3,
             "icon": "fa-brands fa-twitter",
             "link": "https://twitter.com/DefiSkeptic",
             "title": "Twitter"
         },
         {
-            "id": 5,
+            "id": 4,
             "icon": "fa-brands fa-medium",
             "link": "https://medium.com/@DeFi-Skeptic",
             "title": "Medium"
         },
         {
-            "id": 6,
+            "id": 5,
             "icon": "fa-solid fa-envelope",
             "link": "mailto:contact@defiskeptic.com",
             "title": "mail"
