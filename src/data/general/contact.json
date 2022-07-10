@@ -31,5 +31,47 @@
             "link": "mailto:contact@defiskeptic.com",
             "title": "mail"
         }
+    ],
+    "chrisSocials": [
+        {
+            "id": 1,
+            "icon": "fa-brands fa-telegram",
+            "link": "https://t.me/DS_Founder",
+            "title": "Chris Telegram"
+        },
+        {
+            "id": 2,
+            "icon": "fa-solid fa-envelope",
+            "link": "mailto:chris@defiskeptic.com",
+            "title": "Chris Email"
+        }
+    ],
+    "kierSocials": [
+        {
+            "id": 1,
+            "icon": "fa-brands fa-telegram",
+            "link": "https://t.me/DS_WebDev",
+            "title": "Kieran Telegram"
+        },
+        {
+            "id": 2,
+            "icon": "fa-solid fa-envelope",
+            "link": "mailto:kieran@defiskeptic.com",
+            "title": "Kieran Email"
+        }
+    ],
+    "jakeSocials": [
+        {
+            "id": 1,
+            "icon": "fa-brands fa-telegram",
+            "link": "https://t.me/jake_will1",
+            "title": "Jake Telegram"
+        },
+        {
+            "id": 2,
+            "icon": "fa-solid fa-envelope",
+            "link": "mailto:jake@defiskeptic.com",
+            "title": "Jake Email"
+        }
     ]
 }

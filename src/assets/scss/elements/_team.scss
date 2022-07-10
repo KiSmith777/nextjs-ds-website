@@ -1,0 +1,136 @@
+.teamHeading {
+    position: relative;
+    height: 87px;
+    display: flex;
+    justify-content: center;
+    margin-top: 37px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 87px;
+
+    color: #ffffff;
+}
+
+.contentWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.teamCard {
+    height: 338px;
+    width: 338px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(
+        50% 50% at 50% 50%,
+        #d9d9d9 0%,
+        rgba(217, 217, 217, 0) 81.77%
+    );
+    border-radius: 0px;
+}
+
+.teamPic {
+    width: 213px;
+    height: 213px;
+    position: relative;
+    border-radius: 8px;
+    background-size: cover;
+
+    &-chris {
+        background-image: url("/images/team/chrisPic.png");
+        width: 213px;
+        height: 213px;
+        position: relative;
+        border-radius: 8px;
+        background-size: cover;
+    }
+    &-kieran {
+        background-image: url("/images/team/kierPic.png");
+        width: 213px;
+        height: 213px;
+        position: relative;
+        border-radius: 8px;
+        background-size: cover;
+    }
+    &-jake {
+        background-image: url("/images/team/jakePic.png");
+        width: 213px;
+        height: 213px;
+        position: relative;
+        border-radius: 8px;
+        background-size: cover;
+    }
+    &-joe {
+        background-image: url("/images/team/josephPic.png");
+        width: 213px;
+        height: 213px;
+        position: relative;
+        border-radius: 8px;
+        background-size: cover;
+    }
+}
+
+.infoBox {
+    display: flex;
+    justify-content: center;
+    margin-top: -31px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0;
+
+    letter-spacing: 0em;
+    text-align: center;
+
+    &-jobTitle {
+        display: flex;
+        justify-content: center;
+
+        font-weight: 400;
+        color: #ffffff;
+    }
+
+    &-description {
+        display: flex;
+        justify-content: center;
+        font-size: 24px;
+
+        width: 1293px;
+
+        &-quote {
+            /* “I want to make DeFi as easy and safe as buying a cup of coffee.” */
+            margin: 32px;
+            font-style: italic;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 33px;
+            text-align: center;
+            width: 1097px;
+
+            color: #ffffff;
+        }
+    }
+    /* identical to box height */
+
+    color: #ffffff;
+}
+
+.teamSocials {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+
+    @media #{$md-layout} {
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+    }
+
+    @media #{$sm-layout} {
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+    }
+}
