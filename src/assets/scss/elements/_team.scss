@@ -17,6 +17,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 40px;
 }
 .teamCard {
     height: 338px;
@@ -39,7 +40,7 @@
     border-radius: 8px;
     background-size: cover;
 
-    &-chris {
+  &#chris {
         background-image: url("/images/team/chrisPic.png");
         width: 213px;
         height: 213px;
@@ -47,7 +48,7 @@
         border-radius: 8px;
         background-size: cover;
     }
-    &-kieran {
+    &#kieran {
         background-image: url("/images/team/kierPic.png");
         width: 213px;
         height: 213px;
@@ -55,7 +56,7 @@
         border-radius: 8px;
         background-size: cover;
     }
-    &-jake {
+    &#jake {
         background-image: url("/images/team/jakePic.png");
         width: 213px;
         height: 213px;
@@ -63,7 +64,7 @@
         border-radius: 8px;
         background-size: cover;
     }
-    &-joe {
+    &#joe {
         background-image: url("/images/team/josephPic.png");
         width: 213px;
         height: 213px;
@@ -74,34 +75,29 @@
 }
 
 .infoBox {
-    display: flex;
-    justify-content: center;
+    
     margin-top: -31px;
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 0;
-
     letter-spacing: 0em;
-    text-align: center;
+   
 
     &-jobTitle {
-        display: flex;
-        justify-content: center;
-
         font-weight: 400;
         color: #ffffff;
+        margin: 0;
     }
 
     &-description {
-        display: flex;
-        justify-content: center;
+        text-align: justify;
         font-size: 24px;
 
         width: 1293px;
 
         &-quote {
             /* “I want to make DeFi as easy and safe as buying a cup of coffee.” */
-            margin: 32px;
+            
             font-style: italic;
             font-weight: 400;
             font-size: 24px;
