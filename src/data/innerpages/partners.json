@@ -63,7 +63,21 @@
                             ]
                         },
                         {
-                            "id": 122,
+                            "id": 123,
+                            "title": "CroGram",
+                            "telegram": "",
+                            "website": "https://crogram.app/",
+                            "desc1": "CroGram is a brand new mobile app created for devs and investors in the crypto community. Join or create groups, messaging, voice chat, trending, and much more. Think Telegram and Discord blended to create the perfect platform for cryptocurrency investors. ",
+                            "desc2": "DeFi Skeptic will provide project vetting which will be used to give projects a \"Trusted\" badge within the app. DeFi Skeptic will also be a preferred developer service provider within the VIP section!",
+                            "desc3": "By leveraging DeFi Skeptics intensive vetting process, CroGram ensures projects have a way of showing the userbase trhey are trusted and transparent.",
+                            "image": [
+                                {
+                                    "src": "/images/partners_affiliates/partners/CroGram.png"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 123,
                             "title": "Dappd",
                             "telegram": "",
                             "website": "https://dappd.net",
