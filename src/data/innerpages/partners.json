@@ -22,11 +22,25 @@
                     "partners": [
                         {
                             "id": 120,
+                            "title": "GemPad",
+                            "telegram": "TheGemPad",
+                            "website": "https://gempad.app/",
+                            "desc1": "GemPad is a frontline protocol for users and project-owners designed to help to launch their projects and tokens in the easiest way possible. Their tiered listing insures a high level of security for pre-launch investors.",
+                            "desc2": "DeFi Skeptic will provide project vetting, audits and various other services to GemPad.",
+                            "desc3": "By leveraging DeFi Skeptics intensive vetting process, GemPad ensures projects listing on their launchpad maintain a high level of transparency and information accuracy.",
+                            "image": [
+                                {
+                                    "src": "/images/partners_affiliates/partners/GemPad.png"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 121,
                             "title": "Apollo Ventures",
                             "telegram": "apolloventures",
                             "website": "https://a11.finance",
                             "desc1": "Apollo Ventures is a complete ecosystem to help crypto projects get launched and find vetted services to help promote their project consisting of a marketplace, ads platform and launchpad. Additionally, Apollo Ventures has a loss protection plan which covers anywhere from 25% to 100% of a presale contributors funds incase of exploit or vulnerability.",
-                            "desc2": "DeFi Skeptic provides Apollo Ventures project vetting for the Apollo Launchpad.",
+                            "desc2": "DeFi Skeptic will provide project vetting, audits and various other services to Apollo Ventures.",
                             "desc3": "By leveraging DeFi Skeptics intensive vetting process, Apollo Venture ensures projects listing on their launchpad maintain a high level of transparency and information accuracy.",
                             "image": [
                                 {
@@ -35,7 +49,21 @@
                             ]
                         },
                         {
-                            "id": 121,
+                            "id": 122,
+                            "title": "Son Of Doge",
+                            "telegram": "SonOfDoge",
+                            "website": "https://sonofdoge.website/",
+                            "desc1": "Son Of Doge is a decentralized and borderless ecosystem with a multi-chain launchpad focused on bridging meme and utility.",
+                            "desc2": "DeFi Skeptic will provide project vetting, audits and various other services to Son Of Doge.",
+                            "desc3": "By leveraging DeFi Skeptics intensive vetting process, Son Of Doge ensures projects listing on their launchpad maintain a high level of transparency and information accuracy.",
+                            "image": [
+                                {
+                                    "src": "/images/partners_affiliates/partners/SOD.png"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 122,
                             "title": "Dappd",
                             "telegram": "",
                             "website": "https://dappd.net",
@@ -49,7 +77,7 @@
                             ]
                         },
                         {
-                            "id": 122,
+                            "id": 123,
                             "title": "SEEK",
                             "telegram": "SEEK_Token",
                             "website": "https://seektoken.net/",
