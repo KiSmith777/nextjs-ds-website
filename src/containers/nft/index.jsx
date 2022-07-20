@@ -40,8 +40,15 @@ const NFTArea = ({ className, space, data }) => {
                 <HeadingLabel section="NFT" className="mt--20" style={{padding: 4, justifyContent: 'center', alignItems: "flex-start", display: 'flex', margin: 0}} title="First Skeptic NFTs"/>
                     <TransparentBox>
                         <p className="mt_dec--30">To kick off DeFi Skeptics mission of bettering DeFi, we had an NFT sale. 
-                            This NFT sale funded the Skeptic Token fair launch. <br/><br/>
-                            That's right, there was no tokens sold prior to launch! You'll want to read on...
+                            This NFT sale funded the Skeptic Token fair launch. That's right, there was no tokens sold prior to launch! You'll want to read on...
+                        <br />
+                        <br />
+                        <b>Note</b>:
+                        <i>
+                            {" "}
+                            Skeptic Tokens are also interchangeable with First Skeptic NFTs at a 200k to 1 conversion rate. 
+                            This is done through the <a href="https://app.defiskeptic.com/vault">Skeptic Vault</a>. 
+                        </i>
                         </p>
                         <div className="mt--10 row g-5">
                             <div className="col-lg-6" >
@@ -98,13 +105,11 @@ const NFTArea = ({ className, space, data }) => {
                                     </TransparentBox>
                             </div>
                         </div>
-                       
-                        
-                        <div className="mt--20 row g-5">
+                            <div className="mt--20 mb--20 row g-5">
                             <div className="col-lg-12">
-                               
+                                
                             <HeadingLabel
-                          
+                           
                             style={{
                                 padding: 4,
                                 justifyContent: "center",
@@ -114,39 +119,26 @@ const NFTArea = ({ className, space, data }) => {
                                 
                             }}
                             title="Common"
-                        /> <TransparentBox className="plr--25 ptb--30 h--90">
-                            <div className="row" >
-                                    <div className="col-lg-6" >
-                                    <h6 className="text-center">Permanent Benefits</h6>
-                                    <ul>
-                
-                                        <li>
-                                            The First Skeptics NFT set will receive 3% of all Skeptic Token (SKP) buys, 
-                                            sells and buy & burns coming from the Burn Fund. This equals out to 0.012% per NFT. 
-                                            This benefit is perpetual and never stops.
-                                        </li>
-                                        <li>
-                                            Skeptic Token (SKP) employs <a href="/arbitrage-service">AaaS</a> to realize profit between our SKP/BNB and SKP/BUSD liquidity pools. 
-                                            45% of this profit will be directed to all First Skeptic NFT holders. This equals out to 0.18% per NFT. 
-                                            This benefit is perpetual and never stops.
-                                        </li>
-                                        <li>
-                                            First Skeptic NFT holders will also be added to an exclusive community on Telegram where they will get first insight to new products & services, 
-                                            beta testing opportunities, first insight to new partnerships and affiliations and potentially periodic BNB bonuses.
-                                        </li>
+                        /> 
+                        <TransparentBox className="ptb--10 h--80">
+                                    <ul className="mt--20">
+                                    <li>
+                                    The First Skeptics NFT set will receive 3% of all Skeptic Token (SKP) 
+                                    buys & sells. This benefit is perpetual and never stops.
+                                    </li>
+                                    <li>
+                                    Skeptic Token (SKP) employs Arbitrage as a Service (AaaS) to realize profit between our SKP/BNB and SKP/XUSD liquidity pools. 
+                                    50% of this profit will be directed to all First Skeptic NFT holders. This benefit is perpetual and never stops.
+                                    </li>
+                                    <li>
+                                    The First Skeptics NFT set will also receive 40% of the of the Skeptic Funds interest as its harvested. 
+                                    This benefit is perpetual and never stops.
+                                    </li>
+                                    <li>
+                                    Periodically, DeFi Skeptic will direct a portion of revenue from our products & services to the First Skeptics NFTs.
+                                    </li>
                                     </ul>
-                                    </div>
-                                    <div className="col-lg-6">
-                                    <h6 className="text-center">Temporary Benefits</h6>
-                                    <ul>
-                                        <li>
-                                            The First Skeptics NFT set will also receive 20% of the of the Burn Funds interest as its harvested which is detailed in the Burn Fund section. 
-                                            This equals out to 0.08% per NFT. This benefit stops once 250 BNB in total payments have been dispersed to the NFT holders (the initial mint contribution). 
-                                        </li>
-                                    </ul>
-                                    </div>
-                                    </div>
-                                </TransparentBox>
+                              </TransparentBox>  
                             </div>
                             </div>
                             <div className="mt--20 mb--20 row g-5">
