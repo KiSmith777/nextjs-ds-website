@@ -327,23 +327,19 @@ const TokenArea = ({ className, space, data }) => {
                                 <br />
                                 <br />
                                 The Skeptic Fund receives income from the following:
-                                <br />
-                                • 4% of SKP tax.
-                                <br />
-                                • 50% of AaaS profit.
-                                <br />
-                                • Compounding Interest.
-                                <br />
-                                • Revenue from our products & services.
-                                <br />
-                                <br />
+                                <ul>
+                                <li>4% of SKP tax.</li>
+                                <li>50% of AaaS profit.</li>
+                                <li>Compounding Interest.</li>
+                                <li>Revenue from our products & services.</li>
+                                </ul>
                                 Once a month this interest will be harvested and used as follows:
-                                <br />
-                                • 40% sent to the First Skeptic NFT holders.
-                                <br />
-                                • 40% is compounded to ensure fund growth.
-                                <br />
-                                • 20% is directed to marketing.
+                                <ul>
+                                <li>40% sent to the First Skeptic NFT holders.</li>
+                                <li>40% is compounded to ensure fund growth.</li>
+                                <li>20% is directed to marketing.</li>
+                                </ul>
+                               
                             </p>
                             <div className="rn-author-bg-area position-relative ptb--140 mt--20 mb--20">
                                 <Image
@@ -385,11 +381,11 @@ const TokenArea = ({ className, space, data }) => {
                                 <br />
                                 <br />
                                 This profit will be used as follows:
+                                <ul>
+                                <li>50% directed to First Skeptic NFT holders.</li>
+                                <li>50% directed into the Skeptic Fund.</li>
+                                </ul>
                                 <br />
-                                • 50% directed to First Skeptic NFT holders.
-                                <br />
-                                • 50% directed into the Skeptic Fund.
-
                             </p>
                             <div className="rn-author-bg-area position-relative ptb--200 mt--20 mb--20">
                                 <Image

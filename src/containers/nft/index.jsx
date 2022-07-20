@@ -39,9 +39,9 @@ const NFTArea = ({ className, space, data }) => {
             <div className="container">
                 <HeadingLabel section="NFT" className="mt--20" style={{padding: 4, justifyContent: 'center', alignItems: "flex-start", display: 'flex', margin: 0}} title="First Skeptic NFTs"/>
                     <TransparentBox>
-                        <p className="mt_dec--30">To kick off DeFi Skeptics mission of bettering DeFi, we are having an NFT sale. 
-                            This NFT sale will fund the SKEPTIC TOKEN fair launch. <br/><br/>
-                            That's right, there will be no tokens sold prior to launching! You'll want to read on...
+                        <p className="mt_dec--30">To kick off DeFi Skeptics mission of bettering DeFi, we had an NFT sale. 
+                            This NFT sale funded the Skeptic Token fair launch. <br/><br/>
+                            That's right, there was no tokens sold prior to launch! You'll want to read on...
                         </p>
                         <div className="mt--10 row g-5">
                             <div className="col-lg-6" >
@@ -92,21 +92,9 @@ const NFTArea = ({ className, space, data }) => {
                             title="Proceeds Usage"
                         /> 
                         <TransparentBox className="ptb--10 h--85">
-                                <p >DeFi Skeptic will use the 250 BNB from the First Skeptics NFT minting as follows:</p>
-                                    <ul>
-                                        <li>
-                                            (20%) - 50 BNB allocated to initial liquidity for SKP/BNB.
-                                        </li>
-                                        <li>
-                                            (20%) - 50 BNB allocated to initial liquidity for SKP/BUSD. 
-                                        </li>
-                                        <li>
-                                            (20%) - 50 BNB allocated to the Burn Fund.
-                                        </li>
-                                        <li>
-                                            (40%) - 100 BNB allocated to pre/post launch marketing for Skeptic Token (SKP).
-                                        </li>
-                                    </ul>
+                                <p >DeFi Skeptic raised 102 BNB from the public which funded some of the initial liquidity and all of the pre-launch marketing.</p>
+                                <br />
+                                <p >The team behind DeFi Skeptic also put up 93 BNB from their own pockets which funded some of the initial liquidity and all of the Skeptic Funds intitial funding.</p>
                                     </TransparentBox>
                             </div>
                         </div>
