@@ -77,7 +77,7 @@
                             ]
                         },
                         {
-                            "id": 123,
+                            "id": 124,
                             "title": "Dappd",
                             "telegram": "",
                             "website": "https://dappd.net",
@@ -91,16 +91,58 @@
                             ]
                         },
                         {
-                            "id": 123,
+                            "id": 125,
                             "title": "SEEK",
                             "telegram": "SEEK_Token",
                             "website": "https://seektoken.net/",
                             "desc1": "SEEK is a platform focused on DeFi security and education. They offer an industry leading identification verification service (KYC) and harbor a vast community of safe, vetted and established projects under their umbrella. Their goal is to make DeFi a safer place for the investor.",
-                            "desc2": "This partnership will allow SEEK and DeFi Skeptic to leverage key services from each other while supporting our collective goal of making DeFi better!",
-                            "desc3": "",
+                            "desc2": "",
+                            "desc3": "This partnership will allow SEEK and DeFi Skeptic to leverage key services from each other while supporting our collective goal of making DeFi better!",
                             "image": [
                                 {
                                     "src": "/images/partners_affiliates/partners/seek.png"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 126,
+                            "title": "StaySAFU",
+                            "telegram": "",
+                            "website": "https://www.staysafu.org/",
+                            "desc1": "StaySAFU is a Binance Smart Chain focused security platform which provides on demand scanning of smart contracts in addition to other services focused on making DeFi safer for the user.",
+                            "desc2": "",
+                            "desc3": "As a partner, DeFi Skeptic is granted access to the StaySAFU API which is a leading screening tool. This will be fused into the vetted project database and provide key details to project profiles. Additionally, StaySAFU will be leveraging some of DeFi Skeptics services, making this partnership a great strategic move for both sides!",
+                            "image": [
+                                {
+                                    "src": "/images/partners_affiliates/partners/StaySAFUv1.png"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 127,
+                            "title": "FloozTrade",
+                            "telegram": "",
+                            "website": "https://flooz.trade/",
+                            "desc1": "Flooz Trade takes pride in humanizing crypto by bridging the gap between FIAT and DeFi by allowing seamless FIAT onboarding making getting into a specific DeFi project incredibly easy.",
+                            "desc2": "",
+                            "desc3": "As a partner, DeFi Skeptic will provide Flooz Trade’s FIAT onboarding as a service to developers so they can get immediate FIAT to Token conversion for their project right from day one. The supports DeFi Skeptics goal of bettering DeFi by providing developers the tools they need for a successful project.",
+                            "image": [
+                                {
+                                    "src": "/images/partners_affiliates/partners/Flooz.png"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 128,
+                            "title": "Mobula",
+                            "telegram": "MobulaFi",
+                            "website": "https://mobula.fi/",
+                            "desc1": "Mobula is a decentralized data aggregator. They believe everyone should be able to query relaible data about DeFi assets and not rely on the approval of centralized listing sites.",
+                            "desc2": "DeFi Skeptic will be integrating data from Mobula in our vetted project database.",
+                            "desc3": "This supports DeFi Skeptics goal of bettering DeFi by providing DeFi users and developers data without the centralization of specific platform controlling who gets listed and who doesnt based on how much they are willing to spend.",
+                            "image": [
+                                {
+                                    "src": "/images/partners_affiliates/partners/Mobula.png"
                                 }
                             ]
                         }
@@ -211,6 +253,20 @@
                             "image": [
                                 {
                                     "src": "/images/partners_affiliates/promoters/degemlounge.png"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 146,
+                            "title": "Ninja Lounge",
+                            "telegram": "ninjalounge",
+                            "website": "",
+                            "desc1": "One major issue in the DeFi space is how projects are promoted. A very effective way of reaching an audience is by directly speaking to them. However, many of these platforms conduct in unethical practices using “paid” bots to make their customer feel like they are getting more than they really are.",
+                            "desc2": "DeFi Skeptic has made an effort to source legitimate promotional platforms who do not conduct in these practices such as ",
+                            "desc3": "",
+                            "image": [
+                                {
+                                    "src": "/images/partners_affiliates/promoters/Ninja-Lounge.png"
                                 }
                             ]
                         }
