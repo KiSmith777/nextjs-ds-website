@@ -9,10 +9,10 @@ import FunfactArea from "@containers/funfact";
 import CTAArea from "@containers/cta";
 import BlogArea from "@containers/blog";
 import { normalizedData } from "@utils/methods";
-import { getAllPosts } from "../lib/api";
+import { getAllPosts } from "../../lib/api";
 
 // Demo data
-import aboutData from "../data/innerpages/about.json";
+import aboutData from "../../data/innerpages/about.json";
 
 const About = ({ posts }) => {
     const content = normalizedData(aboutData?.content || []);

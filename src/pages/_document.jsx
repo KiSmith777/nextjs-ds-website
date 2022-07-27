@@ -12,7 +12,23 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
-                    <script src="https://kit.fontawesome.com/bd483e6735.js" crossOrigin="anonymous"></script>
+                    <script
+                        src="https://kit.fontawesome.com/bd483e6735.js"
+                        crossOrigin="anonymous"
+                    ></script>
+                    <link
+                        rel="preconnect"
+                        href="https://fonts.googleapis.com"
+                    />
+                    <link
+                        rel="preconnect"
+                        href="https://fonts.gstatic.com"
+                        crossorigin
+                    />
+                    <link
+                        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+                        rel="stylesheet"
+                    />
                 </Head>
                 <body>
                     <Main />
@@ -24,3 +40,4 @@ class MyDocument extends Document {
 }
 
 export default MyDocument;
+
