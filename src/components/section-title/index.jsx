@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import clsx from "clsx";
 
 const SectionTitle = ({ title, className, disableAnimation, ...restProps }) => (
-    <h3
+    <h2
         className={clsx("title", className)}
         data-sal-delay="150"
         data-sal={!disableAnimation && "slide-up"}

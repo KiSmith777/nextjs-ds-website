@@ -3,18 +3,17 @@ import clsx from "clsx";
 import SectionTitle from "@components/section-title";
 import { TextType, SectionTitleType } from "@utils/types";
 
-const QuoteArea = ({ space, className, data }) => (
+const QuoteArea = ({ space, className, data, reverse }) => (
     <div
         className={clsx(
-            "rn-about-Quote-area",
             space === 1 && "rn-section-gapTop",
             className
         )}
     >
         <div className="container">
-            <div className="row g-5 d-flex align-items-center">
+            <div className={clsx("row g-5 d-flex align-items-center", reverse && "flex-row-reverse")}>
                 <div className="col-lg-6">
-                    <div className="rn-about-title-wrapper">
+                    <div className="rn-about-title-wrapper text-center">
                         {data?.section_title && (
                             <SectionTitle {...data.section_title} />
                         )}

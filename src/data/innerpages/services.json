@@ -1,0 +1,180 @@
+{
+  "title": "services",
+  "content": [
+    {
+      "id": 1,
+      "section": "type-of-user-section",
+      "section_title": {
+        "title": "DeFi Skeptic Services"
+      },
+      "items": [
+        {
+          "id": 11,
+          "title": "DeFi Developer",
+          "subtitle": "View Developer Services",
+          "path": "/developer-services",
+          "images": {
+            "src": "/images/icons/coding.png"
+          }
+        },
+        {
+          "id": 12,
+          "title": "DeFi User",
+          "subtitle": "View User Services",
+          "path": "/user-services",
+          "images": {
+            "src": "/images/icons/users.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "section": "developer-services-section",
+      "section_title": {
+        "title": "Services for DeFi Developers"
+      },
+      "description": "DeFi Skeptic provides a wide range of services tailored to developers to satisfy any developer need. We realize starting a project can be time consuming, expensive, and often times stressful. Our intent is to provide key services to take the workload off of your team while remaining competitively priced to ensure you maximize the usage of your funds. We strive to go above and beyond to meet the needs of the client as our goal is to better DeFi and this starts at the beginning, where projects are created.",
+      "items": [
+        {
+          "id": 21,
+          "title": "Supportive Services",
+          "services": [
+            {
+              "id": 211,
+              "title": "Project Vetting",
+              "path": "/vetting",
+              "icon": "solid fa-shield",
+              "image": ""
+            },
+            {
+              "id": 212,
+              "title": "Arbitrage as a Service",
+              "path": "/arbitrage-service",
+              "icon": "solid fa-robot",
+              "image": ""
+            },
+            {
+              "id": 213,
+              "title": "KYC Verification",
+              "path": "/kyc-service",
+              "icon": "solid fa-id-card",
+              "image": ""
+            },
+            {
+              "id": 214,
+              "title": "Contract Audits",
+              "path": "/contract-audits",
+              "icon": "solid fa-code",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "title": "Development Services",
+          "services": [
+            {
+              "id": 221,
+              "title": "Web Development",
+              "path": "/web-development",
+              "icon": "solid fa-globe",
+              "image": ""
+            },
+            {
+              "id": 222,
+              "title": "Token & NFT Creation",
+              "path": "/vetting",
+              "icon": "solid fa-coins",
+              "image": ""
+            },
+            {
+              "id": 223,
+              "title": "dApp & Bot Creation",
+              "path": "/vetting",
+              "icon": "solid fa-robot",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "title": "Design Services",
+          "services": [
+            {
+              "id": 231,
+              "title": "UX & UI Design",
+              "path": "/vetting",
+              "icon": "solid fa-object-group",
+              "image": ""
+            },
+            {
+              "id": 232,
+              "title": "Graphic Design",
+              "path": "/vetting",
+              "icon": "solid fa-icons",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "title": "Marketing & Promotional Services",
+          "services": [
+            {
+              "id": 241,
+              "title": "Vetted AMA Tour",
+              "path": "/vetting",
+              "icon": "solid fa-people-group",
+              "image": ""
+            },
+            {
+              "id": 242,
+              "title": "Marketing Strategists",
+              "path": "/vetting",
+              "icon": "solid fa-rectangle-ad",
+              "image": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "section": "user-services-section",
+      "section_title": {
+        "title": "Services for DeFi Users"
+      },
+      "description": "As a DeFi user, you have many hurdles. Our goal at DeFi Skeptic is to remove those hurdles and make your experience better and your navigation of the DeFi space easier.",
+      "items": [
+        {
+          "id": 31,
+          "title": "User Services",
+          "services": [
+            {
+              "id": 311,
+              "title": "Vetted Database",
+              "path": "/vetted-projects",
+              "icon": "solid fa-database",
+              "image": ""
+            },
+            {
+              "id": 312,
+              "title": "DS Drops",
+              "path": "/drops",
+              "icon": "solid fa-droplet",
+              "image": ""
+            },
+            {
+              "id": 313,
+              "title": "Coming Soon",
+              "path": "/coming-soon",
+              "icon": "solid fa-circle-question",
+              "image": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -7,7 +7,7 @@ import { HeadingType, TextType, ButtonType, ImageType } from "@utils/types";
 const HeroArea = ({ data }) => (
 
 
-    <div className="slider-one rn-section-gapTop">
+    <div id="home" className="slider-one rn-section-gapTop">
         <div className="container">
             <div className="row row-reverce-sm align-items-center">
                 <div className="col-lg-5 col-md-6 col-sm-12 mt_sm--50">

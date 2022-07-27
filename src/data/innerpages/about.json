@@ -19,19 +19,43 @@
                 {
                     "id": 2,
                     "title": "What is DeFi Skeptic?",
-                    "description": "DeFi Skeptic is a platform that seeks to reduce fraud while increasing transparency and accuracy of information in the DeFi space. It will do this by providing a platform to highlight vetted projects in addition to various products and services for both DeFi developers and users as well as acquiring strategic partnerships and affiliations who support the same vision/mission. \n\nThis ecosystem of products and services is power by Skeptic Token (SKP) which is a multi-use, liquidity backed token with a unique deflationary mechanism that is not volume dependent which we call the \"Burn Fund\"."
+                    "description": "DeFi Skeptic is a platform that seeks to reduce fraud while increasing transparency and accuracy of information in the DeFi space. It will do this by providing a platform to highlight vetted projects in addition to various products and services for both DeFi developers and users as well as acquiring strategic partnerships and affiliations with those who support the same vision/mission."
                 }
             ]
         },
         {
-            "section": "quote-section",
+            "section": "strategy-section",
             "section_title": {
-                "title": "Project Vetting & Vetted Project Database"
+                "title": "Strategic Partnerships"
             },
             "texts": [
                 {
                     "id": 1,
                     "content": "DeFi Skeptic serves DeFi in various ways. One way is by conducting in-depth video interviews with project developers. During this session, the Defi Skeptic team will scrutinize, analyze, and independently review every aspect of the project following the vetting process. Providing this level of detail on DeFi projects can help reduce fraud while increasing security and peace of mind for those looking to invest their hard-earned money.\n\nIf you are a project team member and would like to apply to have the project vetted by DeFi Skeptic, you can do so on the Get Vetted page.\n\nDeFi projects that have passed the vetting process are listed in the DeFi Skeptic Vetted Projects page."
+                }
+            ]
+        },
+        {
+            "section": "for-developers-section",
+            "section_title": {
+                "title": "For DeFi Developers"
+            },
+            "texts": [
+                {
+                    "id": 1,
+                    "content": "If you are looking to start a DeFi project or just take your current project to the next level, you have come to the right place! We provide a full range of services for developers to assist your project at any stage, even from the very start. Our goal is to be your sole source for anything needed."
+                }
+            ]
+        },
+        {
+            "section": "for-users-section",
+            "section_title": {
+                "title": "For DeFi Users"
+            },
+            "texts": [
+                {
+                    "id": 1,
+                    "content": "Are you a DeFi user? We also provide a full range of products and services catered to the average user to make your journey in the DeFi space easier, safer and seamless. Whether you’re looking for information on the latest projects, a way to generate passive income or just a way to get automated exposure to the latest trusted projects, we have everything you need."
                 }
             ]
         },

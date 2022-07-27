@@ -14,8 +14,8 @@ const AboutArea = ({ space, className, data }) => (
             className
         )}
     >
-        <div className="container mb--30">
-            <div className="row">
+        <div className="container mb--150" id="about">
+            <div className="row text-center">
                 <div className="col-12">
                     {data?.section_title && (
                         <SectionTitle
@@ -26,36 +26,19 @@ const AboutArea = ({ space, className, data }) => (
                 </div>
             </div>
         </div>
-        <div className="container-fluid about-fluidimg ">
-            <div className="row">
-                <div className="img-wrapper">
-                    {data?.image?.src && (
-                        <Image
-                            src={data.image.src}
-                            alt={data.image?.alt || "Slider BG"}
-                            layout="fill"
-                            objectFit="cover"
-                            quality={100}
-                            priority
-                        />
-                    )}
-                </div>
-            </div>
-        </div>
+
         <div className="container">
             <div className="row g-5">
                 {data?.items?.[0] && (
                     <div className="col-lg-6">
-                        <div className="h--100">
-                            <Sticky>
-                                <AboutCard
-                                    className="mt_dec--50 widge-wrapper rbt-sticky-top-adjust"
-                                    title={data.items[0].title}
-                                    desc={data.items[0].description}
-                                    path={data.items[0].path}
-                                />
-                            </Sticky>
-                        </div>
+                        <Sticky>
+                            <AboutCard
+                                className="mt_dec--50 widge-wrapper rbt-sticky-top-adjust"
+                                title={data.items[0].title}
+                                desc={data.items[0].description}
+                                path={data.items[0].path}
+                            />
+                        </Sticky>
                     </div>
                 )}
                 {data?.items?.[1] && (
@@ -88,3 +71,4 @@ AboutArea.defaultProps = {
 };
 
 export default AboutArea;
+

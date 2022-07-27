@@ -24,10 +24,10 @@ const Services = () => {
   
     return (
         <Wrapper>
-            <SEO pageTitle="Products & Services" />
+            <SEO pageTitle="Developer Services" />
             <Header />
             <main id="main-content">
-                <ServiceArea data={content["type-of-user-section"]} />
+                <ServiceArea data={content["developer-services-section"]} />
                
             </main>
             <Footer />

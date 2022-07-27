@@ -6,14 +6,14 @@ const AboutCard = ({ className, title, desc, path }) => (
     <div className={clsx("rn-about-card", className)}>
         <div className="inner">
             <h2
-                className="title"
+                className="title text-center"
                 data-sal="slide-up"
                 data-sal-duration="800"
                 data-sal-delay="150"
                 dangerouslySetInnerHTML={{ __html: title }}
             />
             <p
-                className="about-disc"
+                className="about-disc text-justify"
                 data-sal="slide-up"
                 data-sal-duration="800"
                 data-sal-delay="150"

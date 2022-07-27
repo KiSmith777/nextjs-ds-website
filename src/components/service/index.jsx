@@ -35,9 +35,9 @@ const Service = ({ title, subtitle, path, description, image }) => (
 
 Service.propTypes = {
     title: PropTypes.string.isRequired,
-    subtitle: PropTypes.string.isRequired,
-    path: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
+    subtitle: PropTypes.string,
+    path: PropTypes.string,
+    description: PropTypes.string,
     image: ImageType,
 };
 

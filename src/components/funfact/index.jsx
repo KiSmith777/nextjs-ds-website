@@ -14,7 +14,7 @@ const FunFact = ({ className, counter, title, suffix }) => {
         }
     };
     return (
-        <div className={clsx("single-counter-up text-center", className)}>
+        <div className={clsx("single-counter-up text-center h--100", className)}>
             <div className="number counter-odomitter-active">
                 <CountUp start={focus ? 0 : null} end={counter} duration={5}>
                     {({ countUpRef }) => (

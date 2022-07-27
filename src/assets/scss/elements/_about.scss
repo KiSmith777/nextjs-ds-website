@@ -9,6 +9,7 @@
 }
 .rn-about-wrapper {
     padding: 25px;
+    background: #13131d57;
     border: 1px solid var(--color-border);
     border-radius: 5px;
 }
@@ -121,8 +122,8 @@
 }
 
 .about-title-m {
-    font-size: 45px;
-    font-weight: 400;
+    font-size: var(--h2);
+    font-weight: 700;
     @media #{$md-layout} {
         font-size: 26px;
     }
@@ -175,16 +176,16 @@
 
 .rn-about-card {
     border: 1px solid var(--color-border);
-    background: #191925;
+    background: rgba(25, 25, 37, .65);
     padding: 50px 40px;
     border-radius: 5px;
     &.trans-bg {
-        background: transparent;
+        background: #13131d57;
         border: 1px solid var(--color-border);
     }
 
     &.transparent-bg {
-        background: transparent;
+        background: #13131d57;
         border: 1px solid var(--color-border);
         padding: 50px 40px;
         border-radius: 5px;

@@ -1,36 +1,22 @@
 import PropTypes from "prop-types";
 import clsx from "clsx";
-import { useMoralis } from "react-moralis";
 import Logo from "@components/logo";
 import MainMenu from "@components/menu/main-menu";
 import MobileMenu from "@components/menu/mobile-menu";
-import SearchForm from "@components/search-form";
-import FlyoutSearchForm from "@components/search-form/flyout-search-form";
-import UserDropdown from "@components/user-dropdown";
 import ColorSwitcher from "@components/color-switcher";
 import BurgerButton from "@ui/burger-button";
 import Anchor from "@ui/anchor";
 import Button from "@ui/button";
-import { useOffcanvas, useSticky, useFlyoutSearch } from "@hooks";
+import { useOffcanvas, useSticky } from "@hooks";
 import headerData from "../data/general/header.json";
-import { useState } from 'react';
-import { toast } from 'react-toastify';
-
 
 import menuData from "../data/general/newmenu.json";
-
 
 const Header = ({ className, menu }) => {
     const sticky = useSticky();
     const { offcanvas, offcanvasHandler } = useOffcanvas();
-    const { search, searchHandler } = useFlyoutSearch();
-    const { authenticate, isAuthenticated } = useMoralis();
 
-    function getItem() {
-
-    }
-    
-
+    function getItem() {}
 
     return (
         <>
@@ -55,27 +41,20 @@ const Header = ({ className, menu }) => {
                             </div>
                         </div>
                         <div className="header-right">
-                      
-                           
-                            {!isAuthenticated && (
-                                <div className="setting-option header-btn">
-                                    <div className="icon-box">
+                            <div className="setting-option header-btn">
+                                <div className="icon-box">
+                                    <Anchor path="https://app.defiskeptic.com">
                                         <Button
                                             color="primary-alta"
                                             className="connectBtn"
                                             size="small"
-                                            
                                         >
-                                            App Coming Soon
+                                            Launch App
                                         </Button>
-                                    </div>
+                                    </Anchor>
                                 </div>
-                            )}
-                            {isAuthenticated && (
-                                <div className="setting-option rn-icon-list user-account">
-                                    <UserDropdown />
-                                </div>
-                            )}
+                            </div>
+
                             <div className="setting-option mobile-menu-bar d-block d-xl-none">
                                 <div className="hamberger">
                                     <BurgerButton onClick={offcanvasHandler} />

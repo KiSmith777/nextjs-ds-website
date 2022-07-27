@@ -103,7 +103,7 @@
                 {
                     "id": 6,
                     "title": "Skeptic Token",
-                    "path": "/token",
+                    "path": "token",
                     "subtitle": "Utility",
                     "description": "Skeptic Token is designed to be the utility token behind the DeFi Skeptic ecosystem power our user-centered products and services. It serves as a payment method, direct utility integration and proxy for swapping to a First Skeptics NFT. It also set the price for the First Skeptics NFT.",
                     "images": [

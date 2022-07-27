@@ -14,7 +14,7 @@ const FunfactArea = ({ space, className, data }) => (
         <div className="container">
             <div className="row mb--30">
                 <div className="col-12 text-center">
-                    {data?.section_title && <h3>{data.section_title.title}</h3>}
+                    {data?.section_title && <h2>{data.section_title.title}</h2>}
                 </div>
             </div>
             <div className="row justify-content-center">

@@ -16,18 +16,19 @@ const ServiceArea = ({ className, id, space, data }) => (
     >
         <div className="container">
             {data?.section_title && (
-                <div className="row">
+                <div className="row text-center">
                     <div className="col-12 mb--50">
                         <SectionTitle {...data.section_title} />
                     </div>
                 </div>
             )}
             {data?.items && (
-                <div className="row g-5">
+                <div className="row g-5 justify-content-center">
                     {data.items.map((item) => (
                         <div
                             className="col-xxl-3 col-lg-4 col-md-6 col-sm-6 col-12"
                             key={item.id}
+                            id={item.path}
                         >
                             <Service
                                 title={item.title}
