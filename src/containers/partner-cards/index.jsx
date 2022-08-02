@@ -54,9 +54,9 @@ const ExplorePartnerArea = ({ title, items, id, className, space }) => {
                         {title === "Service Provider Partners" &&
                             items[2].serviceProviders.map((partner) => (
                                 <>
-                                {() => {if (partner.id === 120) {
+                                {/*{() => {if (partner.id === 120) {
                                     console.log("test")
-                                }}}
+                                }}}*/}
                                     <Partner
                                         key={partner.id}
                                         style={{ width: 10, height: 100 }}
@@ -81,15 +81,15 @@ const ExplorePartnerArea = ({ title, items, id, className, space }) => {
                         {title === "Affiliates" &&
                             items[3].affiliates.map((affiliate) => (
                                 <Partner
+                                    key={affiliate.id}
+                                    style={{ width: 10, height: 100 }}
+                                    overlay
                                     id={
                                         !affiliateUnderCount
                                             ? affiliate.id
                                             : "underCount"
                                     }
-                                    key={affiliate.id}
                                     group={items[3].title}
-                                    style={{ width: 10, height: 100 }}
-                                    overlay
                                     items={items}
                                     title={affiliate.title}
                                     telegram={affiliate.telegram}
