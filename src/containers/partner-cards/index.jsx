@@ -53,10 +53,7 @@ const ExplorePartnerArea = ({ title, items, id, className, space }) => {
 
                         {title === "Service Provider Partners" &&
                             items[2].serviceProviders.map((partner) => (
-                                <>
-                                {/*{() => {if (partner.id === 120) {
-                                    console.log("test")
-                                }}}*/}
+                               
                                     <Partner
                                         key={partner.id}
                                         style={{ width: 10, height: 100 }}
@@ -76,7 +73,7 @@ const ExplorePartnerArea = ({ title, items, id, className, space }) => {
                                         desc3={partner.desc3}
                                         image={partner.image?.[0]}
                                     />
-                                </>
+                                
                             ))}
                         {title === "Affiliates" &&
                             items[3].affiliates.map((affiliate) => (

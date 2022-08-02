@@ -66,7 +66,7 @@ const ContactTopArea = ({ space, className }) => (
                         twitters={[
                             {
                                 name: "DeFi Skeptic: ",
-                                twitter: "@DeFiSkeptic",
+                                twitter: "@DS_Founder",
                             },
                             {
                                 name: "Kieran: ",
