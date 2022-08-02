@@ -2,16 +2,18 @@ import PropTypes from "prop-types";
 import clsx from "clsx";
 import SectionTitle from "@components/section-title";
 import { TextType, SectionTitleType } from "@utils/types";
+import Anchor from "@ui/anchor";
+import Button from "@ui/button";
 
 const QuoteArea = ({ space, className, data, reverse }) => (
-    <div
-        className={clsx(
-            space === 1 && "rn-section-gapTop",
-            className
-        )}
-    >
+    <div className={clsx(space === 1 && "rn-section-gapTop", className)}>
         <div className="container">
-            <div className={clsx("row g-5 d-flex align-items-center", reverse && "flex-row-reverse")}>
+            <div
+                className={clsx(
+                    "row g-5 d-flex align-items-center",
+                    reverse && "flex-row-reverse"
+                )}
+            >
                 <div className="col-lg-6">
                     <div className="rn-about-title-wrapper text-center">
                         {data?.section_title && (
@@ -27,8 +29,23 @@ const QuoteArea = ({ space, className, data, reverse }) => (
                         data-sal-delay="150"
                     >
                         {data?.texts?.map((text) => (
-                            <p key={text.id}>{text.content}</p>
+                            <p className="text-justify" key={text.id}>
+                                {text.content}
+                            </p>
                         ))}
+                        <div className="setting-option header-btn ">
+                            <div className="icon-box d-flex justify-content-center mt--10 ">
+                                <Anchor path={data.path}>
+                                    <Button
+                                        color="primary-alta"
+                                        className="connectBtn"
+                                        size="large"
+                                    >
+                                        View {data.buttonText} Services
+                                    </Button>
+                                </Anchor>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -50,3 +67,4 @@ QuoteArea.defaultProps = {
 };
 
 export default QuoteArea;
+

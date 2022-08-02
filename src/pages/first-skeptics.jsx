@@ -30,10 +30,7 @@ const NFT = () => {
             <SEO pageTitle="First Skeptics NFT" />
             <Header />
             <main id="main-content">
-            <Breadcrumb
-                pageTitle="First Skeptics NFT"
-                currentPage="First Skeptics NFT"
-            />
+           
                 <NFTArea/>
                
             </main>

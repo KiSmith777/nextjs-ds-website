@@ -10,29 +10,29 @@ import TopSellerArea from "@containers/top-seller/layout-01";
 import ExploreProductArea from "@containers/explore-product/layout-01";
 import CollectionArea from "@containers/collection/layout-01"; */
 import { normalizedData } from "@utils/methods";
+import VettedProjectsArea from "../containers/vetted-projects";
+import vettedProjectData from "../data/vetted-projects/vetted.json"
 
-// Demo Data
-import homepageData from "../data/homepages/home.json";
 
 
 export async function getStaticProps() {
     return { props: { className: "template-color-1" } };
 }
 
-const FuturePlans = () => {
-    const content = normalizedData(homepageData?.content || []);
+const VettedProjects = () => {
+  const content = normalizedData(vettedProjectData?.content || []);
+  
   
     return (
         <Wrapper>
-            <SEO pageTitle="Future Plans" />
+            <SEO pageTitle="Vetted Projects" />
             <Header />
             <main id="main-content">
-                
-               
+                <VettedProjectsArea data={content["vetted-projects"]}/>
             </main>
             <Footer />
         </Wrapper>
     );
 };
 
-export default FuturePlans;
+export default VettedProjects;

@@ -20,7 +20,7 @@ const AboutCard = ({ className, title, desc, path }) => (
             >
                 {desc}
             </p>
-            {path && (
+            {/*path && (
                 <Button
                     path={path}
                     color="primary-alta"
@@ -31,7 +31,7 @@ const AboutCard = ({ className, title, desc, path }) => (
                 >
                     See Our Blog
                 </Button>
-            )}
+            )*/}
         </div>
     </div>
 );

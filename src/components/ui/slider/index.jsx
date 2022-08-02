@@ -43,7 +43,7 @@ Slider.propTypes = {
     options: PropTypes.shape({
         dots: PropTypes.bool,
         infinite: PropTypes.bool,
-        speed: PropTypes.bool,
+        speed: PropTypes.number,
         slidesToShow: PropTypes.number,
         slidesToScroll: PropTypes.number,
         autoplay: PropTypes.bool,

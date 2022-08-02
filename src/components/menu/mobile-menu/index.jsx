@@ -34,11 +34,11 @@ const MobileMenu = ({ isOpen, onClick, menu, logo }) => {
                 <nav>
                     <ul className="mainmenu">
                         {menu?.map((nav) => {
-                            const hasChildren = !!nav.submenu || !!nav.megamenu;
+                            const hasChildren = !!nav.children || !!nav.megamenu;
                             return (
                                 <li
                                     className={clsx(
-                                        !!nav.submenu && "has-droupdown",
+                                        !!nav.children && "has-droupdown",
                                         !!nav.megamenu && "with-megamenu",
                                         hasChildren && "has-children"
                                     )}
@@ -56,8 +56,8 @@ const MobileMenu = ({ isOpen, onClick, menu, logo }) => {
                                     >
                                         {nav.text}
                                     </Anchor>
-                                    {nav?.submenu && (
-                                        <SubMenu menu={nav.submenu} />
+                                    {nav?.children && (
+                                        <SubMenu menu={nav.children} />
                                     )}
                                     {nav?.megamenu && (
                                         <MegaMenu menu={nav.megamenu} />

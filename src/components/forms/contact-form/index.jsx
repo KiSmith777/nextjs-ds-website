@@ -2,9 +2,26 @@ import { useState } from "react";
 import Button from "@ui/button";
 import ErrorText from "@ui/error-text";
 import axios from "axios";
+import clsx from "clsx";
 import { useForm } from "react-hook-form";
 
 const ContactForm = () => {
+    const [show, setShow] = useState(false);
+    const [selected, setSelected] = useState("");
+
+    function handleChange(e) {
+        let value = e.target.value;
+        let valStr = value.charAt(0).toUpperCase() + value.slice(1);
+        setSelected(valStr);
+        setShow(true);
+        console.log(selected);
+        if (valStr === "Email") {
+            setSelected(valStr + " Address");
+        } else {
+            setSelected(valStr + " Username");
+        }
+    }
+
     const {
         register,
         handleSubmit,
@@ -30,7 +47,7 @@ const ContactForm = () => {
         setServerState({ submitting: true });
         axios({
             method: "post",
-            url: "https://getform.io/f/89133663-6b36-4d44-bb0c-0104fe438a36",
+            url: "https://getform.io/f/b4c8ab32-fa26-4086-b102-853246798d03",
             data,
         })
             .then((_res) => {
@@ -48,7 +65,7 @@ const ContactForm = () => {
                 id="contact-form"
                 onSubmit={handleSubmit(onSubmit)}
             >
-                <div className="mb-5">
+                <div className="mb-5 font--16">
                     <label htmlFor="contact-name" className="form-label">
                         Your Name
                     </label>
@@ -63,26 +80,65 @@ const ContactForm = () => {
                         <ErrorText>{errors.contactName?.message}</ErrorText>
                     )}
                 </div>
-                <div className="mb-5">
-                    <label htmlFor="contact-email" className="form-label">
-                        Email
+                <div className="mb-5 font--16">
+                    <label htmlFor="contact-method" className="rn-form-label">
+                        Preferred Contact Method *
+                    </label>
+
+                    <select
+                        name="contact-method"
+                        type="text"
+                        {...register("contactMethod", {
+                            required: "Preferred Contact Method is required",
+                            value: "select",
+                            validate: (value) =>
+                                value !== "select" ||
+                                "Preferred Contact Method is required",
+                        })}
+                        onChange={(e) => handleChange(e)}
+                    >
+                        <option value="select" disabled>
+                            - Select -
+                        </option>
+                        <option value="email">Email</option>
+                        <option value="telegram">Telegram</option>
+                        <option value="discord">Discord</option>
+                    </select>
+
+                    {errors.contactMethod && (
+                        <ErrorText>{errors.contactMethod?.message}</ErrorText>
+                    )}
+                </div>
+                <div
+                    className={clsx(
+                        "mb-5 noShowForm font--16",
+                        show && "showForm"
+                    )}
+                >
+                    <label htmlFor="contact-info" className="rn-form-label">
+                        {selected} *
                     </label>
                     <input
-                        name="contact-email"
-                        type="email"
-                        {...register("contactEmail", {
-                            required: "Email is required",
+                        name="contact-info"
+                        type="text"
+                        placeholder={"Your " + selected}
+                        {...register("contactInfo", {
+                            required: "Contact Information is required",
                             pattern: {
-                                value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
-                                message: "invalid email address",
+                                message: "invalid contact info",
                             },
                         })}
                     />
-                    {errors.contactEmail && (
-                        <ErrorText>{errors.contactEmail?.message}</ErrorText>
+                    {errors.contactInfo && (
+                        <ErrorText>{errors.contactInfo?.message}</ErrorText>
                     )}
                 </div>
-                <div className="mb-5">
+                <div
+                    className={clsx(
+                        "mb-5 noShowForm font--16",
+                        show && "showForm"
+                    )}
+                >
                     <label htmlFor="subject" className="form-label">
                         Subject
                     </label>
@@ -97,7 +153,12 @@ const ContactForm = () => {
                         <ErrorText>{errors.subject?.message}</ErrorText>
                     )}
                 </div>
-                <div className="mb-5">
+                <div
+                    className={clsx(
+                        "mb-5 noShowForm font--16",
+                        show && "showForm"
+                    )}
+                >
                     <label htmlFor="contact-message" className="form-label">
                         Write Message
                     </label>
@@ -112,23 +173,7 @@ const ContactForm = () => {
                         <ErrorText>{errors.contactMessage?.message}</ErrorText>
                     )}
                 </div>
-                <div className="mb-5 rn-check-box">
-                    <input
-                        id="condition"
-                        type="checkbox"
-                        className="rn-check-box-input"
-                        {...register("condition", {
-                            required: "Condition is required",
-                        })}
-                    />
-                    <label htmlFor="condition" className="rn-check-box-label">
-                        Agree to all terms & conditions
-                    </label>
-                    <br />
-                    {errors.condition && (
-                        <ErrorText>{errors.condition?.message}</ErrorText>
-                    )}
-                </div>
+
                 <Button type="submit" size="medium">
                     Send Message
                 </Button>

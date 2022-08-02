@@ -1,0 +1,54 @@
+{
+  "title": "vetted-projects",
+  "content": [
+    {
+      "id": 1,
+      "section": "vetted-projects",
+      "section_title": {
+        "title": "DeFi Skeptic Vetted Projects"
+      },
+      "items": [
+        {
+          "id": 1,
+          "title": "AutoCrypto",
+          "path": "/files/vetting-reports/AutoCrypto.pdf",
+          "images": {
+            "src": "/images/vetted-projects/AutoCrypto.png"
+          }
+        },
+        {
+          "id": 2,
+          "title": "Useless",
+          "path": "/files/vetting-reports/Useless.pdf",
+          "images": {
+            "src": "/images/vetted-projects/Useless.png"
+          }
+        },
+        {
+          "id": 3,
+          "title": "Affinity",
+          "path": "/files/vetting-reports/Affinity.pdf",
+          "images": {
+            "src": "/images/vetted-projects/Affinity.png"
+          }
+        },
+        {
+          "id": 4,
+          "title": "MasterMind Games",
+          "path": "/files/vetting-reports/MGA.pdf",
+          "images": {
+            "src": "/images/vetted-projects/MGA.png"
+          }
+        },
+        {
+          "id": 5,
+          "title": "RocketFi",
+          "path": "/files/vetting-reports/RocketFi.pdf",
+          "images": {
+            "src": "/images/vetted-projects/RocketFi.png"
+          }
+        }
+      ]
+    }
+  ]
+}

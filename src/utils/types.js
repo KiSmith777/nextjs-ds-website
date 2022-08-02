@@ -31,6 +31,7 @@ export const ButtonComponentType = {
     size: PropTypes.oneOf(["large", "small", "medium"]),
     color: PropTypes.oneOf(["primary", "primary-alta"]),
     fullwidth: PropTypes.bool,
+   
 };
 
 // eslint-disable-next-line no-unused-vars
@@ -53,6 +54,7 @@ export const ItemType = PropTypes.shape({
     path: PropTypes.string,
     description: PropTypes.string,
     images: PropTypes.arrayOf(ImageType),
+    
 });
 
 export const PartnerType = PropTypes.shape({

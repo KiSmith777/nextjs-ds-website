@@ -10,29 +10,29 @@ import TopSellerArea from "@containers/top-seller/layout-01";
 import ExploreProductArea from "@containers/explore-product/layout-01";
 import CollectionArea from "@containers/collection/layout-01"; */
 import { normalizedData } from "@utils/methods";
+import ReferralProgramArea from "../containers/referral-program";
 
 // Demo Data
-import homepageData from "../data/homepages/home.json";
+
 
 
 export async function getStaticProps() {
     return { props: { className: "template-color-1" } };
 }
 
-const Merge = () => {
-    const content = normalizedData(homepageData?.content || []);
+const ReferralProgram = () => {
+  
   
     return (
         <Wrapper>
-            <SEO pageTitle="Merge" />
+            <SEO pageTitle="Referral Program" />
             <Header />
             <main id="main-content">
-                
-               
+                <ReferralProgramArea/>
             </main>
             <Footer />
         </Wrapper>
     );
 };
 
-export default Merge;
+export default ReferralProgram;

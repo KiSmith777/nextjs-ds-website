@@ -33,49 +33,52 @@
     },
     {
         "id": 3,
-        "text": "Products & Services",
-        "path": "/services",
-        "icon": "feather-chevron-down",
+        "text": "Project Vetting",
+        "path": "/vetting-process",
+        "icon": "feather-chevron-right",
         "children": [
             {
-                "id": 31,
-                "text": "Project Vetting",
-                "path": "/vetting",
-                "icon": "feather-chevron-right",
-                "children": [
-                    {
-                        "id": 311,
-                        "text": "Vetted Projects & AMAs",
-                        "path": "/vetted-projects"
-                    },
-                    {
-                        "id": 312,
-                        "text": "Get Vetted",
-                        "path": "/get-vetted"
-                    },
-                    {
-                        "id": 313,
-                        "text": "Vetting Process",
-                        "path": "/vetting-process"
-                    }
-                ]
+                "id": 311,
+                "text": "Vetted Projects",
+                "path": "/vetted-projects"
             },
             {
-                "id": 32,
-                "text": "For DeFi Developers",
-                "path": "/developer-services",
-                "icon": "feather-chevron-right"
+                "id": 312,
+                "text": "Get Vetted",
+                "path": "/get-vetted"
             },
             {
-                "id": 33,
-                "text": "For DeFi Users",
-                "path": "/user-services",
-                "icon": "feather-chevron-right"
+                "id": 313,
+                "text": "Vetting Process",
+                "path": "/vetting-process"
             }
         ]
     },
     {
         "id": 4,
+        "text": "Products & Services",
+        "path": "/services",
+        "icon": "feather-chevron-right",
+        "children": [
+            {
+                "id": 41,
+                "text": "For DeFi Developers",
+                "path": "/developer-services"
+            },
+            {
+                "id": 42,
+                "text": "For DeFi Users",
+                "path": "/user-services"
+            },
+            {
+                "id": 43,
+                "text": "Referral Program",
+                "path": "/referral-program"
+            }
+        ]
+    },
+    {
+        "id": 5,
         "text": "About",
         "path": "/#about",
         "to": "about",
@@ -83,31 +86,31 @@
         "icon": "feather-chevron-down",
         "children": [
             {
-                "id": 41,
+                "id": 51,
                 "text": "DS Team",
                 "path": "/team"
             },
             {
-                "id": 42,
+                "id": 52,
                 "text": "Whitepaper",
                 "path": "https://docs.defiskeptic.com",
                 "target": "_self"
             },
             {
-                "id": 43,
+                "id": 53,
                 "text": "KYC - InterFi",
                 "path": "/files/kyc.pdf"
             },
             {
-                "id": 44,
+                "id": 54,
                 "text": "Partners & Affiliates",
                 "path": "/partners"
+            },
+            {
+                "id": 55,
+                "text": "Contact",
+                "path": "/contact"
             }
         ]
-    },
-    {
-        "id": 5,
-        "text": "Contact",
-        "path": "/contact"
     }
 ]

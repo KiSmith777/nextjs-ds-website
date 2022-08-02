@@ -8,7 +8,7 @@ const QuicklinkWidget = ({ data }) => (
             <ul className="footer-list-one">
                 {data.menu.map((nav) => (
                     <li key={nav.id} className="single-list">
-                        <Anchor path={nav.path}>{nav.text}</Anchor>
+                        <Anchor path={nav.path} target={nav.target}>{nav.text}</Anchor>
                     </li>
                 ))}
             </ul>

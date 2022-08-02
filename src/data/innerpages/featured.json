@@ -1,0 +1,83 @@
+{
+  "title": "features",
+  "content": [
+    {
+      "id": 1,
+      "section": "featured-on-section",
+      "section_title": {
+        "title": "Featured On"
+      },
+      "items": [
+        {
+          "id": 11,
+          "title": "Benzinga",
+          "path": "https://www.benzinga.com/pressreleases/22/06/g27879320/defi-skeptic-aspires-to-make-the-decentralized-world-better-through-increased-transparency-and-inf",
+          "images": {
+            "src": "/images/featured-on/Benzinga.png"
+          }
+        },
+        {
+          "id": 12,
+          "title": "Yahoo Finance",
+          "path": "https://finance.yahoo.com/news/defi-skeptic-aspires-decentralized-world-120400559.html?.tsrc=fin-srch&guccounter=1",
+          "images": {
+            "src": "/images/featured-on/Yahoo.png"
+          }
+        },
+        {
+          "id": 13,
+          "title": "NFT Cable",
+          "path": "https://nftcable.io/news/defi-skeptic-aspires-to-make-the-decentralized-world-better-through-increased-transparency-and-information/",
+          "images": {
+            "src": "/images/featured-on/NFTCable.png"
+          }
+        }
+        ,
+        {
+          "id": 14,
+          "title": "Coinpress",
+          "path": "https://coinpress.media/defi-skeptic-aspires-to-make-the-decentralized-world-better-through-increased-transparency-and-information/",
+          "images": {
+            "src": "/images/featured-on/Coinpress.png"
+          }
+        }
+        ,
+        {
+          "id": 15,
+          "title": "Crypto Ish",
+          "path": "https://www.youtube.com/watch?v=UfbiOT3U_qU",
+          "images": {
+            "src": "/images/featured-on/CryptoIsh.png"
+          }
+        }
+        ,
+        {
+          "id": 16,
+          "title": "NDC",
+          "path": "https://www.youtube.com/watch?v=kvhSRkufk-c",
+          "images": {
+            "src": "/images/featured-on/NDC.png"
+          }
+        }
+        ,
+        {
+          "id": 17,
+          "title": "MarketWatch",
+          "path": "https://www.marketwatch.com/press-release/defi-skeptic-aspires-to-make-the-decentralized-world-better-through-increased-transparency-and-information-2022-06-28?mod=search_headline",
+          "images": {
+            "src": "/images/featured-on/Marketwatch.png"
+          }
+        }
+        ,
+        {
+          "id": 18,
+          "title": "GemCave",
+          "path": "https://gemcave.org/gem/SKP",
+          "images": {
+            "src": "/images/featured-on/GemCave.png"
+          }
+        }
+      ]
+    }
+  ]
+}

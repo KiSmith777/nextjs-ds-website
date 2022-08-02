@@ -43,7 +43,7 @@
             {
               "id": 211,
               "title": "Project Vetting",
-              "path": "/vetting",
+              "path": "/vetting-process",
               "icon": "solid fa-shield",
               "image": ""
             },
@@ -84,14 +84,14 @@
             {
               "id": 222,
               "title": "Token & NFT Creation",
-              "path": "/vetting",
+              "path": "/contract-creation",
               "icon": "solid fa-coins",
               "image": ""
             },
             {
               "id": 223,
               "title": "dApp & Bot Creation",
-              "path": "/vetting",
+              "path": "/contract-creation",
               "icon": "solid fa-robot",
               "image": ""
             }
@@ -104,14 +104,14 @@
             {
               "id": 231,
               "title": "UX & UI Design",
-              "path": "/vetting",
+              "path": "/ux-ui-design",
               "icon": "solid fa-object-group",
               "image": ""
             },
             {
               "id": 232,
               "title": "Graphic Design",
-              "path": "/vetting",
+              "path": "/graphic-design",
               "icon": "solid fa-icons",
               "image": ""
             }
@@ -124,14 +124,14 @@
             {
               "id": 241,
               "title": "Vetted AMA Tour",
-              "path": "/vetting",
+              "path": "/vetted-ama-tour",
               "icon": "solid fa-people-group",
               "image": ""
             },
             {
               "id": 242,
               "title": "Marketing Strategists",
-              "path": "/vetting",
+              "path": "/marketing-strategist",
               "icon": "solid fa-rectangle-ad",
               "image": ""
             }
@@ -161,14 +161,14 @@
             {
               "id": 312,
               "title": "DS Drops",
-              "path": "/drops",
+              "path": "/ds-drops",
               "icon": "solid fa-droplet",
               "image": ""
             },
             {
               "id": 313,
               "title": "Coming Soon",
-              "path": "/coming-soon",
+              "path": "https://docs.defiskeptic.com/products-and-services",
               "icon": "solid fa-circle-question",
               "image": ""
             }

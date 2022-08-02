@@ -1,0 +1,21 @@
+.showForm {
+    display: block !important;
+}
+
+.noShowForm {
+    display: none;
+}
+
+.font--16 {
+    font-size: 16px !important;
+}
+
+.radioBox {
+    margin-bottom: 10px;
+    height: 50px;
+    background: var(--background-color-4);
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 5px;
+}

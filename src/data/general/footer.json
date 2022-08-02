@@ -9,7 +9,6 @@
         ],
         "text": "Dedicated to the betterment of Decentralized Finance."
     },
-  
     "quicklink-widget": {
         "title": "DeFi Skeptic",
         "menu": [
@@ -17,8 +16,18 @@
                 "id": 1,
                 "text": "Skeptic Token",
                 "path": "/token"
+            },
+            {
+                "id": 2,
+                "text": "First Skeptics NFT",
+                "path": "/first-skeptics"
+            },
+            {
+                "id": 3,
+                "text": "Contracts",
+                "path": "https://docs.defiskeptic.com/defi-skeptic-contracts",
+                "target": "_self"
             }
-       
         ]
     },
     "information-widget": {
@@ -29,6 +38,31 @@
                 "text": "Whitepaper",
                 "path": "https://docs.defiskeptic.com",
                 "target": "_self"
+            },
+            {
+                "id": 2,
+                "text": "SKP Audit",
+                "path": "/files/audit.pdf"
+            },
+            {
+                "id": 3,
+                "text": "KYC",
+                "path": "/files/kyc.pdf"
+            }
+        ]
+    },
+    "services-widget": {
+        "title": "Services",
+        "menu": [
+            {
+                "id": 1,
+                "text": "Developer Services",
+                "path": "/developer-services"
+            },
+            {
+                "id": 2,
+                "text": "User Services",
+                "path": "/user-services"
             }
         ]
     },

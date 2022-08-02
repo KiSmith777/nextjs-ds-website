@@ -10,136 +10,284 @@ import TransparentBox from "../../components/transparent-box";
 import ExplorePartnerArea from "@containers/partner-cards";
 import { normalizedData } from "@utils/methods";
 import partnersData from "../../data/innerpages/partners.json";
-import { Link } from 'react-scroll'
+import { Link } from "react-scroll";
 
-
-
-const PartnersArea = ({ space, className, data}) => {
-
-    return(
-
+const PartnersArea = ({ space, className, data }) => {
+    return (
         <div
-            className={clsx(
-                "rn-about-banner-area",
-                className
-            )}
-            style={{scrollSnapType: 'y mandatory'}}
+            className={clsx("rn-about-banner-area", className)}
+            style={{ scrollSnapType: "y mandatory" }}
         >
-            <div className="container" style={{maxWidth: 1100, marginTop: 32}}>
+            <div
+                className="container"
+                style={{ maxWidth: 1100, marginTop: 32 }}
+            >
                 <div className="row g-5">
-                       {data?.items?.[0] && (
+                    {data?.items?.[0] && (
                         <div className="col-lg-12">
                             <div className="h--100">
-                                    <BoxContainer
-                                        key={data.items[0].id}
-                                        className="rbt-fixed-top-adjust"
-                                        title={data.items[0].title}
-                                        desc={data.items[0].desc}
-                                    >
-                                   <p 
+                                <BoxContainer
+                                    key={data.items[0].id}
+                                    className="rbt-fixed-top-adjust"
+                                    title={data.items[0].title}
+                                    desc={data.items[0].desc}
+                                >
+                                    <p
                                         data-sal="slide-right"
                                         data-sal-delay="150"
-                                        data-sal-duration="1200">You can find all of our partners and affiliates below as well as any pertinent information. </p>
-                                        <div
+                                        data-sal-duration="1200"
+                                    >
+                                        You can find all of our partners and
+                                        affiliates below as well as any
+                                        pertinent information.{" "}
+                                    </p>
+                                    <div
                                         data-sal="slide-up"
                                         data-sal-delay="150"
                                         data-sal-duration="1200"
-                                        >
-                                        <p><b>Quick Links:</b></p>
+                                    >
+                                        <p>
+                                            <b>Quick Links:</b>
+                                        </p>
                                         <ul>
-                                            <li style={{fontSize: 18, fontWeight: 'bold'}}>
+                                            <li
+                                                style={{
+                                                    fontSize: 18,
+                                                    fontWeight: "bold",
+                                                }}
+                                            >
                                                 <Link
                                                     key={data.items[1].id}
-                                                    href="/partners#partners"
-                                                    to="partners"
+                                                    href="/partners#launchpad-app-partners"
+                                                    to="launchpad-app-partners"
                                                     spy
                                                     smooth
                                                     offset={-200}
                                                     duration={1000}
-                                                    >{data.items[1].title}</Link>
+                                                >
+                                                    {data.items[1].title}
+                                                </Link>
                                             </li>
-                                            <li style={{fontSize: 18, fontWeight: 'bold'}}>
+                                            <li
+                                                style={{
+                                                    fontSize: 18,
+                                                    fontWeight: "bold",
+                                                }}
+                                            >
                                                 <Link
                                                     key={data.items[2].id}
+                                                    href="/partners#service-provider-partners"
+                                                    to="service-provider-partners"
+                                                    spy
+                                                    smooth
+                                                    offset={-200}
+                                                    duration={1000}
+                                                >
+                                                    {data.items[2].title}
+                                                </Link>
+                                            </li>
+                                            <li
+                                                style={{
+                                                    fontSize: 18,
+                                                    fontWeight: "bold",
+                                                }}
+                                            >
+                                                <Link
+                                                    key={data.items[3].id}
                                                     href="/partners#affiliates"
                                                     to="affiliates"
                                                     spy
                                                     smooth
                                                     offset={-200}
                                                     duration={1000}
-                                                >{data.items[2].title}</Link>
+                                                >
+                                                    {data.items[3].title}
+                                                </Link>
                                             </li>
-                                            <li style={{fontSize: 18, fontWeight: 'bold'}}>
+                                            <li
+                                                style={{
+                                                    fontSize: 18,
+                                                    fontWeight: "bold",
+                                                }}
+                                            >
                                                 <Link
-                                                    key={data.items[3].id}
+                                                    key={data.items[4].id}
                                                     href="/partners#ama-and-promotional-groups"
                                                     to="ama-and-promotional-groups"
                                                     spy
                                                     smooth
                                                     offset={-200}
                                                     duration={1000}
-                                                    >{data.items[3].title}</Link>
+                                                >
+                                                    {data.items[4].title}
+                                                </Link>
                                             </li>
                                         </ul>
-                                        </div>
-                                       
-                                    </BoxContainer>
-
+                                    </div>
+                                </BoxContainer>
                             </div>
                         </div>
                     )}
                     {data?.items?.[1] && (
-                        <div className="col-lg-12" >
-                            <div style={{textAlign: 'center'}}>
-                                    <HeadingLabel
-                                        section="partners"
-                                        title={data.items[1].title}
-                                        style={{padding: 4, justifyContent: 'center', alignItems: "center", display: 'flex', margin: 0}}
-                                    />
+                        <div className="col-lg-12">
+                            <div style={{ textAlign: "center" }}>
+                                <HeadingLabel
+                                    section="launchpad-app-partners"
+                                    title={data.items[1].title}
+                                    style={{
+                                        padding: 4,
+                                        justifyContent: "center",
+                                        alignItems: "center",
+                                        display: "flex",
+                                        margin: 0,
+                                    }}
+                                />
                             </div>
                         </div>
                     )}
                     {data?.items?.[1] && (
-                        <div className="col-lg-12" style={{marginTop:0}} >
-                                <TransparentBox>
-                                    <ExplorePartnerArea id={data.items[1].id} space={1} title={data.items[1].title} items={data.items}/>
-                                </TransparentBox> 
+                        <div className="col-lg-12" style={{ marginTop: 0 }}>
+                            <TransparentBox>
+                                <p className="mb--50 text-justify">
+                                    DeFi Skeptic works with the following
+                                    platforms who strive to make DeFi better
+                                    through various security and transparency
+                                    focused components. DeFi Skeptic provides
+                                    things such as vetting, audits, KYC and
+                                    various other services to these platforms to
+                                    support their mission. These partnerships
+                                    are crucial in the combined effort to better
+                                    the DeFi space as a whole while protecting
+                                    users and ensuring projects meet a high
+                                    standard.
+                                </p>
+                                <ExplorePartnerArea
+                                    id={data.items[1].id}
+                                    space={1}
+                                    title={data.items[1].title}
+                                    items={data.items}
+                                />
+                            </TransparentBox>
                         </div>
                     )}
                     {data?.items?.[2] && (
                         <div className="col-lg-12">
-                            <div style={{textAlign: 'center'}}>
-                                    <HeadingLabel
-                                        section="affiliates"
-                                        title={data.items[2].title}
-                                        style={{padding: 4, justifyContent: 'center', alignItems: "center", display: 'flex', margin: 0}}
-                                    />
+                            <div style={{ textAlign: "center" }}>
+                                <HeadingLabel
+                                    section="service-provider-partners"
+                                    title={data.items[2].title}
+                                    style={{
+                                        padding: 4,
+                                        justifyContent: "center",
+                                        alignItems: "center",
+                                        display: "flex",
+                                        margin: 0,
+                                    }}
+                                />
                             </div>
                         </div>
                     )}
                     {data?.items?.[2] && (
-                        <div className="col-lg-12" style={{marginTop:0}}>
-                                <TransparentBox>
-                                    <ExplorePartnerArea id={data.items[2].id} space={1} title={data.items[2].title} items={data.items}/>
-                                </TransparentBox> 
+                        <div className="col-lg-12" style={{ marginTop: 0 }}>
+                            <TransparentBox>
+                                <p className="mb--50 text-justify">
+                                    DeFi Skeptic works with the following DeFi
+                                    service providers in various ways. This may
+                                    include one and/or two way service usage and
+                                    collaboration. It may also include
+                                    sub-contracting work to some of these
+                                    providers. We realize the DeFi space is
+                                    filled with platforms, businesses and
+                                    individuals who do amazing work and we want
+                                    to highlight that by working with those
+                                    individuals in order to grow and better the
+                                    DeFi space.
+                                </p>
+                                <ExplorePartnerArea
+                                    id={data.items[2].id}
+                                    space={1}
+                                    title={data.items[2].title}
+                                    items={data.items}
+                                />
+                            </TransparentBox>
                         </div>
                     )}
                     {data?.items?.[3] && (
                         <div className="col-lg-12">
-                            <div style={{textAlign: 'center'}}>
-                                    <HeadingLabel
-                                        section="ama-and-promotional-groups"
-                                        title={data.items[3].title}
-                                        style={{padding: 4, justifyContent: 'center', alignItems: "center", display: 'flex', margin: 0}}
-                                    />
+                            <div style={{ textAlign: "center" }}>
+                                <HeadingLabel
+                                    section="affiliates"
+                                    title={data.items[3].title}
+                                    style={{
+                                        padding: 4,
+                                        justifyContent: "center",
+                                        alignItems: "center",
+                                        display: "flex",
+                                        margin: 0,
+                                    }}
+                                />
                             </div>
                         </div>
                     )}
                     {data?.items?.[3] && (
-                        <div className="col-lg-12" style={{marginTop:0}}>
-                                <TransparentBox>
-                                    <ExplorePartnerArea id={data.items[3].id} space={1} title={data.items[3].title} items={data.items}/>
-                                </TransparentBox> 
+                        <div className="col-lg-12" style={{ marginTop: 0 }}>
+                            <TransparentBox>
+                                <p className="mb--50 text-justify">
+                                    DeFi Skeptic also works closely with other
+                                    projects to provide information or assist
+                                    them in specific goals. Below you can find
+                                    projects we consider “friends” and thus list
+                                    as affiliates.
+                                </p>
+                                <ExplorePartnerArea
+                                    id={data.items[3].id}
+                                    space={1}
+                                    title={data.items[3].title}
+                                    items={data.items}
+                                />
+                            </TransparentBox>
+                        </div>
+                    )}
+                    {data?.items?.[4] && (
+                        <div className="col-lg-12">
+                            <div style={{ textAlign: "center" }}>
+                                <HeadingLabel
+                                    section="ama-and-promotional-groups"
+                                    title={data.items[4].title}
+                                    style={{
+                                        padding: 4,
+                                        justifyContent: "center",
+                                        alignItems: "center",
+                                        display: "flex",
+                                        margin: 0,
+                                    }}
+                                />
+                            </div>
+                        </div>
+                    )}
+                    {data?.items?.[4] && (
+                        <div className="col-lg-12" style={{ marginTop: 0 }}>
+                            <TransparentBox>
+                                <p className="mb--50 text-justify">
+                                    One major issue in the DeFi space is how
+                                    projects are promoted. A very effective way
+                                    of reaching an audience is by directly
+                                    speaking to them. However, many of these
+                                    platforms conduct in unethical practices
+                                    using “paid” bots to make their customer
+                                    feel like they are getting more than they
+                                    really are. DeFi Skeptic has made an effort
+                                    to source legitimate promotional platforms
+                                    who do not conduct in these practices. You
+                                    can find them below.
+                                </p>
+                                <ExplorePartnerArea
+                                    id={data.items[4].id}
+                                    space={1}
+                                    title={data.items[4].title}
+                                    items={data.items}
+                                />
+                            </TransparentBox>
                         </div>
                     )}
                 </div>
@@ -147,7 +295,6 @@ const PartnersArea = ({ space, className, data}) => {
         </div>
     );
 };
-
 
 PartnersArea.propTypes = {
     space: PropTypes.oneOf([1, 2]),

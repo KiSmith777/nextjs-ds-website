@@ -33,13 +33,18 @@
                     "id": 1,
                     "content": "DeFi Skeptic serves DeFi in various ways. One way is by conducting in-depth video interviews with project developers. During this session, the Defi Skeptic team will scrutinize, analyze, and independently review every aspect of the project following the vetting process. Providing this level of detail on DeFi projects can help reduce fraud while increasing security and peace of mind for those looking to invest their hard-earned money.\n\nIf you are a project team member and would like to apply to have the project vetted by DeFi Skeptic, you can do so on the Get Vetted page.\n\nDeFi projects that have passed the vetting process are listed in the DeFi Skeptic Vetted Projects page."
                 }
-            ]
+            ],
+            "image": {
+                "src": "/images/partners_affiliates/PartnersCombined.png"
+            }
         },
         {
             "section": "for-developers-section",
             "section_title": {
                 "title": "For DeFi Developers"
             },
+            "buttonText": "Developer",
+            "path": "/developer-services",
             "texts": [
                 {
                     "id": 1,
@@ -52,12 +57,49 @@
             "section_title": {
                 "title": "For DeFi Users"
             },
+            "buttonText": "User",
+            "path": "/user-services",
             "texts": [
                 {
                     "id": 1,
                     "content": "Are you a DeFi user? We also provide a full range of products and services catered to the average user to make your journey in the DeFi space easier, safer and seamless. Whether you’re looking for information on the latest projects, a way to generate passive income or just a way to get automated exposure to the latest trusted projects, we have everything you need."
                 }
             ]
+        },
+        {
+            "section": "token-nft-pair-section",
+            "section_title": {
+                "title": "Paired Utility Token & Rewards NFT"
+            },
+            "buttonText": [
+                {
+                    "id": 1,
+                    "text": "Token"
+                },
+                {
+                    "id": 2,
+                    "text": "NFT"
+                }
+            ],
+            "links": [
+                {
+                    "id": 1,
+                    "path": "/token"
+                },
+                {
+                    "id": 2,
+                    "path": "/first-skeptics"
+                }
+            ],
+            "texts": [
+                {
+                    "id": 1,
+                    "content": "Welcome to the future of utility and rewards…welcome to Tokenized NFTs. We allow the user to swap between Token and NFT anytime they want, tax free. Own both by owning one! Gone are the days of having to purchase multiple pieces of a project. At DeFi Skeptic we believe simplicity is efficiency."
+                }
+            ],
+            "image": {
+                "src": "/images/icons/TokenNftPair.png"
+            }
         },
         {
             "section": "funfact-section",

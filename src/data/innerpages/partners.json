@@ -18,8 +18,8 @@
                 },
                 {
                     "id": 12,
-                    "title": "Partners",
-                    "partners": [
+                    "title": "Launchpad & App Partners",
+                    "launchpadsApps": [
                         {
                             "id": 120,
                             "title": "GemPad",
@@ -75,9 +75,15 @@
                                     "src": "/images/partners_affiliates/partners/CroGram.png"
                                 }
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "id": 13,
+                    "title": "Service Provider Partners",
+                    "serviceProviders": [
                         {
-                            "id": 124,
+                            "id": 130,
                             "title": "Dappd",
                             "telegram": "",
                             "website": "https://dappd.net",
@@ -91,7 +97,7 @@
                             ]
                         },
                         {
-                            "id": 125,
+                            "id": 131,
                             "title": "SEEK",
                             "telegram": "SEEK_Token",
                             "website": "https://seektoken.net/",
@@ -105,7 +111,7 @@
                             ]
                         },
                         {
-                            "id": 126,
+                            "id": 132,
                             "title": "StaySAFU",
                             "telegram": "",
                             "website": "https://www.staysafu.org/",
@@ -119,7 +125,7 @@
                             ]
                         },
                         {
-                            "id": 127,
+                            "id": 133,
                             "title": "FloozTrade",
                             "telegram": "",
                             "website": "https://flooz.trade/",
@@ -133,7 +139,7 @@
                             ]
                         },
                         {
-                            "id": 128,
+                            "id": 134,
                             "title": "Mobula",
                             "telegram": "MobulaFi",
                             "website": "https://mobula.fi/",
@@ -149,11 +155,11 @@
                     ]
                 },
                 {
-                    "id": 13,
+                    "id": 14,
                     "title": "Affiliates",
                     "affiliates": [
                         {
-                            "id": 131,
+                            "id": 141,
                             "title": "AutoCrypto",
                             "telegram": "AutoCryptoInternational",
                             "website": "https://autocrypto.ai",
@@ -169,102 +175,102 @@
                     ]
                 },
                 {
-                    "id": 14,
+                    "id": 15,
                     "title": "AMA & Promotional Groups",
                     "promoters": [
                         {
-                            "id": 140,
+                            "id": 150,
                             "title": "Legit Crypto Lounge",
                             "telegram": "LegitCryptoLounge",
                             "website": "https://linktr.ee/LegitCryptoLounge",
                             "desc1": "One major issue in the DeFi space is how projects are promoted. A very effective way of reaching an audience is by directly speaking to them. However, many of these platforms conduct in unethical practices using “paid” bots to make their customer feel like they are getting more than they really are.",
                             "desc2": "DeFi Skeptic has made an effort to source legitimate promotional platforms who do not conduct in these practices such as ",
                             "desc3": "",
-                            "image": [
+                            "images": [
                                 {
                                     "src": "/images/partners_affiliates/promoters/legitcryptolounge.png"
                                 }
                             ]
                         },
                         {
-                            "id": 141,
+                            "id": 151,
                             "title": "Coin Launch Lounge",
                             "telegram": "CoinLaunchCommunity",
                             "website": "https://linktr.ee/BrianShiitake",
                             "desc1": "One major issue in the DeFi space is how projects are promoted. A very effective way of reaching an audience is by directly speaking to them. However, many of these platforms conduct in unethical practices using “paid” bots to make their customer feel like they are getting more than they really are.",
                             "desc2": "DeFi Skeptic has made an effort to source legitimate promotional platforms who do not conduct in these practices such as ",
                             "desc3": "",
-                            "image": [
+                            "images": [
                                 {
                                     "src": "/images/partners_affiliates/promoters/coinlaunchlounge.png"
                                 }
                             ]
                         },
                         {
-                            "id": 142,
+                            "id": 152,
                             "title": "The Midnight Show",
                             "telegram": "TheMidnightShow",
                             "website": "https://linktr.ee/themidnightshowcrypto",
                             "desc1": "One major issue in the DeFi space is how projects are promoted. A very effective way of reaching an audience is by directly speaking to them. However, many of these platforms conduct in unethical practices using “paid” bots to make their customer feel like they are getting more than they really are.",
                             "desc2": "DeFi Skeptic has made an effort to source legitimate promotional platforms who do not conduct in these practices such as ",
                             "desc3": "",
-                            "image": [
+                            "images": [
                                 {
                                     "src": "/images/partners_affiliates/promoters/themidnightshow.png"
                                 }
                             ]
                         },
                         {
-                            "id": 143,
+                            "id": 153,
                             "title": "Anti Ruggers United",
                             "telegram": "AntiRuggersUnited",
                             "website": "",
                             "desc1": "One major issue in the DeFi space is how projects are promoted. A very effective way of reaching an audience is by directly speaking to them. However, many of these platforms conduct in unethical practices using “paid” bots to make their customer feel like they are getting more than they really are.",
                             "desc2": "DeFi Skeptic has made an effort to source legitimate promotional platforms who do not conduct in these practices such as ",
                             "desc3": "",
-                            "image": [
+                            "images": [
                                 {
                                     "src": "/images/partners_affiliates/promoters/antiruggers.png"
                                 }
                             ]
                         },
                         {
-                            "id": 144,
+                            "id": 154,
                             "title": "The Crypto Hideout",
                             "telegram": "TheCryptoHideout",
                             "website": "https://thecryptohideout.com/",
                             "desc1": "One major issue in the DeFi space is how projects are promoted. A very effective way of reaching an audience is by directly speaking to them. However, many of these platforms conduct in unethical practices using “paid” bots to make their customer feel like they are getting more than they really are.",
                             "desc2": "DeFi Skeptic has made an effort to source legitimate promotional platforms who do not conduct in these practices such as ",
                             "desc3": "",
-                            "image": [
+                            "images": [
                                 {
                                     "src": "/images/partners_affiliates/promoters/cryptohideout.png"
                                 }
                             ]
                         },
                         {
-                            "id": 145,
+                            "id": 155,
                             "title": "Degem",
                             "telegram": "degemofficial",
                             "website": "https://degem.io",
                             "desc1": "One major issue in the DeFi space is how projects are promoted. A very effective way of reaching an audience is by directly speaking to them. However, many of these platforms conduct in unethical practices using “paid” bots to make their customer feel like they are getting more than they really are.",
                             "desc2": "DeFi Skeptic has made an effort to source legitimate promotional platforms who do not conduct in these practices such as ",
                             "desc3": "",
-                            "image": [
+                            "images": [
                                 {
                                     "src": "/images/partners_affiliates/promoters/degemlounge.png"
                                 }
                             ]
                         },
                         {
-                            "id": 146,
+                            "id": 156,
                             "title": "Ninja Lounge",
                             "telegram": "ninjalounge",
                             "website": "",
                             "desc1": "One major issue in the DeFi space is how projects are promoted. A very effective way of reaching an audience is by directly speaking to them. However, many of these platforms conduct in unethical practices using “paid” bots to make their customer feel like they are getting more than they really are.",
                             "desc2": "DeFi Skeptic has made an effort to source legitimate promotional platforms who do not conduct in these practices such as ",
                             "desc3": "",
-                            "image": [
+                            "images": [
                                 {
                                     "src": "/images/partners_affiliates/promoters/Ninja-Lounge.png"
                                 }

@@ -5,6 +5,7 @@ import Anchor from "../anchor";
 
 const Button = ({
     children,
+    id,
     type,
     label,
     onClick,
@@ -64,6 +65,7 @@ Button.propTypes = {
     size: PropTypes.oneOf(["large", "small", "medium"]),
     color: PropTypes.oneOf(["primary", "primary-alta"]),
     fullwidth: PropTypes.bool,
+    
 };
 
 Button.defaultProps = {

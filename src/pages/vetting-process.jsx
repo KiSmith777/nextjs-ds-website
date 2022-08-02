@@ -13,21 +13,22 @@ import { normalizedData } from "@utils/methods";
 
 // Demo Data
 import homepageData from "../data/homepages/home.json";
+import VettingProcess from "../containers/vetting-process";
 
 
 export async function getStaticProps() {
     return { props: { className: "template-color-1" } };
 }
 
-const Drops = () => {
+const Vetting = () => {
     const content = normalizedData(homepageData?.content || []);
   
     return (
         <Wrapper>
-            <SEO pageTitle="DS Drops" />
+            <SEO pageTitle="Vetting Overview" />
             <Header />
             <main id="main-content">
-                
+                <VettingProcess/>
                
             </main>
             <Footer />
@@ -35,4 +36,4 @@ const Drops = () => {
     );
 };
 
-export default Drops;
+export default Vetting;
