@@ -15,7 +15,6 @@ import { getAllPosts } from "../lib/api";
 // Demo data
 import partnersData from "../data/innerpages/partners.json";
 
-
 const Partners = ({ posts }) => {
     const content = normalizedData(partnersData?.content || []);
     return (
@@ -23,12 +22,7 @@ const Partners = ({ posts }) => {
             <SEO pageTitle="Partners & Affiliates" />
             <Header />
             <main id="main-content">
-            <Breadcrumb
-                pageTitle="Partners & Affiliates"
-                currentPage="Partners & Affiliates"
-            />
-            <PartnersArea data={content["partner-section"]} />
-
+                <PartnersArea data={content["partner-section"]} />
             </main>
             <Footer />
         </Wrapper>
@@ -58,4 +52,3 @@ Partners.propTypes = {
 };
 
 export default Partners;
-

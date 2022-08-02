@@ -15,7 +15,6 @@ const Contact = () => (
         <SEO pageTitle="Contact" />
         <Header />
         <main id="main-content">
-            <Breadcrumb pageTitle="Contact Us" currentPage="Contact Us" />
             <ContactTopArea />
             <ContactFormArea />
         </main>
@@ -24,4 +23,3 @@ const Contact = () => (
 );
 
 export default Contact;
-

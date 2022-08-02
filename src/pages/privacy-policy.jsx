@@ -14,10 +14,7 @@ const PrivacyPolicy = () => (
         <SEO pageTitle="Privacy Policy" />
         <Header />
         <main id="main-content">
-            <Breadcrumb
-                pageTitle="DeFi Skeptic Privacy Policy"
-                currentPage="Privacy Policy"
-            />
+            
             <PrivacyPolicyArea />
         </main>
         <Footer />

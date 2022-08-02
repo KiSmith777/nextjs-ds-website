@@ -14,10 +14,7 @@ const CookiePolicy = () => (
         <SEO pageTitle="Cookie Policy" />
         <Header />
         <main id="main-content">
-            <Breadcrumb
-                pageTitle="DeFi Skeptic Cookie Policy"
-                currentPage="Cookie Policy"
-            />
+            
             <CookiePolicyArea />
         </main>
         <Footer />

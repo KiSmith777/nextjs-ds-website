@@ -14,10 +14,7 @@ const Disclaimer = () => (
         <SEO pageTitle="Disclaimer" />
         <Header />
         <main id="main-content">
-            <Breadcrumb
-                pageTitle="DeFi Skeptic Disclaimer"
-                currentPage="Disclaimer"
-            />
+          
             <DisclaimerArea />
         </main>
         <Footer />
