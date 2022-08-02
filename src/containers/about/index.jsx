@@ -14,7 +14,7 @@ const AboutArea = ({ space, className, data }) => (
             className
         )}
     >
-        <div className="container mb--150" id="about">
+        <div className="container mb--50" id="about">
             <div className="row text-center">
                 <div className="col-12">
                     {data?.section_title && (
@@ -31,14 +31,12 @@ const AboutArea = ({ space, className, data }) => (
             <div className="row g-5">
                 {data?.items?.[0] && (
                     <div className="col-lg-6">
-                        <Sticky>
                             <AboutCard
-                                className="mt_dec--50 widge-wrapper rbt-sticky-top-adjust"
+                                className="transparent-bg"
                                 title={data.items[0].title}
                                 desc={data.items[0].description}
                                 path={data.items[0].path}
                             />
-                        </Sticky>
                     </div>
                 )}
                 {data?.items?.[1] && (
@@ -71,4 +69,3 @@ AboutArea.defaultProps = {
 };
 
 export default AboutArea;
-

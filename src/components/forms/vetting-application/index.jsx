@@ -166,7 +166,7 @@ const VettingApplication = ({ className }) => {
                                 team members and that I have read and understand
                                 the{" "}
                                 <Anchor path="/vetting-process">
-                                    vetting process
+                                    <u>vetting process</u>
                                 </Anchor>
                                 .
                             </label>
@@ -551,7 +551,7 @@ const VettingApplication = ({ className }) => {
                                                 );
                                             } else if (correctRadio === false) {
                                                 setErrorMsg(
-                                                    "You must have a smart contract audit prior to our initial review"
+                                                    "You must have a smart contract audit prior to our initial review. We provide contract auditing if needed."
                                                 );
                                             } else if (correctRadio === true) {
                                                 setStep(step + 1);
@@ -634,7 +634,7 @@ const VettingApplication = ({ className }) => {
                                                 );
                                             } else if (correctRadio === false) {
                                                 setErrorMsg(
-                                                    "Those that handle code or funds must be publicly doxed or KYC verified prior to our initial review"
+                                                    "Those that handle code or funds must be publicly doxed or KYC verified prior to our initial review. We provide KYC services if needed."
                                                 );
                                             } else if (correctRadio === true) {
                                                 setStep(step + 1);
@@ -653,7 +653,7 @@ const VettingApplication = ({ className }) => {
                         <div>
                             <label className="rn-form-label">
                                 If your project uses a liquidity pool, is it
-                                locked? *
+                                locked? We require all LP's to be locked unless justification can be provided. *
                             </label>
                         </div>
                         <div className="form-check radioBox">
@@ -716,9 +716,7 @@ const VettingApplication = ({ className }) => {
                                                     "Please choose one of these options"
                                                 );
                                             } else if (correctRadio === false) {
-                                                setErrorMsg(
-                                                    "Your liquidity pool must be locked prior to our initial review"
-                                                );
+                                                setStep(step + 1);
                                             } else if (correctRadio === true) {
                                                 setStep(step + 1);
                                             }
@@ -736,9 +734,8 @@ const VettingApplication = ({ className }) => {
                         <div>
                             <label className="rn-form-label">
                                 For project owned wallets, does more than one
-                                person have access whether this is direct or
-                                through a multi-sig. If not, do you have a
-                                contingency in place? *
+                                person have access? This can be direct or via multi-sig. If not, do you have a
+                                contingency in place if the sole accessor dies or becomes incapacitated? *
                             </label>
                         </div>
                         <div className="form-check radioBox">
@@ -803,7 +800,7 @@ const VettingApplication = ({ className }) => {
                                                 );
                                             } else if (correctRadio === false) {
                                                 setErrorMsg(
-                                                    "More than one person must have access to project owned wallets prior to our initial review"
+                                                    "To ensure longevity of the project, we require more than one person have access to project wallets. If direct access is not desired, there are other options. Please contact us to discuss."
                                                 );
                                             } else if (correctRadio === true) {
                                                 setSubmit("submit");

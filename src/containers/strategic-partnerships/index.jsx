@@ -75,7 +75,7 @@ const StrategyArea = ({ space, className, data, reverse }) => {
                                                             className="connectBtn"
                                                             size="large"
                                                         >
-                                                            SKP NFT
+                                                            NFT
                                                             <br />
                                                             Learn More
                                                         </Button>

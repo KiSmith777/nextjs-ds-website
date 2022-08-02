@@ -151,6 +151,20 @@
                                     "src": "/images/partners_affiliates/partners/Mobula.png"
                                 }
                             ]
+                        },
+                        {
+                            "id": 135,
+                            "title": "3BM Labs",
+                            "telegram": "",
+                            "website": "https://3bmlabs.io/",
+                            "desc1": "3BM Labs LLC is a group of experienced individuals with over 30 years of collective experience in the marketing, finance and sales industries along with over 15 years of collective crypto experience. They will analyze each prospective project thoroughly starting with their development stage, marketing stage, community development, social media presence, brand awareness and the overall goal of the team/project and setup a personalized marketing strategy for each project that fits their available budget.",
+                            "desc2": "",
+                            "desc3": "",
+                            "image": [
+                                {
+                                    "src": "/images/partners_affiliates/partners/3BM.png"
+                                }
+                            ]
                         }
                     ]
                 },
