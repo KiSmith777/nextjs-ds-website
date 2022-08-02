@@ -4,7 +4,7 @@
         {
             "section": "about-section",
             "section_title": {
-                "title": "Better Information. <br> For The DeFi Investor"
+                "title": "Better Information, <br> For The DeFi Investor."
             },
             "image": {
                 "src": "/images/bg/bg-image-22.jpg"
@@ -14,7 +14,7 @@
                     "id": 1,
                     "title": "Why We Do This",
                     "description": "DeFi Skeptic was founded when a gap was identified between legitimate projects and DeFi users. In 2021 alone, malicious actors stole over $10 billion from DeFi users through various scams, vulnerabilities, and exploits. This necessity is why we created DeFi Skeptic.",
-                    "path": "/blog"
+                    "path": ""
                 },
                 {
                     "id": 2,
@@ -31,7 +31,7 @@
             "texts": [
                 {
                     "id": 1,
-                    "content": "DeFi Skeptic serves DeFi in various ways. One way is by conducting in-depth video interviews with project developers. During this session, the Defi Skeptic team will scrutinize, analyze, and independently review every aspect of the project following the vetting process. Providing this level of detail on DeFi projects can help reduce fraud while increasing security and peace of mind for those looking to invest their hard-earned money.\n\nIf you are a project team member and would like to apply to have the project vetted by DeFi Skeptic, you can do so on the Get Vetted page.\n\nDeFi projects that have passed the vetting process are listed in the DeFi Skeptic Vetted Projects page."
+                    "content": "DeFi Skeptic understands that fixing the issues within the DeFi space is not a job anyone can do alone. So we have made a great effort to source strategic partnerships who share our mission. Together we have a far greater impact as a common collective working towards the same goal. Visit our Partners & Affiliates section to learn more!"
                 }
             ],
             "image": {
