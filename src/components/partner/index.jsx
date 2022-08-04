@@ -3,13 +3,10 @@ import PropTypes from "prop-types";
 import Image from "next/image";
 import clsx from "clsx";
 import Anchor from "@ui/anchor";
-import CountdownTimer from "@ui/countdown/layout-01";
-import ClientAvatar from "@ui/client-avatar";
-import ShareDropdown from "@components/share-dropdown";
-import Button from "@ui/button";
+
 import { ImageType } from "@utils/types";
 import PartnerModal from "@components/modals/partner-modal";
-import { dataURItoByteString } from "react-pdf/dist/umd/shared/utils";
+
 
 const Partner = ({
     style,
