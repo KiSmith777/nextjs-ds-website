@@ -41,9 +41,7 @@ jobs:
         KEY: ${{ secrets.SSHKEY }}
         script: |
           export PATH=$PATH:/usr/local/bin/pm2
-          npm ci
-          npm install
-          npm run build
+         
 
     - uses: actions/checkout@v3
     - name: Use Node.js ${{ matrix.node-version }}
@@ -51,9 +49,9 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm ci
-    - run: npm install
-    - run: npm run build --if-present
-    - name: Reload PM2
-      run: pm2 reload ds-website
-      shell: bash
+    - run: |
+        npm ci
+        npm install
+        npm run build --if-present
+        pm2 restart ds-website
+ 
