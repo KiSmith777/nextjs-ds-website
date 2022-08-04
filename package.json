@@ -58,6 +58,7 @@
     "rimraf": "^3.0.2"
   },
   "cacheDirectories": [
-    "node_modules/"
+    "node_modules/",
+    ".next/cache"
   ]
 }
