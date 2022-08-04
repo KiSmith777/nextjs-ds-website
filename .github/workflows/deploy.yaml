@@ -21,17 +21,17 @@ env:
   PORT: ${{ secrets.PORT }}
   KEY: ${{ secrets.SSHKEY }}
 with:
-source: "."
-target: "/var/www/ds-website"
+  source: "."
+  target: "/var/www/ds-website"
 
 - name: Executing remote command
   uses: appleboy/ssh-action@master
-with:
-        host: ${{ secrets.HOST }}
-        USERNAME: ${{ secrets.USERNAME }}
-        PORT: ${{ secrets.PORT }}
-        KEY: ${{ secrets.SSHKEY }}
-        script: ls
+    with:
+      HOST: ${{ secrets.HOST }}
+      USERNAME: ${{ secrets.USERNAME }}
+      PORT: ${{ secrets.PORT }}
+      KEY: ${{ secrets.SSHKEY }}
+      script: ls
 
   with:
     node-version: 16
