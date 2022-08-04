@@ -41,7 +41,7 @@ jobs:
         KEY: ${{ secrets.SSHKEY }}
         script: |
           export PATH=$PATH:/usr/local/bin/pm2
-          pm2 reload ds-website
+         
 
 
 
