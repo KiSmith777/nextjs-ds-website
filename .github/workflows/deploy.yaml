@@ -41,8 +41,9 @@ jobs:
         KEY: ${{ secrets.SSHKEY }}
         script: |
           export PATH=$PATH:/usr/local/bin/pm2
+          npm ci
           npm install
-          npm build
+          npm run build
 
     - uses: actions/checkout@v3
     - name: Use Node.js ${{ matrix.node-version }}
