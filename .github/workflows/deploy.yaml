@@ -12,8 +12,7 @@ on:
 jobs:
   build:
 
-    validation:
-      runs-on: self-hosted
+    runs-on: self-hosted
 
     strategy:
       matrix:
