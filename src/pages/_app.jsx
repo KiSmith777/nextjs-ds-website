@@ -4,7 +4,6 @@ import { useRouter } from "next/router";
 
 import sal from "sal.js";
 import { ThemeProvider } from "next-themes";
-import { EthersProvider } from "../context/EthersContext";
 import "../assets/css/bootstrap.min.css";
 import "../assets/css/feather.css";
 import "../assets/scss/style.scss";
