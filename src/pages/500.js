@@ -17,8 +17,8 @@ const ErrorPage = () => (
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="rn-not-found-wrapper">
-                            <h2 className="large-title">404</h2>
-                            <h3 className="title">Page not found!</h3>
+                            <h2 className="large-title">500</h2>
+                            <h3 className="title">Page not found</h3>
                             <p>The page you are looking for is not available.</p>
                             <Button path="/">Go Back To Home</Button>
                         </div>
