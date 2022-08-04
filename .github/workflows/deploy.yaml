@@ -12,7 +12,8 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    validation:
+      runs-on: self-hosted
 
     strategy:
       matrix:
@@ -56,4 +57,4 @@ jobs:
     - run: npm ci
     - run: npm install
     - run: npm run build --if-present
-    - run: npx pm2 reload ds-website
+    - run: npx pm2 reload /var/www/ds-website
