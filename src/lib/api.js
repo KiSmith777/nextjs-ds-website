@@ -107,7 +107,7 @@ export function getPostsByCategory(cat, fields = []) {
 export function getPostsByTag(tag, fields = []) {
     const posts = getAllPosts(fields);
     return posts.filter((post) => post.tags.map((t) => t.slug).includes(tag));
-}
+}s
 
 // const productsDirectory = JSON.parse(
 //     fs.readFileSync("src/data/products.json", "utf8")
@@ -121,3 +121,4 @@ export function getPostsByTag(tag, fields = []) {
 //     const slugs = getPostSlugs();
 //     return slugs;
 // }
+s
