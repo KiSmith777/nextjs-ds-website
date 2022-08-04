@@ -10,7 +10,7 @@ import FunfactArea from "@containers/funfact";
 import CTAArea from "@containers/cta";
 import BlogArea from "@containers/blog";
 import { normalizedData } from "@utils/methods";
-import { getAllPosts } from "../lib/api";
+
 
 // Demo data
 import partnersData from "../data/innerpages/partners.json";
