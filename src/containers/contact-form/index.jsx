@@ -13,25 +13,9 @@ const ContactFormArea = ({ space, className }) => (
     >
         <div className="container">
             <div className="row g-5">
+               
                 <div
-                    className="col-lg-6"
-                    data-sal="slide-up"
-                    data-sal-delay="150"
-                    data-sal-duration="800"
-                >
-                    <div className="connect-thumbnail">
-                        <div className="left-image">
-                            <Image
-                                src="/images/test/ContactUs.png"
-                                alt="Nft_Profile"
-                                width={669}
-                                height={686}
-                            />
-                        </div>
-                    </div>
-                </div>
-                <div
-                    className="col-lg-6"
+                    className="col-lg-12"
                     data-sal="slide-up"
                     data-sal-delay="200"
                     data-sal-duration="800"

@@ -30,7 +30,7 @@ const ContactTopArea = ({ space, className }) => (
             </div>
             <div className="row g-5">
                 <div
-                    className="col-lg-4 col-md-6 col-sm-6 col-12"
+                    className="col-lg-6 col-md-6 col-sm-6 col-12"
                     data-sal="slide-up"
                     data-sal-delay="150"
                     data-sal-duration="800"
@@ -54,33 +54,9 @@ const ContactTopArea = ({ space, className }) => (
                         ]}
                     />
                 </div>
+               
                 <div
-                    className="col-lg-4 col-md-6 col-sm-6 col-12"
-                    data-sal="slide-up"
-                    data-sal-delay="200"
-                    data-sal-duration="800"
-                >
-                    <AddressBox
-                        icon="fa-brands fa-twitter"
-                        title="Twitter"
-                        twitters={[
-                            {
-                                name: "DeFi Skeptic: ",
-                                twitter: "@DS_Founder",
-                            },
-                            {
-                                name: "Kieran: ",
-                                twitter: "@BlckchainFuture",
-                            },
-                            {
-                                name: "Jake: ",
-                                twitter: "@jake_will1",
-                            },
-                        ]}
-                    />
-                </div>
-                <div
-                    className="col-lg-4 col-md-6 col-sm-6 col-12"
+                    className="col-lg-6 col-md-6 col-sm-6 col-12"
                     data-sal="slide-up"
                     data-sal-delay="250"
                     data-sal-duration="800"
