@@ -11,7 +11,7 @@
         {
           "id": 1,
           "title": "AutoCrypto",
-          "path": "/files/vetting-reports/AutoCrypto.pdf",
+          "path": "/wp-content/uploads/2022/01/AutoCrypto-Report.pdf",
           "images": {
             "src": "/images/vetted-projects/AutoCrypto.png"
           }
@@ -19,7 +19,7 @@
         {
           "id": 2,
           "title": "Useless",
-          "path": "/files/vetting-reports/Useless.pdf",
+          "path": "/wp-content/uploads/2022/02/Useless-Crypto-Report.pdf",
           "images": {
             "src": "/images/vetted-projects/Useless.png"
           }
@@ -27,7 +27,7 @@
         {
           "id": 3,
           "title": "Affinity",
-          "path": "/files/vetting-reports/Affinity.pdf",
+          "path": "/wp-content/uploads/2022/02/Affinity-Report.pdf",
           "images": {
             "src": "/images/vetted-projects/Affinity.png"
           }
@@ -35,7 +35,7 @@
         {
           "id": 4,
           "title": "MasterMind Games",
-          "path": "/files/vetting-reports/MGA.pdf",
+          "path": "/wp-content/uploads/2022/07/MasterMindGames-Report.pdf",
           "images": {
             "src": "/images/vetted-projects/MGA.png"
           }
@@ -43,9 +43,17 @@
         {
           "id": 5,
           "title": "RocketFi",
-          "path": "/files/vetting-reports/RocketFi.pdf",
+          "path": "/wp-content/uploads/2022/07/RocketFi-Report.pdf",
           "images": {
             "src": "/images/vetted-projects/RocketFi.png"
+          }
+        },
+        {
+          "id": 6,
+          "title": "Son of Doge",
+          "path": "/wp-content/uploads/2022/08/SonOfDoge.pdf",
+          "images": {
+            "src": "/images/vetted-projects/SOD.png"
           }
         }
       ]
