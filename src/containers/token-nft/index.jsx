@@ -40,10 +40,10 @@ const TokenNFTArea = ({ className, space, data }) => {
                         data-sal-delay="150"
                     >
                         We have decided to take things up a notch, no more having to buy both Tokens and NFTs, 
-                        welcome Tokenized NFTs! Through the <Anchor path="https://app.defiskeptic.com/vault"><u>Skeptic Vault</u>
+                        welcome to Tokenized NFTs! Through the <Anchor path="https://app.defiskeptic.com/vault"><u>Skeptic Vault</u>
                         </Anchor>, the user can convert back and forth, tax free, between Skeptic Tokens and First Skeptic NFTs. 
                         This allows the user to own both by owning one and provides the user with the freedom to decide what aspect they want at that exact time!
-                    </p>   
+                    </p>  
                 </TransparentBox>
                 <div className="mt--5 row g-5">
                     <div className="col-lg-6">
@@ -77,6 +77,7 @@ const TokenNFTArea = ({ className, space, data }) => {
                             </div>
                             <p
                                 className="text-justify"
+                                style={{padding: '0px 20px'}}
                                 data-sal="slide-right"
                                 data-sal-duration="1200"
                                 data-sal-delay="150"
@@ -139,6 +140,7 @@ const TokenNFTArea = ({ className, space, data }) => {
                             </div>
                             <p
                                 className="text-justify"
+                                style={{padding: '0px 20px'}}
                                 data-sal="slide-right"
                                 data-sal-duration="1200"
                                 data-sal-delay="150"
