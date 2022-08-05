@@ -28,6 +28,11 @@
                 "id": 23,
                 "text": "Audit",
                 "path": "/files/audit.pdf"
+            },
+            {
+                "id": 24,
+                "text": "Token & NFT",
+                "path": "/token-nft"
             }
         ]
     },
