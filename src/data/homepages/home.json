@@ -43,7 +43,7 @@
                 {
                     "id": 1,
                     "title": "Project Vetting",
-                    "path": "/services",
+                    "path": "/vetting-process",
                     "subtitle": "Information",
                     "description": "At DeFi Skeptic we believe transparency is information, and information is security. This process walks a project through a five-step process across six elements that make up a project. This is designed for the DeFi user to aid their journey, and built for the DeFi project to place them amongst a higher caliber and within a valuable network. Does your project have what it takes to earn the badge?",
                     "images": [
@@ -55,7 +55,7 @@
                 {
                     "id": 2,
                     "title": "For DeFi Developers",
-                    "path": "/token",
+                    "path": "/developer-services",
                     "subtitle": "Transparency",
                     "description": "To increase transparency, you have to start at the project level. If you are looking to start a DeFi project or just take your current project to the next level, you have come to the right place! We provide a full range of services for developers to assist your project at any stage, even from the very start. Our goal is to be your sole source for anything needed.",
                     "images": [
@@ -67,7 +67,7 @@
                 {
                     "id": 3,
                     "title": "For DeFi Users",
-                    "path": "/first-skeptics",
+                    "path": "/user-services",
                     "subtitle": "Security",
                     "description": "Security should cater to the DeFi user. We provide a full range of products and services focused towards the DeFi user to make your journey in the DeFi space easier, safer and seamless. Whether you’re looking for information on the latest projects, a way to generate passive income or just a way to get automated exposure to the latest trusted projects, we have everything you need.",
                     "images": [
@@ -103,7 +103,7 @@
                 {
                     "id": 6,
                     "title": "Skeptic Token",
-                    "path": "token",
+                    "path": "/token-nft",
                     "subtitle": "Utility",
                     "description": "Skeptic Token is designed to be the utility token behind the DeFi Skeptic ecosystem power our user-centered products and services. It serves as a payment method, direct utility integration and proxy for swapping to a First Skeptics NFT. It also set the price for the First Skeptics NFT.",
                     "images": [
@@ -115,7 +115,7 @@
                 {
                     "id": 7,
                     "title": "First Skeptics NFT",
-                    "path": "/first-skeptics",
+                    "path": "/token-nft",
                     "subtitle": "Rewards",
                     "description": "Our First Skeptics NFTs are a set of 250 unique NFTs with 50 of them being rare. These provide the holder with rewards that grow month after month through various revenue streams that aren’t token volume reliant. Being that these are paired to Skeptic Tokens 200k to 1, SKP sets the price of these NFTs which are redeemable through the Skeptic Vault.",
                     "images": [
