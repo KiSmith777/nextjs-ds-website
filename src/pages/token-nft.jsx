@@ -2,7 +2,7 @@ import SEO from "@components/seo";
 import Wrapper from "@layout/wrapper";
 import Header from "@layout/header";
 import Footer from "@layout/footer";
-import TokenArea from "@containers/token"
+import TokenNFTArea from "@containers/token-nft"
 
 /* import NewestItmesArea from "@containers/product/layout-04";
 import TopSellerArea from "@containers/top-seller/layout-01";
@@ -26,7 +26,7 @@ const Token = () => {
             <SEO pageTitle="Skeptic Token (SKP)" />
             <Header />
             <main id="main-content">
-                <TokenArea/>
+                <TokenNFTArea/>
                
             </main>
             <Footer />
