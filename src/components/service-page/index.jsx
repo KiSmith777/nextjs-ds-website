@@ -5,9 +5,9 @@ import Button from "@ui/button";
 
 const Service = ({ title, subtitle, path, description, image, children }) => (
     <div
-        data-sal="slide-up"
+        /*data-sal="slide-up"
         data-sal-delay="150"
-        data-sal-duration="800"
+        data-sal-duration="800"*/
         className="rn-service-page color-shape-7"
     >
         <div className="inner-servicePage flex-row justify-content-center">
