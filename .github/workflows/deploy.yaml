@@ -14,11 +14,6 @@ jobs:
 
     runs-on: self-hosted
 
-    strategy:
-      matrix:
-        node-version: [18.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
     steps:
     - uses: actions/checkout@v3
     - name: Copy repository contents via scp
@@ -40,7 +35,7 @@ jobs:
         PORT: ${{ secrets.PORT }}
         KEY: ${{ secrets.SSHKEY }}
         script: |
-          export PATH=$PATH:/usr/local/bin/pm2
+          ls
 
     - uses: actions/checkout@v3
     - run: npm ci
