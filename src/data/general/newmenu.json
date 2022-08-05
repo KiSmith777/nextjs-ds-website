@@ -9,32 +9,7 @@
     {
         "id": 2,
         "text": "Token & NFT",
-        "path": "/#token",
-        "scroll": true,
-        "to": "token",
-        "icon": "feather-chevron-down",
-        "children": [
-            {
-                "id": 21,
-                "text": "Skeptic Token (SKP)",
-                "path": "/token"
-            },
-            {
-                "id": 22,
-                "text": "First Skeptics NFT",
-                "path": "/first-skeptics"
-            },
-            {
-                "id": 23,
-                "text": "Audit",
-                "path": "/files/audit.pdf"
-            },
-            {
-                "id": 24,
-                "text": "Token & NFT",
-                "path": "/token-nft"
-            }
-        ]
+        "path": "/token-nft"
     },
     {
         "id": 3,
