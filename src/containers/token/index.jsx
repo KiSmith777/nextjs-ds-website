@@ -9,6 +9,7 @@ import Anchor from "@ui/anchor";
 import HeadingLabel from "@components/heading-label";
 import TransparentBox from "@components/transparent-box";
 import SolidBox from "../../components/solid-box";
+import Button from "@ui/button";
 
 const TokenArea = ({ className, space, data }) => {
     const [isShareModalOpen, setIsShareModalOpen] = useState(false);
@@ -449,7 +450,6 @@ const TokenArea = ({ className, space, data }) => {
                                 <li>50% directed into the Skeptic Fund.</li>
                             </ul>
                             <br />
-
                             <div className="rn-author-bg-area position-relative ptb--200 mt--20 mb--20">
                                 <Image
                                     src="/images/test/AaaS on token.png"
@@ -463,6 +463,8 @@ const TokenArea = ({ className, space, data }) => {
                                     data-sal-delay="150"
                                 />
                             </div>
+                           
+                            
                         </SolidBox>
                     </div>
                 </div>

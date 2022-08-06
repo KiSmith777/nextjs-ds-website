@@ -19,6 +19,7 @@ import { normalizedData } from "@utils/methods";
 import homepageData from "../data/homepages/home.json";
 import aboutData from "../data/innerpages/about.json";
 import featureData from "../data/innerpages/featured.json";
+import Button from "@ui/button";
 
 export async function getStaticProps() {
     return { props: { className: "template-color-1" } };

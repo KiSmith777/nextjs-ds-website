@@ -43,15 +43,15 @@ const Header = ({ className, menu }) => {
                         <div className="header-right">
                             <div className="setting-option header-btn">
                                 <div className="icon-box">
-                                    <Anchor path="https://app.defiskeptic.com">
-                                        <Button
-                                            color="primary-alta"
-                                            className="connectBtn"
-                                            size="small"
-                                        >
-                                            Launch App
-                                        </Button>
-                                    </Anchor>
+                                    <Button
+                                        color="primary-alta"
+                                        path="https://app.defiskeptic.com"
+                                        className="connectBtn"
+                                        size="small"
+                                        target="_self"
+                                    >
+                                        Launch App
+                                    </Button>
                                 </div>
                             </div>
 
