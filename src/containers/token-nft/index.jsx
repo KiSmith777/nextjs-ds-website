@@ -95,7 +95,7 @@ const TokenNFTArea = ({ className, space, data }) => {
                                 data-sal-delay="150"
                             >
                                 The primary purpose of <u>Skeptic Token (SKP)</u> will be to serve the DeFi Skeptic ecosystem. 
-                                SKP will integrate with some of the DeFi Skeptic products and services and act as a 
+                                SKP will integrate with some of the DeFi Skeptic products and services and be used as a 
                                 utility token for the DeFi Skeptic ecosystem. The total supply is 50,000,000 SKP.
                             </p>
                             <div className="row g-5 justify-content-around plr--120">
