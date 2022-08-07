@@ -1,11 +1,15 @@
 import Head from "next/head";
 import PropTypes from "prop-types";
+import generateCSP from "../utils/generate-csp";
 
 const SEO = ({ pageTitle }) => (
     <Head>
         <title> {pageTitle} || DeFi Skeptic </title>
-        <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-        <meta name="description" content="DeFi Skeptic - Dedicated to bettering DeFi." />
+  
+        <meta
+            name="description"
+            content="DeFi Skeptic - Dedicated to bettering DeFi."
+        />
         <meta name="robots" content="index, follow" />
         <meta
             name="viewport"
@@ -20,3 +24,4 @@ SEO.propTypes = {
 };
 
 export default SEO;
+
