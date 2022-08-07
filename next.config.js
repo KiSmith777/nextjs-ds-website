@@ -1,13 +1,8 @@
 const path = require("path");
 const ContentSecurityPolicy = `
   default-src 'self';
-  script-src 'self' ajax.cloudflare.com;
+  script-src 'self' 'unsafe-inline' ajax.cloudflare.com https://kit.fontawesome.com https://defiskeptic.com/cdn-cgi/* static.cloudflareinsights.com
   img-src 'self';
-  script-src https://kit.fontawesome.com/bd483e6735.js;
-  script-src 'self' 'unsafe-inline';
-  script-src 'self' https://defiskeptic.com/cdn-cgi/*;
-  script-src static.cloudflareinsights.com;
-  script-src 'self' /cdn-cgi/challenge-platform/;
   connect-src cloudflareinsights.com;
   child-src https://defiskeptic.com;
   style-src 'self' https://defiskeptic.com https://fonts.googleapis.com/*;
