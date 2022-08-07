@@ -6,7 +6,7 @@ const ContentSecurityPolicy = `
   connect-src cloudflareinsights.com;
   child-src https://defiskeptic.com;
   style-src 'self' https://defiskeptic.com https://fonts.googleapis.com/*;
-  font-src https://fonts.googleapis.com https://fonts.gstatic.com;
+  font-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com;
   frame-ancestors 'self' https://defiskeptic.com;
 
 `
