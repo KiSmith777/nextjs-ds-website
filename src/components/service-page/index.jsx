@@ -2,6 +2,7 @@ import Anchor from "@ui/anchor";
 import PropTypes from "prop-types";
 import { ImageType } from "@utils/types";
 import Button from "@ui/button";
+import Image from "next/image";
 
 const Service = ({ title, subtitle, path, description, image, children }) => (
     <div
@@ -20,7 +21,7 @@ const Service = ({ title, subtitle, path, description, image, children }) => (
                 <div className="icon-servicePage pb--20">
                     {image?.src && (
                         // eslint-disable-next-line @next/next/no-img-element
-                        <img src={image.src} alt={image?.alt || title} />
+                        <Image src={image.src} alt={image?.alt || title} height={280} width={280} />
                     )}
                 </div>
                 <div className="setting-option header-btn">

@@ -30,7 +30,7 @@
             ],
             "images": [
                 {
-                    "src": "/images/icons/VETTEDv1.svg"
+                    "src": "/images/icons/DSbadge-hero.png"
                 }
             ]
         },
@@ -48,7 +48,7 @@
                     "description": "At DeFi Skeptic we believe transparency is information, and information is security. This process walks a project through a five-step process across six elements that make up a project. This is designed for the DeFi user to aid their journey, and built for the DeFi project to place them amongst a higher caliber and within a valuable network. Does your project have what it takes to earn the badge?",
                     "images": [
                         {
-                            "src": "/images/icons/DSbadge.PNG"
+                            "src": "/images/icons/DSbadge-85.PNG"
                         }
                     ]
                 },
@@ -60,7 +60,7 @@
                     "description": "To increase transparency, you have to start at the project level. If you are looking to start a DeFi project or just take your current project to the next level, you have come to the right place! We provide a full range of services for developers to assist your project at any stage, even from the very start. Our goal is to be your sole source for anything needed.",
                     "images": [
                         {
-                            "src": "/images/icons/coding.png"
+                            "src": "/images/icons/coding-85.png"
                         }
                     ]
                 },
@@ -72,7 +72,7 @@
                     "description": "Security should cater to the DeFi user. We provide a full range of products and services focused towards the DeFi user to make your journey in the DeFi space easier, safer and seamless. Whether you’re looking for information on the latest projects, a way to generate passive income or just a way to get automated exposure to the latest trusted projects, we have everything you need.",
                     "images": [
                         {
-                            "src": "/images/icons/users.png"
+                            "src": "/images/icons/users-85.png"
                         }
                     ]
                 },
@@ -84,7 +84,7 @@
                     "description": "The DeFi Skeptic team is a strong believer in collaboration over competition. Working with likeminded platforms/projects and sharing each other’s resources is a key component of DeFi Skeptic and a valued aspect of our platform. Take a look at our huge family of partners and affiliates and how we are positively impacting the DeFi space as a collective!",
                     "images": [
                         {
-                            "src": "/images/icons/collaboration.png"
+                            "src": "/images/icons/collaboration-85.png"
                         }
                     ]
                 },
@@ -96,7 +96,7 @@
                     "description": "Gone are the days of having to own both tokens and NFTs. We have revolutionized the space through tokenized NFTs which allows the user to seamlessly swap between Token and NFT at no additional cost. Use Skeptic Tokens for our utilities or hold a First Skeptics NFT for growing rewards that aren’t token volume reliant with multiple revenue streams. The choice is yours to make anytime and as often as you want.",
                     "images": [
                         {
-                            "src": "/images/icons/Vault.png"
+                            "src": "/images/icons/Vault-85.png"
                         }
                     ]
                 },
@@ -108,7 +108,7 @@
                     "description": "Skeptic Token is designed to be the utility token behind the DeFi Skeptic ecosystem power our user-centered products and services. It serves as a payment method, direct utility integration and proxy for swapping to a First Skeptics NFT. It also set the price for the First Skeptics NFT.",
                     "images": [
                         {
-                            "src": "/images/icons/SKP-Token.png"
+                            "src": "/images/icons/SKP-Token-85.png"
                         }
                     ]
                 },
@@ -120,7 +120,7 @@
                     "description": "Our First Skeptics NFTs are a set of 250 unique NFTs with 50 of them being rare. These provide the holder with rewards that grow month after month through various revenue streams that aren’t token volume reliant. Being that these are paired to Skeptic Tokens 200k to 1, SKP sets the price of these NFTs which are redeemable through the Skeptic Vault.",
                     "images": [
                         {
-                            "src": "/images/icons/FSN.png"
+                            "src": "/images/icons/FSN-85.png"
                         }
                     ]
                 }

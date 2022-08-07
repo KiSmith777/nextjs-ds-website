@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import clsx from "clsx";
 import Anchor from "@ui/anchor";
+import Image from "next/image";
 
 const VettedCard = ({ className, title, description, path, image }) => (
     <Anchor path={path}>
@@ -9,7 +10,7 @@ const VettedCard = ({ className, title, description, path, image }) => (
                 <div className="icon d-flex justify-content-center">
                     {image?.src && (
                         // eslint-disable-next-line @next/next/no-img-element
-                        <img src={image.src} alt={image?.alt || title} />
+                        <Image src={image.src} alt={image?.alt || title} height={150} width={150}/>
                     )}
                 </div>
                 <div className="content">

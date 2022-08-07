@@ -6,7 +6,7 @@ import Image from "next/image";
 import Anchor from "@ui/anchor";
 import Button from "@ui/button";
 
-const StrategyArea = ({ space, className, data, reverse }) => {
+const StrategyArea = ({ space, className, data, reverse, section }) => {
     return (
         <div className={clsx(space === 1 && "rn-section-gapTop", className)}>
             <div className="container">
@@ -35,16 +35,31 @@ const StrategyArea = ({ space, className, data, reverse }) => {
                                     {text.content}
                                 </p>
                             ))}
-                            <div className="container d-flex justify-content-center">
-                                {data.image?.src && (
-                                    <Image
-                                        src={data.image.src}
-                                        height={164}
-                                        width={400}
-                                        quality={100}
-                                    />
-                                )}
-                            </div>
+                            {section === "strategy" && (
+                                <div className="container d-flex justify-content-center">
+                                    {data.image?.src && (
+                                        <Image
+                                            src={data.image.src}
+                                            height={164}
+                                            width={400}
+                                            quality={100}
+                                        />
+                                    )}
+                                </div>
+                            )}
+
+                            {section === "token-nft-pair" && (
+                                <div className="container d-flex justify-content-center">
+                                    {data.image?.src && (
+                                        <Image
+                                            src={data.image.src}
+                                            height={164}
+                                            width={592}
+                                            quality={100}
+                                        />
+                                    )}
+                                </div>
+                            )}
 
                             {data.links && (
                                 <div className="row justify-content-center">

@@ -41,8 +41,8 @@ const Home = () => {
                     data={featureContent["featured-on-section"]}
                 />
                 <ServiceArea data={content["service-section"]} />
-                <StrategyArea data={aboutContent["strategy-section"]} />
-                <StrategyArea data={aboutContent["token-nft-pair-section"]} />
+                <StrategyArea data={aboutContent["strategy-section"]} section="strategy" />
+                <StrategyArea data={aboutContent["token-nft-pair-section"]} section="token-nft-pair" />
                 <AboutArea data={aboutContent["about-section"]} />
                 <QuoteArea data={aboutContent["for-developers-section"]} />
                 <QuoteArea

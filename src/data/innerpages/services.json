@@ -14,7 +14,7 @@
           "subtitle": "View Developer Services",
           "path": "/developer-services",
           "images": {
-            "src": "/images/icons/coding.png"
+            "src": "/images/icons/coding280.png"
           }
         },
         {
@@ -23,7 +23,7 @@
           "subtitle": "View User Services",
           "path": "/user-services",
           "images": {
-            "src": "/images/icons/users.png"
+            "src": "/images/icons/users280.png"
           }
         }
       ]

@@ -1,6 +1,7 @@
 import Anchor from "@ui/anchor";
 import PropTypes from "prop-types";
 import { ImageType } from "@utils/types";
+import Image from "next/image";
 
 const Service = ({ title, subtitle, path, description, image }) => (
     <div
@@ -13,7 +14,7 @@ const Service = ({ title, subtitle, path, description, image }) => (
             <div className="icon">
                 {image?.src && (
                     // eslint-disable-next-line @next/next/no-img-element
-                    <img src={image.src} alt={image?.alt || title} />
+                    <Image src={image.src} alt={image?.alt || title} height={350} width={350} />
                 )}
             </div>
             <div className="subtitle">{subtitle}</div>

@@ -37,9 +37,9 @@ const GetVettedArea = ({ space, className }) => {
                                 <TransparentBox className="mb--50 d-flex flex-column">
                                     <div className="row justify-content-center">
                                         <Image
-                                            src="/images/icons/VETTEDv1.svg"
-                                            width={300}
-                                            height={300}
+                                            src="/images/icons/DSbadge280x280.png"
+                                            width={280}
+                                            height={280}
                                         />
                                     </div>
                                     <div className={clsx("row justify-content-center mb--50", showPrev === false && "noShowForm")}>

@@ -38,8 +38,8 @@ const Partner = ({
                         <Image
                             src={image.src}
                             alt={image?.alt || "NFT_portfolio"}
-                            width={550}
-                            height={533}
+                            width={277}
+                            height={277}
                         />
                     )}
                 </div>

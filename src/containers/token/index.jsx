@@ -455,7 +455,8 @@ const TokenArea = ({ className, space, data }) => {
                                     src="/images/test/AaaS on token.png"
                                     alt="Slider BG"
                                     layout="fill"
-                                    objectFit="contain"
+                                    height={200}
+                                    width={200}
                                     quality={100}
                                     priority
                                     data-sal="slide-left"
