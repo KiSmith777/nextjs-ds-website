@@ -81,6 +81,7 @@ const FeaturedOnArea = ({ data, className, space }) => (
                                     >
                                         <Anchor path={prod.path}>
                                             <Image
+                                                alt="featured on"
                                                 src={prod.images?.src}
                                                 height="100%"
                                                 width="100%"

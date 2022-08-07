@@ -39,6 +39,7 @@ const StrategyArea = ({ space, className, data, reverse, section }) => {
                                 <div className="container d-flex justify-content-center">
                                     {data.image?.src && (
                                         <Image
+                                            alt="Our strategy"
                                             src={data.image.src}
                                             height={164}
                                             width={400}
@@ -52,6 +53,7 @@ const StrategyArea = ({ space, className, data, reverse, section }) => {
                                 <div className="container d-flex justify-content-center">
                                     {data.image?.src && (
                                         <Image
+                                            alt="token / nft pair"
                                             src={data.image.src}
                                             height={164}
                                             width={592}

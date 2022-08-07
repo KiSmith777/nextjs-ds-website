@@ -16,15 +16,15 @@ const ShareDropdown = () => {
         <>
             <Dropdown className="share-btn share-btn-activation">
                 <Dropdown.Toggle className="icon" variant="link" bsPrefix="p-0">
-                    <Image src="/images/icons/sharebtn.svg"
+                    <Image
+                        src="/images/icons/sharebtn.svg"
+                        alt="share svg"
                         viewBox="0 0 14 4"
                         fill="none"
                         width={16}
                         height={16}
                         className="sc-bdnxRM sc-hKFxyN hOiKLt"
-                    >
-                        
-                    </Image>
+                    ></Image>
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu className="share-btn-setting" align="end">
@@ -54,3 +54,4 @@ const ShareDropdown = () => {
 };
 
 export default ShareDropdown;
+

@@ -37,6 +37,7 @@ const GetVettedArea = ({ space, className }) => {
                                 <TransparentBox className="mb--50 d-flex flex-column">
                                     <div className="row justify-content-center">
                                         <Image
+                                            alt="DS Badge"
                                             src="/images/icons/DSbadge280x280.png"
                                             width={280}
                                             height={280}
