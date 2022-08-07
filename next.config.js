@@ -26,7 +26,7 @@ const securityHeaders = [
     },
     {
         key:'Permissions-Policy',
-        value: intrest-cohort()
+        value: 'intrest-cohort=()'
     }
 ];
 
