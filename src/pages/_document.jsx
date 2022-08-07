@@ -3,6 +3,7 @@ import Document, { Html, Head, Main, NextScript } from "next/document";
 // import { useTheme } from "../context/theme-context";
 import generateNonce from "../utils/generate-nonce";
 import generateCSP from "@utils/generate-csp";
+import Script from 'next/script';
 
 class MyDocument extends Document {
     static async getInitialProps(ctx) {
@@ -18,17 +19,17 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head nonce={nonce}>
-                    <script
+                    <Script strategy="afterInteractive"
                         nonce={nonce}
                         dangerouslySetInnerHTML={{
                             __html: `window.__webpack_nonce__ = "${nonce}"`,
                         }}
                     />
-                    <script
+                    <Script strategy="beforeInteractive"
                         src="https://kit.fontawesome.com/bd483e6735.js"
                         nonce={nonce}
                         crossOrigin="anonymous"
-                    ></script>
+                    ></Script>
 
                     <link
                         nonce={nonce}
