@@ -20,6 +20,7 @@ const BlogCard = ({
                 <div className="thumbnail">
                     <Anchor path={`${rootPage}/${slug}`}>
                         <Image
+                            
                             src={image.src}
                             alt={image?.alt || "Personal Portfolio Images"}
                             width={image?.width ? image.width : 400}

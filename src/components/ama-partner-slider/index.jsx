@@ -79,6 +79,7 @@ const AmaPartnerSlider = ({ data, className, space }) => {
                                           {console.log(amaPartner)}
                                             <Anchor path={amaPartner.telegram}>
                                                 <Image
+                                                    alt="ama partners"
                                                     src={amaPartner.images[0].src}
                                                     height={100}
                                                     width={100}

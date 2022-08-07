@@ -16,8 +16,6 @@ const generateCSP = ({ nonce }) => {
   add('img-src', `'self'`);
   add('img-src', 'data:');
 
-
-
   //script-src-elem
   add('script-src-elem', `'self'`);
   add('script-src-elem', `'unsafe-inline'`, `'nonce-${nonce}'`);
@@ -56,6 +54,9 @@ const generateCSP = ({ nonce }) => {
 
   //form-action
   add('form-action', `'none'`);
+
+  //add require trusted types
+  add('require-trusted-types-for', `'script'`);
 
 
   // return the object in a formatted value (this won't work on IE11 without a polyfill!)
