@@ -16,7 +16,7 @@ const VettedProjectsArea = ({ className, id, space, data }) => (
                 <div className="col-12 mb--50">
                     <SectionTitle title="DeFi Skeptic Vetted Projects" />
                     <Image
-                        src="/images/icons/VETTEDv1.svg"
+                        src="/images/icons/DSbadge280x280.png"
                         alt="Slider BG"
                         height={280}
                         width={280}

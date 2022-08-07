@@ -25,7 +25,7 @@ InformationWidget.propTypes = {
                     .isRequired,
                 text: PropTypes.string.isRequired,
                 path: PropTypes.string.isRequired,
-                target: PropTypes.string.isRequired
+                target: PropTypes.string
             })
         ),
     }),
