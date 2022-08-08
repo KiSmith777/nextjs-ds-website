@@ -69,34 +69,14 @@ const StrategyArea = ({ space, className, data, reverse, section }) => {
                                         <div className="d-flex justify-content-evenly pt--25">
                                             <div className="setting-option header-btn">
                                                 <div className="icon-box">
-                                                    <Anchor path="/additional-pools">
                                                         <Button
-                                                            path="/token"
+                                                            path="/token-nft"
                                                             color="primary-alta"
                                                             className="connectBtn"
                                                             size="large"
                                                         >
-                                                            Token
-                                                            <br />
                                                             Learn More
                                                         </Button>
-                                                    </Anchor>
-                                                </div>
-                                            </div>
-                                            <div className="setting-option header-btn">
-                                                <div className="icon-box">
-                                                    <Anchor path="/first-skeptics">
-                                                        <Button
-                                                            path="/first-skeptics"
-                                                            color="primary-alta"
-                                                            className="connectBtn"
-                                                            size="large"
-                                                        >
-                                                            NFT
-                                                            <br />
-                                                            Learn More
-                                                        </Button>
-                                                    </Anchor>
                                                 </div>
                                             </div>
                                         </div>
