@@ -107,7 +107,7 @@
         margin: 0;
         display: flex;
         justify-content: flex-end;
-        
+
         @media #{$md-layout} {
             margin: 0;
             padding: 0;
@@ -151,7 +151,7 @@
                         }
                     }
                 }
-            }
-        }
+            } 
+        } 
     }
 }
