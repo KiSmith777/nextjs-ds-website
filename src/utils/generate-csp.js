@@ -56,7 +56,7 @@ const generateCSP = ({ nonce }) => {
   add('form-action', `'none'`);
 
   //add require trusted types
-  add('require-trusted-types-for', `'script'`);
+  /*add('require-trusted-types-for', `'script'`);*/
 
 
   // return the object in a formatted value (this won't work on IE11 without a polyfill!)
