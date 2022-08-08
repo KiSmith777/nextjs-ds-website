@@ -30,4 +30,3 @@ SocialWidget.propTypes = {
 };
 
 export default SocialWidget;
-

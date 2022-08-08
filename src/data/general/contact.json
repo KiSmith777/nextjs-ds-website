@@ -15,18 +15,24 @@
         },
         {
             "id": 3,
+            "icon": "",
+            "link": "https://link.crogram.app/SkepticToken",
+            "title": "Skeptic Token"
+        },
+        {
+            "id": 4,
             "icon": "fa-brands fa-twitter",
             "link": "https://twitter.com/DefiSkeptic",
             "title": "Twitter"
         },
         {
-            "id": 4,
+            "id": 5,
             "icon": "fa-brands fa-medium",
             "link": "https://medium.com/@DeFi-Skeptic",
             "title": "Medium"
         },
         {
-            "id": 5,
+            "id": 6,
             "icon": "fa-solid fa-envelope",
             "link": "mailto:contact@defiskeptic.com",
             "title": "mail"
