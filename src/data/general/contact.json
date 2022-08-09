@@ -9,22 +9,21 @@
         },
         {
             "id": 2,
-            "isImage": true,
-            "icon": " ",
-            "link": "https://link.crogram.app/SkepticToken",
-            "title": "Skeptic Token"
-        },
-        {
-            "id": 3,
             "icon": "fa-brands fa-twitter",
             "link": "https://twitter.com/DefiSkeptic",
             "title": "Twitter"
         },
         {
-            "id": 4,
+            "id": 3,
             "icon": "fa-brands fa-medium",
             "link": "https://medium.com/@DeFi-Skeptic",
             "title": "Medium"
+        },
+        {
+            "id": 4,
+            "isImage": true,
+            "link": "https://link.crogram.app/SkepticToken",
+            "title": "Skeptic Token"
         },
         {
             "id": 5,
