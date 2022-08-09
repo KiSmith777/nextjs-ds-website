@@ -27,7 +27,7 @@ const VettingProcess = ({ className, id, space, data }) => (
                     <h4>What are the benefits and why choose DeFi Skeptic?</h4>
                     By having your project vetted by DeFi Skeptic, you are
                     supporting a higher level of transparency, security, and
-                    information. Our committment to bettering DeFi and our drive
+                    information. Our commitment to bettering DeFi and our drive
                     to bridge the gap between users and legitimate projects is
                     what we beleive makes us the number one choice.
                 </p>
