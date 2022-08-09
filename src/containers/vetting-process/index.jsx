@@ -29,7 +29,7 @@ const VettingProcess = ({ className, id, space, data }) => (
                     supporting a higher level of transparency, security, and
                     information. Our commitment to bettering DeFi and our drive
                     to bridge the gap between users and legitimate projects is
-                    what we beleive makes us the number one choice.
+                    what we believe makes us the number one choice.
                 </p>
                 <br />
                 <br />
