@@ -168,7 +168,9 @@ const VettingApplication = ({ className }) => {
                                 <Anchor path="/vetting-process">
                                     <u>vetting process</u>
                                 </Anchor>
-                                .
+                                . I also understand that if my project passes the 
+                                preliminary review and I pay the $250 vetting fee, 
+                                that it is non-refundable, even if my project is not approved. 
                             </label>
                         </div>
                         <div className="form-check radioBox">
