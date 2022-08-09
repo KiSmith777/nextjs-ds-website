@@ -11,9 +11,9 @@ const SocialWidget = ({ socials }) => (
                     aria-label={social.title}
                 >
                     <i className={social.icon} />
-                    {social.isImage && ( <li key={social.id}> 
-                        <img src="/images/socials/crogram.png" /> 
-                    </li>)}
+                    {social.isImage && (
+                        <img key={social.id} src="/images/socials/CroGram.png" /> 
+                    )}
                 </a>
             </li>
         ))}
