@@ -12,7 +12,7 @@ const SocialWidget = ({ socials }) => (
                 >
                     <i className={social.icon} />
                     {social.isImage && (
-                        <img key={social.id} src="/images/socials/CroGram.png" /> 
+                        <img key={social.id} style={{paddingBottom: 5}} src="/images/socials/crogram-new.svg" /> 
                     )}
                 </a>
             </li>
