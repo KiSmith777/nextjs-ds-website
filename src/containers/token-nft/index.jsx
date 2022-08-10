@@ -109,7 +109,7 @@ const TokenNFTArea = ({ className, space, data }) => {
                                 Learn More
                                 </Button>
                                 <Button
-                                    path="http://localhost:3000/files/audit.pdf" 
+                                    path="files/audit.pdf" 
                                     target="_blank"
                                     color="primary-alta"
                                     className="connectBtn"
