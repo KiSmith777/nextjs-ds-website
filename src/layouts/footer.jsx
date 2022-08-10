@@ -41,13 +41,13 @@ const Footer = ({ space, className }) => (
                             data={footerData["information-widget"]}
                         />
                     </div>
+
                     <div className="col-lg-3 col-md-6 col-sm-6 col-12 mt_md--40 mt_sm--40">
                         <InformationWidget
                             data={footerData["services-widget"]}
                         />
                     </div>
 
-                
                 </div>
             </div>
         </div>
