@@ -15,12 +15,12 @@
             {
                 "id": 1,
                 "text": "Skeptic Token",
-                "path": "/token"
+                "path": "/token-nft"
             },
             {
                 "id": 2,
                 "text": "First Skeptics NFT",
-                "path": "/first-skeptics"
+                "path": "/token-nft"
             },
             {
                 "id": 3,
