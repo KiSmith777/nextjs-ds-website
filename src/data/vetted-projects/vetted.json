@@ -55,6 +55,14 @@
           "images": {
             "src": "/images/vetted-projects/SOD.png"
           }
+        },
+        {
+          "id": 7,
+          "title": "MiND Token",
+          "path": "/files/vetting-reports/MiND.pdf",
+          "images": {
+            "src": "/images/vetted-projects/MiND.png"
+          }
         }
       ]
     }
