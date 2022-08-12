@@ -38,7 +38,7 @@ const GetVettedArea = ({ space, className }) => {
                                     <div className="row justify-content-center">
                                         <Image
                                             alt="DS Badge"
-                                            src="/images/icons/DSbadge280x280.png"
+                                            src="/images/icons/NewVettedBadge.svg"
                                             width={280}
                                             height={280}
                                         />

@@ -12,7 +12,7 @@ const VettingProcess = ({ className, id, space, data }) => (
                 <div className="col-12 mb--50">
                     <SectionTitle title="Vetting Overview" />
                     <Image
-                        src="/images/icons/DSbadge280x280.png"
+                        src="/images/icons/NewVettedBadge.svg"
                         alt="Slider BG"
                         height={280}
                         width={280}
