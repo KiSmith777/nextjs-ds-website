@@ -115,7 +115,7 @@ const TokenNFTArea = ({ className, space, data }) => {
                                     className="connectBtn"
                                     size="large"
                                 >
-                                Audit
+                                View Audit
                                 </Button>
                             </div>
                         </SolidBox>
