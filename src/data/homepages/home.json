@@ -90,22 +90,10 @@
                 },
                 {
                     "id": 5,
-                    "title": "The Skeptic Vault",
-                    "path": "https://app.defiskeptic.com/vault",
-                    "subtitle": "Revolutionizing",
-                    "description": "Gone are the days of having to own both tokens and NFTs. We have revolutionized the space through tokenized NFTs which allows the user to seamlessly swap between Token and NFT at no additional cost. Use Skeptic Tokens for our utilities or hold a First Skeptics NFT for growing rewards that aren’t token volume reliant with multiple revenue streams. The choice is yours to make anytime and as often as you want.",
-                    "images": [
-                        {
-                            "src": "/images/icons/Vault-85.png"
-                        }
-                    ]
-                },
-                {
-                    "id": 6,
                     "title": "Skeptic Token",
                     "path": "/token-nft",
                     "subtitle": "Utility",
-                    "description": "Skeptic Token is designed to be the utility token behind the DeFi Skeptic ecosystem power our user-centered products and services. It serves as a payment method, direct utility integration and proxy for swapping to a First Skeptics NFT. It also set the price for the First Skeptics NFT.",
+                    "description": "Skeptic Token is designed to be the utility token behind the DeFi Skeptic ecosystem power our user-centered products and services. It serves as a payment method, direct utility integration and proxy for swapping to a First Skeptics NFT. It also sets the floor price for the First Skeptics NFT.",
                     "images": [
                         {
                             "src": "/images/icons/SKP-Token-85.png"
@@ -113,7 +101,7 @@
                     ]
                 },
                 {
-                    "id": 7,
+                    "id": 6,
                     "title": "First Skeptics NFT",
                     "path": "/token-nft",
                     "subtitle": "Rewards",
@@ -121,6 +109,18 @@
                     "images": [
                         {
                             "src": "/images/icons/FSN-85.png"
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "title": "The Skeptic Vault",
+                    "path": "https://app.defiskeptic.com/vault",
+                    "subtitle": "Revolutionizing",
+                    "description": "Gone are the days of having to own both tokens and NFTs. We have revolutionized the space through tokenized NFTs which allows the user to seamlessly swap between Token and NFT at no additional cost. Use Skeptic Tokens for our utilities or hold a First Skeptics NFT for growing rewards that aren’t token volume reliant with multiple revenue streams. The choice is yours to make anytime and as often as you want.",
+                    "images": [
+                        {
+                            "src": "/images/icons/Vault-85.png"
                         }
                     ]
                 }
