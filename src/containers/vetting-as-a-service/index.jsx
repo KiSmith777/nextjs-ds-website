@@ -33,14 +33,14 @@ const VaaSArea = ({ space, className }) => {
                             <TransparentBox>
                                 <p className="description text-justify">
                                 <h4>Designed to integrate into your use case!</h4>
-                                Vetting as a service (VaaS) allows the project owner to add a 
+                                Vetting as a service (VaaS) allows the project/platform owner to add a 
                                 security layer to their use case without adding additional work 
-                                for their team. Does your project/platform interact with other 
-                                projects on a regular basis? Would having a thorough screening 
-                                process provide additional value? The entire DeFi Skeptic vetting 
-                                process can seamlessly be integrated into your use case at no 
-                                upfront cost to your project. Projects or platforms that could 
-                                benefits from this include, but are not limited to:
+                                for their team or cost to their ecosystem. Does your project/platform 
+                                interact with other projects on a regular basis? Would having a thorough 
+                                screening process provide additional value? The entire DeFi Skeptic vetting 
+                                process can seamlessly be integrated into your use case at no upfront cost 
+                                to your project. Projects or platforms that could benefits from this include, 
+                                but are not limited to:
                                 </p>
                                 <p>
                                 View our <Anchor path="/vetting-process"><u>Vetting Process</u></Anchor> to 
