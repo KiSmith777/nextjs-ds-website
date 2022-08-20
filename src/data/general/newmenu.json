@@ -24,13 +24,18 @@
             },
             {
                 "id": 312,
+                "text": "Vetting Process",
+                "path": "/vetting-process"
+            },
+            {
+                "id": 313,
                 "text": "Get Vetted",
                 "path": "/get-vetted"
             },
             {
-                "id": 313,
-                "text": "Vetting Process",
-                "path": "/vetting-process"
+                "id": 314,
+                "text": "Vetting as a Service",
+                "path": "/get-vetted"
             }
         ]
     },
