@@ -225,13 +225,12 @@ const ServiceRequestForm = ({ className }) => {
                         <option value="contract-audit">Contract Audit</option>
                         <option value="token-nft">Token & NFT Creation</option>
                         <option value="bot-dapp">dApp & Bot Creation</option>
+                        <option value="vaas">Vetting as a Service (VaaS)</option>
                         <option value="web-development">Web Development</option>
                         <option value="ux-ui-design">UX / UI Design</option>
                         <option value="graphic-design">Graphic Design</option>
                         <option value="vetted-ama-tour">Vetted AMA Tour</option>
-                        <option value="marketing-strategist">
-                            Marketing Strategist
-                        </option>
+                        <option value="marketing-strategist">Marketing Strategist</option>
                     </select>
 
                     {errors.serviceRequested && (

@@ -42,8 +42,8 @@
           "services": [
             {
               "id": 211,
-              "title": "Project Vetting",
-              "path": "/vetting-process",
+              "title": "Vetting as a Service",
+              "path": "/vetting-as-a-service",
               "icon": "solid fa-shield",
               "image": ""
             },
