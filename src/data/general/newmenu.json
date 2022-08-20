@@ -31,11 +31,6 @@
                 "id": 313,
                 "text": "Get Vetted",
                 "path": "/get-vetted"
-            },
-            {
-                "id": 314,
-                "text": "Vetting as a Service",
-                "path": "/get-vetted"
             }
         ]
     },
