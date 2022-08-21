@@ -63,6 +63,14 @@
           "images": {
             "src": "/images/vetted-projects/MiND.png"
           }
+        },
+        {
+          "id": 8,
+          "title": "",
+          "path": "/files/vetting-reports/DiversiFi.pdf",
+          "images": {
+            "src": "/images/vetted-projects/DiversiFi.png"
+          }
         }
       ]
     }
