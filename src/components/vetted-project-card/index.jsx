@@ -3,7 +3,7 @@ import clsx from "clsx";
 import Anchor from "@ui/anchor";
 import Image from "next/image";
 
-const VettedCard = ({ className, title, description, path, image }) => (
+const VettedCard = ({ className, title, subtitle, description, path, image }) => (
     <Anchor path={path}>
         <div className={clsx("wallet-wrapper", className)}>
             <div className="inner">
@@ -15,7 +15,7 @@ const VettedCard = ({ className, title, description, path, image }) => (
                 </div>
                 <div className="content">
                     <h4 className="title text-center">{title}</h4>
-                    <p className="description">{description}</p>
+                    <p className="subtitle text-center">{subtitle}</p>
                 </div>
             </div>
 

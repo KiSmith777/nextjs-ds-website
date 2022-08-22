@@ -11,6 +11,7 @@
         {
           "id": 1,
           "title": "",
+          "subtitle": "Score: 96.51",
           "path": "/wp-content/uploads/2022/01/AutoCrypto-Report.pdf",
           "images": {
             "src": "/images/vetted-projects/AutoCrypto.png"
@@ -19,6 +20,7 @@
         {
           "id": 2,
           "title": "Useless",
+          "subtitle": "Score: 93.02",
           "path": "/wp-content/uploads/2022/02/Useless-Crypto-Report.pdf",
           "images": {
             "src": "/images/vetted-projects/Useless.png"
@@ -27,6 +29,7 @@
         {
           "id": 3,
           "title": "",
+          "subtitle": "Score: 92.37",
           "path": "/wp-content/uploads/2022/02/Affinity-Report.pdf",
           "images": {
             "src": "/images/vetted-projects/AffinityBSC.png"
@@ -35,6 +38,7 @@
         {
           "id": 4,
           "title": "MasterMind Games",
+          "subtitle": "Score: 93.65",
           "path": "/wp-content/uploads/2022/07/MasterMindGames-Report.pdf",
           "images": {
             "src": "/images/vetted-projects/MGA.png"
@@ -43,6 +47,7 @@
         {
           "id": 5,
           "title": "RocketFi",
+          "subtitle": "Score: 89.84",
           "path": "/wp-content/uploads/2022/07/RocketFi-Report.pdf",
           "images": {
             "src": "/images/vetted-projects/RocketFi.png"
@@ -51,6 +56,7 @@
         {
           "id": 6,
           "title": "Son of Doge",
+          "subtitle": "Score: 85.40",
           "path": "/wp-content/uploads/2022/08/SonOfDoge.pdf",
           "images": {
             "src": "/images/vetted-projects/SOD.png"
@@ -59,6 +65,7 @@
         {
           "id": 7,
           "title": "",
+          "subtitle": "Score: 94.60",
           "path": "/files/vetting-reports/MiND.pdf",
           "images": {
             "src": "/images/vetted-projects/MiND.png"
@@ -67,6 +74,7 @@
         {
           "id": 8,
           "title": "",
+          "subtitle": "Score: 94.60",
           "path": "/files/vetting-reports/DiversiFi.pdf",
           "images": {
             "src": "/images/vetted-projects/DiversiFi.png"
