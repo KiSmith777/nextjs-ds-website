@@ -94,6 +94,13 @@
               "path": "/contract-creation",
               "icon": "solid fa-robot",
               "image": ""
+            },
+            {
+              "id": 224,
+              "title": "FIAT Onboarding",
+              "path": "/fiat-onboarding",
+              "icon": "solid fa-solid fa-credit-card",
+              "image": ""
             }
           ]
         },

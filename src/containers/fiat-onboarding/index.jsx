@@ -6,7 +6,7 @@ import { useState } from "react";
 import Anchor from "@ui/anchor";
 import Button from "@ui/button";
 
-const VaaSArea = ({ space, className }) => {
+const FIATArea = ({ space, className }) => {
     const [show, setShow] = useState(false);
     const [showPrev, setShowPrev] = useState(true);
 
@@ -28,30 +28,28 @@ const VaaSArea = ({ space, className }) => {
                     >
                         <div className="section-title mb--30">
                             <h2 className="title text-center">
-                                Vetting as a Service 
+                                FIAT Onboarding 
                             </h2>
                             <TransparentBox>
                                 <p className="description text-justify">
-                                <h4>Designed to integrate into your use case!</h4>
-                                Vetting as a service (VaaS) allows the project/platform owner to add a 
-                                security layer to their use case without adding additional work 
-                                for their team or cost to their ecosystem. Does your project/platform 
-                                interact with other projects on a regular basis? Would having a thorough 
-                                screening process provide additional value? The entire DeFi Skeptic vetting 
-                                process can seamlessly be integrated into your use case at no upfront cost 
-                                to your project or paltform. Projects or platforms that could benefits from this include, 
-                                but are not limited to:
+                                <h4>FIAT to Token has never been easier!</h4>
+                                Have you ever wanted to easily implement a FIAT buying method for your project
+                                so your userbase could seamlessly buy your token? With this plug and play option,
+                                its as simple as adding some ebeded source code to your site. With FIAT Onboarding, 
+                                you can instantly give your users the ability to buy your Token using various payment 
+                                methods such as:
                                 </p>
                                 <ul>
-                                    <li>Launchpads</li>
-                                    <li>Decentralized Exchanges (DEX)</li>
-                                    <li>Staking Pools & LP Farms</li>
-                                    <li>Multi-Token Reflection Tokens</li>
-                                    <li>AMA Lounges & Call Groups</li>
+                                    <li>Apple Pay</li>
+                                    <li>Google Pay</li>
+                                    <li>Visa or Mastercard</li>
+                                    <li>Bank Transfer</li>
                                 </ul>
                                 <p>
-                                View our <Anchor path="/vetting-process"><u>Vetting Process</u></Anchor> to 
-                                get more information on how projects become vetted! 
+                                The best part is...its FREE! You can utilize FIAT Onboarding for free, however if you 
+                                would like to have your project "verified" this would require a KYC that incurs a cost. 
+                                For more information or to get started, click the button below. You can also see an 
+                                example of this overlay below as well.
                                 </p>
                                 <div
                                     className={clsx(
@@ -80,6 +78,10 @@ const VaaSArea = ({ space, className }) => {
                                         show && "showForm"
                                     )}
                                 />
+                                < br/>< br/>< br/>
+                                <h5 className="title text-center">Example of FIAT Onboarding Embed</h5>
+                                
+                                <iframe width="400" height="600"  title="Flooz Trade" frameborder="0" allow="clipboard-read; clipboard-write; web-share; accelerometer *; autoplay *; camera *; gyroscope *; payment *" data-src="https://www.flooz.trade/embedded/0xc50f00779559b2e13dee314530cc387cc5dd85ae" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="> </iframe>
                             </TransparentBox>
                         </div>
                     </div>
@@ -89,13 +91,13 @@ const VaaSArea = ({ space, className }) => {
     );
 };
 
-VaaSArea.propTypes = {
+FIATArea.propTypes = {
     space: PropTypes.oneOf([1, 2]),
     className: PropTypes.string,
 };
 
-VaaSArea.defaultProps = {
+FIATArea.defaultProps = {
     space: 1,
 };
 
-export default VaaSArea;
+export default FIATArea;
