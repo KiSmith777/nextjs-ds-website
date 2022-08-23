@@ -80,8 +80,9 @@ const FIATArea = ({ space, className }) => {
                                 />
                                 < br/>< br/>< br/>
                                 <h5 className="title text-center">Example of FIAT Onboarding Embed</h5>
+                                < br/>
+                                <p className="title text-center">Embed Coming Soon</p>
                                 
-                                <iframe width="400" height="600"  title="Flooz Trade" frameborder="0" allow="clipboard-read; clipboard-write; web-share; accelerometer *; autoplay *; camera *; gyroscope *; payment *" data-src="https://www.flooz.trade/embedded/0xc50f00779559b2e13dee314530cc387cc5dd85ae" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="> </iframe>
                             </TransparentBox>
                         </div>
                     </div>

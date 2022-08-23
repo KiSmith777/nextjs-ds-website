@@ -231,6 +231,7 @@ const ServiceRequestForm = ({ className }) => {
                         <option value="graphic-design">Graphic Design</option>
                         <option value="vetted-ama-tour">Vetted AMA Tour</option>
                         <option value="marketing-strategist">Marketing Strategist</option>
+                        <option value="fiat-onboarding">FIAT Onboarding</option>
                     </select>
 
                     {errors.serviceRequested && (
