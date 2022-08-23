@@ -5,6 +5,7 @@ import TransparentBox from "../../components/transparent-box";
 import { useState } from "react";
 import Anchor from "@ui/anchor";
 import Button from "@ui/button";
+import SolidBox from "../../components/solid-box";
 
 const FIATArea = ({ space, className }) => {
     const [show, setShow] = useState(false);
@@ -81,8 +82,13 @@ const FIATArea = ({ space, className }) => {
                                 < br/>< br/>< br/>
                                 <h5 className="title text-center">Example of FIAT Onboarding Embed</h5>
                                 < br/>
-                                <p className="title text-center">Embed Coming Soon</p>
-                                
+                                <TransparentBox>
+                                <div 
+                                    style={{padding: '0px 0px', width: '100% !important'}}
+                                >
+                                    <iframe src="https://flooz.trade/embed/on-ramp?token=0x1234AE511876FCAaCe685fcDC292d9589A88dC2b&network=bsc" width="400" height="660" allow="accelerometer; autoplay; camera; gyroscope; payment" />
+                                </div>
+                                </TransparentBox>
                             </TransparentBox>
                         </div>
                     </div>

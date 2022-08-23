@@ -77,7 +77,7 @@ const TokenNFTArea = ({ className, space, data }) => {
                             </div>
                             <p
                                 className="text-center"
-                                style={{padding: '0px 4px 0px 4px'}}
+                                style={{padding: '0px 20px'}}
                                 data-sal="slide-right"
                                 data-sal-duration="1200"
                                 data-sal-delay="150"
@@ -152,7 +152,12 @@ const TokenNFTArea = ({ className, space, data }) => {
                             </div>
                             <p
                                 className="text-center"
-                                style={{padding: '0px 20px'}}
+                                style={{
+                                    justifyContent: "center",
+                                    alignItems: "center",
+                                    display: "flex",
+                                    padding: '0px 20px'
+                                }}
                                 data-sal="slide-right"
                                 data-sal-duration="1200"
                                 data-sal-delay="150"
