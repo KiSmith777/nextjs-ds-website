@@ -5,6 +5,7 @@ import Anchor from "@ui/anchor";
 import { SectionTitleType, ItemType } from "@utils/types";
 import Image from "next/image";
 import Button from "@ui/button";
+
 const VettingProcess = ({ className, id, space, data }) => (
     <div className="rn-section-gapTop">
         <div className="container">

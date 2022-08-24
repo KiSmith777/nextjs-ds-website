@@ -52,11 +52,11 @@ const DSDropsArea = ({ className, id, space, data }) => (
                     you want to receive tokens.
                 </p>
                 <p>The process is simple:</p>
-                <ol style={{ marginLeft: 50 }}>
+                <p><ol>
                     <li>Connect your wallet.</li>
                     <li>Select a tier (1-3)</li>
-                    <li>Pay in Skeptic Tokens (SKP)</li><br/>
-                </ol>
+                    <li>Pay in Skeptic Tokens (SKP)</li>
+                </ol></p>
                 <p>
                     When a new token is added to the pool, announcements will be
                     made on all of our social platforms and the subscriber can
@@ -67,11 +67,11 @@ const DSDropsArea = ({ className, id, space, data }) => (
                     want. For example, if the service had the following
                     subscribers;
                 </p>
-                <ul style={{ marginLeft: 50 }}>
+                <p><ul>
                     <li>3x tier 1 subscribers (3 allocations)</li>
                     <li>4x tier 2 subscribers (8 allocations)</li>
-                    <li>2x tier 3 subscribers (6 allocations)</li><br/>
-                </ul>
+                    <li>2x tier 3 subscribers (6 allocations)</li>
+                </ul></p>
                 <p>
                     This would total 17 allocations, so a tier 2 subscriber for
                     example would be allowed to claim 2/17 or 11.7% of that

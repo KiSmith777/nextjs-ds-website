@@ -1,22 +1,30 @@
 import { useState } from "react";
 import PropTypes, { nominalTypeHack } from "prop-types";
-import clsx from "clsx";
-import Image from "next/image";
 import { ImageType } from "@utils/types";
-import ShareDropdown from "@components/share-dropdown";
-import ShareModal from "@components/modals/share-modal";
-import Anchor from "@ui/anchor";
 import SocialWidget from "@components/widgets/social-widget";
-
 import teamContacts from "../../data/general/contact.json";
+import SectionTitle from "@components/section-title";
+import clsx from "clsx";
 
 const TeamIntroArea = ({ className, space, data }) => {
     const [isShareModalOpen, setIsShareModalOpen] = useState(false);
     const shareModalHandler = () => setIsShareModalOpen((prev) => !prev);
     return (
         <>
-            <div className="contentWrapper">
-                <div className="teamHeading">The DeFi Skeptic Team</div>
+    <div className="contentWrapper">
+        <div className={clsx(
+                "rn-contact-top-area bg_color--5",
+                space === 1 && "rn-section-gapTop",
+                className)}>
+            <div className="container">
+                <div className="section-title mb--30 text-center">
+                    <h2 className="title">
+                        The DeFi Skeptic Team
+                    </h2>
+                </div>
+            </div>
+        </div>
+                {/*<div className="teamHeading">The DeFi Skeptic Team</div>*/}
                 <div className="contentWrapper">
                     <div className="teamCard">
                         <div className="teamPic" id="chris"></div>
