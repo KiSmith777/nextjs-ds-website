@@ -159,7 +159,7 @@ const VettingApplication = ({ className }) => {
                 onSubmit={handleSubmit(onSubmit)}
             >
                 {step === 1 && (
-                    <div className="mb-5">
+                    <div className="text-justify mb-5">
                         <div>
                             <label className="rn-form-label">
                                 I confirm that I am one of the projects core
@@ -399,7 +399,7 @@ const VettingApplication = ({ className }) => {
                             show && "showForm"
                         )}
                     >
-                        <label htmlFor="referral" className="rn-form-label">
+                        <label htmlFor="referral" className="rn-form-label text-justify ">
                             Were you referred to DeFi Skeptic? If so, enter the
                             person that referred you. Otherwise, click next.
                         </label>
@@ -443,7 +443,7 @@ const VettingApplication = ({ className }) => {
                 {step === 5 && (
                     <div
                         className={clsx(
-                            "mb-5 noShowForm font--16",
+                            "text-justify mb-5 noShowForm font--16",
                             show && "showForm"
                         )}
                     >
@@ -571,7 +571,7 @@ const VettingApplication = ({ className }) => {
                 {step === 7 && (
                     <div className="mb-5">
                         <div>
-                            <label className="rn-form-label">
+                            <label className="rn-form-label text-justify">
                                 Are those on your projects team that handle code
                                 or funds publicly doxed and/or KYC verified? *
                             </label>
@@ -653,7 +653,7 @@ const VettingApplication = ({ className }) => {
                 {step === 8 && (
                     <div className="mb-5">
                         <div>
-                            <label className="rn-form-label">
+                            <label className="rn-form-label text-justify">
                                 If your project uses a liquidity pool, is it
                                 locked? We require all LP's to be locked unless justification can be provided. *
                             </label>
@@ -734,7 +734,7 @@ const VettingApplication = ({ className }) => {
                 {step === 9 && (
                     <div className="mb-5">
                         <div>
-                            <label className="rn-form-label">
+                            <label className="rn-form-label text-justify">
                                 For project owned wallets, does more than one
                                 person have access? This can be direct or via multi-sig. If not, do you have a
                                 contingency in place if the sole accessor dies or becomes incapacitated? *

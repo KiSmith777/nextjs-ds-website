@@ -30,41 +30,20 @@ const VettingProcess = ({ className, id, space, data }) => (
                     information. Our commitment to bettering DeFi and our drive
                     to bridge the gap between users and legitimate projects is
                     what we believe makes us the number one choice.
-                </p>
-                <br />
-                <br />
-                <p>
+                    <br /><br />
                     In addition to showing the DeFi space that your project is
                     among a higher caliber, projects also receive the following
                     benefits:
+                    <ul>
+                        <li><p>Added to the{" "}<Anchor path="/vetted-projects">Vetted Database</Anchor></p></li>
+                        <li><p>Awarded the "DS Vetted" badge.</p></li>
+                        <li><p>Cross-Community promotion via the "The Vetted Circle".</p></li>
+                        <li><p>Awared the verified badge in the{" "}<Anchor path="https://crogram.app">CroGram</Anchor>{" "}mobile app.</p></li>
+                        <li><p>Promoted various ways within the DeFi Skeptic ecosystem.</p></li>
+                        <li><p>Entry into a network with a common mission designed to support eachother.</p></li>
+                        <li><p>Free usage of community engagement bot that generates volume for your token.</p></li>
+                    </ul>
                 </p>
-                <ul style={{ marginLeft: 50 }}>
-                    <li>
-                        Added to the{" "}
-                        <Anchor path="/vetted-projects">Vetted Database</Anchor>
-                    </li>
-                    <li>Awarded the "DS Vetted" badge.</li>
-                    <li>
-                        Cross-Community promotion via the "The Vetted Circle".
-                    </li>
-                    <li>
-                        Awared the verified badge in the{" "}
-                        <Anchor path="https://crogram.app">CroGram</Anchor>{" "}
-                        mobile app.
-                    </li>
-                    <li>
-                        Promoted various ways within the DeFi Skeptic ecosystem
-                        .
-                    </li>
-                    <li>
-                        Entry into a network with a common mission designed to
-                        support eachother.
-                    </li>
-                    <li>
-                        Free usage of community engagement bot that generates
-                        volume for your token.
-                    </li>
-                </ul>
                 <br />
             </div>
             <div className="row text-justify">
@@ -87,16 +66,16 @@ const VettingProcess = ({ className, id, space, data }) => (
                 </p>
                 <div className="text-center col-12 ptb--50">
                     <Image
-                        src="/images/icons/vetting-categories.png"
+                        src="/images/test/vetting-categories.png"
                         alt="Slider BG"
-                        height={412}
-                        width={400}
+                        height={288}
+                        width={280}
                         objectFit="contain"
                         quality={100}
                         priority
                     />
                 </div>
-                <ol>
+                <p><ol>
                     <li>
                         <p>
                             <h5>Application</h5>
@@ -118,15 +97,15 @@ const VettingProcess = ({ className, id, space, data }) => (
                             requirements:
                         </p>
                         <ol>
-                            <li>Audited smart contract</li>
-                            <li>Doxed or KYC'd team</li>
-                            <li>Locked liquidity if liquidity exists</li>
-                            <li>
+                            <li><p>Audited smart contract</p></li>
+                            <li><p>Doxed or KYC'd team</p></li>
+                            <li><p>Locked liquidity if liquidity exists</p></li>
+                            <li><p>
                                 Project wallets must have more than one member
                                 who has access, whether this is direct or
                                 through a multi-sig. If not, you must have a
                                 contingency in place.
-                            </li>
+                            </p></li>
                         </ol>
                         <br />
                     </li>
@@ -195,7 +174,7 @@ const VettingProcess = ({ className, id, space, data }) => (
                             are made.
                         </p>
                     </li>
-                </ol>
+                </ol></p>
             </div>
             <div className="setting-option header-btn">
                 <div className="icon-box d-flex justify-content-center mt--10 pb--50">

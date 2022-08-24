@@ -87,24 +87,16 @@ const ArbitrageServiceArea = ({ space, className }) => {
                     </p>
                     <ul>
                         <li>Stabilized price across all liquidity pools</li>
-                        <li>
-                            Profit generation for your platform, otherwise lost
-                        </li>
-                        <li>
-                            …<b>FREE TO USE</b>
-                        </li>
+                        <li>Profit generation for your platform, otherwise lost</li>
+                        <li>…<b>FREE TO USE</b></li>
                     </ul>
-
                     <p
                         data-sal="slide-up"
                         data-sal-duration="1200"
                         data-sal-delay="150"
                     >
                         Only have one liquidity pair? Find out{" "}
-                        <Anchor path="/additional-pools">
-                            why you need more
-                        </Anchor>
-                        .
+                        <Anchor path="/additional-pools"><u>why you need more</u></Anchor>.
                     </p>
                     <div className={clsx("setting-option header-btn pt--50", showPrev === false && "noShowForm")}>
                         <div className="icon-box d-flex justify-content-center mt--10">
