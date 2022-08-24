@@ -69,7 +69,7 @@ const VettedAMATourArea = ({ space, className }) => {
                                 </p>
                                 <h6 className="text-center">
                                     Reserve tour below for 14 BNB!
-                                    <br />
+                                    <br /><br />
                                     <b>
                                         Payment methods accepted are BUSD and
                                         BNB.
