@@ -183,6 +183,9 @@
         background: #13131d57;
         border: 1px solid var(--color-border);
     }
+    @media #{$large-mobile} {
+        padding: 25px 10px;
+    }
 
     &.transparent-bg {
         background: #13131d57;
@@ -203,6 +206,7 @@
     }
     .inner {
         margin-bottom: 0;
+        
         h3 {
             font-weight: 400;
             margin-bottom: 15px;
@@ -211,6 +215,13 @@
         p {
             margin-bottom: 20px;
             font-weight: 400;
+            text-align: center;
+
+            #contract-address {
+                @media #{$large-mobile} {
+                    font-size: 15px !important;
+                }
+            }
         }
     }
 }

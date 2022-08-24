@@ -22,9 +22,7 @@ const KYCArea = ({ space, className }) => {
                 <div className="row g-5">
                     <div
                         className="col-lg-12"
-                        data-sal="slide-up"
-                        data-sal-delay="150"
-                        data-sal-duration="800"
+                      
                     >
                         <div className="section-title mb--30">
                             <h2 className="title text-center">KYC Services</h2>

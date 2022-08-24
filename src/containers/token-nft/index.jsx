@@ -81,10 +81,11 @@ const TokenNFTArea = ({ className, space, data }) => {
                                 data-sal="slide-right"
                                 data-sal-duration="1200"
                                 data-sal-delay="150"
+                                
                             >
                                 Token Address
                                 <br />
-                                0x1234AE511876FCAaCe685fcDC292d9589A88dC2b
+                                <section id="contract-address">0x1234AE511876FCAaCe685fcDC292d9589A88dC2b</section>
                             </p>
                             <br />
                             <p
@@ -159,7 +160,7 @@ const TokenNFTArea = ({ className, space, data }) => {
                             >
                                 NFT Address
                                 <br />
-                                0xe82d1E44a1f8a37f74A718Ee797F29Eb3aE1D84A
+                                <section id="contract-address">0xe82d1E44a1f8a37f74A718Ee797F29Eb3aE1D84A</section>
                             </p>
                             <br />
                             <p

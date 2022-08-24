@@ -47,7 +47,8 @@ const AdditionalPoolsArea = ({ space, className }) => (
                     Pegged BTC, etc. . . You can reduce the backing assets
                     control over your tokens price, giving your token more
                     control over its own price!
-                </p><br/>
+                </p>
+                <br />
                 <h6
                     data-sal="slide-right"
                     data-sal-duration="1200"
@@ -55,7 +56,11 @@ const AdditionalPoolsArea = ({ space, className }) => (
                 >
                     Scenario One (You are solely paired to BNB):
                 </h6>
-                <ul>
+                <ul
+                    data-sal="slide-right"
+                    data-sal-duration="1200"
+                    data-sal-delay="150"
+                >
                     <li>50% price volatility from your token.</li>
                     <li>50% price volatility from the price of BNB.</li>
                 </ul>
@@ -66,7 +71,11 @@ const AdditionalPoolsArea = ({ space, className }) => (
                 >
                     Scenario Two (You have two pairs: BNB and pegged ETH):
                 </h6>
-                <ul>
+                <ul
+                    data-sal="slide-right"
+                    data-sal-duration="1200"
+                    data-sal-delay="150"
+                >
                     <li>50% price volatility from your token</li>
                     <li>25% price volatility from BNB.</li>
                     <li>25% price volatility from pegged ETH.</li>
@@ -79,7 +88,11 @@ const AdditionalPoolsArea = ({ space, className }) => (
                     Scenario Three (You have three pairs: BNB, pegged ETH, and
                     BUSD):
                 </h6>
-                <ul>
+                <ul
+                    data-sal="slide-right"
+                    data-sal-duration="1200"
+                    data-sal-delay="150"
+                >
                     <li>50% price volatility from your token.</li>
                     <li>16.6% price volatility from BNB.</li>
                     <li>16.6% price volatility from pegged ETH.</li>
@@ -87,32 +100,42 @@ const AdditionalPoolsArea = ({ space, className }) => (
                         16.6% price volatility from BUSD (which has 0%
                         volatility)
                     </li>
-                </ul><br/>
-                <p>
+                </ul>
+                <br />
+                <p data-sal="slide-up"
+                data-sal-duration="1200"
+                data-sal-delay="150">
                     With each additional liquidity pair you add, you reduce the
                     backing assets impact/control over the price of your token,
                     making your token more stable in terms of controlling its
                     own price!
                 </p>
-                <p>
+                <p data-sal="slide-up"
+                data-sal-duration="1200"
+                data-sal-delay="150">
                     If you do decide to add additional liquidity pairs, be sure
-                    to checkout <Anchor path="/arbitrage-service">Arbitrage as a Service</Anchor> which allows you to
-                    generate profit for your project which would otherwise be
-                    lost to random arbitrage traders!
-                </p>
-                <div className="setting-option header-btn">
-                <div className="icon-box d-flex justify-content-center mt--10 pb--50">
+                    to checkout{" "}
                     <Anchor path="/arbitrage-service">
-                        <Button
-                            color="primary-alta"
-                            className="connectBtn"
-                            size="large"
-                        >
-                            Arbitrage as a Service
-                        </Button>
-                    </Anchor>
+                        Arbitrage as a Service
+                    </Anchor>{" "}
+                    which allows you to generate profit for your project which
+                    would otherwise be lost to random arbitrage traders!
+                </p>
+                <div data-sal="slide-up"
+                data-sal-duration="1200"
+                data-sal-delay="150" className="setting-option header-btn">
+                    <div className="icon-box d-flex justify-content-center mt--10 pb--50">
+                        <Anchor path="/arbitrage-service">
+                            <Button
+                                color="primary-alta"
+                                className="connectBtn"
+                                size="large"
+                            >
+                                Arbitrage as a Service
+                            </Button>
+                        </Anchor>
+                    </div>
                 </div>
-            </div>
             </TransparentBox>
         </div>
     </div>

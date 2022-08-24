@@ -3,7 +3,7 @@ import Document, { Html, Head, Main, NextScript } from "next/document";
 // import { useTheme } from "../context/theme-context";
 import generateNonce from "../utils/generate-nonce";
 import generateCSP from "@utils/generate-csp";
-import Script from 'next/script';
+import Script from "next/script";
 
 class MyDocument extends Document {
     static async getInitialProps(ctx) {
@@ -19,13 +19,15 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head nonce={nonce}>
-                    <Script strategy="afterInteractive"
+                    <Script
+                        strategy="afterInteractive"
                         nonce={nonce}
                         dangerouslySetInnerHTML={{
                             __html: `window.__webpack_nonce__ = "${nonce}"`,
                         }}
                     />
-                    <Script strategy="beforeInteractive"
+                    <Script
+                        strategy="beforeInteractive"
                         src="https://kit.fontawesome.com/bd483e6735.js"
                         nonce={nonce}
                         crossOrigin="anonymous"
@@ -35,22 +37,24 @@ class MyDocument extends Document {
                         nonce={nonce}
                         rel="preconnect"
                         href="https://fonts.googleapis.com"
+                        crossOrigin="anonymous"
                     />
                     <link
                         nonce={nonce}
                         rel="preconnect"
                         href="https://fonts.gstatic.com/*"
-                        crossorigin
+                        crossOrigin="anonymous"
                     />
                     <link
                         nonce={nonce}
                         href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
                         rel="stylesheet"
+                        crossOrigin="anonymous"
                     />
                 </Head>
                 <body>
                     <Main />
-                    <NextScript nonce={nonce}/>
+                    <NextScript nonce={nonce} />
                 </body>
             </Html>
         );
