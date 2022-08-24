@@ -79,6 +79,7 @@ const ArbitrageServiceArea = ({ space, className }) => {
                         have to do is let it work its magic!
                     </p>
                     <p
+                        className="text-justify"
                         data-sal="slide-up"
                         data-sal-duration="1200"
                         data-sal-delay="150"
