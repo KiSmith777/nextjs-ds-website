@@ -34,7 +34,7 @@ const GetVettedArea = ({ space, className }) => {
                             </h2>
 
                             <div className="row d-flex justify-content-center">
-                                <TransparentBox className="mb--50 d-flex flex-column">
+                                {/*<TransparentBox className="mb--50 d-flex flex-column">*/}
                                     <div className="row justify-content-center">
                                         <Image
                                             alt="DS Badge"
@@ -62,9 +62,8 @@ const GetVettedArea = ({ space, className }) => {
                                             "noShowForm",
                                             show && "showForm"
                                         )}
-                                       
                                     />
-                                </TransparentBox>
+                                {/*</TransparentBox>*/}
                             </div>
                         </div>
                     </div>
