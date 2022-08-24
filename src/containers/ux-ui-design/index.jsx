@@ -35,8 +35,7 @@ const UXUIDesignArea = ({ space, className }) => {
                                     companies and will ensure you get the
                                     highest quality design that meets every
                                     requirements and expectation you have.
-                                </p>
-                                <p>
+                                    <br /><br />
                                     Our designers provide professional design
                                     services for any size job. Full web design,
                                     mobile apps, ad development, and game
