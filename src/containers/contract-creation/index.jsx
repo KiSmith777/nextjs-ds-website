@@ -29,7 +29,7 @@ const ContractCreationArea = ({ space, className }) => {
                                 Custom Smart Contract Creation
                             </h2>
                             <TransparentBox>
-                                <p className="description">
+                                <p className="description text-justify">
                                     This team of experienced coders will work
                                     with you to deliver an entirely customized
                                     contract. Customized smart contract creation
@@ -39,8 +39,8 @@ const ContractCreationArea = ({ space, className }) => {
                                     your project and ensures better security by
                                     not having unneeded functions and
                                     parameters.
-                                </p>
-                                <p>
+                                
+                                    <br /><br />
                                     Typical smart contracts made include but are
                                     not limited to:
                                     <ul>
@@ -49,8 +49,7 @@ const ContractCreationArea = ({ space, className }) => {
                                         <li>dApp's</li>
                                         <li>Bots</li>
                                     </ul>
-                                </p>
-                                <p>
+                                
                                     Gone are the days of getting cookie-cutter
                                     contracts that lack the specific functions
                                     your team wants. Avoid forking/copying an
