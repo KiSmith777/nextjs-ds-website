@@ -5,6 +5,7 @@ import Anchor from "@ui/anchor";
 import { SectionTitleType, ItemType } from "@utils/types";
 import Image from "next/image";
 import Button from "@ui/button";
+import TransparentBox from "../../components/transparent-box";
 
 const ReferralProgramArea = ({ className, id, space, data }) => (
     <div className="rn-section-gapTop">
@@ -14,13 +15,14 @@ const ReferralProgramArea = ({ className, id, space, data }) => (
                     <SectionTitle title="DeFi Skeptic Referral Program" />
                 </div>
             </div>
+            <TransparentBox>
             <div className="row">
-                <p className="text-center">
+                <p className="text-justify">
                     We offer a super easy way to make some side money! It's
                     simple, bring DeFi Skeptic business and get a bonus! Please
                     see the bonus values below:
                 </p>
-                <ul style={{ marginLeft: 175 }}>
+                <ul style={{ textAlign: 'left', marginLeft: 50 }}>
                     <li>
                         $20 -{" "}
                         <Anchor path="/vetting-process">Project Vetting</Anchor>
@@ -53,6 +55,7 @@ const ReferralProgramArea = ({ className, id, space, data }) => (
                     inquire about these services!
                 </p>
             </div>
+            </TransparentBox>
         </div>
     </div>
 );
