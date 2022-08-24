@@ -39,14 +39,12 @@ const FIATArea = ({ space, className }) => {
                                 its as simple as adding some ebeded source code to your site. With FIAT Onboarding, 
                                 you can instantly give your users the ability to buy your Token using various payment 
                                 methods such as:
-                                </p>
                                 <ul>
                                     <li>Apple Pay</li>
                                     <li>Google Pay</li>
                                     <li>Visa or Mastercard</li>
                                     <li>Bank Transfer</li>
                                 </ul>
-                                <p>
                                 The best part is...its FREE! You can utilize FIAT Onboarding for free, however if you 
                                 would like to have your project "verified" this would require a KYC that incurs a cost. 
                                 For more information or to get started, click the button below. You can also see an 
