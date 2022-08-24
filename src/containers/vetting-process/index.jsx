@@ -39,9 +39,9 @@ const VettingProcess = ({ className, id, space, data }) => (
                         <li><p>Added to the{" "}<Anchor path="/vetted-projects">Vetted Database</Anchor></p></li>
                         <li><p>Awarded the "DS Vetted" badge.</p></li>
                         <li><p>Cross-Community promotion via the "The Vetted Circle".</p></li>
-                        <li><p>Awared the verified badge in the{" "}<Anchor path="https://crogram.app">CroGram</Anchor>{" "}mobile app.</p></li>
+                        <li><p>Awarded the verified badge in the{" "}<Anchor path="https://crogram.app">CroGram</Anchor>{" "}mobile app.</p></li>
                         <li><p>Promoted various ways within the DeFi Skeptic ecosystem.</p></li>
-                        <li><p>Entry into a network with a common mission designed to support eachother.</p></li>
+                        <li><p>Entry into a network with a common mission designed to support each other.</p></li>
                         <li><p>Free usage of community engagement bot that generates volume for your token.</p></li>
                     </ul>
                 </p>
