@@ -221,6 +221,9 @@
                 @media #{$large-mobile} {
                     font-size: 15px !important;
                 }
+                @media #{$small-mobile} {
+                    font-size: 12px !important;
+                }
             }
         }
     }
