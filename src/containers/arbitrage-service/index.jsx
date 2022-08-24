@@ -46,6 +46,7 @@ const ArbitrageServiceArea = ({ space, className }) => {
                 </div>
                 <TransparentBox>
                     <p
+                        className="text-justify"
                         data-sal="slide-right"
                         data-sal-duration="1200"
                         data-sal-delay="150"
@@ -62,6 +63,7 @@ const ArbitrageServiceArea = ({ space, className }) => {
                         from any price discrepancy.
                     </p>
                     <p
+                        className="text-justify"
                         data-sal="slide-left"
                         data-sal-duration="1200"
                         data-sal-delay="150"
