@@ -165,6 +165,20 @@
                                     "src": "/images/partners_affiliates/partners/3BM.png"
                                 }
                             ]
+                        },
+                        {
+                            "id": 136,
+                            "title": "MiND Token",
+                            "telegram": "MiNDOfficialbsc",
+                            "website": "https://www.mindtoken.app/",
+                            "desc1": "MiND token is bringing wellness to crypto through their staking platform where users receive the benefits of Lifeworks, including doctors, lawyers, therapists, fitness professional’s financial advisors and much, much more.",
+                            "desc2": "",
+                            "desc3": "As a partner, MiND Token will be utilizing our vetting as a service (VaaS) for their staking platform. We will also have a dedicated SKP LP Farm for Skeptic Token within the MiND Token platform. SKP token holders can pair their SKP and BNB and receive SKP as a reward while receiving the full Lifeworks benefits package!",
+                            "image": [
+                                {
+                                    "src": "/images/partners_affiliates/partners/mind1.png"
+                                }
+                            ]
                         }
                     ]
                 },
