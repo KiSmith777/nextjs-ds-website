@@ -36,10 +36,10 @@ const VettingProcess = ({ className, id, space, data }) => (
                     among a higher caliber, projects also receive the following
                     benefits:
                     <ul>
-                        <li><p>Added to the{" "}<Anchor path="/vetted-projects">Vetted Database</Anchor></p></li>
+                        <li><p>Added to the{" "}<Anchor path="/vetted-projects"><u>Vetted Database</u></Anchor></p></li>
                         <li><p>Awarded the "DS Vetted" badge.</p></li>
                         <li><p>Cross-Community promotion via the "The Vetted Circle".</p></li>
-                        <li><p>Awarded the verified badge in the{" "}<Anchor path="https://crogram.app">CroGram</Anchor>{" "}mobile app.</p></li>
+                        <li><p>Awarded the verified badge in the{" "}<Anchor path="https://crogram.app"><u>CroGram</u></Anchor>{" "}mobile app.</p></li>
                         <li><p>Promoted various ways within the DeFi Skeptic ecosystem.</p></li>
                         <li><p>Entry into a network with a common mission designed to support each other.</p></li>
                         <li><p>Free usage of community engagement bot that generates volume for your token.</p></li>
@@ -81,7 +81,7 @@ const VettingProcess = ({ className, id, space, data }) => (
                         <p>
                             <h5>Application</h5>
                             To apply to have your project vetted, please visit
-                            the <Anchor path="/get-vetted">Get Vetted </Anchor>
+                            the <Anchor path="/get-vetted"><u>Get Vetted</u> </Anchor> 
                             page. Please review the rest of this process so you
                             know what to expect.
                         </p>

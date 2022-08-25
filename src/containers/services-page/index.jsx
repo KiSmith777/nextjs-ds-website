@@ -25,7 +25,7 @@ const ServiceArea = ({ className, id, space, data }) => (
                     {data?.description && (
                         <div className="row text-justify mb--40">
                         <p>{data.description}</p>
-                        <p>Below are the services we currently have live to meet your needs. To view services we intend to roll out in the near future, please visit our <Anchor path="https://docs.defiskeptic.com"> documentation</Anchor>.</p>
+                        <p>Below are the services we currently have live to meet your needs. To view services we intend to roll out in the near future, please visit our <Anchor path="https://docs.defiskeptic.com"> <u>documentation</u></Anchor>.</p>
                         </div>
                     )}
                 </div>
