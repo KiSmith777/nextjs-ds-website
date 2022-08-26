@@ -39,7 +39,7 @@ const VaaSArea = ({ space, className }) => {
                                 interact with other projects on a regular basis? Would having a thorough 
                                 screening process provide additional value? The entire DeFi Skeptic vetting 
                                 process can seamlessly be integrated into your use case at no upfront cost 
-                                to your project or paltform. Projects or platforms that could benefits from this include, 
+                                to your project or platform. Projects or platforms that could benefits from this include, 
                                 but are not limited to:
                                 </p>
                                 <ul>
