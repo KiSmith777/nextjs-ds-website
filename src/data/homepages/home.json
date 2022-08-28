@@ -6,7 +6,8 @@
             "headings": [
                 {
                     "id": 1,
-                    "content": "DeFi Skeptic. A Platform Designed to Better DeFi."
+                    "contentOne": "DeFi Skeptic",
+                    "contentTwo": "A platform designed to better DeFi."
                 }
             ],
             "texts": [

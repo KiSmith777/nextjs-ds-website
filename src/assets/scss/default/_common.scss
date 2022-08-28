@@ -505,3 +505,13 @@ nav {
 .max-fit-content {
     max-width: fit-content;
 }
+
+.home-heading {
+    font-size: 30px;
+    @media #{$large-mobile} {
+        font-size: 15px !important;
+    }
+    @media #{$small-mobile} {
+        font-size: 15px !important;
+    }
+}

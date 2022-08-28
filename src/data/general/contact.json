@@ -97,5 +97,25 @@
             "link": "https://twitter.com/skepticcmo",
             "title": "Jake Twitter"
         }
+    ],
+    "melissaSocials": [
+        {
+            "id": 1,
+            "icon": "fa-brands fa-telegram",
+            "link": "https://t.me/MrsBones",
+            "title": "Melissa Telegram"
+        },
+        {
+            "id": 2,
+            "icon": "fa-solid fa-envelope",
+            "link": "mailto:melissa@defiskeptic.com",
+            "title": "Melissa Email"
+        },
+        {
+            "id": 3,
+            "icon": "fa-brands fa-twitter",
+            "link": "https://twitter.com/4FishOutOfWater",
+            "title": "Melissa Twitter"
+        }
     ]
 }

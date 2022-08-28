@@ -8,15 +8,25 @@ const HeroArea = ({ data }) => (
         <div className="container">
             <div className="row row-reverce-sm align-items-center">
                 <div className="col-lg-5 col-md-6 col-sm-12 mt_sm--50">
-                    {data?.headings[0]?.content && (
+                    {data?.headings[0]?.contentOne && (
                         <h2
                             className="title"
                             data-sal-delay="200"
                             data-sal="slide-up"
                             data-sal-duration="800"
                         >
-                            {data.headings[0].content}
+                            {data.headings[0].contentOne}
                         </h2>
+                    )}
+                    {data?.headings[0]?.contentTwo && (
+                        <p
+                            className="home-heading"
+                            data-sal-delay="200"
+                            data-sal="slide-up"
+                            data-sal-duration="800"
+                        >
+                            {data.headings[0].contentTwo}
+                        </p>
                     )}
                     {data?.texts?.map((text) => (
                         <p

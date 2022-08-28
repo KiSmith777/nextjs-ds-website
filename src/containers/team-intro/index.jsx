@@ -30,7 +30,7 @@ const TeamIntroArea = ({ className, space, data }) => {
                         <div className="teamPic" id="chris"></div>
                     </div>
                     <p className="infoBox">Chris</p>
-                    <p className="infoBox-jobTitle">Founder of DeFi Skeptic</p>
+                    <p className="infoBox-jobTitle">Project Lead</p>
                     <div className="container">
                         <div
                             className="copy-right-one ptb--20"
@@ -76,7 +76,7 @@ const TeamIntroArea = ({ className, space, data }) => {
                         <div className="teamPic" id="kieran"></div>
                     </div>
                     <p className="infoBox">Kieran</p>
-                    <p className="infoBox-jobTitle">Web & Cyber Security</p>
+                    <p className="infoBox-jobTitle">Web & Cyber Lead</p>
                     <div className="container">
                         <div
                             className="copy-right-one ptb--20"
@@ -125,7 +125,7 @@ const TeamIntroArea = ({ className, space, data }) => {
                         <div className="teamPic" id="jake"></div>
                     </div>
                     <p className="infoBox">Jake</p>
-                    <p className="infoBox-jobTitle">Community Management</p>
+                    <p className="infoBox-jobTitle">Business Development Lead</p>
                     <div className="container">
                         <div
                             className="copy-right-one ptb--20"
@@ -148,17 +148,56 @@ const TeamIntroArea = ({ className, space, data }) => {
                             </div>
                         </div>
                     </div>
-                    <p className="infoBox-description">
-                        Jake is currently in the community service industry.
-                        While doing so he has learned what best works to help
-                        the community thrive as a team and grow towards the long
-                        term goals needed for success. He has learned that
-                        communication is one of the most important skills for
-                        success and will be helping to lead for healthy
-                        community relations.
+                    <p className="infoBox-description text-center">
+                       Bio TBD
                     </p>
                     <p className="infoBox-description-quote">
-                        “Communication is the key to community success.”
+                        “Quote TBD”
+                    </p>
+                </div>
+
+                <div className="contentWrapper">
+                    <div className="teamCard">
+                        <div className="teamPic" id="melissa"></div>
+                    </div>
+                    <p className="infoBox">Melissa</p>
+                    <p className="infoBox-jobTitle">Community Lead</p>
+                    <div className="container">
+                        <div
+                            className="copy-right-one ptb--20"
+                            style={{ border: "none" }}
+                        >
+                            <div className="row align-items-center">
+                                <div className="col-lg-12 col-md-12 col-sm-12">
+                                    <div
+                                        className="copyright-right"
+                                        style={{
+                                            justifyContent: "center",
+                                            margin: 0,
+                                        }}
+                                    >
+                                        <SocialWidget
+                                            socials={teamContacts.melissaSocials}
+                                        ></SocialWidget>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p className="infoBox-description">
+                    Melissa initially chose the healthcare field as it combines her passion 
+                    for science and problem-solving with her love of helping and caring for 
+                    others.  As a life-long scholar,  she entered into the crypto space out 
+                    of curiosity and stayed for the community. She quickly became disheartened 
+                    by the overwhelming amount of scams and bad actors and wants to be a part 
+                    of the solution in improving the DeFi space. Recognizing that collaboration 
+                    and community is pivotal to achieving this goal, Melissa aims to develop a 
+                    strong and engaged community base for DeFi Skeptic as well as to form 
+                    partnerships with other like-minded projects all while having a bit of fun 
+                    along the way. 
+                    </p>
+                    <p className="infoBox-description-quote">
+                        “DeFi can be scary,  but it doesn’t have to be. United together we can make this a safer place for everyone”
                     </p>
                 </div>
 
