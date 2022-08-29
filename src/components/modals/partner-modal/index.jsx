@@ -27,7 +27,7 @@ const PartnerModal = ({ show, handleModal, key, group, title, telegram, website,
             <Modal.Header style={{display: 'flex', justifyContent: 'center'}} className="report-modal-header">
                 <h5 style={{textAlign: 'center'}} className="modal-title">{title}</h5>
             </Modal.Header>
-            {group ===  "Launchpad & App Partners" && (
+            {group ===  "Vetting Partners" && (
                 <Modal.Body>
                     <p>{desc1}<br/><br/>For more information, please visit <Anchor path={website}>{title}</Anchor>.<br/><br/><b>{desc2}</b>{" "}{desc3}</p>
                     <div className="report-form-box">

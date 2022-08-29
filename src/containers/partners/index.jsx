@@ -11,6 +11,7 @@ import ExplorePartnerArea from "@containers/partner-cards";
 import { normalizedData } from "@utils/methods";
 import partnersData from "../../data/innerpages/partners.json";
 import { Link } from "react-scroll";
+import Anchor from "@ui/anchor";
 
 const PartnersArea = ({ space, className, data }) => {
     return (
@@ -29,24 +30,35 @@ const PartnersArea = ({ space, className, data }) => {
                                 <BoxContainer
                                     key={data.items[0].id}
                                     className="rbt-fixed-top-adjust"
-                                    title={data.items[0].title}
-                                    desc={data.items[0].desc}
                                 >
                                     <p
+                                        className="text-justify"
+                                        data-sal="slide-left"
+                                        data-sal-delay="150"
+                                        data-sal-duration="1200"
+                                    >
+                                        The DeFi Skeptic team is a strong believer 
+                                        in collaboration over competition. Working 
+                                        with like minded platforms/projects and sharing 
+                                        each others resources is a key component of 
+                                        DeFi Skeptic and a valued aspect of our platform.
+                                    </p>
+                                    <p
+                                        className="text-justify"
                                         data-sal="slide-right"
                                         data-sal-delay="150"
                                         data-sal-duration="1200"
                                     >
                                         You can find all of our partners and
                                         affiliates below as well as any
-                                        pertinent information.{" "}
+                                        pertinent information.
                                     </p>
                                     <div
                                         data-sal="slide-up"
                                         data-sal-delay="150"
                                         data-sal-duration="1200"
                                     >
-                                        <p>
+                                        <p className="text-justify">
                                             <b>Quick Links:</b>
                                         </p>
                                         <ul>
@@ -149,17 +161,7 @@ const PartnersArea = ({ space, className, data }) => {
                         <div className="col-lg-12" style={{ marginTop: 0 }}>
                             <TransparentBox>
                                 <p className="mb--50 text-justify">
-                                    DeFi Skeptic works with the following
-                                    platforms who strive to make DeFi better
-                                    through various security and transparency
-                                    focused components. DeFi Skeptic provides
-                                    things such as vetting, audits, KYC and
-                                    various other services to these platforms to
-                                    support their mission. These partnerships
-                                    are crucial in the combined effort to better
-                                    the DeFi space as a whole while protecting
-                                    users and ensuring projects meet a high
-                                    standard.
+                                DeFi Skeptic works with the following platforms who strive to make DeFi better through various security and transparency focused components. These platforms all utilize our <Anchor path="/vetting-as-a-service"><u>Vetting as a Service (VaaS)</u></Anchor> in addition to various <Anchor path="/developer-services"><u>Developer Services</u></Anchor> we offer. These partnerships are crucial in the combined effort to better the DeFi space as a whole while protecting users and ensuring projects meet a high standard.
                                 </p>
                                 <ExplorePartnerArea
                                     id={data.items[1].id}
@@ -191,17 +193,14 @@ const PartnersArea = ({ space, className, data }) => {
                         <div className="col-lg-12" style={{ marginTop: 0 }}>
                             <TransparentBox>
                                 <p className="mb--50 text-justify">
-                                    DeFi Skeptic works with the following DeFi
-                                    service providers in various ways. This may
-                                    include one and/or two way service usage and
-                                    collaboration. It may also include
-                                    sub-contracting work to some of these
-                                    providers. We realize the DeFi space is
-                                    filled with platforms, businesses and
-                                    individuals who do amazing work and we want
-                                    to highlight that by working with those
-                                    individuals in order to grow and better the
-                                    DeFi space.
+                                DeFi Skeptic works with the following DeFi service 
+                                providers in various ways. This may include mutual 
+                                service usage, API usage or sub-contracting work to 
+                                some of these providers. We realize the DeFi space is 
+                                filled with platforms, businesses and individuals who 
+                                do amazing work and we want to highlight that by working 
+                                with those individuals in order to grow and better the 
+                                DeFi space.
                                 </p>
                                 <ExplorePartnerArea
                                     id={data.items[2].id}

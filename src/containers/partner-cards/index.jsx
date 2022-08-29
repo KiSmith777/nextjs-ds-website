@@ -28,7 +28,7 @@ const ExplorePartnerArea = ({ title, items, id, className, space }) => {
                         className="row"
                         style={{ gap: 32, justifyContent: "space-evenly" }}
                     >
-                        {title === "Launchpad & App Partners" &&
+                        {title === "Vetting Partners" &&
                             items[1].launchpadsApps.map((partner) => (
                                 <Partner
                                     key={partner.id}
