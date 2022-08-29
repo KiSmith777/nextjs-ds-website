@@ -32,15 +32,17 @@ const VaaSArea = ({ space, className }) => {
                             </h2>
                             <TransparentBox>
                                 <p className="description text-justify">
-                                <h4>Designed to integrate into your use case!</h4>
-                                Vetting as a service (VaaS) allows the project/platform owner to add a 
-                                security layer to their use case without adding additional work 
-                                for their team or cost to their ecosystem. Does your project/platform 
-                                interact with other projects on a regular basis? Would having a thorough 
-                                screening process provide additional value? The entire DeFi Skeptic vetting 
-                                process can seamlessly be integrated into your use case at no upfront cost 
-                                to your project or platform. Projects or platforms that could benefits from this include, 
-                                but are not limited to:
+                                    <h4>Designed to integrate into your use case!</h4>
+                                    Vetting as a service (VaaS) allows the project/platform owner to add a 
+                                    security layer to their use case without adding additional work 
+                                    for their team or cost to their ecosystem. Does your project/platform 
+                                    interact with other projects on a regular basis? Would having a thorough 
+                                    screening process provide additional value? The entire DeFi Skeptic vetting 
+                                    process can seamlessly be integrated into your use case at no upfront cost 
+                                    to your project or platform.
+                                <br /><br />
+                                    Projects or platforms that could benefits from this include, 
+                                    but are not limited to:
                                 </p>
                                 <ul>
                                     <li>Launchpads</li>
@@ -50,8 +52,11 @@ const VaaSArea = ({ space, className }) => {
                                     <li>AMA Lounges & Call Groups</li>
                                 </ul>
                                 <p>
-                                View our <Anchor path="/vetting-process"><u>Vetting Process</u></Anchor> to 
-                                get more information on how projects become vetted! 
+                                    View our <Anchor path="/vetting-process"><u>Vetting Process</u></Anchor> to 
+                                    get more information on how projects become vetted!
+                                    <br />
+                                    Projects that pass our vetting 
+                                    process are listed in our <Anchor path="/vetting-process"><u>Vetted Projects</u></Anchor> database. 
                                 </p>
                                 <div
                                     className={clsx(
