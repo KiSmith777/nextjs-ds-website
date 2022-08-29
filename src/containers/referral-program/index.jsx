@@ -23,27 +23,19 @@ const ReferralProgramArea = ({ className, id, space, data }) => (
                     see the bonus values below:
                 </p>
                 <ul style={{ textAlign: 'left', marginLeft: 50 }}>
-                    <li>
-                        $20 -{" "}
-                        <Anchor path="/vetting-process">Project Vetting</Anchor>
-                    </li>
-                    <li>
-                        $20 -{" "}
-                        <Anchor path="/contract-creation">
-                            Contract Creations
-                        </Anchor>
-                    </li>
-                    <li>
-                        $20 -{" "}
-                        <Anchor path="/ux-ui-design">UX & UI Design</Anchor>
-                    </li>
-                    <li>
-                        $10 -{" "}
-                        <Anchor path="/contract-audits">Contract Audits</Anchor>
-                    </li>
-                    <li>
-                        $10 - <Anchor path="/kyc-service">KYC</Anchor>
-                    </li>
+                    <li>$15 -<Anchor path="/contract-audits"> Contract Audits</Anchor></li>
+                    <li>$20 -<Anchor path="/web-development"> Web Development</Anchor></li>
+                    <li>$20 -<Anchor path="/ux-ui-design"> UX & UI Design</Anchor></li>
+                    <li>$20 -<Anchor path="/contract-creation"> Token & NFT Creation</Anchor></li>
+                    <li>$25 -<Anchor path="/contract-creation"> dApp, Launchpad, Marketplace Creation</Anchor></li>
+                    <li>$25 -<Anchor path="/vetting-process"> Project Vetting ( whether pass or fail )</Anchor></li>
+
+
+
+
+
+
+
                 </ul>
                 <p className="text-center">
                     Feel free to share our service pitch deck
