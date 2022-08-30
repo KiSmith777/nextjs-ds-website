@@ -38,7 +38,7 @@ const VettingProcess = ({ className, id, space, data }) => (
                     <ul>
                         <li><p>Added to the{" "}<Anchor path="/vetted-projects"><u>Vetted Database</u></Anchor> and awarded the "DS Vetted" badge.</p></li>
                         <li><p>Instantly labelled as "Vetted" in the <Anchor path="https://crogram.app"><u>CroGram</u></Anchor> mobile app.</p></li>
-                        <li><p>Instantly labelled as "Vetted" in the <Anchor path="https://www.mindtoken.app/"><u>MiND Token</u></Anchor> staking platform.</p></li>
+                        <li><p>Instantly labelled as "Vetted" in the <Anchor path="https://www.mindtoken.app/"><u>MiND Token</u></Anchor> staking platform once joined.</p></li>
                         <li><p>Cross-Community promotion and networking via the "The Vetted Circle".</p></li>
                         <li><p>Free usage of community engagement bot that generates volume for your token.</p></li>
                         <li><p>Promoted various ways within the DeFi Skeptic ecosystem.</p></li>
