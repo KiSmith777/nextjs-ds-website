@@ -148,11 +148,16 @@ const TeamIntroArea = ({ className, space, data }) => {
                             </div>
                         </div>
                     </div>
-                    <p className="infoBox-description text-center">
-                       Bio TBD
+                    <p className="infoBox-description">
+                    Jake has spent time in various roles in the career world ranging from cook to laborer, 
+                    and from manager to independent business owner. Gathering knowledge from different 
+                    areas in business, he has been able to understand the workings of a successful business 
+                    and what it needs to reach the goals and heights it was designed to achieve. These skills 
+                    will allow Jake to source reputable projects, platforms and developers who can utilize 
+                    DeFi Skeptic’s services in addition to finding potential partner candidates.
                     </p>
                     <p className="infoBox-description-quote">
-                        “Quote TBD”
+                        “Without networking its harder to grow your business to the heights you want to achieve.”
                     </p>
                 </div>
 
