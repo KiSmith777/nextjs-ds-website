@@ -60,21 +60,20 @@ const VettingProcess = ({ className, id, space, data }) => (
             <div className="row text-justify">
                 <p>
                     <h4>The Process</h4>
-                    The DeFi Skeptic vetting process is designed to look at
-                    multiple elements across a DeFi project. These elements are
+                    The DeFi Skeptic vetting process is a 5-step process as outlined below and looks at 30+ sub-elements 
+                    that fall under 7 main elements. These main elements are
                     as follows:
+
+                    <ul>
+                        <li>Core Team</li>
+                        <li>Community</li>
+                        <li>Purpose & Overview</li>
+                        <li>Smart Contracts</li>
+                        <li>Project Wallets</li>
+                        <li>Pairs & Liquidity</li>
+                        <li>Pre/Post Launch Details</li>
+                    </ul>
                 </p>
-                <div className="text-center col-12 ptb--50">
-                    <Image
-                        src="/images/test/vetting-categories.png"
-                        alt="Slider BG"
-                        height={288}
-                        width={280}
-                        objectFit="contain"
-                        quality={100}
-                        priority
-                    />
-                </div>
                 <p><ol>
                     <li>
                         <p>
