@@ -89,6 +89,20 @@
                                     "src": "/images/partners_affiliates/partners/mindtoken.png"
                                 }
                             ]
+                        },
+                        {
+                            "id": 125,
+                            "title": "Tayarra",
+                            "telegram": "Tayarra_Official",
+                            "website": "https://tayarra.com/",
+                            "desc1": "Tayarra will be providing a NFT Marketplace/Launchpad, GameFi Launchpad in addition to NFT Pack opening services!",
+                            "desc2": "",
+                            "desc3": "As a partner, Tayarra will utilize Vetting as a Service (VaaS) in addition to other developer services for their ecosystem in which projects there can utilize to support their start. This also provides DeFi Skeptic a resource to push projects to who need a place that can facilitate full NFT launching and listing.",
+                            "image": [
+                                {
+                                    "src": "/images/partners_affiliates/partners/Tayarra.png"
+                                }
+                            ]
                         }
                     ]
                 },
