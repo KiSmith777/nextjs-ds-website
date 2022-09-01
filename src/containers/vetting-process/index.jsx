@@ -7,6 +7,7 @@ import Image from "next/image";
 import Button from "@ui/button";
 import { Link } from "react-scroll";
 
+const styles= {color: '#00a3ff'};
 const VettingProcess = ({ className, id, space, data }) => (
     <div className="rn-section-gapTop">
         <div className="container">
@@ -33,18 +34,19 @@ const VettingProcess = ({ className, id, space, data }) => (
                 <p>
                     <ol>
                         <li><Link className="" href="" to="benefits" smooth={true} duration={500} offset={-175}>
-                            What are the benefits of being vetted?
+                        <div style={styles}>What are the benefits of being vetted?</div>
                         </Link></li>
                         <li><Link className="" href="" to="difference" smooth={true} duration={500} offset={-175}>
-                            How are you different than other "vetting" services?
+                        <div style={styles}>How are you different than other "vetting" services?</div>
                         </Link></li>
                         <li><Link className="" href="" to="price" smooth={true} duration={500} offset={-175}>
-                            Why is the price so cheap?
+                        <div style={styles}>Why is the price so cheap?</div>
                         </Link></li>
                         <li><Link className="" href="" to="process" smooth={true} duration={500} offset={-175}>
-                            What is the vetting process?
+                        <div style={styles}>What is the vetting process?</div>
                         </Link></li>
-                    </ol><br /><br />
+                    </ol>
+                    <br /><br />
                     <h4 id="benefits">What are the benefits of being vetted?</h4>
                         By having your project vetted by DeFi Skeptic, you are supporting a higher level of transparency, 
                         security, and information. This alone is a benefit to the DeFi Space and the current and future 
