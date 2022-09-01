@@ -28,6 +28,7 @@ const AdditionalPoolsArea = ({ space, className }) => (
             </div>
             <TransparentBox>
                 <p
+                    className="text-justify"
                     data-sal="slide-right"
                     data-sal-duration="1200"
                     data-sal-delay="150"
@@ -36,6 +37,7 @@ const AdditionalPoolsArea = ({ space, className }) => (
                     “why do I need additional liquidity pools?""
                 </p>
                 <p
+                    className="text-justify"
                     data-sal="slide-left"
                     data-sal-duration="1200"
                     data-sal-delay="150"
@@ -102,24 +104,27 @@ const AdditionalPoolsArea = ({ space, className }) => (
                     </li>
                 </ul>
                 <br />
-                <p data-sal="slide-up"
-                data-sal-duration="1200"
-                data-sal-delay="150">
+                <p 
+                    className="text-justify"
+                    data-sal="slide-up"
+                    data-sal-duration="1200"
+                    data-sal-delay="150"
+                >
                     With each additional liquidity pair you add, you reduce the
                     backing assets impact/control over the price of your token,
                     making your token more stable in terms of controlling its
                     own price!
                 </p>
-                <p data-sal="slide-up"
-                data-sal-duration="1200"
-                data-sal-delay="150">
+                <p 
+                    className="text-justify"
+                    data-sal="slide-up"
+                    data-sal-duration="1200"
+                    data-sal-delay="150"
+                >
                     If you do decide to add additional liquidity pairs, be sure
-                    to checkout{" "}
-                    <Anchor path="/arbitrage-service">
-                        Arbitrage as a Service
-                    </Anchor>{" "}
-                    which allows you to generate profit for your project which
-                    would otherwise be lost to random arbitrage traders!
+                    to checkout <Anchor path="/arbitrage-service"> <u>Arbitrage as a Service</u></Anchor> which 
+                    allows you to generate profit for your project which would otherwise be 
+                    lost to random arbitrage traders!
                 </p>
                 <div data-sal="slide-up"
                 data-sal-duration="1200"

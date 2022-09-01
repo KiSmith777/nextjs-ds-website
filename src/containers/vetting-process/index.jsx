@@ -5,6 +5,7 @@ import Anchor from "@ui/anchor";
 import { SectionTitleType, ItemType } from "@utils/types";
 import Image from "next/image";
 import Button from "@ui/button";
+import { Link } from "react-scroll";
 
 const VettingProcess = ({ className, id, space, data }) => (
     <div className="rn-section-gapTop">
@@ -23,157 +24,116 @@ const VettingProcess = ({ className, id, space, data }) => (
                     />
                 </div>
             </div>
+            {/*<div align="center">
+                <iframe className="vet-vid" src="/files/video/intro-to-vetting.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            </div>
+            <br />*/}
             <div className="row text-justify">
+                <h4>Common Questions</h4>
                 <p>
-                    <h4>What are the benefits and why choose DeFi Skeptic?</h4>
-                    By having your project vetted by DeFi Skeptic, you are
-                    supporting a higher level of transparency, security, and
-                    information. Our commitment to bettering DeFi and our drive
-                    to bridge the gap between users and legitimate projects is
-                    what we believe makes us the number one choice.
+                    <ol>
+                        <li><Link className="" href="" to="benefits" smooth={true} duration={500} offset={-175}>
+                            What are the benefits of being vetted?
+                        </Link></li>
+                        <li><Link className="" href="" to="difference" smooth={true} duration={500} offset={-175}>
+                            How are you different than other "vetting" services?
+                        </Link></li>
+                        <li><Link className="" href="" to="price" smooth={true} duration={500} offset={-175}>
+                            Why is the price so cheap?
+                        </Link></li>
+                        <li><Link className="" href="" to="process" smooth={true} duration={500} offset={-175}>
+                            What is the vetting process?
+                        </Link></li>
+                    </ol><br /><br />
+                    <h4 id="benefits">What are the benefits of being vetted?</h4>
+                        By having your project vetted by DeFi Skeptic, you are supporting a higher level of transparency, 
+                        security, and information. This alone is a benefit to the DeFi Space and the current and future 
+                        users of your project.
+                        <br /><br />
+                        In addition to showing the DeFi space that your project is among a higher caliber, projects also 
+                        eceive the following benefits:
+                        <ul>
+                            <li>Added to the <Anchor path="/vetted-projects"><u>Vetted Database</u></Anchor> and awarded the "DS Vetted" badge.</li>
+                            <li>Instantly labelled as "Vetted" in the <Anchor path="https://crogram.app"><u>CroGram</u></Anchor> mobile app once joined.</li>
+                            <li>Instantly labelled as "Vetted" in the <Anchor path="https://www.mindtoken.app/"><u>MiND Token</u></Anchor> staking platform once joined.</li>
+                            <li>Cross-Community promotion and networking via the "The Vetted Circle".</li>
+                            <li>Free usage of community engagement bot that generates volume for your token.</li>
+                            <li>Promoted various ways within the DeFi Skeptic ecosystem.</li>
+                        </ul>
+                    <br />
+                    <h4 id="difference">How are you different than other "vetting" services?</h4>
+                        First lets establish what “vetted” means. The completion of a contract audit or KYC does not constitute 
+                        being vetted, these are merely single pieces to a larger puzzle. Any service provider that is vetting your 
+                        project should be looking at every aspect of your project (Team, Community, Code, Wallets, etc.). If they 
+                        are not, than they are not properly vetting the project.
+                        <br /><br />
+                        Where other vetting services view their job as done when you have completed the vetting process, we view our 
+                        job as just beginning. Being vetted by DeFi Skeptic is a “first step” in gaining access to a long and fruitful 
+                        relationship. We will work with your project in multiple ways to ensure it not only gets exposure but 
+                        also that it has the necessary elements it needs to be successful long term. Completing our vetting process is 
+                        the beginning of a relationship not the end.
+                        <br /><br />
+                    <h4 id="price">Why is the price so cheap?</h4>
+                        We believe cost should never be a barrier for information and security. DeFi Skeptic vetting is $250 and will always
+                        remain low cost for this reason. This service is designed for the DeFi user and the more projects we get vetted, the
+                        more information the DeFi user has.
                     <br /><br />
-                    In addition to showing the DeFi space that your project is
-                    among a higher caliber, projects also receive the following
-                    benefits:
-                    <ul>
-                        <li><p>Added to the{" "}<Anchor path="/vetted-projects"><u>Vetted Database</u></Anchor> and awarded the "DS Vetted" badge.</p></li>
-                        <li><p>Instantly labelled as "Vetted" in the <Anchor path="https://crogram.app"><u>CroGram</u></Anchor> mobile app.</p></li>
-                        <li><p>Instantly labelled as "Vetted" in the <Anchor path="https://www.mindtoken.app/"><u>MiND Token</u></Anchor> staking platform once joined.</p></li>
-                        <li><p>Cross-Community promotion and networking via the "The Vetted Circle".</p></li>
-                        <li><p>Free usage of community engagement bot that generates volume for your token.</p></li>
-                        <li><p>Promoted various ways within the DeFi Skeptic ecosystem.</p></li>
-                    </ul>
-                </p>
-                <br />
-            </div>
-            <div className="row text-justify">
-                <p>
-                    <h4>Why so cheap?</h4>
-                    We believe money shouldn’t be a barrier for information and
-                    security. DeFi Skeptic vetting is $250 and will always
-                    remain low cost for this reason. This service is designed
-                    for the DeFi user and the more projects we get vetted, the
-                    more information the DeFi user has.
-                </p>
-                <br />
-            </div>
-            <div className="row text-justify">
-                <p>
-                    <h4>The Process</h4>
-                    The DeFi Skeptic vetting process is a 5-step process as outlined below and looks at 30+ sub-elements 
-                    that fall under 7 main elements. These main elements are
-                    as follows:
-
-                    <ul>
-                        <li>Core Team</li>
-                        <li>Community</li>
-                        <li>Purpose & Overview</li>
-                        <li>Smart Contracts</li>
-                        <li>Project Wallets</li>
-                        <li>Pairs & Liquidity</li>
-                        <li>Pre/Post Launch Details</li>
-                    </ul>
-                </p>
-                <p><ol>
-                    <li>
-                        <p>
-                            <h5>Application</h5>
-                            To apply to have your project vetted, please visit
-                            the <Anchor path="/get-vetted"><u>Get Vetted</u> </Anchor> 
-                            page. Please review the rest of this process so you
-                            know what to expect.
-                        </p>
+                    <h4 id="process">What is the vetting process?</h4>
+                        The DeFi Skeptic vetting process is a 5-step process as outlined below and looks at 30+ sub-elements  that fall under 7 
+                        main elements.
                         <br />
-                    </li>
-                    <li>
-                        <p>
-                            <h5>Initial Review</h5>
-                            After a project applies, an initial review will be
-                            conducted by the DeFi Skeptic team which will look
-                            for some basic security and informational
-                            components. Before being considered for a vetting
-                            interview, projects must meet these minimum
-                            requirements:
-                        </p>
+                        These main elements are Core Team, Community, Purpose/Overview, Smart Contracts, Project Wallets, Pairs/Liquidity, and Pre/Post 
+                        Launch Details.
                         <ol>
-                            <li><p>Audited smart contract</p></li>
-                            <li><p>Doxed or KYC'd team</p></li>
-                            <li><p>Locked liquidity if liquidity exists</p></li>
-                            <li><p>
-                                Project wallets must have more than one member
-                                who has access, whether this is direct or
-                                through a multi-sig. If not, you must have a
-                                contingency in place.
-                            </p></li>
+                            <li>
+                                <h6>Application</h6>
+                                To apply to have your project vetted, please visit the <Anchor path="/get-vetted"><u>Get Vetted</u> </Anchor> 
+                                page. Please review the rest of this process so you know what to expect.
+                            </li>
+                            <li>
+                                <h6>Initial Review</h6>
+                                After a project applies, an initial review will be conducted by the DeFi Skeptic team which will look for some basic 
+                                security and informational components. Before being considered for a vetting interview, projects must meet these minimum
+                                requirements:
+                                    <ol>
+                                        <li>Audited smart contract</li>
+                                        <li>Doxed or KYC'd team</li>
+                                        <li>Locked liquidity if liquidity exists</li>
+                                        <li>
+                                            Project wallets must have more than one member who has access, whether this is direct or through a multi-sig. 
+                                            If not, you must have a contingency in place.
+                                        </li>
+                                    </ol>
+                            </li>
+                            <li>
+                                <h6>Formal Review</h6>
+                                Based on the initial review, a decision whether or not to proceed forward with a formal interview will be made. If the 
+                                decision is <u>NOT</u> to proceed forward, reasons will be provided. If the decision <u>Is</u> to proceed forward, 
+                                an interview will be scheduled upon completion of the vetting fee payment.
+                            </li>
+                            <li>
+                                <h6>Vetting Interview</h6>
+                                An interview will be scheduled with the team. At a minimum any team member who has access to code or funds must be present. 
+                                All other team members are encouraged to attend. This interview will take roughly 30 to 90 minutes to complete depending on 
+                                the project and number of members that attend. The goal of this interview is to collect information pertaining to the 30 
+                                sub-elements that comrpise our grading scale and review processas possible.
+                                <ul>
+                                    <li>If the team is KYC verified, the interview can be audio only.</li>
+                                    <li>If the team is doxed, attendees must use video to verify themselves.</li>
+                                </ul>    
+                            </li>
+                            <li>
+                                <h6>Final Decision</h6>
+                                After the interview is complete and the independent check is conducted, all information gathered will be validated and checked
+                                for accuracy. A draft of our report will be given to the team to review before finalizing.
+                                <br /><br />
+                                If the project is "Vetted", than the project is granted full benefits and ongoing support as previously mentioned.
+                                <br /><br />
+                                If the project is “Not Vetted” than the team will be given recommendations on things we would like resolved. Once resolved,
+                                the project can return and receive the vetted status at no additional cost.
+                            </li>
                         </ol>
-                        <br />
-                    </li>
-                    <li>
-                        <p>
-                            <h5>Decision to Interview</h5>
-                            Based on the initial review, a decision whether or
-                            not to proceed forward with a vetting interview will
-                            be sent to the projects team members. If the
-                            decision is not to proceed forward, reasons will be
-                            provided with recommended changes required to be
-                            considered in the future. If the decision is to
-                            proceed forward, an interview will be scheduled upon
-                            completion of a one time payment.
-                        </p>
-                        <br />
-                    </li>
-                    <li>
-                        <p>
-                            <h5>Vetting Interview</h5>
-                            An interview will be scheduled with the team. All
-                            team members are encouraged to attend, but at a
-                            minimum any team member who has access to code or
-                            funds must be present. This interview will take
-                            roughly 30 to 90 minutes to complete depending on
-                            the project and number of members that attend. If
-                            the team does not want to provide specifics to
-                            certain questions, no problem, it will be noted in
-                            the report. The goal of this interview is to collect
-                            as much information as possible. Post interview, the
-                            information will be independently checked for
-                            accuracy.
-                        </p>
-                        <p>
-                            If the team is KYC verified, the interview can be
-                            audio only.
-                        </p>
-                        <p>
-                            If the team is doxed, attendees must use video to
-                            verify themselves.
-                        </p>
-                        <br />
-                    </li>
-                    <li>
-                        <h5>Final Decision</h5>
-                        <p>
-                            After the interview is complete and the independent
-                            check is conducted, the team will be provided the
-                            final report.
-                        </p>
-                        <p>
-                            If the project is “Passed” than they will be listed
-                            on the DeFi Skeptic website, the information in the
-                            report published and this will open further
-                            collaborative options for the project and DeFi
-                            Skeptic. The project will also receive the DeFi
-                            Skeptic Vetted Badge. This badge signifies that the
-                            project has met the standards set by DeFi Skeptic
-                            pertaining to transparency, information accuracy and
-                            security.
-                        </p>
-                        <p>
-                            If the project “Needs Work” than the team will be
-                            given recommendations on things to improve and the
-                            project will not be listed until these improvements
-                            are made.
-                        </p>
-                    </li>
-                </ol></p>
+                </p>
             </div>
             <div className="setting-option header-btn">
                 <div className="icon-box d-flex justify-content-center mt--10 pb--50">

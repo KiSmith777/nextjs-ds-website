@@ -32,8 +32,17 @@ font-family: 'Red Hat Display', sans-serif;
     }
 }
 
-iframe {
-    width: 100%;
+.vet-vid {
+        width: 560px;
+        height: 315px;
+        @media #{$large-mobile} {
+            width: 100%;
+            height: 100%;
+        }
+        @media #{$small-mobile} {
+            width: 100%;
+            height: 100%;
+        }
 }
 
 /*===============================
