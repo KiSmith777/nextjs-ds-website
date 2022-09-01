@@ -221,21 +221,21 @@
                     "title": "AMA & Promotional Groups",
                     "promoters": [
                         {
-                            "id": 150,
-                            "title": "Legit Crypto Lounge",
-                            "telegram": "LegitCryptoLounge",
-                            "website": "https://linktr.ee/LegitCryptoLounge",
+                            "id": 156,
+                            "title": "Ninja Lounge",
+                            "telegram": "ninjalounge",
+                            "website": "",
                             "desc1": "One major issue in the DeFi space is how projects are promoted. A very effective way of reaching an audience is by directly speaking to them. However, many of these platforms conduct in unethical practices using “paid” bots to make their customer feel like they are getting more than they really are.",
                             "desc2": "DeFi Skeptic has made an effort to source legitimate promotional platforms who do not conduct in these practices such as ",
                             "desc3": "",
                             "images": [
                                 {
-                                    "src": "/images/partners_affiliates/promoters/legitcryptolounge.png"
+                                    "src": "/images/partners_affiliates/promoters/Ninja-Lounge.png"
                                 }
                             ]
                         },
                         {
-                            "id": 151,
+                            "id": 150,
                             "title": "Coin Launch Lounge",
                             "telegram": "CoinLaunchCommunity",
                             "website": "https://linktr.ee/BrianShiitake",
@@ -245,6 +245,20 @@
                             "images": [
                                 {
                                     "src": "/images/partners_affiliates/promoters/coinlaunchlounge.png"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 151,
+                            "title": "Legit Crypto Lounge",
+                            "telegram": "LegitCryptoLounge",
+                            "website": "https://linktr.ee/LegitCryptoLounge",
+                            "desc1": "One major issue in the DeFi space is how projects are promoted. A very effective way of reaching an audience is by directly speaking to them. However, many of these platforms conduct in unethical practices using “paid” bots to make their customer feel like they are getting more than they really are.",
+                            "desc2": "DeFi Skeptic has made an effort to source legitimate promotional platforms who do not conduct in these practices such as ",
+                            "desc3": "",
+                            "images": [
+                                {
+                                    "src": "/images/partners_affiliates/promoters/legitcryptolounge.png"
                                 }
                             ]
                         },
@@ -301,20 +315,6 @@
                             "images": [
                                 {
                                     "src": "/images/partners_affiliates/promoters/degemlounge.png"
-                                }
-                            ]
-                        },
-                        {
-                            "id": 156,
-                            "title": "Ninja Lounge",
-                            "telegram": "ninjalounge",
-                            "website": "",
-                            "desc1": "One major issue in the DeFi space is how projects are promoted. A very effective way of reaching an audience is by directly speaking to them. However, many of these platforms conduct in unethical practices using “paid” bots to make their customer feel like they are getting more than they really are.",
-                            "desc2": "DeFi Skeptic has made an effort to source legitimate promotional platforms who do not conduct in these practices such as ",
-                            "desc3": "",
-                            "images": [
-                                {
-                                    "src": "/images/partners_affiliates/promoters/Ninja-Lounge.png"
                                 }
                             ]
                         }
