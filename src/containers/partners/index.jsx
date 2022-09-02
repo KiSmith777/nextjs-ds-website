@@ -161,7 +161,11 @@ const PartnersArea = ({ space, className, data }) => {
                         <div className="col-lg-12" style={{ marginTop: 0 }}>
                             <TransparentBox>
                                 <p className="mb--50 text-justify">
-                                DeFi Skeptic works with the following platforms who strive to make DeFi better through various security and transparency focused components. These platforms all utilize our <Anchor path="/vetting-as-a-service"><u>Vetting as a Service (VaaS)</u></Anchor> in addition to various <Anchor path="/developer-services"><u>Developer Services</u></Anchor> we offer. These partnerships are crucial in the combined effort to better the DeFi space as a whole while protecting users and ensuring projects meet a high standard.
+                                DeFi Skeptic works with the following platforms who strive to make DeFi better through various 
+                                security and transparency focused components. These platforms all utilize our <Anchor path="/vetting-as-a-service"><u>Vetting 
+                                as a Service (VaaS)</u></Anchor> in addition to various <Anchor path="/developer-services"><u>Developer Services</u></Anchor> we 
+                                offer. These partnerships are crucial in the combined effort to better the DeFi space as a whole while protecting users and 
+                                ensuring projects meet a high standard.
                                 </p>
                                 <ExplorePartnerArea
                                     id={data.items[1].id}
