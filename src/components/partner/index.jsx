@@ -40,12 +40,11 @@ const Partner = ({
                             alt={image?.alt || "NFT_portfolio"}
                             width={277}
                             height={277}
-
                         />
                     )}
                 </div>
                 <div
-                    style={{ justifyContent: "center" }}
+                    style={{ textAlign: "center", justifyContent: "center" }}
                     className="product-share-wrapper"
                     type="Partners"
                 >

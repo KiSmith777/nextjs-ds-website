@@ -206,7 +206,7 @@
     border-radius: 10px;
     background: var(--background-color-4);
     position: relative;
-    width: 31%;
+    width: 22%;
     z-index: 5;
 
 
@@ -293,7 +293,8 @@
     .card-thumbnail {
         overflow: hidden;
         border-radius: 5px;
-        margin: -15px;
+        display: flex;
+        justify-content: center;
         a {
             position: relative;
             display: block;
