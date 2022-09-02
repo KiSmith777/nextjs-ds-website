@@ -27,8 +27,8 @@ const VettingProcess = ({ className, id, space, data }) => (
             </div>
             {/*<div align="center">
                 <iframe className="vet-vid" src="/files/video/vetting-intro.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
-            </div>*/}
-            <br /><br />
+            </div>
+            <br /><br />*/}
             <div className="row text-justify">
                 <h4>Common Questions</h4>
                 <p>
