@@ -83,7 +83,7 @@
                             "website": "https://www.mindtoken.app/",
                             "desc1": "MiND token is bringing wellness to crypto through their staking platform where users receive the benefits of Lifeworks, including doctors, lawyers, therapists, fitness professional’s financial advisors and much, much more.",
                             "desc2": "",
-                            "desc3": "As a partner, MiND Token will be utilizing our vetting as a service (VaaS) for their staking platform. We will also have a dedicated SKP LP Farm for Skeptic Token within the MiND Token platform. SKP token holders can pair their SKP and BNB and receive SKP as a reward while receiving the full Lifeworks benefits package!",
+                            "desc3": "MiND Token will be utilizing our vetting as a service (VaaS) for their staking platform. We will also have a dedicated SKP LP Farm for Skeptic Token within the MiND Token platform. SKP token holders can pair their SKP and BNB and receive SKP as a reward while receiving the full Lifeworks benefits package!",
                             "image": [
                                 {
                                     "src": "/images/partners_affiliates/partners/mindtoken.png"
@@ -97,10 +97,24 @@
                             "website": "https://tayarra.com/",
                             "desc1": "Tayarra will be providing a NFT Marketplace/Launchpad, GameFi Launchpad in addition to NFT Pack opening services!",
                             "desc2": "",
-                            "desc3": "As a partner, Tayarra will utilize Vetting as a Service (VaaS) in addition to other developer services for their ecosystem in which projects there can utilize to support their start. This also provides DeFi Skeptic a resource to push projects to who need a place that can facilitate full NFT launching and listing.",
+                            "desc3": "Tayarra will utilize Vetting as a Service (VaaS) in addition to other developer services for their ecosystem in which projects there can utilize to support their start. This also provides DeFi Skeptic a resource to push projects to who need a place that can facilitate full NFT launching and listing.",
                             "image": [
                                 {
                                     "src": "/images/partners_affiliates/partners/Tayarra.png"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 126,
+                            "title": "PYELab",
+                            "telegram": "pyenews",
+                            "website": "https://pyelab.com/",
+                            "desc1": "PYELab is a decentralized launchpad that is building a trustworthy cryptocurrency market with a new generation of Swap technology, surrounded by an ecosystem of unique tools made to enhance project development and community growth worldwide.",
+                            "desc2": "",
+                            "desc3": "PYELab will utilize Vetting as a Service (VaaS) in addition to other developer services for their launchpad. Additionally, this will result in vetted projects being listed on the PYESwap DEX.",
+                            "image": [
+                                {
+                                    "src": "/images/partners_affiliates/partners/PYELab.png"
                                 }
                             ]
                         }

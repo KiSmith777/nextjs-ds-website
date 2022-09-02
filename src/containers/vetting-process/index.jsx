@@ -26,9 +26,9 @@ const VettingProcess = ({ className, id, space, data }) => (
                 </div>
             </div>
             {/*<div align="center">
-                <iframe className="vet-vid" src="/files/video/intro-to-vetting.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
-            </div>
-            <br />*/}
+                <iframe className="vet-vid" src="/files/video/vetting-intro.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            </div>*/}
+            <br /><br />
             <div className="row text-justify">
                 <h4>Common Questions</h4>
                 <p>
@@ -37,7 +37,7 @@ const VettingProcess = ({ className, id, space, data }) => (
                         <div style={styles}>What are the benefits of being vetted?</div>
                         </Link></li>
                         <li><Link className="" href="" to="difference" smooth={true} duration={500} offset={-175}>
-                        <div style={styles}>How are you different than other "vetting" services?</div>
+                        <div style={styles}>How is DeFi Skeptic different?</div>
                         </Link></li>
                         <li><Link className="" href="" to="price" smooth={true} duration={500} offset={-175}>
                         <div style={styles}>Why is the price so cheap?</div>
@@ -55,15 +55,15 @@ const VettingProcess = ({ className, id, space, data }) => (
                         In addition to showing the DeFi space that your project is among a higher caliber, projects also 
                         eceive the following benefits:
                         <ul>
-                            <li>Added to the <Anchor path="/vetted-projects"><u>Vetted Database</u></Anchor> and awarded the "DS Vetted" badge.</li>
-                            <li>Instantly labelled as "Vetted" in the <Anchor path="https://crogram.app"><u>CroGram</u></Anchor> mobile app once joined.</li>
-                            <li>Instantly labelled as "Vetted" in the <Anchor path="https://www.mindtoken.app/"><u>MiND Token</u></Anchor> staking platform once joined.</li>
-                            <li>Cross-Community promotion and networking via the "The Vetted Circle".</li>
-                            <li>Free usage of community engagement bot that generates volume for your token.</li>
-                            <li>Promoted various ways within the DeFi Skeptic ecosystem.</li>
+                            <li><p>Added to the <Anchor path="/vetted-projects"><u>Vetted Database</u></Anchor> and awarded the "DS Vetted" badge.</p></li>
+                            <li><p>Instantly labelled as "Vetted" in the <Anchor path="https://crogram.app"><u>CroGram</u></Anchor> mobile app once joined.</p></li>
+                            <li><p>Instantly labelled as "Vetted" in the <Anchor path="https://www.mindtoken.app/"><u>MiND Token</u></Anchor> staking platform once joined.</p></li>
+                            <li><p>Cross-Community promotion and networking via the "The Vetted Circle".</p></li>
+                            <li><p>Free usage of community engagement bot that generates volume for your token.</p></li>
+                            <li><p>Promoted various ways within the DeFi Skeptic ecosystem.</p></li>
                         </ul>
                     <br />
-                    <h4 id="difference">How are you different than other "vetting" services?</h4>
+                    <h4 id="difference">How is DeFi Skeptic different?</h4>
                         First lets establish what “vetted” means. The completion of a contract audit or KYC does not constitute 
                         being vetted, these are merely single pieces to a larger puzzle. Any service provider that is vetting your 
                         project should be looking at every aspect of your project (Team, Community, Code, Wallets, etc.). If they 
@@ -87,44 +87,44 @@ const VettingProcess = ({ className, id, space, data }) => (
                         These main elements are Core Team, Community, Purpose/Overview, Smart Contracts, Project Wallets, Pairs/Liquidity, and Pre/Post 
                         Launch Details.
                         <ol>
-                            <li>
+                            <li><p>
                                 <h6>Application</h6>
                                 To apply to have your project vetted, please visit the <Anchor path="/get-vetted"><u>Get Vetted</u> </Anchor> 
                                 page. Please review the rest of this process so you know what to expect.
-                            </li>
-                            <li>
+                            </p></li>
+                            <li><p>
                                 <h6>Initial Review</h6>
                                 After a project applies, an initial review will be conducted by the DeFi Skeptic team which will look for some basic 
                                 security and informational components. Before being considered for a vetting interview, projects must meet these minimum
                                 requirements:
                                     <ol>
-                                        <li>Audited smart contract</li>
-                                        <li>Doxed or KYC'd team</li>
-                                        <li>Locked liquidity if liquidity exists</li>
-                                        <li>
+                                        <li><p>Audited smart contract</p></li>
+                                        <li><p>Doxed or KYC'd team</p></li>
+                                        <li><p>Locked liquidity if liquidity exists</p></li>
+                                        <li><p>
                                             Project wallets must have more than one member who has access, whether this is direct or through a multi-sig. 
                                             If not, you must have a contingency in place.
-                                        </li>
+                                        </p></li>
                                     </ol>
-                            </li>
-                            <li>
+                            </p></li>
+                            <li><p>
                                 <h6>Formal Review</h6>
                                 Based on the initial review, a decision whether or not to proceed forward with a formal interview will be made. If the 
                                 decision is <u>NOT</u> to proceed forward, reasons will be provided. If the decision <u>Is</u> to proceed forward, 
                                 an interview will be scheduled upon completion of the vetting fee payment.
-                            </li>
-                            <li>
+                            </p></li>
+                            <li><p>
                                 <h6>Vetting Interview</h6>
                                 An interview will be scheduled with the team. At a minimum any team member who has access to code or funds must be present. 
                                 All other team members are encouraged to attend. This interview will take roughly 30 to 90 minutes to complete depending on 
                                 the project and number of members that attend. The goal of this interview is to collect information pertaining to the 30 
                                 sub-elements that comrpise our grading scale and review processas possible.
                                 <ul>
-                                    <li>If the team is KYC verified, the interview can be audio only.</li>
-                                    <li>If the team is doxed, attendees must use video to verify themselves.</li>
+                                    <li><p>If the team is KYC verified, the interview can be audio only.</p></li>
+                                    <li><p>If the team is doxed, attendees must use video to verify themselves.</p></li>
                                 </ul>    
-                            </li>
-                            <li>
+                            </p></li>
+                            <li><p>
                                 <h6>Final Decision</h6>
                                 After the interview is complete and the independent check is conducted, all information gathered will be validated and checked
                                 for accuracy. A draft of our report will be given to the team to review before finalizing.
@@ -133,7 +133,7 @@ const VettingProcess = ({ className, id, space, data }) => (
                                 <br /><br />
                                 If the project is “Not Vetted” than the team will be given recommendations on things we would like resolved. Once resolved,
                                 the project can return and receive the vetted status at no additional cost.
-                            </li>
+                            </p></li>
                         </ol>
                 </p>
             </div>

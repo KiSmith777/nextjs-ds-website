@@ -12,6 +12,7 @@ const generateCSP = ({ nonce }) => {
   //default-src
   add('default-src', `'none'`);
   add('frame-src', 'https://flooz.trade');
+  add('frame-src', 'http://localhost:3000/');
 
   //img-src
   add('img-src', `'self'`);

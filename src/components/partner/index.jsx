@@ -33,13 +33,14 @@ const Partner = ({
         
             <div id={id} className={clsx("product-style-two", !overlay && "no-overlay")}>
                 
-                <div className="card-thumbnail" style={{ cursor: "pointer" }} onClick={handlePartnerModal}>
+                <div className="card-thumbnail" style={{ cursor: "pointer"}} onClick={handlePartnerModal}>
                     {image?.src && (
                         <Image
                             src={image.src}
                             alt={image?.alt || "NFT_portfolio"}
                             width={277}
                             height={277}
+
                         />
                     )}
                 </div>
