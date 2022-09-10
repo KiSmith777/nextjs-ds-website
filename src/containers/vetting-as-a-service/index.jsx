@@ -51,10 +51,10 @@ const VaaSArea = ({ space, className }) => {
                                     <li>Multi-Token Reflection Tokens</li>
                                     <li>AMA Lounges & Call Groups</li>
                                 </ul>
-                                <p>
+                                <p class="text-justify">
                                     View our <Anchor path="/vetting-process"><u>Vetting Process</u></Anchor> to 
                                     get more information on how projects become vetted!
-                                    <br />
+                                    <br /><br />
                                     Projects that pass our vetting 
                                     process are listed in our <Anchor path="/vetting-process"><u>Vetted Projects</u></Anchor> database. 
                                 </p>

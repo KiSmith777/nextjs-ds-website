@@ -25,24 +25,27 @@ const DSDropsArea = ({ className, id, space, data }) => (
                         NOTE:
                         <br />
                         <i>
-                            This service requires Skeptic Token to be launched.
-                            Having launched already, we anticipate DS Drops to
-                            go live in the near future.
+                            This service is currently being beta tested!
                         </i>
                     </p>
                 </div>
             </div>
             <div className="row text-justify">
                 <p>
-                    We are all very familiar with dust attacks and often see
-                    random tokens appear in our wallets. These tokens typically
-                    have a url in the name and in order to claim them you must
-                    go to the site and connect your wallet. But the second you
-                    connect your wallet, your wallet is drained! But what if
-                    there was a way to get tokens that have passed screening
-                    process?
-                </p>
-                <p>
+                    <h6>The Problem:</h6>
+                    There are various platforms that will do airdrops for other projects to grow their holder base 
+                    and increase their exposure. However, these providers typically charge $1,000+ in addition to 
+                    the project tokens being airdropped. Additionally, these services often involve a token where 
+                    the more you hold, the more of the airdrop you get. Naturally this creates a small group of 
+                    holders that will receive most of the airdrop since they own most of the token. These airdrop 
+                    recipients have also only paid one time (the initial token purchase) thus any future airdrops 
+                    they get are instant profit and thus usually get sold off immediately. 
+                    <br /><br />
+                    <h6>The Solution:</h6>
+                    DS Drops aims to solve the problems above. We charge no fee, we have no “whales” since user’s 
+                    purchase 1 of 3 tiers, and since it’s a recurring subscription, the user is incentivized to hold 
+                    to receive ROI for the subscription.
+                    <br /><br />
                     <h4>Introducing DS Drops!</h4>
                     DeFi Skeptic Drops (DS Drops) is a utility within the DeFi
                     Skeptic ecosystem. DeFi users can subscribe to a 3-tier
@@ -50,32 +53,23 @@ const DSDropsArea = ({ className, id, space, data }) => (
                     projects through promotional airdropping. The subscription
                     will run on quarterly intervals allowing you to decide when
                     you want to receive tokens.
-                </p>
-                <p>The process is simple:</p>
-                <p><ol>
-                    <li>Connect your wallet.</li>
-                    <li>Select a tier (1-3)</li>
-                    <li>Pay in Skeptic Tokens (SKP)</li>
-                </ol></p>
-                <p>
-                    When a new token is added to the pool, announcements will be
-                    made on all of our social platforms and the subscriber can
-                    claim their newly screened tokens!
-                </p>
-                <p>
-                    Tiers allow the user to control how much of the pool they
-                    want. For example, if the service had the following
-                    subscribers;
-                </p>
-                <p><ul>
-                    <li>3x tier 1 subscribers (3 allocations)</li>
-                    <li>4x tier 2 subscribers (8 allocations)</li>
-                    <li>2x tier 3 subscribers (6 allocations)</li>
-                </ul></p>
-                <p>
-                    This would total 17 allocations, so a tier 2 subscriber for
-                    example would be allowed to claim 2/17 or 11.7% of that
-                    projects airdrop!
+                    <br /><br />
+                    The process is simple:
+                    <ol>
+                        <li>Connect your wallet.</li>
+                        <li>Select a tier (1-3).</li>
+                        <li>Pay in Skeptic Tokens (SKP).</li>
+                    </ol>
+                    When a project does a promotional airdrop, announcements will be
+                    made on all of our social platforms and the subscriber can claim 
+                    their tokens!
+                    <br /><br />
+                    Tiers will be priced as such:
+                    <ol>
+                        <li>Tier 1 = Base Price</li>
+                        <li>Tier 2 = Base x2 - 10%</li>
+                        <li>Tier 3 = Base x3 - 20%</li>
+                    </ol>
                 </p>
             </div>
         </div>

@@ -36,17 +36,11 @@ const KYCArea = ({ space, className }) => {
                                         Option 1 (StaySAFU) - $250
                                     </h3>
                                     <p className="description text-justify">
-                                        The StaySAFU KYC process is a 3-step
-                                        process consisting of onboarding,
-                                        verification and follow-up. During the
-                                        verification step you will need to
-                                        verify documents such as passport or
-                                        government ID in addition to proof of
-                                        address. Additionally, a video
-                                        submission is required also. StaySAFU
-                                        also monitors the individual after the
-                                        KYC process and will alert on any
-                                        findings. Details are shared with
+                                        The StaySAFU KYC process is a 3-step process consisting of onboarding,
+                                        verification and follow-up. During the verification step you will need to
+                                        verify documents such as passport or government ID in addition to proof of
+                                        address. Additionally, a video submission is required also. StaySAFU
+                                        also monitors the individual after the KYC process and will alert on any 
                                         Interpol if fraud occurs or is found.
                                     </p>
                                     <div className="row justify-content-center">
@@ -76,29 +70,11 @@ const KYCArea = ({ space, className }) => {
                                         Option 2 (SEEK) - $500
                                     </h3>
                                     <p className="description text-justify">
-                                        The SEEK KYC process is an industry
-                                        leading KYC service which takes the
-                                        applicant through a 10 step verification
-                                        process backed by a dual layered
-                                        security protocol. With this process, we
-                                        are able to perform a thorough and
-                                        detailed KYC seamlessly, providing
-                                        project members with a layer of
-                                        anonymity while still ensuring
-                                        accountability remains a priority.
-                                    </p>
-                                    <p className="description text-justify">
-                                        If a project who has been KYC certified
-                                        is confirmed after review to have
-                                        conducted in malicious acts resulting in
-                                        funds stolen from investors, the
-                                        information gathered during the KYC
-                                        process will be made publicly available,
-                                        reported to the FBI via a direct
-                                        connection portal and given to an
-                                        organization that focuses on tracking
-                                        these individuals down and holding them
-                                        accountable.
+                                        The SEEK KYC process is a 10-step process and is an industry leading KYC 
+                                        service backed by a dual layered security protocol. With this process, we are 
+                                        able to perform a thorough and detailed KYC seamlessly, providing 
+                                        project members with a layer of anonymity while still ensuring accountability 
+                                        remains a priority.
                                     </p>
                                     <div className="row justify-content-center">
                                         <Button
