@@ -436,70 +436,17 @@ const VettingApplication = ({ className }) => {
                     </div>
                 )}
                 {step === 5 && (
-                    <div
-                        className={clsx(
-                            "text-justify mb-5 noShowForm font--16",
-                            show && "showForm"
-                        )}
-                    >
-                        <p>
-                            What phase is your project in? We have specific minimum requirements for specific phases.
-                        </p>
-                        <div className="row justify-content-center">
-                            <div className="col-lg-4">
-                                <div className="icon-box d-flex justify-content-evenly mt--10">
-                                    <Button
-                                        color="primary-alta"
-                                        className="connectBtn mr--5"
-                                        size="large"
-                                        onClick={() => {
-                                            setStep(step + 1);
-                                        }}
-                                    >
-                                        Pre-Launch
-                                    </Button>
-                                    <Button
-                                        color="primary-alta"
-                                        className="connectBtn ml--5"
-                                        size="large"
-                                        onClick={() => {
-                                            setStep(step + 2);
-                                        }}
-                                    >
-                                        Live
-                                    </Button>
-                                </div>
-                                <div className="icon-box d-flex justify-content-evenly mt--10">
-                                    <Button
-                                        color="primary-alta"
-                                        className="connectBtn"
-                                        size="large"
-                                        onClick={() => {
-                                            setStep(step - 1);
-                                        }}
-                                    >
-                                        Go Back
-                                    </Button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                )}
-                {step === 6 && (
                     <div className="mb-5">
-                        <div>
-                            <label className="rn-form-label">
-                                For pre-launched projects, the following must be true. *
-                            </label>
-                            <ul>
-                                <li><p>If Token, funds added to liquidity must be >= 70% of the funds raised.</p></li>
-                                <li><p>If Token, unlocked project owned tokens can not exceed 3% at launch.</p></li>
-                                <li><p>If Token, no manual blacklist functions.</p></li>
-                                <li><p>If Token, if there are any taxes, transaction limits or wallet limits, there must be hard coded limitations to prevent lockout.</p></li>
-                                <li><p>If Token, if mint or trading pause functions exist, they must pertain to the utility and not be owner controlled.</p></li>
-                                <li><p>If NFT, NFT cannot be revocable unless utility requires it.</p></li>
-                            </ul>
-                        </div>
+                        <label className="rn-form-label">
+                            The following is required to be considered for vetting by DeFi Skeptic. *
+                        </label>
+                        <ul>
+                            <li><p>Team is doxed and/or KYC verified.</p></li>
+                            <li><p>Primary smart contract is audited.</p></li>
+                            <li><p>More than one team member has access to project wallets whether directly, through multi-sig or 
+                                via a contingency plan.</p></li>
+                        </ul>
+                        <p>Please confirm the above items are all true.</p>
                         <div className="form-check radioBox">
                             <input
                                 type="radio"
@@ -580,20 +527,163 @@ const VettingApplication = ({ className }) => {
                         </div>
                     </div>
                 )}
+                {step === 6 && (
+                    <div
+                        className={clsx(
+                            "text-justify mb-5 noShowForm font--16",
+                            show && "showForm"
+                        )}
+                    >
+                        <p>
+                            What phase is your project in? We have specific minimum requirements for specific phases.
+                        </p>
+                        <div className="row justify-content-center">
+                            <div className="col-lg-4">
+                                <div className="icon-box d-flex justify-content-evenly mt--10">
+                                    <Button
+                                        color="primary-alta"
+                                        className="connectBtn mr--5"
+                                        size="large"
+                                        onClick={() => {
+                                            setStep(step + 1);
+                                        }}
+                                    >
+                                        Pre-Launch
+                                    </Button>
+                                    <Button
+                                        color="primary-alta"
+                                        className="connectBtn ml--5"
+                                        size="large"
+                                        onClick={() => {
+                                            setStep(step + 2);
+                                        }}
+                                    >
+                                        Live
+                                    </Button>
+                                </div>
+                                <div className="icon-box d-flex justify-content-evenly mt--10">
+                                    <Button
+                                        color="primary-alta"
+                                        className="connectBtn"
+                                        size="large"
+                                        onClick={() => {
+                                            setStep(step - 1);
+                                        }}
+                                    >
+                                        Go Back
+                                    </Button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                )}
                 {step === 7 && (
                     <div className="mb-5">
-                        <div>
-                            <label className="rn-form-label">
-                                For live projects, the following must be true. *
+                        <label className="rn-form-label">
+                            For pre-launched projects, the following must be true. *
+                        </label>
+                        <ul>
+                            <li><p>If Token, funds added to liquidity must be >= 70% of the funds raised.</p></li>
+                            <li><p>If Token, unlocked project owned tokens can not exceed 3% at launch.</p></li>
+                            <li><p>If Token, no manual blacklist functions.</p></li>
+                            <li><p>If Token, if there are any taxes, transaction limits or wallet limits, there must be hard coded limitations to prevent lockout.</p></li>
+                            <li><p>If Token, if mint or trading pause functions exist, they must pertain to the utility and not be owner controlled.</p></li>
+                            <li><p>If NFT, NFT cannot be revocable unless utility requires it.</p></li>
+                        </ul>
+                            <p>I confirm all of the above are true.</p>
+                        <div className="form-check radioBox">
+                            <input
+                                type="radio"
+                                value="yes"
+                                id="yes"
+                                checked={radio.yes}
+                                name="contractAudited"
+                                onClick={(e) => handleClick(e)}
+                                {...register("contractAudited", {
+                                    required:
+                                        "Please choose one of these options",
+                                })}
+                            />
+                            <label className="rn-form-label" htmlFor="yes">
+                                Yes
                             </label>
-                            <ul>
-                                <li><p>If Token, must be >= 2 weeks since launch.</p></li>
-                                <li><p>If Token, liquidity must be locked unless justified.</p></li>
-                                <li><p>If Token, unlocked project owned tokens can not exceed 5% unless justified.</p></li>
-                                <li><p>If Token, no manual blacklist functions.</p></li>
-                                <li><p>If NFT, NFT cannot be revocable unless utility requires it.</p></li>
-                            </ul>
                         </div>
+
+                        <div className="form-check radioBox">
+                            <input
+                                type="radio"
+                                value="no"
+                                id="no"
+                                checked={radio.no}
+                                name="contractAudited"
+                                onClick={(e) => handleClick(e)}
+                                {...register("contractAudited", {
+                                    required:
+                                        "Please choose one of these options",
+                                })}
+                            />
+                            <label className="rn-form-label" htmlFor="no">
+                                No
+                            </label>
+                        </div>
+                        <div>
+                            {errorMsg && <ErrorText>{errorMsg}</ErrorText>}
+                        </div>
+                        <div className="row justify-content-center">
+                            <div className="col-lg-4">
+                                <div className="icon-box d-flex justify-content-evenly mt--10">
+                                    <Button
+                                        color="primary-alta"
+                                        className="connectBtn mt--20 mr--5"
+                                        size="large"
+                                        onClick={() => {
+                                            setStep(step - 1);
+                                        }}
+                                    >
+                                        Go Back
+                                    </Button>
+                                    <Button
+                                        color="primary-alta"
+                                        className="connectBtn mt--20 ml--5"
+                                        size="large"
+                                        onClick={() => {
+                                            if (
+                                                radio.no === false &&
+                                                radio.yes === false
+                                            ) {
+                                                setErrorMsg(
+                                                    "Please choose one of these options"
+                                                );
+                                            } else if (correctRadio === false) {
+                                                setErrorMsg(
+                                                    "Must answer yes to be considered for vetting."
+                                                );
+                                            } else if (correctRadio === true) {
+                                                setStep(step + 2);
+                                                setErrorMsg();
+                                            }
+                                        }}
+                                    >
+                                        Next
+                                    </Button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                )}
+                {step === 8 && (
+                    <div className="mb-5">
+                        <label className="rn-form-label">
+                            For live projects, the following must be true. *
+                        </label>
+                        <ul>
+                            <li><p>If Token, must be >= 2 weeks since launch.</p></li>
+                            <li><p>If Token, liquidity must be locked unless justified.</p></li>
+                            <li><p>If Token, unlocked project owned tokens can not exceed 5% unless justified.</p></li>
+                            <li><p>If Token, no manual blacklist functions.</p></li>
+                            <li><p>If NFT, NFT cannot be revocable unless utility requires it.</p></li>
+                        </ul>
+                        <p>I confirm all of the above are true.</p>
                         <div className="form-check radioBox">
                             <input
                                 type="radio"
@@ -657,86 +747,6 @@ const VettingApplication = ({ className }) => {
                                                     "Must answer yes to be considered for vetting."
                                                 );
                                             } else if (correctRadio === true) {
-                                                setStep(step + 2);
-                                            }
-                                        }}
-                                    >
-                                        Next
-                                    </Button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                )}
-                {step === 8 && (
-                    <div className="mb-5">
-                        <div>
-                            <label className="rn-form-label text-justify">
-                                To help you better *
-                            </label>
-                        </div>
-                        <div className="form-check radioBox">
-                            <input
-                                type="radio"
-                                value="yes"
-                                id="yes"
-                                checked={radio.yes}
-                                name="liquidityPoolLocked"
-                                onClick={(e) => handleClick(e)}
-                                {...register("liquidityPoolLocked", {
-                                    required:
-                                        "Please choose one of these options",
-                                })}
-                            />
-                            <label className="rn-form-label" htmlFor="yes">
-                                Yes
-                            </label>
-                        </div>
-
-                        <div className="form-check radioBox">
-                            <input
-                                type="radio"
-                                value="no"
-                                id="no"
-                                checked={radio.no}
-                                name="liquidityPoolLocked"
-                                onClick={(e) => handleClick(e)}
-                            />
-                            <label className="rn-form-label" htmlFor="no">
-                                No
-                            </label>
-                        </div>
-                        <div>
-                            {errorMsg && <ErrorText>{errorMsg}</ErrorText>}
-                        </div>
-                        <div className="row justify-content-center">
-                            <div className="col-lg-4">
-                                <div className="icon-box d-flex justify-content-evenly mt--10">
-                                    <Button
-                                        color="primary-alta"
-                                        className="connectBtn mt--20"
-                                        size="large"
-                                        onClick={() => {
-                                            setStep(step - 1);
-                                        }}
-                                    >
-                                        Go Back
-                                    </Button>
-                                    <Button
-                                        color="primary-alta"
-                                        className="connectBtn mt--20"
-                                        size="large"
-                                        onClick={() => {
-                                            if (
-                                                radio.no === false &&
-                                                radio.yes === false
-                                            ) {
-                                                setErrorMsg(
-                                                    "Please choose one of these options"
-                                                );
-                                            } else if (correctRadio === false) {
-                                                setStep(step + 1);
-                                            } else if (correctRadio === true) {
                                                 setStep(step + 1);
                                             }
                                         }}
@@ -750,7 +760,6 @@ const VettingApplication = ({ className }) => {
                 )}
                 {step === 9 && (
                     <div className="mb-5">
-                        <div>
                             <label className="rn-form-label">
                                 By submitting, you understand the following: *
                             </label>
@@ -760,7 +769,6 @@ const VettingApplication = ({ className }) => {
                                 non-refundable whether your project passes or fails the vetting session.
                             </p>
                             <p>I understand the above.</p>
-                        </div>
                         <div className="form-check radioBox">
                             <input
                                 type="radio"
