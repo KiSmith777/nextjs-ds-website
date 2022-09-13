@@ -163,11 +163,15 @@ const VettingApplication = ({ className }) => {
                     <div className="text-justify mb-5">
                         <div>
                             <label className="rn-form-label">
-                                <p>
-                                    I confirm that I am one of the projects core
-                                    team members and that I have read and understand
-                                    the <Anchor path="/vetting-process"><u>vetting process</u></Anchor>.
-                                </p>
+                                I confirm that I am one of the projects core
+                                team members and that I have read and understand
+                                the{" "}
+                                <Anchor path="/vetting-process">
+                                    <u>vetting process</u>
+                                </Anchor>
+                                . I also understand that if my project passes the 
+                                preliminary review and I pay the $250 vetting fee, 
+                                that it is non-refundable, even if my project is not approved. 
                             </label>
                         </div>
                         <div className="form-check radioBox">
@@ -244,7 +248,7 @@ const VettingApplication = ({ className }) => {
                             htmlFor="project-website"
                             className="rn-form-label"
                         >
-                            <p>What is your project's website? *</p>
+                            What is your project's website? *
                         </label>
                         <input
                             name="project-website"
@@ -266,7 +270,7 @@ const VettingApplication = ({ className }) => {
                                 <div className="icon-box d-flex justify-content-evenly mt--10">
                                     <Button
                                         color="primary-alta"
-                                        className="connectBtn mt--20 mr--5"
+                                        className="connectBtn mt--20"
                                         size="large"
                                         onClick={() => {
                                             setStep(step - 1);
@@ -276,7 +280,7 @@ const VettingApplication = ({ className }) => {
                                     </Button>
                                     <Button
                                         color="primary-alta"
-                                        className="connectBtn mt--20 ml--5"
+                                        className="connectBtn mt--20"
                                         size="large"
                                         onClick={() => {
                                             if (correctEntry === true) {
@@ -301,7 +305,7 @@ const VettingApplication = ({ className }) => {
                             htmlFor="contact-method"
                             className="rn-form-label"
                         >
-                            <p>Preferred Contact Method *</p>
+                            Preferred Contact Method *
                         </label>
 
                         <select
@@ -360,7 +364,7 @@ const VettingApplication = ({ className }) => {
                                 <div className="icon-box d-flex justify-content-evenly mt--10">
                                     <Button
                                         color="primary-alta"
-                                        className="connectBtn mt--20 mr--5"
+                                        className="connectBtn mt--20"
                                         size="large"
                                         onClick={() => {
                                             setStep(step - 1);
@@ -370,7 +374,7 @@ const VettingApplication = ({ className }) => {
                                     </Button>
                                     <Button
                                         color="primary-alta"
-                                        className="connectBtn mt--20 ml--5"
+                                        className="connectBtn mt--20"
                                         size="large"
                                         onClick={() => {
                                             if (correctEntry === true) {
@@ -397,10 +401,8 @@ const VettingApplication = ({ className }) => {
                         )}
                     >
                         <label htmlFor="referral" className="rn-form-label text-justify ">
-                            <p>
-                                Were you referred to DeFi Skeptic? If so, enter the
-                                person that referred you. Otherwise, click next.
-                            </p>
+                            Were you referred to DeFi Skeptic? If so, enter the
+                            person that referred you. Otherwise, click next.
                         </label>
                         <input
                             name="referral"
@@ -416,7 +418,7 @@ const VettingApplication = ({ className }) => {
                                 <div className="icon-box d-flex justify-content-evenly mt--10">
                                     <Button
                                         color="primary-alta"
-                                        className="connectBtn mt--20 mr--5"
+                                        className="connectBtn mt--20"
                                         size="large"
                                         onClick={() => {
                                             setStep(step - 1);
@@ -426,7 +428,7 @@ const VettingApplication = ({ className }) => {
                                     </Button>
                                     <Button
                                         color="primary-alta"
-                                        className="connectBtn mt--20 ml--5"
+                                        className="connectBtn mt--20"
                                         size="large"
                                         onClick={() => {
                                             setStep(step + 1);
@@ -440,17 +442,53 @@ const VettingApplication = ({ className }) => {
                     </div>
                 )}
                 {step === 5 && (
+                    <div
+                        className={clsx(
+                            "text-justify mb-5 noShowForm font--16",
+                            show && "showForm"
+                        )}
+                    >
+                        <h4>Required Items</h4>
+                        <p>
+                            To have an initial review conducted prior to a
+                            vetting interview being scheduled, these last four
+                            questions must have an answer of yes.
+                        </p>
+                        <div className="row justify-content-center">
+                            <div className="col-lg-4">
+                                <div className="icon-box d-flex justify-content-evenly mt--10">
+                                    <Button
+                                        color="primary-alta"
+                                        className="connectBtn mt--20"
+                                        size="large"
+                                        onClick={() => {
+                                            setStep(step - 1);
+                                        }}
+                                    >
+                                        Go Back
+                                    </Button>
+                                    <Button
+                                        color="primary-alta"
+                                        className="connectBtn mt--20"
+                                        size="large"
+                                        onClick={() => {
+                                            setStep(step + 1);
+                                        }}
+                                    >
+                                        Next
+                                    </Button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                )}
+                {step === 6 && (
                     <div className="mb-5">
-                        <label className="rn-form-label">
-                        <p>To be vetted, we have the following requirements. *</p>
-                        </label>
-                        <ul>
-                            <li><p>Team is doxed and/or KYC verified.</p></li>
-                            <li><p>Primary smart contract is audited.</p></li>
-                            <li><p>More than one team member has access to project wallets whether directly, through multi-sig or via a contingency plan.</p></li>
-                        </ul>
-                        <br />
-                        <p>Please confirm the above items are all true.</p>
+                        <div>
+                            <label className="rn-form-label">
+                                Is your projects smart contract audited? *
+                            </label>
+                        </div>
                         <div className="form-check radioBox">
                             <input
                                 type="radio"
@@ -494,7 +532,7 @@ const VettingApplication = ({ className }) => {
                                 <div className="icon-box d-flex justify-content-evenly mt--10">
                                     <Button
                                         color="primary-alta"
-                                        className="connectBtn mt--20 mr--5"
+                                        className="connectBtn mt--20"
                                         size="large"
                                         onClick={() => {
                                             setStep(step - 1);
@@ -504,7 +542,7 @@ const VettingApplication = ({ className }) => {
                                     </Button>
                                     <Button
                                         color="primary-alta"
-                                        className="connectBtn mt--20 ml--5"
+                                        className="connectBtn mt--20"
                                         size="large"
                                         onClick={() => {
                                             if (
@@ -516,7 +554,7 @@ const VettingApplication = ({ className }) => {
                                                 );
                                             } else if (correctRadio === false) {
                                                 setErrorMsg(
-                                                    "Must answer yes to be considered for vetting. We provide contract audits and KYC if needed."
+                                                    "You must have a smart contract audit prior to our initial review. We provide contract auditing if needed."
                                                 );
                                             } else if (correctRadio === true) {
                                                 setStep(step + 1);
@@ -531,84 +569,25 @@ const VettingApplication = ({ className }) => {
                         </div>
                     </div>
                 )}
-                {step === 6 && (
-                    <div
-                        className={clsx(
-                            "text-justify mb-5 noShowForm font--16",
-                            show && "showForm"
-                        )}
-                    >
-                        <p>Please select whether you project is in the pre-launch or live phase.</p>
-                        <div className="row justify-content-center">
-                            <div className="col-lg-4">
-                                <div className="icon-box d-flex justify-content-evenly mt--10">
-                                    <Button
-                                        color="primary-alta"
-                                        className="connectBtn mr--5"
-                                        size="large"
-                                        onClick={() => {
-                                            setStep(step + 1);
-                                        }}
-                                    >
-                                        Pre-Launch
-                                    </Button>
-                                    <Button
-                                        color="primary-alta"
-                                        className="connectBtn ml--5"
-                                        size="large"
-                                        onClick={() => {
-                                            setStep(step + 2);
-                                        }}
-                                    >
-                                        Live
-                                    </Button>
-                                </div>
-                                <div className="icon-box d-flex justify-content-evenly mt--10">
-                                    <Button
-                                        color="primary-alta"
-                                        className="connectBtn"
-                                        size="large"
-                                        onClick={() => {
-                                            setStep(step - 1);
-                                        }}
-                                    >
-                                        Go Back
-                                    </Button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                )}
                 {step === 7 && (
                     <div className="mb-5">
-                        <label className="rn-form-label">
-                            <p>For pre-launched projects, the following must be true. *</p>
-                        </label>
-                        <ul>
-                            <li><p>For Tokens</p></li>
-                                <ul>
-                                    <li><p>Funds added to liquidity must be = 70% of the funds raised.</p></li>
-                                    <li><p>Unlocked project owned tokens can not exceed 3% at launch.</p></li>
-                                    <li><p>No manual blacklist functions.</p></li>
-                                    <li><p>If there are any taxes, transaction limits or wallet limits, there must be hard coded limitations to prevent lockout.</p></li>
-                                    <li><p>If mint or trading pause functions exist, they must pertain to the utility and not be owner controlled.</p></li>
-                                </ul>
-                            <li><p>For NFTs</p></li>
-                                <ul>
-                                    <li><p>NFT cannot be revocable unless utility requires it.</p></li>
-                                </ul>
-                        </ul>
-                            <br />
-                            <p>I confirm all of the above are true.</p>
+                        <div>
+                            <label className="rn-form-label text-justify">
+                                Are those on your projects team that handle code
+                                or funds publicly doxed and/or KYC verified? *
+                            </label>
+                        </div>
                         <div className="form-check radioBox">
                             <input
                                 type="radio"
                                 value="yes"
-                                id="yes"
-                                Checked={radio.yes}
-                                name="contractAudited"
+                                checked={radio.yes}
+                                name="doxOrKyc"
                                 onClick={(e) => handleClick(e)}
-                                {...register("contractAudited")}
+                                {...register("doxOrKyc", {
+                                    required:
+                                        "Please choose one of these options",
+                                })}
                             />
                             <label className="rn-form-label" htmlFor="yes">
                                 Yes
@@ -621,9 +600,8 @@ const VettingApplication = ({ className }) => {
                                 value="no"
                                 id="no"
                                 checked={radio.no}
-                                name="contractAudited"
+                                name="doxOrKyc"
                                 onClick={(e) => handleClick(e)}
-                                {...register("contractAudited")}
                             />
                             <label className="rn-form-label" htmlFor="no">
                                 No
@@ -637,7 +615,7 @@ const VettingApplication = ({ className }) => {
                                 <div className="icon-box d-flex justify-content-evenly mt--10">
                                     <Button
                                         color="primary-alta"
-                                        className="connectBtn mt--20 mr--5"
+                                        className="connectBtn mt--20"
                                         size="large"
                                         onClick={() => {
                                             setStep(step - 1);
@@ -647,7 +625,7 @@ const VettingApplication = ({ className }) => {
                                     </Button>
                                     <Button
                                         color="primary-alta"
-                                        className="connectBtn mt--20 ml--5"
+                                        className="connectBtn mt--20"
                                         size="large"
                                         onClick={() => {
                                             if (
@@ -659,11 +637,10 @@ const VettingApplication = ({ className }) => {
                                                 );
                                             } else if (correctRadio === false) {
                                                 setErrorMsg(
-                                                    "Must answer yes to be considered for vetting."
+                                                    "Those that handle code or funds must be publicly doxed or KYC verified prior to our initial review. We provide KYC services if needed."
                                                 );
                                             } else if (correctRadio === true) {
-                                                setStep(step + 2);
-                                                setErrorMsg();
+                                                setStep(step + 1);
                                             }
                                         }}
                                     >
@@ -676,32 +653,24 @@ const VettingApplication = ({ className }) => {
                 )}
                 {step === 8 && (
                     <div className="mb-5">
-                        <label className="rn-form-label">
-                            For live projects, the following must be true. *
-                        </label>
-                        <ul>
-                            <li><p>For Tokens</p></li>
-                                <ul>
-                                    <li><p>Must be = 2 weeks since launch.</p></li>
-                                    <li><p>Liquidity must be locked unless justified.</p></li>
-                                    <li><p>Unlocked project owned tokens can not exceed 5% unless justified.</p></li>
-                                    <li><p>No manual blacklist functions.</p></li>
-                                </ul>
-                            <li><p>For Tokens</p></li>
-                                <ul>
-                                    <li><p>If NFT, NFT cannot be revocable unless utility requires it.</p></li>
-                                </ul>
-                        </ul>
-                        <br />
-                        <p>I confirm all of the above are true.</p>
+                        <div>
+                            <label className="rn-form-label text-justify">
+                                If your project uses a liquidity pool, is it
+                                locked? We require all LP's to be locked unless justification can be provided. *
+                            </label>
+                        </div>
                         <div className="form-check radioBox">
                             <input
                                 type="radio"
                                 value="yes"
-                                Checked={radio.yes}
-                                name="doxOrKyc"
+                                id="yes"
+                                checked={radio.yes}
+                                name="liquidityPoolLocked"
                                 onClick={(e) => handleClick(e)}
-                                {...register("doxOrKyc")}
+                                {...register("liquidityPoolLocked", {
+                                    required:
+                                        "Please choose one of these options",
+                                })}
                             />
                             <label className="rn-form-label" htmlFor="yes">
                                 Yes
@@ -714,9 +683,8 @@ const VettingApplication = ({ className }) => {
                                 value="no"
                                 id="no"
                                 checked={radio.no}
-                                name="doxOrKyc"
+                                name="liquidityPoolLocked"
                                 onClick={(e) => handleClick(e)}
-                                {...register("doxOrKyc")}
                             />
                             <label className="rn-form-label" htmlFor="no">
                                 No
@@ -730,17 +698,17 @@ const VettingApplication = ({ className }) => {
                                 <div className="icon-box d-flex justify-content-evenly mt--10">
                                     <Button
                                         color="primary-alta"
-                                        className="connectBtn mt--20 mr--5"
+                                        className="connectBtn mt--20"
                                         size="large"
                                         onClick={() => {
-                                            setStep(step - 2);
+                                            setStep(step - 1);
                                         }}
                                     >
                                         Go Back
                                     </Button>
                                     <Button
                                         color="primary-alta"
-                                        className="connectBtn mt--20 ml--5"
+                                        className="connectBtn mt--20"
                                         size="large"
                                         onClick={() => {
                                             if (
@@ -751,9 +719,7 @@ const VettingApplication = ({ className }) => {
                                                     "Please choose one of these options"
                                                 );
                                             } else if (correctRadio === false) {
-                                                setErrorMsg(
-                                                    "Must answer yes to be considered for vetting."
-                                                );
+                                                setStep(step + 1);
                                             } else if (correctRadio === true) {
                                                 setStep(step + 1);
                                             }
@@ -768,15 +734,13 @@ const VettingApplication = ({ className }) => {
                 )}
                 {step === 9 && (
                     <div className="mb-5">
-                            <label className="rn-form-label">
-                                <p>By submitting, you understand the following. *</p>
+                        <div>
+                            <label className="rn-form-label text-justify">
+                                For project owned wallets, does more than one
+                                person have access? This can be direct or via multi-sig. If not, do you have a
+                                contingency in place if the sole accessor dies or becomes incapacitated? *
                             </label>
-                            <p>
-                                We will conduct a preliminary review. If we decide to move forward and 
-                                schedule a vetting session, you will receive a $250 invoice. This fee is 
-                                non-refundable whether your project passes or fails the vetting session.
-                            </p>
-                            <p>I understand the above.</p>
+                        </div>
                         <div className="form-check radioBox">
                             <input
                                 type="radio"
@@ -816,17 +780,17 @@ const VettingApplication = ({ className }) => {
                                 <div className="icon-box d-flex justify-content-evenly mt--10">
                                     <Button
                                         color="primary-alta"
-                                        className="connectBtn mt--20 mr--5"
+                                        className="connectBtn mt--20"
                                         size="large"
                                         onClick={() => {
-                                            setStep(step - 3);
+                                            setStep(step - 1);
                                         }}
                                     >
                                         Go Back
                                     </Button>
                                     <Button
                                         color="primary-alta"
-                                        className="connectBtn mt--20 ml--5"
+                                        className="connectBtn mt--20"
                                         size="large"
                                         type={submit}
                                         onClick={() => {
@@ -839,7 +803,7 @@ const VettingApplication = ({ className }) => {
                                                 );
                                             } else if (correctRadio === false) {
                                                 setErrorMsg(
-                                                    "You must agree to the above terms."
+                                                    "To ensure longevity of the project, we require more than one person have access to project wallets. If direct access is not desired, there are other options. Please contact us to discuss."
                                                 );
                                             } else if (correctRadio === true) {
                                                 setSubmit("submit");
