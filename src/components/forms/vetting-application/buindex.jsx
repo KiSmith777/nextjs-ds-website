@@ -163,9 +163,11 @@ const VettingApplication = ({ className }) => {
                     <div className="text-justify mb-5">
                         <div>
                             <label className="rn-form-label">
-                                I confirm that I am one of the projects core
-                                team members and that I have read and understand
-                                the <Anchor path="/vetting-process"><u>vetting process</u></Anchor>.  
+                                <p>
+                                    I confirm that I am one of the projects core
+                                    team members and that I have read and understand
+                                    the <Anchor path="/vetting-process"><u>vetting process</u></Anchor>.
+                                </p>
                             </label>
                         </div>
                         <div className="form-check radioBox">
@@ -242,7 +244,7 @@ const VettingApplication = ({ className }) => {
                             htmlFor="project-website"
                             className="rn-form-label"
                         >
-                            What is your project's website? *
+                            <p>What is your project's website? *</p>
                         </label>
                         <input
                             name="project-website"
@@ -299,7 +301,7 @@ const VettingApplication = ({ className }) => {
                             htmlFor="contact-method"
                             className="rn-form-label"
                         >
-                            Preferred Contact Method *
+                            <p>Preferred Contact Method *</p>
                         </label>
 
                         <select
@@ -395,8 +397,10 @@ const VettingApplication = ({ className }) => {
                         )}
                     >
                         <label htmlFor="referral" className="rn-form-label text-justify ">
-                            Were you referred to DeFi Skeptic? If so, enter the
-                            person that referred you. Otherwise, click next.
+                            <p>
+                                Were you referred to DeFi Skeptic? If so, enter the
+                                person that referred you. Otherwise, click next.
+                            </p>
                         </label>
                         <input
                             name="referral"
@@ -438,14 +442,14 @@ const VettingApplication = ({ className }) => {
                 {step === 5 && (
                     <div className="mb-5">
                         <label className="rn-form-label">
-                            The following is required to be considered for vetting by DeFi Skeptic. *
+                        <p>To be vetted, we have the following requirements. *</p>
                         </label>
                         <ul>
                             <li><p>Team is doxed and/or KYC verified.</p></li>
                             <li><p>Primary smart contract is audited.</p></li>
-                            <li><p>More than one team member has access to project wallets whether directly, through multi-sig or 
-                                via a contingency plan.</p></li>
+                            <li><p>More than one team member has access to project wallets whether directly, through multi-sig or via a contingency plan.</p></li>
                         </ul>
+                        <br />
                         <p>Please confirm the above items are all true.</p>
                         <div className="form-check radioBox">
                             <input
@@ -512,10 +516,10 @@ const VettingApplication = ({ className }) => {
                                                 );
                                             } else if (correctRadio === false) {
                                                 setErrorMsg(
-                                                    "Must answer yes to be considered for vetting."
+                                                    "Must answer yes to be considered for vetting. We provide contract audits and KYC if needed."
                                                 );
                                             } else if (correctRadio === true) {
-                                                setStep(step + 3);
+                                                setStep(step + 1);
                                                 setErrorMsg();
                                             }
                                         }}
@@ -534,9 +538,7 @@ const VettingApplication = ({ className }) => {
                             show && "showForm"
                         )}
                     >
-                        <p>
-                            What phase is your project in? We have specific minimum requirements for specific phases.
-                        </p>
+                        <p>Please select whether you project is in the pre-launch or live phase.</p>
                         <div className="row justify-content-center">
                             <div className="col-lg-4">
                                 <div className="icon-box d-flex justify-content-evenly mt--10">
@@ -580,29 +582,33 @@ const VettingApplication = ({ className }) => {
                 {step === 7 && (
                     <div className="mb-5">
                         <label className="rn-form-label">
-                            For pre-launched projects, the following must be true. *
+                            <p>For pre-launched projects, the following must be true. *</p>
                         </label>
                         <ul>
-                            <li><p>If Token, funds added to liquidity must be >= 70% of the funds raised.</p></li>
-                            <li><p>If Token, unlocked project owned tokens can not exceed 3% at launch.</p></li>
-                            <li><p>If Token, no manual blacklist functions.</p></li>
-                            <li><p>If Token, if there are any taxes, transaction limits or wallet limits, there must be hard coded limitations to prevent lockout.</p></li>
-                            <li><p>If Token, if mint or trading pause functions exist, they must pertain to the utility and not be owner controlled.</p></li>
-                            <li><p>If NFT, NFT cannot be revocable unless utility requires it.</p></li>
+                            <li><p>For Tokens</p></li>
+                                <ul>
+                                    <li><p>Funds added to liquidity must be = 70% of the funds raised.</p></li>
+                                    <li><p>Unlocked project owned tokens can not exceed 3% at launch.</p></li>
+                                    <li><p>No manual blacklist functions.</p></li>
+                                    <li><p>If there are any taxes, transaction limits or wallet limits, there must be hard coded limitations to prevent lockout.</p></li>
+                                    <li><p>If mint or trading pause functions exist, they must pertain to the utility and not be owner controlled.</p></li>
+                                </ul>
+                            <li><p>For NFTs</p></li>
+                                <ul>
+                                    <li><p>NFT cannot be revocable unless utility requires it.</p></li>
+                                </ul>
                         </ul>
+                            <br />
                             <p>I confirm all of the above are true.</p>
                         <div className="form-check radioBox">
                             <input
                                 type="radio"
                                 value="yes"
                                 id="yes"
-                                checked={radio.yes}
+                                Checked={radio.yes}
                                 name="contractAudited"
                                 onClick={(e) => handleClick(e)}
-                                {...register("contractAudited", {
-                                    required:
-                                        "Please choose one of these options",
-                                })}
+                                {...register("contractAudited")}
                             />
                             <label className="rn-form-label" htmlFor="yes">
                                 Yes
@@ -617,10 +623,7 @@ const VettingApplication = ({ className }) => {
                                 checked={radio.no}
                                 name="contractAudited"
                                 onClick={(e) => handleClick(e)}
-                                {...register("contractAudited", {
-                                    required:
-                                        "Please choose one of these options",
-                                })}
+                                {...register("contractAudited")}
                             />
                             <label className="rn-form-label" htmlFor="no">
                                 No
@@ -677,24 +680,28 @@ const VettingApplication = ({ className }) => {
                             For live projects, the following must be true. *
                         </label>
                         <ul>
-                            <li><p>If Token, must be >= 2 weeks since launch.</p></li>
-                            <li><p>If Token, liquidity must be locked unless justified.</p></li>
-                            <li><p>If Token, unlocked project owned tokens can not exceed 5% unless justified.</p></li>
-                            <li><p>If Token, no manual blacklist functions.</p></li>
-                            <li><p>If NFT, NFT cannot be revocable unless utility requires it.</p></li>
+                            <li><p>For Tokens</p></li>
+                                <ul>
+                                    <li><p>Must be = 2 weeks since launch.</p></li>
+                                    <li><p>Liquidity must be locked unless justified.</p></li>
+                                    <li><p>Unlocked project owned tokens can not exceed 5% unless justified.</p></li>
+                                    <li><p>No manual blacklist functions.</p></li>
+                                </ul>
+                            <li><p>For Tokens</p></li>
+                                <ul>
+                                    <li><p>If NFT, NFT cannot be revocable unless utility requires it.</p></li>
+                                </ul>
                         </ul>
+                        <br />
                         <p>I confirm all of the above are true.</p>
                         <div className="form-check radioBox">
                             <input
                                 type="radio"
                                 value="yes"
-                                checked={radio.yes}
+                                Checked={radio.yes}
                                 name="doxOrKyc"
                                 onClick={(e) => handleClick(e)}
-                                {...register("doxOrKyc", {
-                                    required:
-                                        "Please choose one of these options",
-                                })}
+                                {...register("doxOrKyc")}
                             />
                             <label className="rn-form-label" htmlFor="yes">
                                 Yes
@@ -709,6 +716,7 @@ const VettingApplication = ({ className }) => {
                                 checked={radio.no}
                                 name="doxOrKyc"
                                 onClick={(e) => handleClick(e)}
+                                {...register("doxOrKyc")}
                             />
                             <label className="rn-form-label" htmlFor="no">
                                 No
@@ -761,11 +769,11 @@ const VettingApplication = ({ className }) => {
                 {step === 9 && (
                     <div className="mb-5">
                             <label className="rn-form-label">
-                                By submitting, you understand the following: *
+                                <p>By submitting, you understand the following. *</p>
                             </label>
                             <p>
                                 We will conduct a preliminary review. If we decide to move forward and 
-                                schedule a vetting session, we will charge our $250 fee. This fee is 
+                                schedule a vetting session, you will receive a $250 invoice. This fee is 
                                 non-refundable whether your project passes or fails the vetting session.
                             </p>
                             <p>I understand the above.</p>
