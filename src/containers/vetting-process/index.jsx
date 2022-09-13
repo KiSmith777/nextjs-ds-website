@@ -66,8 +66,8 @@ const VettingProcess = ({ className, id, space, data }) => (
                     <h4 id="difference">How is DeFi Skeptic different?</h4>
                         First lets establish what “vetted” means. The completion of a contract audit or KYC does not constitute 
                         being vetted, these are merely single pieces to a larger puzzle. Any service provider that is vetting your 
-                        project should be looking at every aspect of your project (Team, Community, Code, Wallets, etc.). If they 
-                        are not, than they are not properly vetting the project.
+                        project should be looking at every aspect of your project a providing a deep dive into the Team, Community, Code, Wallets, etc. If they 
+                        are not, than they are not properly vetting the project. Simply asking the developers a few questions is not vetting a project.
                         <br /><br />
                         Where other vetting services view their job as done when you have completed the vetting process, we view our 
                         job as just beginning. Being vetted by DeFi Skeptic is a “first step” in gaining access to a long and fruitful 
