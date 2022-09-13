@@ -445,7 +445,7 @@ const VettingApplication = ({ className }) => {
                         <p>To be vetted, we have the following requirements. *</p>
                         </label>
                         <ul>
-                            <li><p>Team is doxed and/or KYC verified.</p></li>
+                            <li><p>Team is doxed or KYC verified.</p></li>
                             <li><p>Primary smart contract is audited.</p></li>
                             <li><p>More than one team member has access to project wallets whether directly, through multi-sig or via a contingency plan.</p></li>
                         </ul>

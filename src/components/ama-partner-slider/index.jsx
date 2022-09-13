@@ -77,7 +77,7 @@ const AmaPartnerSlider = ({ data, className, space }) => {
                                             className="single-slide-product"
                                         >
                                           {console.log(amaPartner)}
-                                            <Anchor path={amaPartner.telegram}>
+                                            <Anchor path="/partners">
                                                 <Image
                                                     alt="ama partners"
                                                     src={amaPartner.images[0].src}

@@ -32,11 +32,11 @@ const VettedAMATourArea = ({ space, className }) => {
                                 <h4 className="title text-center">
                                     Our Vetted AMA Partners
                                 </h4>
-                            </div>{" "}
-                            <AmaPartnerSlider
-                                space={2}
-                                data={content["partner-section"]}
-                            />
+                            </div>
+                                <AmaPartnerSlider
+                                    space={2}
+                                    data={content["partner-section"]}
+                                />
                             <TransparentBox>
                                 <p className="description text-justify">
                                     One major issue in the DeFi space is how
