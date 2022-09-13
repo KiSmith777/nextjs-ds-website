@@ -95,13 +95,8 @@ const VettingProcess = ({ className, id, space, data }) => (
                             <li><p>
                                 <h6>Initial Review</h6>
                                 After a project applies, an initial review will be conducted by the DeFi Skeptic team which will look for some basic 
-                                security and informational components. Before being considered for a vetting interview, projects must meet these minimum
-                                requirements:
-                                    <ol>
-                                        <li><p>Team is doxed and/or KYC verified.</p></li>
-                                        <li><p>Primary smart contract is audited.</p></li>
-                                        <li><p>More than one team member has access to project wallets whether directly, through multi-sig or via a contingency plan.
-                                    </ol>
+                                security and informational components. Before being considered for a vetting interview, projects must meet minimum
+                                requirements in addition to requirments specific to the projects current phase. These are stated in the application.
                             </p></li>
                             <li><p>
                                 <h6>Formal Review</h6>
