@@ -605,10 +605,10 @@ const VettingApplication = ({ className }) => {
                                 type="radio"
                                 value="yes"
                                 id="yes"
-                                Checked={radio.yes}
-                                name="contractAudited"
+                                checked={radio.yes}
+                                name="preLaunchChecks"
                                 onClick={(e) => handleClick(e)}
-                                {...register("contractAudited")}
+                                {...register("preLaunchChecks")}
                             />
                             <label className="rn-form-label" htmlFor="yes">
                                 Yes
@@ -621,9 +621,9 @@ const VettingApplication = ({ className }) => {
                                 value="no"
                                 id="no"
                                 checked={radio.no}
-                                name="contractAudited"
+                                name="preLaunchChecks"
                                 onClick={(e) => handleClick(e)}
-                                {...register("contractAudited")}
+                                {...register("preLaunchChecks")}
                             />
                             <label className="rn-form-label" htmlFor="no">
                                 No
@@ -699,9 +699,9 @@ const VettingApplication = ({ className }) => {
                                 type="radio"
                                 value="yes"
                                 Checked={radio.yes}
-                                name="doxOrKyc"
+                                name="liveChecks"
                                 onClick={(e) => handleClick(e)}
-                                {...register("doxOrKyc")}
+                                {...register("liveChecks")}
                             />
                             <label className="rn-form-label" htmlFor="yes">
                                 Yes
@@ -714,9 +714,9 @@ const VettingApplication = ({ className }) => {
                                 value="no"
                                 id="no"
                                 checked={radio.no}
-                                name="doxOrKyc"
+                                name="liveChecks"
                                 onClick={(e) => handleClick(e)}
-                                {...register("doxOrKyc")}
+                                {...register("liveChecks")}
                             />
                             <label className="rn-form-label" htmlFor="no">
                                 No
@@ -783,9 +783,9 @@ const VettingApplication = ({ className }) => {
                                 value="yes"
                                 id="yes"
                                 checked={radio.yes}
-                                name="multipleProjectWalletAccess"
+                                name="understandsSubmitChecks"
                                 onClick={(e) => handleClick(e)}
-                                {...register("multipleProjectWalletAccess", {
+                                {...register("understandsSubmitChecks", {
                                     required:
                                         "Please choose one of these options",
                                 })}
