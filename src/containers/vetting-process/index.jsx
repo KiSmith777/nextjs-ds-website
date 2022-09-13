@@ -98,13 +98,9 @@ const VettingProcess = ({ className, id, space, data }) => (
                                 security and informational components. Before being considered for a vetting interview, projects must meet these minimum
                                 requirements:
                                     <ol>
-                                        <li><p>Audited smart contract</p></li>
-                                        <li><p>Doxed or KYC'd team</p></li>
-                                        <li><p>Locked liquidity if liquidity exists</p></li>
-                                        <li><p>
-                                            Project wallets must have more than one member who has access, whether this is direct or through a multi-sig. 
-                                            If not, you must have a contingency in place.
-                                        </p></li>
+                                        <li><p>Team is doxed and/or KYC verified.</p></li>
+                                        <li><p>Primary smart contract is audited.</p></li>
+                                        <li><p>More than one team member has access to project wallets whether directly, through multi-sig or via a contingency plan.
                                     </ol>
                             </p></li>
                             <li><p>

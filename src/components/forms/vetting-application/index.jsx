@@ -538,7 +538,7 @@ const VettingApplication = ({ className }) => {
                             show && "showForm"
                         )}
                     >
-                        <p>Please select whether you project is in the pre-launch or live phase.</p>
+                        <p>Please select the current stage your project is in.</p>
                         <div className="row justify-content-center">
                             <div className="col-lg-4">
                                 <div className="icon-box d-flex justify-content-evenly mt--10">
@@ -587,7 +587,7 @@ const VettingApplication = ({ className }) => {
                         <ul>
                             <li><p>For Tokens</p></li>
                                 <ul>
-                                    <li><p>Funds added to liquidity must be = 70% of the funds raised.</p></li>
+                                    <li><p>Funds added to liquidity must be >= 70% of the funds raised.</p></li>
                                     <li><p>Unlocked project owned tokens can not exceed 3% at launch.</p></li>
                                     <li><p>No manual blacklist functions.</p></li>
                                     <li><p>If there are any taxes, transaction limits or wallet limits, there must be hard coded limitations to prevent lockout.</p></li>
@@ -599,7 +599,7 @@ const VettingApplication = ({ className }) => {
                                 </ul>
                         </ul>
                             <br />
-                            <p>I confirm all of the above are true.</p>
+                            <p>Please confirm the above items are all true.</p>
                         <div className="form-check radioBox">
                             <input
                                 type="radio"
@@ -682,7 +682,7 @@ const VettingApplication = ({ className }) => {
                         <ul>
                             <li><p>For Tokens</p></li>
                                 <ul>
-                                    <li><p>Must be = 2 weeks since launch.</p></li>
+                                    <li><p>Must be >= 2 weeks since launch.</p></li>
                                     <li><p>Liquidity must be locked unless justified.</p></li>
                                     <li><p>Unlocked project owned tokens can not exceed 5% unless justified.</p></li>
                                     <li><p>No manual blacklist functions.</p></li>
@@ -693,7 +693,7 @@ const VettingApplication = ({ className }) => {
                                 </ul>
                         </ul>
                         <br />
-                        <p>I confirm all of the above are true.</p>
+                        <p>Please confirm the above items are all true.</p>
                         <div className="form-check radioBox">
                             <input
                                 type="radio"
@@ -774,9 +774,11 @@ const VettingApplication = ({ className }) => {
                             <p>
                                 We will conduct a preliminary review. If we decide to move forward and 
                                 schedule a vetting session, you will receive a $250 invoice. This fee is 
-                                non-refundable whether your project passes or fails the vetting session.
+                                non-refundable whether your project passes or fails the vetting session. If 
+                                your project fails, we will provide recommendations. If resolved, the project 
+                                status will be changed to "Vetted" at no additional cost.
                             </p>
-                            <p>I understand the above.</p>
+                            <p>I understand and agree to the above.</p>
                         <div className="form-check radioBox">
                             <input
                                 type="radio"
