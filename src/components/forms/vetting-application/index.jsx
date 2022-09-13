@@ -457,9 +457,9 @@ const VettingApplication = ({ className }) => {
                                 value="yes"
                                 id="yes"
                                 checked={radio.yes}
-                                name="contractAudited"
+                                name="minChecks"
                                 onClick={(e) => handleClick(e)}
-                                {...register("contractAudited", {
+                                {...register("minChecks", {
                                     required:
                                         "Please choose one of these options",
                                 })}
@@ -475,9 +475,9 @@ const VettingApplication = ({ className }) => {
                                 value="no"
                                 id="no"
                                 checked={radio.no}
-                                name="contractAudited"
+                                name="minChecks"
                                 onClick={(e) => handleClick(e)}
-                                {...register("contractAudited", {
+                                {...register("minChecks", {
                                     required:
                                         "Please choose one of these options",
                                 })}
