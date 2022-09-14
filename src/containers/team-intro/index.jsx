@@ -242,7 +242,7 @@ const TeamIntroArea = ({ className, space, data }) => {
                         financial markets found its way into the crypto realm in
                         2013. Working for DeFi Skeptic allows him to continue
                         his passion for users by optimizing their experience,
-                        while furtherin ghte development of valid crypto
+                        while furthering the development of valid crypto
                         projects.
                     </p>
                     <p className="infoBox-description-quote">
