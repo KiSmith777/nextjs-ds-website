@@ -16,8 +16,8 @@ const Footer = ({ space, className }) => (
         <div
             className={clsx(
                 "rn-footer-one bg-color--1",
-                space === 1 && "rn-section-gap mt--100 mt_md--80 mt_sm--80",
-                space === 2 && "rn-section-gap",
+                space === 1 && "footer-gap mt--100 mt_md--80 mt_sm--80",
+                space === 2 && "",
                 className
             )}
         >

@@ -197,14 +197,10 @@ const PartnersArea = ({ space, className, data }) => {
                         <div className="col-lg-12" style={{ marginTop: 0 }}>
                             <TransparentBox>
                                 <p className="mb--50 text-justify">
-                                DeFi Skeptic works with the following DeFi service 
-                                providers in various ways. This may include mutual 
-                                service usage, API usage or sub-contracting work to 
-                                some of these providers. We realize the DeFi space is 
-                                filled with platforms, businesses and individuals who 
-                                do amazing work and we want to highlight that by working 
-                                with those individuals in order to grow and better the 
-                                DeFi space.
+                                DeFi Skeptic works with the following DeFi service providers in various ways. This may include mutual 
+                                service usage, API usage or sub-contracting work to some of these providers. We realize the DeFi space is 
+                                filled with platforms, businesses and individuals who do amazing work and we want to highlight that by working 
+                                with those individuals in order to grow and better the DeFi space.
                                 </p>
                                 <ExplorePartnerArea
                                     id={data.items[2].id}
@@ -236,10 +232,8 @@ const PartnersArea = ({ space, className, data }) => {
                         <div className="col-lg-12" style={{ marginTop: 0 }}>
                             <TransparentBox>
                                 <p className="mb--50 text-justify">
-                                    DeFi Skeptic also works closely with other
-                                    projects to provide information or assist
-                                    them in specific goals. Below you can find
-                                    projects we consider “friends” and thus list
+                                    DeFi Skeptic also works closely with other projects to provide information or assist
+                                    them in specific goals. Below you can find projects we consider “friends” and thus list
                                     as affiliates.
                                 </p>
                                 <ExplorePartnerArea
@@ -272,17 +266,15 @@ const PartnersArea = ({ space, className, data }) => {
                         <div className="col-lg-12" style={{ marginTop: 0 }}>
                             <TransparentBox>
                                 <p className="mb--50 text-justify">
-                                    One major issue in the DeFi space is how
-                                    projects are promoted. A very effective way
-                                    of reaching an audience is by directly
-                                    speaking to them. However, many of these
-                                    platforms conduct in unethical practices
-                                    using “paid” bots to make their customer
-                                    feel like they are getting more than they
-                                    really are. DeFi Skeptic has made an effort
-                                    to source legitimate promotional platforms
-                                    who do not conduct in these practices. You
+                                    One major issue in the DeFi space is how projects are promoted. A very effective way
+                                    of reaching an audience is by directly speaking to them. However, many of these
+                                    platforms conduct in unethical practices using “paid” bots to make their customer
+                                    feel like they are getting more than they really are. DeFi Skeptic has made an effort
+                                    to source legitimate promotional platforms who do not conduct in these practices. You
                                     can find them below.
+                                    <br /><br />
+                                    Additionally, we offer a discounted <Anchor path="/vetted-ama-tour"><u>AMA Tour</u></Anchor> comprised 
+                                    of all four of these partners for one flat rate, only found at DeFi Skeptic!
                                 </p>
                                 <ExplorePartnerArea
                                     id={data.items[4].id}

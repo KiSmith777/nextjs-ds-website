@@ -39,35 +39,23 @@ const VettedAMATourArea = ({ space, className }) => {
                                 />
                             <TransparentBox>
                                 <p className="description text-justify">
-                                    One major issue in the DeFi space is how
-                                    projects are promoted. A very effective way
-                                    of reaching an audience is by directly
-                                    speaking to them. However, many of these
-                                    platforms conduct in unethical practices
-                                    using “paid” bots to make their customer
-                                    feel like they are getting more than they
-                                    really are. Sometimes you may even be
-                                    scammed and funds stolen. DeFi Skeptic has
-                                    made an effort to source legitimate
-                                    promotional platforms who do not conduct in
-                                    these practices.
+                                    One major issue in the DeFi space is how projects are promoted. A very effective way
+                                    of reaching an audience is by directly speaking to them. However, many of these
+                                    platforms conduct in unethical practices using “paid” bots to make their customer
+                                    feel like they are getting more than they really are. Sometimes you may even be
+                                    scammed and funds stolen. DeFi Skeptic has made an effort to source legitimate
+                                    promotional platforms who do not conduct in these practices.
                                 </p>
                                 <p className="description text-justify">
-                                    Get a full AMA tour from our vetted partners
-                                    below and pay a single discounted flat rate
-                                    of 14 BNB. If you do not want the full
-                                    discounted tour, feel free to contact any of
-                                    them individually as well! Avoid the
-                                    over-hyped, over-priced AMA providers and
-                                    stop paying to speak to bots! View our
+                                    Get a full AMA tour from our vetted partners below and pay a single discounted flat rate
+                                    of 10 BNB, saving you 2 BNB if you sourced them seperatly. If you do not want the full
+                                    discounted tour, feel free to contact any of them individually as well! Avoid the
+                                    over-hyped, over-priced AMA providers and stop paying to speak to bots! View our
                                     vetted providers below.
                                 </p>
                                 <h6 className="text-center">
-                                    Reserve tour below for 14 BNB!
-                                    <br /><br />
                                     <b>
-                                        Payment methods accepted are BUSD and
-                                        BNB.
+                                        Payment methods accepted are BNB or the equivalent value in BUSD.
                                     </b>
                                 </h6>
                                 <div
