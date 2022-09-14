@@ -79,6 +79,15 @@
           "images": {
             "src": "/images/vetted-projects/DiversiFi.png"
           }
+        },
+        {
+          "id": 9,
+          "title": "Decentralized United",
+          "subtitle": "Score: 97.94",
+          "path": "/files/vetting-reports/DecentralizedUnited.pdf",
+          "images": {
+            "src": "/images/vetted-projects/DCU.png"
+          }
         }
       ]
     }
