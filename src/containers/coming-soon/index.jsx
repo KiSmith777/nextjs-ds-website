@@ -22,7 +22,7 @@ const CommingSoonArea = () => (
                                 We are available please connect with us via
                                 <br />
                                 Telegram:{" "}
-                                <a href="https://t.me/SkepticToken">
+                                <a href="https://t.me/DeFiSkeptic">
                                     t.me/DeFiSkeptic
                                 </a>{" "}
                                 or
