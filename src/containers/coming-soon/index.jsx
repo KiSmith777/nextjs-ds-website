@@ -23,7 +23,7 @@ const CommingSoonArea = () => (
                                 <br />
                                 Telegram:{" "}
                                 <a href="https://t.me/SkepticToken">
-                                    t.me/SkepticToken
+                                    t.me/DeFiSkeptic
                                 </a>{" "}
                                 or
                                 <br /> Email:{" "}
