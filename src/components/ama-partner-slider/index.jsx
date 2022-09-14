@@ -8,11 +8,11 @@ import Anchor from "@ui/anchor";
 
 const SliderOptions = {
     infinite: true,
-    slidesToShow: 5,
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 1,
-    speed: 2500,
+    speed: 7500,
     arrows: false,
 
     responsive: [
