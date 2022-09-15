@@ -38,17 +38,17 @@ const ReferralProgramArea = ({ space, className }) => {
                     </p>
                     <ul>
                         <li>$15 -<Anchor path="/contract-audits"> Contract Audits</Anchor>
-                        <br /><i>$100 bonus at 5 sold</i></li>
+                        <br /><i>$100 bonus at 5 referred</i></li>
                         <li>$20 -<Anchor path="/web-development"> Web Development</Anchor>
-                        <br /><i>$100 bonus at 3 sold</i></li>
+                        <br /><i>$100 bonus at 3 referred</i></li>
                         <li>$20 -<Anchor path="/ux-ui-design"> UX & UI Design</Anchor>
-                        <br /><i>$100 bonus at 3 sold</i></li>
+                        <br /><i>$100 bonus at 3 referred</i></li>
                         <li>$20 -<Anchor path="/contract-creation"> Token, NFT & dApp Creation</Anchor>
-                        <br /><i>$100 bonus at 3 sold</i></li>
+                        <br /><i>$100 bonus at 3 referred</i></li>
                         <li>$100 -<Anchor path="/contract-creation"> Launchpad & Marketplace Creation</Anchor>
-                        <br /><i>$300 bonus at 3 sold</i></li>
+                        <br /><i>$300 bonus at 3 referred</i></li>
                         <li>$25 -<Anchor path="/vetting-process"> Project Vetting ( whether pass or fail )</Anchor>
-                        <br /><i>$100 bonus at 4 sold</i></li>
+                        <br /><i>$100 bonus at 4 referred</i></li>
                     </ul>
                     <br />
                     <p className="text-justify">
