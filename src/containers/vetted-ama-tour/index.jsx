@@ -59,8 +59,8 @@ const VettedAMATourArea = ({ space, className }) => {
                                     discounted tour, feel free to contact any of
                                     them individually as well! Avoid the
                                     over-hyped, over-priced AMA providers and
-                                    stop paying to speak to bots! View our
-                                    vetted providers below.
+                                    stop paying to speak to bots. Schedule your 
+                                    vetted AMA tour today!
                                 </p>
                                 <h6 className="text-center">
                                     <b>
