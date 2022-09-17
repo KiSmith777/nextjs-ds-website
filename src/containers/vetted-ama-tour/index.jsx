@@ -55,7 +55,7 @@ const VettedAMATourArea = ({ space, className }) => {
                                     Get a full AMA tour from our vetted partners
                                     below and pay a single discounted flat rate
                                     of 10 BNB, saving you 2 BNB if you sourced
-                                    them seperatly. If you do not want the full
+                                    them separately. If you do not want the full
                                     discounted tour, feel free to contact any of
                                     them individually as well! Avoid the
                                     over-hyped, over-priced AMA providers and

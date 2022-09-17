@@ -49,8 +49,7 @@ const ReferralProgramArea = ({ space, className }) => {
                         <br /><i>+$300 bonus at 3 referred</i></li>
                         <li>$25 -<Anchor path="/vetting-process"> Project Vetting ( whether pass or fail )</Anchor>
                         <br /><i>+$100 bonus at 4 referred</i></li>
-                        <li>$50 -<Anchor path="/vetted-ama-tour"> Vetted AMA Tour</Anchor>
-                        <br /><i>+$100 bonus at 4 referred</i></li>
+                        <li>$50 -<Anchor path="/vetted-ama-tour"> Vetted AMA Tour</Anchor></li>
                     </ul>
                     <br />
                     <p className="text-justify">
