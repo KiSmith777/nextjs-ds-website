@@ -98,7 +98,7 @@ const PartnersArea = ({ space, className, data }) => {
                                                     {data.items[2].title}
                                                 </Link>
                                             </li>
-                                            <li
+                                            {/*<li
                                                 style={{
                                                     fontSize: 18,
                                                     fontWeight: "bold",
@@ -115,7 +115,7 @@ const PartnersArea = ({ space, className, data }) => {
                                                 >
                                                     {data.items[3].title}
                                                 </Link>
-                                            </li>
+                                            </li>*/}
                                             <li
                                                 style={{
                                                     fontSize: 18,
@@ -211,7 +211,7 @@ const PartnersArea = ({ space, className, data }) => {
                             </TransparentBox>
                         </div>
                     )}
-                    {data?.items?.[3] && (
+                    {/*{data?.items?.[3] && (
                         <div className="col-lg-12">
                             <div style={{ textAlign: "center" }}>
                                 <HeadingLabel
@@ -244,8 +244,8 @@ const PartnersArea = ({ space, className, data }) => {
                                 />
                             </TransparentBox>
                         </div>
-                    )}
-                    {data?.items?.[4] && (
+                    )}*/}
+                    {data?.items?.[3] && (
                         <div className="col-lg-12">
                             <div style={{ textAlign: "center" }}>
                                 <HeadingLabel
@@ -262,7 +262,7 @@ const PartnersArea = ({ space, className, data }) => {
                             </div>
                         </div>
                     )}
-                    {data?.items?.[4] && (
+                    {data?.items?.[3] && (
                         <div className="col-lg-12" style={{ marginTop: 0 }}>
                             <TransparentBox>
                                 <p className="mb--50 text-justify">
