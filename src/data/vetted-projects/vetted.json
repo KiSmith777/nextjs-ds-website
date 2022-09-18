@@ -88,6 +88,15 @@
           "images": {
             "src": "/images/vetted-projects/DCU.png"
           }
+        },
+        {
+          "id": 10,
+          "title": "Meta BUSD",
+          "subtitle": "Score: 96.98",
+          "path": "/files/vetting-reports/MetaBUSD.pdf",
+          "images": {
+            "src": "/images/vetted-projects/MBC.png"
+          }
         }
       ]
     }
