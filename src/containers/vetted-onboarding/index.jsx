@@ -31,6 +31,47 @@ const OnboardingArea = ({ className, space, data }) => {
                 <div className="mt--5 row g-5">
                     <div className="col-lg-6">
                         <HeadingLabel className="mt--5" style={{padding: 4, justifyContent: "center", alignItems: "center", display: "flex", margin: 0,}}
+                            title="Vetted Database"
+                        />
+                        <SolidBox className="rn-about-card trans-bg">
+                            <p className="text-justify" style={{padding: '0px 20px'}}>
+                                Your project has been added to our vetted database. This will provide 
+                                users your projects score in addition to the complete report and profile 
+                                built on your project. We are currently building a more comprehensive 
+                                database that will also pull in various data sets from various API's. 
+                                Please feel free to share this with your communities.
+                                <br /><br />
+                            </p>
+                            <div className="row g-5 justify-content-around plr--120">
+                                <Button path="https://defiskeptic.com/vetted-projects" target="_blank" color="primary-alta" className="connectBtn" size="large">
+                                    View Database
+                                </Button>
+                            </div>
+                        </SolidBox>
+                    </div>
+                    <div className="col-lg-6">
+                        <HeadingLabel className="mt--5" style={{padding: 4, justifyContent: "center", alignItems: "center", display: "flex", margin: 0,}}
+                            title="Vetted Badge"
+                        />
+                        <SolidBox className="rn-about-card trans-bg">
+                            <p className="text-justify" style={{padding: '0px 20px'}}>
+                                Feel free to use our vetted badge anywhere you would like. We would greatly 
+                                appreciate it if you added this to your homepage/website and hyperlinked it 
+                                to our site. This helps spread the awareness about DeFi Skeptics vetting process.
+                                <br /><br /><br />
+                            </p>
+                            <div className="row g-5 justify-content-around plr--120">
+                                <Button path="https://defiskeptic.com/images/vetted-projects/VettedBadge.svg" target="_blank" color="primary-alta" className="connectBtn" size="large">
+                                    SVG
+                                </Button>
+                                <Button path="https://defiskeptic.com/images/vetted-projects/VettedBadge.png" target="_blank" color="primary-alta" className="connectBtn" size="large">
+                                    PNG
+                                </Button>
+                            </div>
+                        </SolidBox>
+                    </div>
+                    <div className="col-lg-6">
+                        <HeadingLabel className="mt--5" style={{padding: 4, justifyContent: "center", alignItems: "center", display: "flex", margin: 0,}}
                             title="Private Group"
                         />
                         <SolidBox className="rn-about-card trans-bg">
