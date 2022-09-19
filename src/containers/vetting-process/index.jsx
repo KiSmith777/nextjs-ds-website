@@ -53,7 +53,7 @@ const VettingProcess = ({ className, id, space, data }) => (
                         users of your project.
                         <br /><br />
                         In addition to showing the DeFi space that your project is among a higher caliber, projects also 
-                        eceive the following benefits:
+                        receive the following benefits:
                         <ul>
                             <li><p>Added to the <Anchor path="/vetted-projects"><u>Vetted Database</u></Anchor> and awarded the "DS Vetted" badge.</p></li>
                             <li><p>Instantly labelled as "Vetted" in the <Anchor path="https://crogram.app"><u>CroGram</u></Anchor> mobile app once joined.</p></li>
@@ -96,7 +96,7 @@ const VettingProcess = ({ className, id, space, data }) => (
                                 <h6>Initial Review</h6>
                                 After a project applies, an initial review will be conducted by the DeFi Skeptic team which will look for some basic 
                                 security and informational components. Before being considered for a vetting interview, projects must meet minimum
-                                requirements in addition to requirments specific to the projects current phase. These are stated in the application.
+                                requirements in addition to requirements specific to the projects current phase. These are stated in the application.
                             </p></li>
                             <li><p>
                                 <h6>Formal Review</h6>
