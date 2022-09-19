@@ -109,7 +109,7 @@ const VettingProcess = ({ className, id, space, data }) => (
                                 An interview will be scheduled with the team. At a minimum any team member who has access to code or funds must be present. 
                                 All other team members are encouraged to attend. This interview will take roughly 30 to 90 minutes to complete depending on 
                                 the project and number of members that attend. The goal of this interview is to collect information pertaining to the 30 
-                                sub-elements that comrpise our grading scale and review processas possible.
+                                sub-elements that comprise our grading scale and review processes possible.
                                 <ul>
                                     <li><p>If the team is KYC verified, the interview can be audio only.</p></li>
                                     <li><p>If the team is doxed, attendees must use video to verify themselves.</p></li>
