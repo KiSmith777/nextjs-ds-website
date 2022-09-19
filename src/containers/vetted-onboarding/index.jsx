@@ -43,7 +43,7 @@ const OnboardingArea = ({ className, space, data }) => {
                                 <br /><br />
                             </p>
                             <div className="row g-5 justify-content-around plr--120">
-                                <Button path="https://defiskeptic.com/vetted-projects" target="_blank" color="primary-alta" className="connectBtn" size="large">
+                                <Button path="/vetted-projects" target="_blank" color="primary-alta" className="connectBtn" size="large">
                                     View Database
                                 </Button>
                             </div>
@@ -61,10 +61,10 @@ const OnboardingArea = ({ className, space, data }) => {
                                 <br /><br /><br />
                             </p>
                             <div className="row g-5 justify-content-around plr--120">
-                                <Button path="https://defiskeptic.com/images/vetted-projects/VettedBadge.svg" target="_blank" color="primary-alta" className="connectBtn" size="large">
+                                <Button path="/images/vetted-projects/VettedBadge.svg" target="_blank" color="primary-alta" className="connectBtn" size="large">
                                     SVG
                                 </Button>
-                                <Button path="https://defiskeptic.com/images/vetted-projects/VettedBadge.png" target="_blank" color="primary-alta" className="connectBtn" size="large">
+                                <Button path="/images/vetted-projects/VettedBadge.png" target="_blank" color="primary-alta" className="connectBtn" size="large">
                                     PNG
                                 </Button>
                             </div>
