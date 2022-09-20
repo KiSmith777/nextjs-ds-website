@@ -97,6 +97,15 @@
           "images": {
             "src": "/images/vetted-projects/MBC.png"
           }
+        },
+        {
+          "id": 11,
+          "title": "BlocVault",
+          "subtitle": "Score: 90.16",
+          "path": "/files/vetting-reports/BlocVault.pdf",
+          "images": {
+            "src": "/images/vetted-projects/BlocVault.png"
+          }
         }
       ]
     }
