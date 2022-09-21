@@ -685,7 +685,6 @@ const VettingApplication = ({ className }) => {
                                     <li><p>Must be >= 2 weeks since launch.</p></li>
                                     <li><p>Liquidity must be locked unless justified.</p></li>
                                     <li><p>Unlocked project owned tokens can not exceed 5% unless justified.</p></li>
-                                    <li><p>No manual blacklist functions.</p></li>
                                 </ul>
                             <li><p>For Tokens</p></li>
                                 <ul>
