@@ -21,6 +21,12 @@ const TeamIntroArea = ({ className, space, data }) => {
                     <h2 className="title">
                         The DeFi Skeptic Team
                     </h2>
+                    <p className="infoBox-description">
+                        DeFi Skeptic consists of various developers, designers, 
+                        marketers and other individuals with capabilities to satisfy the 
+                        needs of any client. Below you can find our core team and their 
+                        respective roles of responsibility.
+                    </p>
                 </div>
             </div>
         </div>

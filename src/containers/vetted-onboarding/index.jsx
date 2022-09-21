@@ -167,6 +167,24 @@ const OnboardingArea = ({ className, space, data }) => {
                             </div>
                         </SolidBox>
                     </div>
+                    <div className="col-lg-6">
+                        <HeadingLabel className="mt--5" style={{padding: 4, justifyContent: "center", alignItems: "center", display: "flex", margin: 0,}}
+                            title="Discounted AMA Tour"
+                        />
+                        <SolidBox className="rn-about-card trans-bg">
+                            <p className="text-justify" style={{padding: '0px 20px'}}>
+                            Through our lounge partners, we are able to provide a discounted AMA Tour saving you 2 BNB. 
+                            These lounges consist of Ninja Lounge, Coin Launch Lounge, Legit Crypto Lounge and Anti Ruggers 
+                            United. These lounges have a solid reputation of providing value and show strong ethics. Avoid paying 
+                            for overpriced AMAs with botted loaded VC's.<br /><br /><br />
+                            </p>
+                            <div className="icon-box d-flex justify-content-center mt--10">
+                                <Button path="/vetted-ama-tour" target="_blank" color="primary-alta" className="connectBtn" size="large">
+                                    Reserve Tour
+                                </Button>
+                            </div>
+                        </SolidBox>
+                    </div>
                 </div>
             </div>
         </>
