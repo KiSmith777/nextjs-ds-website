@@ -76,7 +76,7 @@ const VettingProcess = ({ className, id, space, data }) => (
                         the beginning of a relationship not the end.
                         <br /><br />
                     <h4 id="price">Why is the price so cheap?</h4>
-                        We believe cost should never be a barrier for information and security. DeFi Skeptic vetting is $250 and will always
+                        We believe cost should never be a barrier for information and security. DeFi Skeptic vetting is $300 and will always
                         remain low cost for this reason. This service is designed for the DeFi user and the more projects we get vetted, the
                         more information the DeFi user has.
                     <br /><br />
