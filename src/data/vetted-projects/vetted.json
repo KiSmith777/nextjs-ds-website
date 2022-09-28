@@ -106,6 +106,15 @@
           "images": {
             "src": "/images/vetted-projects/BlocVault.png"
           }
+        },
+        {
+          "id": 12,
+          "title": "Vemate",
+          "subtitle": "Score: 92.86",
+          "path": "/files/vetting-reports/Vemate.pdf",
+          "images": {
+            "src": "/images/vetted-projects/Vemate.png"
+          }
         }
       ]
     }
