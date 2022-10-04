@@ -444,13 +444,14 @@ const VettingApplication = ({ className }) => {
                         <label className="rn-form-label">
                         <p>To be vetted, we have the following requirements. *</p>
                         </label>
-                        <ul>
-                            <li><p>Team is doxed or KYC verified.</p></li>
-                            <li><p>Primary smart contract is audited.</p></li>
-                            <li><p>More than one team member has access to project wallets whether directly, through multi-sig or via a contingency plan.</p></li>
-                        </ul>
+                        <ol>
+                            <li><p>Primary smart contract must be audited.</p></li>
+                            <li><p>Those who handle funds or code must be doxed or KYC verified.</p></li>
+                            <li><p>More than one team member is required and more than one team member must have access to project wallets whether directly, through multi-sig or via a contingency plan.</p></li>
+                            <li><p>We strive to support the sustainability and longevity of DeFi, thus we do not approve "meme" projects unless they have a strong use case and/or utility.</p></li>
+                        </ol>
                         <br />
-                        <p>Please confirm the above items are all true.</p>
+                        <p>By clicking next, you understand all the above.</p>
                         <div className="form-check radioBox">
                             <input
                                 type="radio"
@@ -599,7 +600,7 @@ const VettingApplication = ({ className }) => {
                                 </ul>
                         </ul>
                             <br />
-                            <p>Please confirm the above items are all true.</p>
+                            <p>By clicking next, you certify the above.</p>
                         <div className="form-check radioBox">
                             <input
                                 type="radio"
@@ -684,15 +685,15 @@ const VettingApplication = ({ className }) => {
                                 <ul>
                                     <li><p>Must be >= 2 weeks since launch.</p></li>
                                     <li><p>Liquidity must be locked unless justified.</p></li>
-                                    <li><p>Unlocked project owned tokens can not exceed 5% unless justified.</p></li>
+                                    <li><p>Unlocked project owned tokens can not exceed 5%.</p></li>
                                 </ul>
-                            <li><p>For Tokens</p></li>
+                            <li><p>For NFTs</p></li>
                                 <ul>
                                     <li><p>If NFT, NFT cannot be revocable unless utility requires it.</p></li>
                                 </ul>
                         </ul>
                         <br />
-                        <p>Please confirm the above items are all true.</p>
+                        <p>By clicking next, you certify the above.</p>
                         <div className="form-check radioBox">
                             <input
                                 type="radio"
