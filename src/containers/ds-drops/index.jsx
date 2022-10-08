@@ -33,43 +33,45 @@ const DSDropsArea = ({ className, id, space, data }) => (
             <div className="row text-justify">
                 <p>
                     <h6>The Problem:</h6>
-                    There are various platforms that will do airdrops for other projects to grow their holder base 
-                    and increase their exposure. However, these providers typically charge $1,000+ in addition to 
-                    the project tokens being airdropped. Additionally, these services often involve a token where 
-                    the more you hold, the more of the airdrop you get. Naturally this creates a small group of 
-                    holders that will receive most of the airdrop since they own most of the token. These airdrop 
-                    recipients have also only paid one time (the initial token purchase) thus any future airdrops 
-                    they get are instant profit and thus usually get sold off immediately. 
+                    There are various platforms that will do airdrops for other projects to 
+                    grow their holder base and increase their exposure. However, these providers 
+                    typically charge a $1,000+ fee in addition to the project tokens being airdropped. 
+                    <br /><br />
+                    Additionally, these services often involve a token where the more you hold, 
+                    the more of the airdrop you get. Naturally this creates a small group of holders 
+                    that will receive most of the airdrop since they own most of the token. These airdrop 
+                    recipients have also only paid one time (the initial token purchase) thus any future 
+                    airdrops they get are “profit” on top of their token holdings.
                     <br /><br />
                     <h6>The Solution:</h6>
-                    DS Drops aims to solve the problems above. We charge no fee, we have no “whales” since user’s 
-                    purchase 1 of 3 tiers, and since it’s a recurring subscription, the user is incentivized to hold 
-                    to receive ROI for the subscription.
+                    DS Drops aims to solve the problems above. We charge no fee to the project, we have no “whales” since 
+                    user’s purchase 1 of 3 tiers, and since it’s a recurring subscription, the user is incentivized 
+                    to hold, not instantly sell.
                     <br /><br />
-                    <h4>Introducing DS Drops!</h4>
-                    DeFi Skeptic Drops (DS Drops) is a utility within the DeFi
-                    Skeptic ecosystem. DeFi users can subscribe to a 3-tier
-                    service which allows them to get exposure to various
-                    projects through promotional airdropping. The subscription
-                    will run on quarterly intervals allowing you to decide when
-                    you want to receive tokens.
+                    <h6>How It Works:</h6>
+                    The user will subscribe to a Tier using Skeptic Tokens. This subscription will be valid for the duration 
+                    listed in the dApp. You cannot change your subscription, you must wait for it to expire or use another wallet. 
+                    When an airdrop is being scheduled, we will announce it before hand on our social platforms. 
                     <br /><br />
-                    The process is simple:
-                    <ol>
-                        <li>Connect your wallet.</li>
-                        <li>Select a tier (1-3).</li>
-                        <li>Pay in Skeptic Tokens (SKP).</li>
-                    </ol>
-                    When a project does a promotional airdrop, announcements will be
-                    made on all of our social platforms and the subscriber can claim 
-                    their tokens!
+                    When an airdrop is made from a participating project, it will be sent to all current subscribers, relative to the 
+                    tier they have. Take for instance the following example:
                     <br /><br />
-                    Tiers will be priced as such:
-                    <ol>
-                        <li>Tier 1 = Base Price</li>
-                        <li>Tier 2 = Base x2 - 10%</li>
-                        <li>Tier 3 = Base x3 - 20%</li>
-                    </ol>
+                    Tier 1 Subscribers = 45 users (1x Base Point, 45 Total)<br />
+                    Tier 2 Subscribers = 30 users (2x Base Point, 60 Total )<br />
+                    Tier 3 Subscribers = 25 users (3x Base Point, 75 Total)
+                    <br /><br />
+                    There is a total of 100 users and 180 base points. A Tier 2 user for example has 2 base points, thus will get 2/180 or 1.11% of the airdrop. 
+                    <br /><br />
+                    Your eligibility starts when your subscription starts. You will not receive any airdrops that were created prior to your subscription starting. When a 
+                    project does a promotional airdrop, you will be able to claim the drop within the dApp.
+                    <br /><br />
+                    <h6>Tier Pricing:</h6>
+                    <ul>
+                        <li>Tier 1 = $10 in SKP</li>
+                        <li>Tier 2 = $18 in SKP (10% Discount)</li>
+                        <li>Tier 3 = $24 in SKP (20% Discount)</li>
+                    </ul>
+                    Subscribers can also receive discounts for holding any one of our vetted projects, which will be shown in the dApp!
                 </p>
             </div>
         </div>
