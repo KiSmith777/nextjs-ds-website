@@ -65,7 +65,7 @@ const DSDropsArea = ({ className, id, space, data }) => (
                     Your eligibility starts when your subscription starts. You will not receive any airdrops that were created prior to your subscription starting. When a 
                     project does a promotional airdrop, you will be able to claim the drop within the dApp.
                     <br /><br />
-                    <h6>Tier Pricing:</h6>
+                    <h6>Tier Pricing - 2 Month Subscription:</h6>
                     <ul>
                         <li>Tier 1 = $10 in SKP</li>
                         <li>Tier 2 = $18 in SKP (10% Discount)</li>
