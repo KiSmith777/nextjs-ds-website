@@ -115,6 +115,15 @@
           "images": {
             "src": "/images/vetted-projects/Vemate.png"
           }
+        },
+        {
+          "id": 13,
+          "title": "Coinology",
+          "subtitle": "Score: 91.27",
+          "path": "/files/vetting-reports/Coinology",
+          "images": {
+            "src": "/images/vetted-projects/Coinology.jpg"
+          }
         }
       ]
     }
