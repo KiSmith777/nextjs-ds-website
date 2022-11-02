@@ -773,7 +773,7 @@ const VettingApplication = ({ className }) => {
                             </label>
                             <p>
                                 We will conduct a preliminary review. If we decide to move forward and 
-                                schedule a vetting session, you will receive a $250 invoice. This fee is 
+                                schedule a vetting session, you will receive a $300 invoice. This fee is 
                                 non-refundable whether your project passes or fails the vetting session. If 
                                 your project fails, we will provide recommendations. If resolved, the project 
                                 status will be changed to "Vetted" at no additional cost.
