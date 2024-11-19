@@ -113,7 +113,7 @@ const TeamIntroArea = ({ className, space, data }) => {
                         DeFi Skeptic ecosystem. He will also help with community
                         education by offering the best practices to remain safe
                         in the crypto space. Kieran was a bit late to the crypto
-                        game, getting involed on and off in 2016 and only
+                        game, getting involved on and off in 2016 and only
                         becoming very heavily involved three years later in
                         2019. Having a love for blockchain technology and
                         helping others, working with DeFi Skeptic allows him to
